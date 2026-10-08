@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /japanese-training-lab/training/
+Disallow: /japanese-training-lab/progress/
+
+Sitemap: https://shimizu510.github.io/japanese-training-lab/sitemap.xml
