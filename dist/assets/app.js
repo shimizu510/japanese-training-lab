@@ -28,6 +28,9 @@ const questions = [
 ];
 
 const progressKey = 'japanese-training-lab-progress';
+const hiraganaProgressKey = 'japanese-training-lab-hiragana-progress';
+const scriptUrl = document.currentScript?.src || new URL('assets/app.js', document.baseURI).href;
+const siteRoot = new URL('../', scriptUrl);
 let step = 0;
 const answers = [];
 const assessment = document.querySelector('[data-assessment]');
@@ -103,6 +106,7 @@ if (assessment) {
       };
     }
 
+    recommendation.href = new URL(recommendation.href, window.location.href).href;
     saveRecommendation(recommendation);
     resultElement.innerHTML = `<div class="eyebrow">Your first prescription</div><h2>${recommendation.title}</h2><p>${recommendation.body}</p><div class="actions"><a class="button gold" href="${recommendation.href}">Open recommended course</a><a class="button" href="../courses/">Browse all courses</a></div>`;
     resultElement.classList.add('visible');
@@ -113,10 +117,42 @@ if (assessment) {
 
 showSavedRecommendation();
 
+function addProgressNavigation() {
+  const links = document.querySelector('.nav-links');
+  if (!links || links.querySelector('[data-progress-link]')) return;
+  const link = document.createElement('a');
+  link.href = new URL('progress/', siteRoot).href;
+  link.textContent = 'My progress';
+  link.dataset.progressLink = 'true';
+  links.appendChild(link);
+}
+
+function renderProgressDashboard() {
+  const dashboard = document.querySelector('[data-progress-dashboard]');
+  if (!dashboard) return;
+
+  let assessmentResult = null;
+  let hiraganaResult = null;
+  try { assessmentResult = JSON.parse(localStorage.getItem(progressKey)); } catch (_) {}
+  try { hiraganaResult = JSON.parse(localStorage.getItem(hiraganaProgressKey)); } catch (_) {}
+
+  const assessmentCard = assessmentResult
+    ? `<article class="progress-card"><span class="level">CURRENT PRESCRIPTION</span><h2>${assessmentResult.title}</h2><p>${assessmentResult.body}</p><a class="button red" href="${assessmentResult.href}">Resume course</a></article>`
+    : `<article class="progress-card"><span class="level">START HERE</span><h2>No assessment yet</h2><p>Take the four-question starting assessment to receive your first training route.</p><a class="button red" href="../assessment/">Take assessment</a></article>`;
+
+  const hiraganaCard = hiraganaResult
+    ? `<article class="progress-card dark"><span class="level">HIRAGANA TRAINING</span><h2>${hiraganaResult.accuracyPercent || 0}% session accuracy</h2><div class="progress-meter"><span style="width:${Math.min(100, Math.max(0, hiraganaResult.accuracyPercent || 0))}%"></span></div><p>${hiraganaResult.completedSteps || 0} activities completed. ${hiraganaResult.currentItem ? `Latest item: <strong>${hiraganaResult.currentItem}</strong>.` : ''}</p><a class="button gold" href="../training/?course=hiragana">Continue Hiragana</a></article>`
+    : `<article class="progress-card dark"><span class="level">HIRAGANA TRAINING</span><h2>Your first session is ready</h2><p>Accuracy and difficult characters will appear here after the updated Unity WebGL build is available.</p><a class="button gold" href="../learn/hiragana/">Open Hiragana course</a></article>`;
+
+  dashboard.innerHTML = `${assessmentCard}${hiraganaCard}`;
+}
+
+addProgressNavigation();
+renderProgressDashboard();
+
 function addGlobalPromotionDock() {
   if (document.querySelector('.global-promo-dock')) return;
 
-  const scriptUrl = document.currentScript?.src || new URL('assets/app.js', document.baseURI).href;
   const portraitUrl = new URL('yuji-shimizu.jpg', scriptUrl).href;
   const promoStyles = document.createElement('link');
   promoStyles.rel = 'stylesheet';
