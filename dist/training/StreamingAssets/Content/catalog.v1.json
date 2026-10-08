@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.10.03.1",
+  "courses": [
+    {"id":"hiragana","level":"hiragana","titleEnglish":"Hiragana","titleJapanese":"ひらがな","accent":"#5856D6","shard":"hiragana.v1.json"},
+    {"id":"katakana","level":"katakana","titleEnglish":"Katakana","titleJapanese":"カタカナ","accent":"#007AFF","shard":"katakana.v1.json"},
+    {"id":"basic_words","level":"foundation","titleEnglish":"Basic Words","titleJapanese":"基本単語","accent":"#30B0C7","shard":"basic_words.v1.json"},
+    {"id":"foundation_grammar_reading","level":"foundation","titleEnglish":"Grammar & Reading","titleJapanese":"きそぶんぽう・どっかい","accent":"#00C7BE","shard":"foundation_grammar_reading.v1.json"},
+    {"id":"n5_kanji","level":"n5","titleEnglish":"N5 Kanji","titleJapanese":"N5 漢字","accent":"#FF3B30","shard":"n5_kanji.v1.json"},
+    {"id":"n5_vocabulary","level":"n5","titleEnglish":"N5 Vocabulary","titleJapanese":"N5 合格単語","accent":"#FF9500","shard":"n5_vocabulary.v1.json"},
+    {"id":"n5_grammar_reading","level":"n5","titleEnglish":"N5 Grammar & Reading","titleJapanese":"N5 合格ぶんぽう・どっかい","accent":"#34C759","shard":"n5_grammar_reading.v1.json"},
+    {"id":"n4_kanji","level":"n4","titleEnglish":"N4 Kanji","titleJapanese":"N4 合格漢字","accent":"#FF3B30","shard":"n4_kanji.v1.json"},
+    {"id":"n4_vocabulary","level":"n4","titleEnglish":"N4 Vocabulary","titleJapanese":"N4 合格単語","accent":"#AF52DE","shard":"n4_vocabulary.v1.json"},
+    {"id":"n4_grammar_reading","level":"n4","titleEnglish":"N4 Grammar & Reading","titleJapanese":"N4 合格ぶんぽう・どっかい","accent":"#5856D6","shard":"n4_grammar_reading.v1.json"},
+    {"id":"n3_kanji","level":"n3","titleEnglish":"N3 Kanji","titleJapanese":"N3 合格漢字","accent":"#FF3B30","shard":"n3_kanji.v1.json"},
+    {"id":"n3_vocabulary","level":"n3","titleEnglish":"N3 Vocabulary","titleJapanese":"N3 合格単語","accent":"#AF52DE","shard":"n3_vocabulary.v1.json"},
+    {"id":"n3_grammar_reading","level":"n3","titleEnglish":"N3 Grammar & Reading","titleJapanese":"N3 合格ぶんぽう・どっかい","accent":"#5856D6","shard":"n3_grammar_reading.v1.json"},
+    {"id":"n2_kanji","level":"n2","titleEnglish":"N2 Kanji","titleJapanese":"N2 合格漢字","accent":"#FF3B30","shard":"n2_kanji.v1.json"},
+    {"id":"n2_vocabulary","level":"n2","titleEnglish":"N2 Vocabulary","titleJapanese":"N2 合格単語","accent":"#AF52DE","shard":"n2_vocabulary.v1.json"},
+    {"id":"n2_grammar_reading","level":"n2","titleEnglish":"N2 Grammar & Reading","titleJapanese":"N2 合格ぶんぽう・どっかい","accent":"#5856D6","shard":"n2_grammar_reading.v1.json"},
+    {"id":"n1_kanji","level":"n1","titleEnglish":"N1 Kanji","titleJapanese":"N1 合格漢字","accent":"#FF3B30","shard":"n1_kanji.v1.json"},
+    {"id":"n1_vocabulary","level":"n1","titleEnglish":"N1 Vocabulary","titleJapanese":"N1 合格単語","accent":"#AF52DE","shard":"n1_vocabulary.v1.json"},
+    {"id":"n1_grammar_reading","level":"n1","titleEnglish":"N1 Grammar & Reading","titleJapanese":"N1 合格ぶんぽう・どっかい","accent":"#5856D6","shard":"n1_grammar_reading.v1.json"}
+  ]
+}
