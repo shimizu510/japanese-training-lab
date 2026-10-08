@@ -1,2 +1,114 @@
-const menuButton=document.querySelector('.mobile-toggle');if(menuButton){menuButton.addEventListener('click',()=>{const links=document.querySelector('.nav-links');const open=links.style.display==='flex';links.style.display=open?'none':'flex';if(!open){Object.assign(links.style,{position:'absolute',top:'64px',left:'0',right:'0',padding:'20px',background:'#f7f5ef',flexDirection:'column',borderBottom:'1px solid #c9c7be'})}})}
-const questions=[{q:'Can you read ひらがな without romaji?',a:['Not yet','Some characters','Yes, comfortably']},{q:'What is your main goal?',a:['Start from the beginning','Travel and daily life','Pass the JLPT']},{q:'How well can you understand simple Japanese sentences?',a:['Not yet','Slowly, with help','Comfortably']},{q:'Which training feels hardest?',a:['Reading characters','Remembering words','Grammar and reading']}];let step=0;const answers=[];const assessment=document.querySelector('[data-assessment]');if(assessment){const qEl=assessment.querySelector('.question');const result=assessment.querySelector('.result');const progress=assessment.querySelector('.assessment-progress span');function render(){const item=questions[step];qEl.innerHTML=`<div class="eyebrow">Question ${step+1} of ${questions.length}</div><h2>${item.q}</h2><div class="choices">${item.a.map((x,i)=>`<button class="choice" data-value="${i}">${x}</button>`).join('')}</div>`;progress.style.width=`${(step/questions.length)*100}%`;qEl.querySelectorAll('.choice').forEach(button=>button.addEventListener('click',()=>{answers.push(Number(button.dataset.value));step++;step<questions.length?render():showResult()}))}function showResult(){qEl.style.display='none';progress.style.width='100%';const score=answers.reduce((a,b)=>a+b,0);let title='Begin with Hiragana';let body='Build fast sound-to-character recognition before adding vocabulary and grammar.';let href='../learn/hiragana/';if(score>=5){title='Begin with Foundation Training';body='Strengthen vocabulary retrieval and basic sentence processing, then reassess.';href='../courses/#foundation'}if(score>=7){title='Start with a JLPT skills check';body='Your next step should isolate vocabulary, kanji, grammar and reading speed instead of guessing a level.';href='../courses/#jlpt'}result.innerHTML=`<div class="eyebrow">Your first prescription</div><h2>${title}</h2><p>${body}</p><div class="actions"><a class="button gold" href="${href}">Open recommended course</a><a class="button" href="../courses/">Browse all courses</a></div>`;result.classList.add('visible')}render()}
+const menuButton = document.querySelector('.mobile-toggle');
+
+if (menuButton) {
+  menuButton.addEventListener('click', () => {
+    const links = document.querySelector('.nav-links');
+    const open = links.style.display === 'flex';
+    links.style.display = open ? 'none' : 'flex';
+    if (!open) {
+      Object.assign(links.style, {
+        position: 'absolute',
+        top: '64px',
+        left: '0',
+        right: '0',
+        padding: '20px',
+        background: '#f7f5ef',
+        flexDirection: 'column',
+        borderBottom: '1px solid #c9c7be'
+      });
+    }
+  });
+}
+
+const questions = [
+  { q: 'Can you read ひらがな without romaji?', a: ['Not yet', 'Some characters', 'Yes, comfortably'] },
+  { q: 'What is your main goal?', a: ['Start from the beginning', 'Travel and daily life', 'Pass the JLPT'] },
+  { q: 'How well can you understand simple Japanese sentences?', a: ['Not yet', 'Slowly, with help', 'Comfortably'] },
+  { q: 'Which training feels hardest?', a: ['Reading characters', 'Remembering words', 'Grammar and reading'] }
+];
+
+const progressKey = 'japanese-training-lab-progress';
+let step = 0;
+const answers = [];
+const assessment = document.querySelector('[data-assessment]');
+
+function saveRecommendation(recommendation) {
+  try {
+    localStorage.setItem(progressKey, JSON.stringify({
+      ...recommendation,
+      completedAt: new Date().toISOString()
+    }));
+  } catch (error) {
+    console.info('Progress could not be saved in this browser.', error);
+  }
+}
+
+function showSavedRecommendation() {
+  if (!document.querySelector('.hero')) return;
+
+  try {
+    const saved = JSON.parse(localStorage.getItem(progressKey));
+    if (!saved?.title || !saved?.href) return;
+
+    const strip = document.querySelector('.principle-strip');
+    const panel = document.createElement('section');
+    panel.className = 'section';
+    panel.innerHTML = `<div class="wrap"><div class="prescription"><article class="focus-card"><div class="eyebrow">Continue your plan</div><h3>${saved.title}</h3><p>${saved.body}</p><a class="button red" href="${saved.href}">Resume recommended course</a></article><div class="session-list"><div class="session"><b>01</b><div><strong>Your result is saved</strong><span>No account is required. Progress stays in this browser.</span></div><span class="tag">LOCAL</span></div></div></div></div>`;
+    strip.insertAdjacentElement('afterend', panel);
+  } catch (error) {
+    localStorage.removeItem(progressKey);
+  }
+}
+
+if (assessment) {
+  const questionElement = assessment.querySelector('.question');
+  const resultElement = assessment.querySelector('.result');
+  const progressElement = assessment.querySelector('.assessment-progress span');
+
+  function renderQuestion() {
+    const item = questions[step];
+    questionElement.innerHTML = `<div class="eyebrow">Question ${step + 1} of ${questions.length}</div><h2>${item.q}</h2><div class="choices">${item.a.map((answer, index) => `<button class="choice" data-value="${index}">${answer}</button>`).join('')}</div>`;
+    progressElement.style.width = `${(step / questions.length) * 100}%`;
+    questionElement.querySelectorAll('.choice').forEach(button => {
+      button.addEventListener('click', () => {
+        answers.push(Number(button.dataset.value));
+        step += 1;
+        step < questions.length ? renderQuestion() : showResult();
+      });
+    });
+  }
+
+  function showResult() {
+    questionElement.style.display = 'none';
+    progressElement.style.width = '100%';
+    const score = answers.reduce((total, answer) => total + answer, 0);
+    let recommendation = {
+      title: 'Begin with Hiragana',
+      body: 'Build fast sound-to-character recognition before adding vocabulary and grammar.',
+      href: '../learn/hiragana/'
+    };
+
+    if (score >= 5) {
+      recommendation = {
+        title: 'Begin with Foundation Training',
+        body: 'Strengthen vocabulary retrieval and basic sentence processing, then reassess.',
+        href: '../courses/#foundation'
+      };
+    }
+    if (score >= 7) {
+      recommendation = {
+        title: 'Start with a JLPT skills check',
+        body: 'Your next step should isolate vocabulary, kanji, grammar and reading speed instead of guessing a level.',
+        href: '../courses/#jlpt'
+      };
+    }
+
+    saveRecommendation(recommendation);
+    resultElement.innerHTML = `<div class="eyebrow">Your first prescription</div><h2>${recommendation.title}</h2><p>${recommendation.body}</p><div class="actions"><a class="button gold" href="${recommendation.href}">Open recommended course</a><a class="button" href="../courses/">Browse all courses</a></div>`;
+    resultElement.classList.add('visible');
+  }
+
+  renderQuestion();
+}
+
+showSavedRecommendation();
