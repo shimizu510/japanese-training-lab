@@ -112,3 +112,29 @@ if (assessment) {
 }
 
 showSavedRecommendation();
+
+function addGlobalPromotionDock() {
+  if (document.querySelector('.global-promo-dock')) return;
+
+  const scriptUrl = document.currentScript?.src || new URL('assets/app.js', document.baseURI).href;
+  const portraitUrl = new URL('yuji-shimizu.jpg', scriptUrl).href;
+  const promoStyles = document.createElement('link');
+  promoStyles.rel = 'stylesheet';
+  promoStyles.href = new URL('promo.css', scriptUrl).href;
+  document.head.appendChild(promoStyles);
+  const dock = document.createElement('aside');
+  dock.className = 'global-promo-dock';
+  dock.setAttribute('aria-label', 'Follow Yuji on TikTok and download DraMap');
+  dock.innerHTML = `
+    <div class="promo-person">
+      <img src="${portraitUrl}" alt="Yuji Shimizu">
+      <span><strong>YUJI @ Japan</strong><small>Live Japan & learn Japanese</small></span>
+    </div>
+    <div class="promo-actions">
+      <a class="promo-tiktok" href="https://www.tiktok.com/@yuji.shimizu2?_r=1&_t=ZP-9AGyG1gwLnz" target="_blank" rel="noopener noreferrer"><span>TikTok</span><strong>Watch LIVE Japan ↗</strong></a>
+      <a class="promo-dramap" href="https://apps.apple.com/us/app/dramap/id6761260013" target="_blank" rel="noopener noreferrer"><span>DraMap for iOS</span><strong>Learn Japanese ↗</strong></a>
+    </div>`;
+  document.body.appendChild(dock);
+}
+
+addGlobalPromotionDock();
