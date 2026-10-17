@@ -20,6 +20,7 @@
       </a>
       <div class="header-actions">
         <div class="lesson-label"><span aria-hidden="true">●</span> HIRAGANA QUEST</div>
+        <button class="chart-open" type="button" aria-haspopup="dialog" aria-controls="kana-chart">Kana chart</button>
         <a class="learning-home" href="../../index.html" aria-label="Back to Japanese Training Lab"><span aria-hidden="true">←</span> Back to Training Lab</a>
       </div>
     </header>
@@ -29,8 +30,8 @@
         <p class="panel-kicker">TODAY'S QUEST</p>
         <h1 id="today-title">Master Hiragana<br><em>sounds</em> and<br><em>shapes.</em></h1>
         <p class="panel-copy">Listen, recognize, and write at your own pace. Mistakes are part of the journey.</p>
-        <div class="kana-row" aria-label="Hiragana vowels">
-          <span class="active">あ<small>a</small></span><span>い<small>i</small></span><span>う<small>u</small></span><span>え<small>e</small></span><span>お<small>o</small></span>
+        <div class="kana-row" aria-label="Choose a featured Hiragana character">
+          <button class="active" type="button" data-kana="あ">あ<small>a</small></button><button type="button" data-kana="い">い<small>i</small></button><button type="button" data-kana="う">う<small>u</small></button><button type="button" data-kana="え">え<small>e</small></button><button type="button" data-kana="お">お<small>o</small></button>
         </div>
         <div class="tip-card"><span class="tip-icon" aria-hidden="true">♪</span><div><strong>Listen carefully</strong><p>Hearing each character inside a word makes it easier to remember.</p></div></div>
       </aside>
@@ -54,20 +55,27 @@
 
       <aside class="study-panel panel-right" aria-labelledby="hint-title">
         <p class="panel-kicker">HIRAGANA HINT</p>
-        <h2 id="hint-title"><span class="big-kana">あ</span><span><b>a</b> Hiragana “あ”</span></h2>
+        <h2 id="hint-title"><span class="big-kana" data-focus-kana>あ</span><span><b data-focus-romaji>a</b> Hiragana “<i data-focus-inline>あ</i>”</span></h2>
         <div class="stroke-card">
-          <div class="stroke-grid" aria-label="Shape of Hiragana a"><span>あ</span></div>
-          <div><small>SHAPE HINT</small><strong>Written in 3 strokes</strong><p>Look closely at the shape, then trace it slowly with your finger.</p></div>
+          <div class="stroke-grid" aria-label="Shape of Hiragana a"><span data-focus-kana>あ</span></div>
+          <div><small>SHAPE HINT</small><strong data-focus-strokes>Written in 3 strokes</strong><p data-focus-tip>Look closely at the shape, then trace it slowly with your finger.</p></div>
         </div>
         <div class="word-list" aria-label="Words beginning with Hiragana a">
-          <p>WORDS BEGINNING WITH 「あ」</p>
-          <div><span aria-hidden="true">🌧️</span><strong>あめ<small>rain</small></strong></div>
-          <div><span aria-hidden="true">☀️</span><strong>あさ<small>morning</small></strong></div>
-          <div><span aria-hidden="true">🐜</span><strong>あり<small>ant</small></strong></div>
+          <p data-word-heading>WORDS BEGINNING WITH 「あ」</p>
+          <div class="word-items" data-word-items><span><span aria-hidden="true">🌧️</span><strong>あめ<small>rain</small></strong></span><span><span aria-hidden="true">☀️</span><strong>あさ<small>morning</small></strong></span><span><span aria-hidden="true">🐜</span><strong>あり<small>ant</small></strong></span></div>
         </div>
         <p class="encouragement">One character today is<br>one step into Japanese.</p>
       </aside>
     </main>
+
+    <dialog id="kana-chart" class="kana-chart" aria-labelledby="chart-title">
+      <div class="chart-heading">
+        <div><p class="panel-kicker">QUICK REFERENCE</p><h2 id="chart-title">Hiragana chart</h2><p>Choose any character to feature it beside the game.</p></div>
+        <button class="chart-close" type="button" aria-label="Close Hiragana chart">×</button>
+      </div>
+      <div class="chart-current" aria-live="polite"><span data-chart-kana>あ</span><strong data-chart-romaji>a</strong><small>Current focus</small></div>
+      <div class="chart-sections" data-chart-sections></div>
+    </dialog>
 
     <footer class="page-footer"><p>If you cannot hear the audio, click the game screen once.</p><p>© DraMap / Learn Japanese</p></footer>
     <script src="../../assets/app.js"></script>
@@ -79,6 +87,50 @@
       lessonUrl.searchParams.set("course", "hiragana");
       lessonUrl.searchParams.set("autostart", "1");
       window.history.replaceState(null, "", lessonUrl);
+
+      var kanaDetails = {
+        "あ": { romaji:"a", strokes:3, words:[["🌧️","あめ","rain"],["☀️","あさ","morning"],["🐜","あり","ant"]] },
+        "い": { romaji:"i", strokes:2, words:[["🏠","いえ","house"],["🐶","いぬ","dog"],["✏️","いろ","color"]] },
+        "う": { romaji:"u", strokes:2, words:[["🌊","うみ","sea"],["🐂","うし","cow"],["🎀","うた","song"]] },
+        "え": { romaji:"e", strokes:2, words:[["🖼️","え","picture"],["🍅","えび","shrimp"],["🚉","えき","station"]] },
+        "お": { romaji:"o", strokes:3, words:[["🍵","おちゃ","tea"],["🌙","おつきさま","moon"],["🍣","おすし","sushi"]] }
+      };
+      var chartGroups = [
+        { title:"Basic Hiragana", rows:[["a","あ"],["i","い"],["u","う"],["e","え"],["o","お"],["ka","か"],["ki","き"],["ku","く"],["ke","け"],["ko","こ"],["sa","さ"],["shi","し"],["su","す"],["se","せ"],["so","そ"],["ta","た"],["chi","ち"],["tsu","つ"],["te","て"],["to","と"],["na","な"],["ni","に"],["nu","ぬ"],["ne","ね"],["no","の"],["ha","は"],["hi","ひ"],["fu","ふ"],["he","へ"],["ho","ほ"],["ma","ま"],["mi","み"],["mu","む"],["me","め"],["mo","も"],["ya","や"],["yu","ゆ"],["yo","よ"],["ra","ら"],["ri","り"],["ru","る"],["re","れ"],["ro","ろ"],["wa","わ"],["wo","を"],["n","ん"]] },
+        { title:"Voiced & semi-voiced", rows:[["ga","が"],["gi","ぎ"],["gu","ぐ"],["ge","げ"],["go","ご"],["za","ざ"],["ji","じ"],["zu","ず"],["ze","ぜ"],["zo","ぞ"],["da","だ"],["ji","ぢ"],["zu","づ"],["de","で"],["do","ど"],["ba","ば"],["bi","び"],["bu","ぶ"],["be","べ"],["bo","ぼ"],["pa","ぱ"],["pi","ぴ"],["pu","ぷ"],["pe","ぺ"],["po","ぽ"]] },
+        { title:"Combination sounds", rows:[["kya","きゃ"],["kyu","きゅ"],["kyo","きょ"],["sha","しゃ"],["shu","しゅ"],["sho","しょ"],["cha","ちゃ"],["chu","ちゅ"],["cho","ちょ"],["nya","にゃ"],["nyu","にゅ"],["nyo","にょ"],["hya","ひゃ"],["hyu","ひゅ"],["hyo","ひょ"],["mya","みゃ"],["myu","みゅ"],["myo","みょ"],["rya","りゃ"],["ryu","りゅ"],["ryo","りょ"],["gya","ぎゃ"],["gyu","ぎゅ"],["gyo","ぎょ"],["ja","じゃ"],["ju","じゅ"],["jo","じょ"],["bya","びゃ"],["byu","びゅ"],["byo","びょ"],["pya","ぴゃ"],["pyu","ぴゅ"],["pyo","ぴょ"]] }
+      ];
+      chartGroups.forEach(function(group){ group.rows.forEach(function(item){ if (!kanaDetails[item[1]]) kanaDetails[item[1]]={romaji:item[0]}; }); });
+
+      var focusTimer;
+      function selectKana(kana, manual) {
+        var detail = kanaDetails[kana] || {romaji:""};
+        document.querySelectorAll("[data-focus-kana]").forEach(function(el){ el.textContent=kana; });
+        document.querySelector("[data-focus-romaji]").textContent=detail.romaji;
+        document.querySelector("[data-focus-inline]").textContent=kana;
+        document.querySelector("[data-chart-kana]").textContent=kana;
+        document.querySelector("[data-chart-romaji]").textContent=detail.romaji;
+        document.querySelector("[data-focus-strokes]").textContent=detail.strokes ? "Written in "+detail.strokes+" strokes" : "Study the shape and sound";
+        document.querySelector("[data-focus-tip]").textContent=detail.strokes ? "Look closely at the shape, then trace it slowly with your finger." : "Compare this character with similar shapes, then say its sound aloud.";
+        document.querySelector("[data-word-heading]").textContent=detail.words ? "WORDS BEGINNING WITH 「"+kana+"」" : "FEATURED CHARACTER";
+        document.querySelector("[data-word-items]").innerHTML=detail.words ? detail.words.map(function(word){ return '<span><span aria-hidden="true">'+word[0]+'</span><strong>'+word[1]+'<small>'+word[2]+'</small></strong></span>'; }).join("") : '<p class="focus-note">Find 「'+kana+'」 in the game and say <strong>'+detail.romaji+'</strong> aloud.</p>';
+        document.querySelectorAll("[data-kana]").forEach(function(button){ button.classList.toggle("active",button.dataset.kana===kana); });
+        if (manual) window.clearInterval(focusTimer);
+      }
+
+      var chartSections=document.querySelector("[data-chart-sections]");
+      chartGroups.forEach(function(group){
+        var section=document.createElement("section");
+        section.innerHTML='<h3>'+group.title+'</h3><div class="chart-grid">'+group.rows.map(function(item){ return '<button type="button" data-kana="'+item[1]+'"><span>'+item[1]+'</span><small>'+item[0]+'</small></button>'; }).join("")+'</div>';
+        chartSections.appendChild(section);
+      });
+      document.addEventListener("click",function(event){ var button=event.target.closest("[data-kana]"); if(button) selectKana(button.dataset.kana,true); });
+      var chartDialog=document.querySelector("#kana-chart");
+      document.querySelector(".chart-open").addEventListener("click",function(){ chartDialog.showModal(); });
+      document.querySelector(".chart-close").addEventListener("click",function(){ chartDialog.close(); });
+      chartDialog.addEventListener("click",function(event){ if(event.target===chartDialog) chartDialog.close(); });
+      var vowelCycle=["あ","い","う","え","お"], vowelIndex=0;
+      focusTimer=window.setInterval(function(){ vowelIndex=(vowelIndex+1)%vowelCycle.length; selectKana(vowelCycle[vowelIndex],false); },8000);
 
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
