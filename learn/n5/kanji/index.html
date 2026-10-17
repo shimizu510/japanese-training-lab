@@ -10,7 +10,7 @@
     <meta name="robots" content="index,follow,max-image-preview:large">
     <title>Learn N5 Kanji Online | Japanese Training Lab</title>
     <link rel="shortcut icon" href="../../hiragana/favicon.ico">
-    <link rel="stylesheet" href="../../hiragana/assets/style.css?v=20261017093000">
+    <link rel="stylesheet" href="../../hiragana/assets/style.css?v=20261017101000">
   </head>
   <body>
     <header class="site-header">
@@ -74,7 +74,9 @@
         <button class="chart-close" type="button" aria-label="Close N5 Kanji list">×</button>
       </div>
       <div class="chart-current" aria-live="polite"><span data-chart-kanji>一</span><strong data-chart-reading>いち · one</strong><small>Current focus</small></div>
+      <p class="reading-legend"><span class="reading-stem">Reading stem</span><span class="okurigana">Okurigana</span><small>Black underlined kana show the ending written after a Kanji, as in たか<span class="okurigana">い</span>.</small></p>
       <div class="chart-sections" data-chart-sections></div>
+      <p class="dictionary-credit">Complete readings from <a href="https://www.edrdg.org/kanjidic/kanjd2index_legacy.html">EDRDG KANJIDIC2</a> · CC BY-SA 4.0</p>
     </dialog>
 
     <footer class="page-footer"><p>If you cannot hear the audio, click the game screen once.</p><p>© DraMap / Learn Japanese</p></footer>
@@ -88,31 +90,48 @@
       lessonUrl.searchParams.set("autostart", "1");
       window.history.replaceState(null, "", lessonUrl);
 
-      var kanjiItems=[], focusTimer, kanjiIndex=0;
+      var kanjiItems=[], kanjiReadings={}, focusTimer, kanjiIndex=0;
       function escapeHtml(value) { var el=document.createElement("span"); el.textContent=value || ""; return el.innerHTML; }
+      function renderReading(reading) {
+        var parts=(reading || "").split(".");
+        var stem=escapeHtml(parts.shift()).replaceAll("-", "−");
+        return '<span class="reading-stem">'+stem+'</span>'+(parts.length ? '<span class="okurigana">'+escapeHtml(parts.join(""))+'</span>' : '');
+      }
+      function renderReadingList(readings) {
+        return readings && readings.length ? readings.map(renderReading).join('<span class="reading-separator">, </span>') : '<span class="no-reading">—</span>';
+      }
+      function renderExampleWord(item) {
+        var word=item.exampleWord || "";
+        var index=word.indexOf(item.character);
+        if (index<0) return escapeHtml(word);
+        var before=escapeHtml(word.slice(0,index)), after=word.slice(index+item.character.length);
+        var isOkurigana=index===0 && after && /^[ぁ-ゖゝゞ]+$/.test(after);
+        return before+'<span class="example-kanji">'+escapeHtml(item.character)+'</span>'+(isOkurigana?'<span class="example-okurigana">'+escapeHtml(after)+'</span>':escapeHtml(after));
+      }
       function selectKanji(character, manual) {
         var item=kanjiItems.find(function(entry){ return entry.character===character; });
         if (!item) return;
+        var complete=kanjiReadings[character] || {on:item.onyomi || [],kun:item.kunyomi || []};
         document.querySelectorAll("[data-focus-kanji]").forEach(function(el){ el.textContent=item.character; });
         document.querySelector("[data-focus-reading]").textContent=item.primaryReading;
         document.querySelector("[data-focus-meaning]").textContent=item.englishMeaning;
         document.querySelector("[data-chart-kanji]").textContent=item.character;
         document.querySelector("[data-chart-reading]").textContent=item.primaryReading+" · "+item.englishMeaning;
         document.querySelector("[data-focus-strokes]").textContent="Written in "+item.strokeCount+(item.strokeCount===1?" stroke":" strokes");
-        var on=(item.onyomi || []).join(", ") || "—", kun=(item.kunyomi || []).join(", ") || "—";
-        document.querySelector("[data-focus-tip]").textContent="On: "+on+" · Kun: "+kun;
-        document.querySelector("[data-word-items]").innerHTML='<span><strong>'+escapeHtml(item.exampleWord)+'<small>'+escapeHtml(item.exampleReading)+' · '+escapeHtml(item.exampleEnglish)+'</small></strong></span>';
+        document.querySelector("[data-focus-tip]").innerHTML='<span class="reading-line"><b>On</b> '+renderReadingList(complete.on)+'</span><span class="reading-line"><b>Kun</b> '+renderReadingList(complete.kun)+'</span>';
+        document.querySelector("[data-word-items]").innerHTML='<span><strong>'+renderExampleWord(item)+'<small>'+escapeHtml(item.exampleReading)+' · '+escapeHtml(item.exampleEnglish)+'</small></strong></span>';
         document.querySelectorAll("[data-kanji]").forEach(function(button){ button.classList.toggle("active",button.dataset.kanji===character); });
         if (manual) window.clearInterval(focusTimer);
       }
 
       var chartSections=document.querySelector("[data-chart-sections]");
-      fetch("StreamingAssets/Content/n5_kanji.json").then(function(response){
-        if (!response.ok) throw new Error("N5 Kanji list could not be loaded.");
-        return response.json();
-      }).then(function(data){
-        kanjiItems=data.items || [];
-        chartSections.innerHTML='<section><h3>APP N5 KANJI · '+kanjiItems.length+' CHARACTERS</h3><div class="chart-grid">'+kanjiItems.map(function(item){ return '<button type="button" data-kanji="'+escapeHtml(item.character)+'"><span>'+escapeHtml(item.character)+'</span><small>'+escapeHtml(item.primaryReading)+'</small></button>'; }).join("")+'</div></section>';
+      Promise.all([
+        fetch("StreamingAssets/Content/n5_kanji.json").then(function(response){ if (!response.ok) throw new Error("N5 Kanji list could not be loaded."); return response.json(); }),
+        fetch("StreamingAssets/Content/n5_kanji_readings.json").then(function(response){ if (!response.ok) throw new Error("Complete Kanji readings could not be loaded."); return response.json(); })
+      ]).then(function(results){
+        kanjiItems=results[0].items || [];
+        kanjiReadings=results[1].characters || {};
+        chartSections.innerHTML='<section><h3>APP N5 KANJI · '+kanjiItems.length+' CHARACTERS</h3><div class="chart-grid">'+kanjiItems.map(function(item){ var complete=kanjiReadings[item.character] || {on:[],kun:[]}; return '<button type="button" data-kanji="'+escapeHtml(item.character)+'"><span class="chart-kanji">'+escapeHtml(item.character)+'</span><span class="chart-reading"><b>On</b> '+renderReadingList(complete.on)+'</span><span class="chart-reading"><b>Kun</b> '+renderReadingList(complete.kun)+'</span></button>'; }).join("")+'</div></section>';
         selectKanji(kanjiItems[0].character,false);
         focusTimer=window.setInterval(function(){ kanjiIndex=(kanjiIndex+1)%kanjiItems.length; selectKanji(kanjiItems[kanjiIndex].character,false); },8000);
       }).catch(function(error){ chartSections.innerHTML='<p class="focus-note">'+escapeHtml(error.message)+'</p>'; });

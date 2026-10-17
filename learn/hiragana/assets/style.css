@@ -101,9 +101,23 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .chart-grid small { margin-top:4px; color:var(--muted); font-size:8px; }
 .kanji-chart .chart-sections { display:block; }
 .kanji-chart .chart-sections section:first-child { grid-row:auto; }
-.kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(10,1fr); }
-.kanji-chart .chart-grid button { min-height:61px; }
-.kanji-chart .chart-grid span { font-size:25px; }
+.kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(4,1fr); gap:8px; }
+.kanji-chart .chart-grid button { min-height:116px; padding:10px; text-align:left; }
+.kanji-chart .chart-grid .chart-kanji { margin-bottom:7px; font:900 31px/1 "Noto Serif JP",serif; text-align:center; }
+.chart-reading,.reading-line { display:block; color:var(--muted); font:500 10px/1.6 "M PLUS Rounded 1c",system-ui,sans-serif; overflow-wrap:anywhere; }
+.chart-reading b,.reading-line b { display:inline-block; min-width:25px; color:var(--red-dark); font-size:8px; letter-spacing:.08em; text-transform:uppercase; }
+.kanji-chart .chart-grid .reading-stem,.reading-line .reading-stem { display:inline; color:var(--green); font-family:"M PLUS Rounded 1c",system-ui,sans-serif; font-size:inherit; font-weight:800; }
+.kanji-chart .chart-grid .okurigana,.reading-line .okurigana { display:inline; color:#111; font-family:"M PLUS Rounded 1c",system-ui,sans-serif; font-size:inherit; font-weight:800; text-decoration:underline; text-decoration-color:rgba(230,93,79,.38); text-underline-offset:2px; }
+.kanji-chart .chart-grid .reading-separator,.kanji-chart .chart-grid .no-reading,.reading-line .reading-separator,.reading-line .no-reading { display:inline; color:var(--muted); font-size:inherit; }
+.stroke-card .reading-line { margin-top:2px; font-size:9px; line-height:1.55; }
+.reading-legend { display:flex; align-items:center; gap:8px; margin:0 0 14px; padding:9px 12px; border-radius:11px; background:#f5f1e7; color:var(--muted); font-size:10px; }
+.reading-legend .reading-stem { color:var(--green); font-weight:800; }
+.reading-legend .okurigana,.example-okurigana { color:#111; font-weight:800; text-decoration:underline; text-decoration-color:rgba(230,93,79,.38); text-underline-offset:2px; }
+.reading-legend small { margin-left:auto; font-size:9px; }
+.example-kanji { color:var(--green); }
+.example-okurigana { color:#111; }
+.dictionary-credit { margin:16px 0 0; color:var(--muted); font-size:9px; text-align:right; }
+.dictionary-credit a { color:var(--green); }
 .page-footer { width:min(1480px,calc(100% - 48px)); min-height:58px; margin:0 auto; padding:15px 0 20px; display:flex; justify-content:space-between; gap:16px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; }
 .page-footer p { margin:0; }
 @keyframes float { 50% { transform:translateY(-7px) rotate(2deg); } }
@@ -144,8 +158,11 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
   .chart-sections section+section { margin-top:20px; }
   .chart-grid { gap:4px; }
   .chart-grid button { min-height:49px; }
-  .kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(5,1fr); }
-  .kanji-chart .chart-grid button { min-height:54px; }
+  .kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(2,1fr); }
+  .kanji-chart .chart-grid button { min-height:112px; padding:9px; }
+  .kanji-chart .chart-grid .chart-kanji { font-size:28px; }
+  .reading-legend { align-items:flex-start; flex-wrap:wrap; }
+  .reading-legend small { flex-basis:100%; margin-left:0; }
 }
 @media (max-height:720px) and (min-width:721px) {
   .site-header { height:64px; }
