@@ -62,7 +62,8 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .panel-right h2 b,.panel-right h2 span { display:block; }
 .panel-right h2 b { margin-bottom:5px; color:var(--green); font:800 15px/1 sans-serif; text-transform:uppercase; letter-spacing:.1em; }
 .panel-right h2 span:last-child { font-size:17px; }
-.panel-right h2 i { font-style:normal; }
+.panel-right h2 i { display:block; max-width:240px; font-size:12px; font-style:normal; line-height:1.45; }
+.panel-right h2 i .meaning-separator { display:inline; color:var(--muted); }
 .stroke-card { display:grid; grid-template-columns:88px 1fr; gap:15px; align-items:center; padding:15px; border-radius:19px; background:rgba(255,255,255,.75); box-shadow:0 14px 30px rgba(70,63,45,.07); }
 .stroke-grid { width:88px; aspect-ratio:1; display:grid; place-items:center; color:rgba(36,49,45,.78); background:linear-gradient(90deg,transparent 49%,rgba(230,93,79,.18) 50%,transparent 51%),linear-gradient(0deg,transparent 49%,rgba(230,93,79,.18) 50%,transparent 51%),#fffaf0; border:1px solid rgba(230,93,79,.2); }
 .stroke-grid span { font:900 58px/1 "Noto Serif JP",serif; }
@@ -104,7 +105,11 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(4,1fr); gap:8px; }
 .kanji-chart .chart-grid button { min-height:116px; padding:10px; text-align:left; }
 .kanji-chart .chart-grid .chart-kanji { margin-bottom:7px; font:900 31px/1 "Noto Serif JP",serif; text-align:center; }
+.kanji-chart .chart-grid .chart-meaning { display:block; margin-bottom:6px; color:var(--ink); font:700 9px/1.45 "M PLUS Rounded 1c",system-ui,sans-serif; overflow-wrap:anywhere; }
+.kanji-chart .chart-grid .chart-meaning b { display:inline-block; margin-right:3px; color:var(--red-dark); font-size:7px; letter-spacing:.06em; text-transform:uppercase; }
+.kanji-chart .chart-grid .meaning-separator { display:inline; color:var(--muted); font:inherit; }
 .chart-reading,.reading-line { display:block; color:var(--muted); font:500 10px/1.6 "M PLUS Rounded 1c",system-ui,sans-serif; overflow-wrap:anywhere; }
+.kanji-chart .chart-grid .chart-reading { display:block; font:500 9px/1.5 "M PLUS Rounded 1c",system-ui,sans-serif; }
 .chart-reading b,.reading-line b { display:inline-block; min-width:25px; color:var(--red-dark); font-size:8px; letter-spacing:.08em; text-transform:uppercase; }
 .kanji-chart .chart-grid .reading-stem,.reading-line .reading-stem { display:inline; color:var(--green); font-family:"M PLUS Rounded 1c",system-ui,sans-serif; font-size:inherit; font-weight:800; }
 .kanji-chart .chart-grid .okurigana,.reading-line .okurigana { display:inline; color:#111; font-family:"M PLUS Rounded 1c",system-ui,sans-serif; font-size:inherit; font-weight:800; text-decoration:underline; text-decoration-color:rgba(230,93,79,.38); text-underline-offset:2px; }
