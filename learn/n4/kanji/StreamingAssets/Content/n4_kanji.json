@@ -1,0 +1,3374 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "kanji_n4:不",
+      "level": "n4",
+      "character": "不",
+      "primaryReading": "ふ",
+      "onyomi": [
+        "ふ",
+        "ぶ"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "not; non-",
+      "japaneseMeaning": "〜ではない",
+      "strokeCount": 4,
+      "exampleWord": "不便",
+      "exampleReading": "ふべん",
+      "exampleEnglish": "inconvenient",
+      "highlightedReading": "ふ",
+      "exampleSentence": "この　まちは　ふべんです",
+      "exampleSentenceEnglish": "This town is inconvenient.",
+      "semanticEmoji": "🚫",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:世",
+      "level": "n4",
+      "character": "世",
+      "primaryReading": "せ",
+      "onyomi": [
+        "せい",
+        "せ"
+      ],
+      "kunyomi": [
+        "よ"
+      ],
+      "englishMeaning": "world; generation",
+      "japaneseMeaning": "せかい",
+      "strokeCount": 5,
+      "exampleWord": "世界",
+      "exampleReading": "せかい",
+      "exampleEnglish": "world",
+      "highlightedReading": "せ",
+      "exampleSentence": "せかいを　りょこうしたいです",
+      "exampleSentenceEnglish": "I want to travel the world.",
+      "semanticEmoji": "🌐",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:主",
+      "level": "n4",
+      "character": "主",
+      "primaryReading": "しゅ",
+      "onyomi": [
+        "しゅ"
+      ],
+      "kunyomi": [
+        "ぬし",
+        "おも"
+      ],
+      "englishMeaning": "main; master",
+      "japaneseMeaning": "おもな",
+      "strokeCount": 5,
+      "exampleWord": "主人",
+      "exampleReading": "しゅじん",
+      "exampleEnglish": "husband; master",
+      "highlightedReading": "しゅ",
+      "exampleSentence": "しゅじんは　りょうりが　じょうずです",
+      "exampleSentenceEnglish": "My husband is good at cooking.",
+      "semanticEmoji": "👑",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:事",
+      "level": "n4",
+      "character": "事",
+      "primaryReading": "ごと",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "こと",
+        "ごと"
+      ],
+      "englishMeaning": "matter; thing",
+      "japaneseMeaning": "こと",
+      "strokeCount": 8,
+      "exampleWord": "仕事",
+      "exampleReading": "しごと",
+      "exampleEnglish": "work",
+      "highlightedReading": "ごと",
+      "exampleSentence": "あたらしい　しごとを　はじめました",
+      "exampleSentenceEnglish": "I started a new job.",
+      "semanticEmoji": "💼",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:京",
+      "level": "n4",
+      "character": "京",
+      "primaryReading": "きょう",
+      "onyomi": [
+        "きょう",
+        "けい"
+      ],
+      "kunyomi": [
+        "みやこ"
+      ],
+      "englishMeaning": "capital",
+      "japaneseMeaning": "みやこ",
+      "strokeCount": 8,
+      "exampleWord": "東京",
+      "exampleReading": "とうきょう",
+      "exampleEnglish": "Tokyo",
+      "highlightedReading": "きょう",
+      "exampleSentence": "とうきょうで　ともだちに　あいます",
+      "exampleSentenceEnglish": "I will meet a friend in Tokyo.",
+      "semanticEmoji": "🏙️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:仕",
+      "level": "n4",
+      "character": "仕",
+      "primaryReading": "し",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "つかえる"
+      ],
+      "englishMeaning": "serve; work",
+      "japaneseMeaning": "つかえる",
+      "strokeCount": 5,
+      "exampleWord": "仕事",
+      "exampleReading": "しごと",
+      "exampleEnglish": "work",
+      "highlightedReading": "し",
+      "exampleSentence": "あねは　しごとに　いきました",
+      "exampleSentenceEnglish": "My older sister went to work.",
+      "semanticEmoji": "💼",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:代",
+      "level": "n4",
+      "character": "代",
+      "primaryReading": "だい",
+      "onyomi": [
+        "だい",
+        "たい"
+      ],
+      "kunyomi": [
+        "かわる"
+      ],
+      "englishMeaning": "substitute; generation",
+      "japaneseMeaning": "かわり",
+      "strokeCount": 5,
+      "exampleWord": "時代",
+      "exampleReading": "じだい",
+      "exampleEnglish": "era",
+      "highlightedReading": "だい",
+      "exampleSentence": "その　じだいを　しらべています",
+      "exampleSentenceEnglish": "I am researching that era.",
+      "semanticEmoji": "🔄",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:以",
+      "level": "n4",
+      "character": "以",
+      "primaryReading": "い",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "by means of; since",
+      "japaneseMeaning": "〜より",
+      "strokeCount": 5,
+      "exampleWord": "以上",
+      "exampleReading": "いじょう",
+      "exampleEnglish": "at least",
+      "highlightedReading": "い",
+      "exampleSentence": "さんにん　いじょうで　きてください",
+      "exampleSentenceEnglish": "Please come with at least three people.",
+      "semanticEmoji": "⏩",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:住",
+      "level": "n4",
+      "character": "住",
+      "primaryReading": "じゅう",
+      "onyomi": [
+        "じゅう"
+      ],
+      "kunyomi": [
+        "すむ"
+      ],
+      "englishMeaning": "live; reside",
+      "japaneseMeaning": "すむ",
+      "strokeCount": 7,
+      "exampleWord": "住所",
+      "exampleReading": "じゅうしょ",
+      "exampleEnglish": "address",
+      "highlightedReading": "じゅう",
+      "exampleSentence": "じゅうしょを　ここに　かいてください",
+      "exampleSentenceEnglish": "Please write your address here.",
+      "semanticEmoji": "🏠",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:体",
+      "level": "n4",
+      "character": "体",
+      "primaryReading": "たい",
+      "onyomi": [
+        "たい",
+        "てい"
+      ],
+      "kunyomi": [
+        "からだ"
+      ],
+      "englishMeaning": "body",
+      "japaneseMeaning": "からだ",
+      "strokeCount": 7,
+      "exampleWord": "体",
+      "exampleReading": "からだ",
+      "exampleEnglish": "body",
+      "highlightedReading": "からだ",
+      "exampleSentence": "からだを　ゆっくり　やすめます",
+      "exampleSentenceEnglish": "I rest my body well.",
+      "semanticEmoji": "🧍",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:作",
+      "level": "n4",
+      "character": "作",
+      "primaryReading": "つく",
+      "onyomi": [
+        "さく",
+        "さ"
+      ],
+      "kunyomi": [
+        "つくる"
+      ],
+      "englishMeaning": "make",
+      "japaneseMeaning": "つくる",
+      "strokeCount": 7,
+      "exampleWord": "作る",
+      "exampleReading": "つくる",
+      "exampleEnglish": "make",
+      "highlightedReading": "つく",
+      "exampleSentence": "あさごはんを　つくります",
+      "exampleSentenceEnglish": "I make breakfast.",
+      "semanticEmoji": "🛠️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:使",
+      "level": "n4",
+      "character": "使",
+      "primaryReading": "つか",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "つかう"
+      ],
+      "englishMeaning": "use",
+      "japaneseMeaning": "つかう",
+      "strokeCount": 8,
+      "exampleWord": "使う",
+      "exampleReading": "つかう",
+      "exampleEnglish": "use",
+      "highlightedReading": "つか",
+      "exampleSentence": "この　ペンを　つかいます",
+      "exampleSentenceEnglish": "I use this pen.",
+      "semanticEmoji": "🧰",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:借",
+      "level": "n4",
+      "character": "借",
+      "primaryReading": "か",
+      "onyomi": [
+        "しゃく"
+      ],
+      "kunyomi": [
+        "かりる"
+      ],
+      "englishMeaning": "borrow",
+      "japaneseMeaning": "かりる",
+      "strokeCount": 10,
+      "exampleWord": "借りる",
+      "exampleReading": "かりる",
+      "exampleEnglish": "borrow",
+      "highlightedReading": "か",
+      "exampleSentence": "としょかんで　ほんを　かります",
+      "exampleSentenceEnglish": "I borrow a book at the library.",
+      "semanticEmoji": "🤲",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:元",
+      "level": "n4",
+      "character": "元",
+      "primaryReading": "げん",
+      "onyomi": [
+        "げん",
+        "がん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "englishMeaning": "origin; former",
+      "japaneseMeaning": "もと",
+      "strokeCount": 4,
+      "exampleWord": "元気",
+      "exampleReading": "げんき",
+      "exampleEnglish": "healthy",
+      "highlightedReading": "げん",
+      "exampleSentence": "きょうは　げんきです",
+      "exampleSentenceEnglish": "I feel well today.",
+      "semanticEmoji": "⏮️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:兄",
+      "level": "n4",
+      "character": "兄",
+      "primaryReading": "あに",
+      "onyomi": [
+        "けい",
+        "きょう"
+      ],
+      "kunyomi": [
+        "あに"
+      ],
+      "englishMeaning": "older brother",
+      "japaneseMeaning": "あに",
+      "strokeCount": 5,
+      "exampleWord": "兄",
+      "exampleReading": "あに",
+      "exampleEnglish": "older brother",
+      "highlightedReading": "あに",
+      "exampleSentence": "あには　だいがくせいです",
+      "exampleSentenceEnglish": "My older brother is a university student.",
+      "semanticEmoji": "👦",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:公",
+      "level": "n4",
+      "character": "公",
+      "primaryReading": "こう",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "おおやけ"
+      ],
+      "englishMeaning": "public",
+      "japaneseMeaning": "こうきょう",
+      "strokeCount": 4,
+      "exampleWord": "公園",
+      "exampleReading": "こうえん",
+      "exampleEnglish": "park",
+      "highlightedReading": "こう",
+      "exampleSentence": "こうえんで　こどもが　あそんでいます",
+      "exampleSentenceEnglish": "Children are playing in the park.",
+      "semanticEmoji": "🏞️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:写",
+      "level": "n4",
+      "character": "写",
+      "primaryReading": "しゃ",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "うつす"
+      ],
+      "englishMeaning": "copy; photograph",
+      "japaneseMeaning": "うつす",
+      "strokeCount": 5,
+      "exampleWord": "写真",
+      "exampleReading": "しゃしん",
+      "exampleEnglish": "photograph",
+      "highlightedReading": "しゃ",
+      "exampleSentence": "しゃしんを　いちまい　とりました",
+      "exampleSentenceEnglish": "I took one photograph.",
+      "semanticEmoji": "📸",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:冬",
+      "level": "n4",
+      "character": "冬",
+      "primaryReading": "ふゆ",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "ふゆ"
+      ],
+      "englishMeaning": "winter",
+      "japaneseMeaning": "ふゆ",
+      "strokeCount": 5,
+      "exampleWord": "冬",
+      "exampleReading": "ふゆ",
+      "exampleEnglish": "winter",
+      "highlightedReading": "ふゆ",
+      "exampleSentence": "ふゆは　ゆきが　ふります",
+      "exampleSentenceEnglish": "It snows in winter.",
+      "semanticEmoji": "⛄",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:切",
+      "level": "n4",
+      "character": "切",
+      "primaryReading": "き",
+      "onyomi": [
+        "せつ",
+        "さい"
+      ],
+      "kunyomi": [
+        "きる"
+      ],
+      "englishMeaning": "cut",
+      "japaneseMeaning": "きる",
+      "strokeCount": 4,
+      "exampleWord": "切る",
+      "exampleReading": "きる",
+      "exampleEnglish": "cut",
+      "highlightedReading": "き",
+      "exampleSentence": "はさみで　かみを　きります",
+      "exampleSentenceEnglish": "I cut the paper with scissors.",
+      "semanticEmoji": "✂️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:別",
+      "level": "n4",
+      "character": "別",
+      "primaryReading": "べつ",
+      "onyomi": [
+        "べつ"
+      ],
+      "kunyomi": [
+        "わかれる"
+      ],
+      "englishMeaning": "separate; another",
+      "japaneseMeaning": "べつ",
+      "strokeCount": 7,
+      "exampleWord": "別々",
+      "exampleReading": "べつべつ",
+      "exampleEnglish": "separately",
+      "highlightedReading": "べつ",
+      "exampleSentence": "ふたりは　べつべつに　きました",
+      "exampleSentenceEnglish": "The two came separately.",
+      "semanticEmoji": "🔀",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:力",
+      "level": "n4",
+      "character": "力",
+      "primaryReading": "ちから",
+      "onyomi": [
+        "りょく",
+        "りき"
+      ],
+      "kunyomi": [
+        "ちから"
+      ],
+      "englishMeaning": "power",
+      "japaneseMeaning": "ちから",
+      "strokeCount": 2,
+      "exampleWord": "力",
+      "exampleReading": "ちから",
+      "exampleEnglish": "strength",
+      "highlightedReading": "ちから",
+      "exampleSentence": "ちからを　あわせましょう",
+      "exampleSentenceEnglish": "Let's join forces.",
+      "semanticEmoji": "💪",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:勉",
+      "level": "n4",
+      "character": "勉",
+      "primaryReading": "べん",
+      "onyomi": [
+        "べん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "endeavor",
+      "japaneseMeaning": "つとめる",
+      "strokeCount": 10,
+      "exampleWord": "勉強",
+      "exampleReading": "べんきょう",
+      "exampleEnglish": "study",
+      "highlightedReading": "べん",
+      "exampleSentence": "まいばん　べんきょうします",
+      "exampleSentenceEnglish": "I study every evening.",
+      "semanticEmoji": "📚",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:動",
+      "level": "n4",
+      "character": "動",
+      "primaryReading": "うご",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "うごく"
+      ],
+      "englishMeaning": "move",
+      "japaneseMeaning": "うごく",
+      "strokeCount": 11,
+      "exampleWord": "動く",
+      "exampleReading": "うごく",
+      "exampleEnglish": "move",
+      "highlightedReading": "うご",
+      "exampleSentence": "でんしゃが　うごきました",
+      "exampleSentenceEnglish": "The train started moving.",
+      "semanticEmoji": "🏃‍➡️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:医",
+      "level": "n4",
+      "character": "医",
+      "primaryReading": "い",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "medicine; doctor",
+      "japaneseMeaning": "いしゃ",
+      "strokeCount": 7,
+      "exampleWord": "医者",
+      "exampleReading": "いしゃ",
+      "exampleEnglish": "doctor",
+      "highlightedReading": "い",
+      "exampleSentence": "いしゃに　みてもらいます",
+      "exampleSentenceEnglish": "I will see a doctor.",
+      "semanticEmoji": "🩺",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:去",
+      "level": "n4",
+      "character": "去",
+      "primaryReading": "きょ",
+      "onyomi": [
+        "きょ",
+        "こ"
+      ],
+      "kunyomi": [
+        "さる"
+      ],
+      "englishMeaning": "leave; past",
+      "japaneseMeaning": "さる",
+      "strokeCount": 5,
+      "exampleWord": "去年",
+      "exampleReading": "きょねん",
+      "exampleEnglish": "last year",
+      "highlightedReading": "きょ",
+      "exampleSentence": "きょねん　にほんへ　きました",
+      "exampleSentenceEnglish": "I came to Japan last year.",
+      "semanticEmoji": "⏪",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:同",
+      "level": "n4",
+      "character": "同",
+      "primaryReading": "おな",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "おなじ"
+      ],
+      "englishMeaning": "same",
+      "japaneseMeaning": "おなじ",
+      "strokeCount": 6,
+      "exampleWord": "同じ",
+      "exampleReading": "おなじ",
+      "exampleEnglish": "same",
+      "highlightedReading": "おな",
+      "exampleSentence": "わたしも　おなじ　いけんです",
+      "exampleSentenceEnglish": "I have the same opinion.",
+      "semanticEmoji": "🟰",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:味",
+      "level": "n4",
+      "character": "味",
+      "primaryReading": "あじ",
+      "onyomi": [
+        "み"
+      ],
+      "kunyomi": [
+        "あじ"
+      ],
+      "englishMeaning": "taste",
+      "japaneseMeaning": "あじ",
+      "strokeCount": 8,
+      "exampleWord": "味",
+      "exampleReading": "あじ",
+      "exampleEnglish": "taste",
+      "highlightedReading": "あじ",
+      "exampleSentence": "この　スープは　あじが　うすいです",
+      "exampleSentenceEnglish": "This soup tastes mild.",
+      "semanticEmoji": "😋",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:品",
+      "level": "n4",
+      "character": "品",
+      "primaryReading": "ひん",
+      "onyomi": [
+        "ひん"
+      ],
+      "kunyomi": [
+        "しな"
+      ],
+      "englishMeaning": "goods; quality",
+      "japaneseMeaning": "しなもの",
+      "strokeCount": 9,
+      "exampleWord": "商品",
+      "exampleReading": "しょうひん",
+      "exampleEnglish": "product",
+      "highlightedReading": "ひん",
+      "exampleSentence": "この　しょうひんは　にんきです",
+      "exampleSentenceEnglish": "This product is popular.",
+      "semanticEmoji": "📦",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:員",
+      "level": "n4",
+      "character": "員",
+      "primaryReading": "いん",
+      "onyomi": [
+        "いん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "member",
+      "japaneseMeaning": "メンバー",
+      "strokeCount": 10,
+      "exampleWord": "店員",
+      "exampleReading": "てんいん",
+      "exampleEnglish": "shop clerk",
+      "highlightedReading": "いん",
+      "exampleSentence": "てんいんに　ききました",
+      "exampleSentenceEnglish": "I asked the shop clerk.",
+      "semanticEmoji": "🧑‍✈️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:問",
+      "level": "n4",
+      "character": "問",
+      "primaryReading": "もん",
+      "onyomi": [
+        "もん"
+      ],
+      "kunyomi": [
+        "とう"
+      ],
+      "englishMeaning": "question",
+      "japaneseMeaning": "しつもん",
+      "strokeCount": 11,
+      "exampleWord": "問題",
+      "exampleReading": "もんだい",
+      "exampleEnglish": "problem",
+      "highlightedReading": "もん",
+      "exampleSentence": "この　もんだいは　むずかしいです",
+      "exampleSentenceEnglish": "This problem is difficult.",
+      "semanticEmoji": "❓",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:図",
+      "level": "n4",
+      "character": "図",
+      "primaryReading": "ず",
+      "onyomi": [
+        "ず",
+        "と"
+      ],
+      "kunyomi": [
+        "はかる"
+      ],
+      "englishMeaning": "diagram; plan",
+      "japaneseMeaning": "ず",
+      "strokeCount": 7,
+      "exampleWord": "地図",
+      "exampleReading": "ちず",
+      "exampleEnglish": "map",
+      "highlightedReading": "ず",
+      "exampleSentence": "ちずで　みちを　しらべます",
+      "exampleSentenceEnglish": "I check the route on a map.",
+      "semanticEmoji": "🗺️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:地",
+      "level": "n4",
+      "character": "地",
+      "primaryReading": "ち",
+      "onyomi": [
+        "ち",
+        "じ"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "ground; place",
+      "japaneseMeaning": "ところ",
+      "strokeCount": 6,
+      "exampleWord": "地下",
+      "exampleReading": "ちか",
+      "exampleEnglish": "underground",
+      "highlightedReading": "ち",
+      "exampleSentence": "ちかに　スーパーが　あります",
+      "exampleSentenceEnglish": "There is a supermarket underground.",
+      "semanticEmoji": "🌍",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:堂",
+      "level": "n4",
+      "character": "堂",
+      "primaryReading": "どう",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "hall",
+      "japaneseMeaning": "たてもの",
+      "strokeCount": 11,
+      "exampleWord": "食堂",
+      "exampleReading": "しょくどう",
+      "exampleEnglish": "dining hall",
+      "highlightedReading": "どう",
+      "exampleSentence": "しょくどうで　ひるごはんを　たべます",
+      "exampleSentenceEnglish": "I eat lunch in the dining hall.",
+      "semanticEmoji": "🏛️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:場",
+      "level": "n4",
+      "character": "場",
+      "primaryReading": "ば",
+      "onyomi": [
+        "じょう"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "englishMeaning": "place",
+      "japaneseMeaning": "ばしょ",
+      "strokeCount": 12,
+      "exampleWord": "場所",
+      "exampleReading": "ばしょ",
+      "exampleEnglish": "place",
+      "highlightedReading": "ば",
+      "exampleSentence": "あう　ばしょを　きめましょう",
+      "exampleSentenceEnglish": "Let's decide where to meet.",
+      "semanticEmoji": "📍",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:売",
+      "level": "n4",
+      "character": "売",
+      "primaryReading": "う",
+      "onyomi": [
+        "ばい"
+      ],
+      "kunyomi": [
+        "うる"
+      ],
+      "englishMeaning": "sell",
+      "japaneseMeaning": "うる",
+      "strokeCount": 7,
+      "exampleWord": "売る",
+      "exampleReading": "うる",
+      "exampleEnglish": "sell",
+      "highlightedReading": "う",
+      "exampleSentence": "えきで　きっぷを　うっています",
+      "exampleSentenceEnglish": "They sell tickets at the station.",
+      "semanticEmoji": "🏷️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:夏",
+      "level": "n4",
+      "character": "夏",
+      "primaryReading": "なつ",
+      "onyomi": [
+        "か",
+        "げ"
+      ],
+      "kunyomi": [
+        "なつ"
+      ],
+      "englishMeaning": "summer",
+      "japaneseMeaning": "なつ",
+      "strokeCount": 10,
+      "exampleWord": "夏休み",
+      "exampleReading": "なつやすみ",
+      "exampleEnglish": "summer vacation",
+      "highlightedReading": "なつ",
+      "exampleSentence": "なつやすみに　うみへ　いきます",
+      "exampleSentenceEnglish": "I will go to the sea during summer vacation.",
+      "semanticEmoji": "🏖️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:夕",
+      "level": "n4",
+      "character": "夕",
+      "primaryReading": "ゆう",
+      "onyomi": [
+        "せき"
+      ],
+      "kunyomi": [
+        "ゆう"
+      ],
+      "englishMeaning": "evening",
+      "japaneseMeaning": "ゆうがた",
+      "strokeCount": 3,
+      "exampleWord": "夕方",
+      "exampleReading": "ゆうがた",
+      "exampleEnglish": "evening",
+      "highlightedReading": "ゆう",
+      "exampleSentence": "ゆうがたから　あめが　ふります",
+      "exampleSentenceEnglish": "It will rain from the evening.",
+      "semanticEmoji": "🌇",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:夜",
+      "level": "n4",
+      "character": "夜",
+      "primaryReading": "よる",
+      "onyomi": [
+        "や"
+      ],
+      "kunyomi": [
+        "よる",
+        "よ"
+      ],
+      "englishMeaning": "night",
+      "japaneseMeaning": "よる",
+      "strokeCount": 8,
+      "exampleWord": "今夜",
+      "exampleReading": "こんや",
+      "exampleEnglish": "tonight",
+      "highlightedReading": "や",
+      "exampleSentence": "こんやは　はやく　ねます",
+      "exampleSentenceEnglish": "I will go to bed early tonight.",
+      "semanticEmoji": "🌙",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:妹",
+      "level": "n4",
+      "character": "妹",
+      "primaryReading": "いもうと",
+      "onyomi": [
+        "まい"
+      ],
+      "kunyomi": [
+        "いもうと"
+      ],
+      "englishMeaning": "younger sister",
+      "japaneseMeaning": "いもうと",
+      "strokeCount": 8,
+      "exampleWord": "妹",
+      "exampleReading": "いもうと",
+      "exampleEnglish": "younger sister",
+      "highlightedReading": "いもうと",
+      "exampleSentence": "いもうとは　じゅっさいです",
+      "exampleSentenceEnglish": "My younger sister is ten.",
+      "semanticEmoji": "👧",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:姉",
+      "level": "n4",
+      "character": "姉",
+      "primaryReading": "あね",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "あね"
+      ],
+      "englishMeaning": "older sister",
+      "japaneseMeaning": "あね",
+      "strokeCount": 8,
+      "exampleWord": "姉",
+      "exampleReading": "あね",
+      "exampleEnglish": "older sister",
+      "highlightedReading": "あね",
+      "exampleSentence": "あねと　かいものに　いきます",
+      "exampleSentenceEnglish": "I go shopping with my older sister.",
+      "semanticEmoji": "👩",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:始",
+      "level": "n4",
+      "character": "始",
+      "primaryReading": "はじ",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "はじめる"
+      ],
+      "englishMeaning": "begin",
+      "japaneseMeaning": "はじめる",
+      "strokeCount": 8,
+      "exampleWord": "始める",
+      "exampleReading": "はじめる",
+      "exampleEnglish": "begin",
+      "highlightedReading": "はじ",
+      "exampleSentence": "じゅぎょうは　くじに　はじまります",
+      "exampleSentenceEnglish": "Class begins at nine.",
+      "semanticEmoji": "▶️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:字",
+      "level": "n4",
+      "character": "字",
+      "primaryReading": "じ",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "あざ"
+      ],
+      "englishMeaning": "character; letter",
+      "japaneseMeaning": "もじ",
+      "strokeCount": 6,
+      "exampleWord": "漢字",
+      "exampleReading": "かんじ",
+      "exampleEnglish": "kanji",
+      "highlightedReading": "じ",
+      "exampleSentence": "まいにち　かんじを　れんしゅうします",
+      "exampleSentenceEnglish": "I practice kanji every day.",
+      "semanticEmoji": "✍️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:室",
+      "level": "n4",
+      "character": "室",
+      "primaryReading": "しつ",
+      "onyomi": [
+        "しつ"
+      ],
+      "kunyomi": [
+        "むろ"
+      ],
+      "englishMeaning": "room",
+      "japaneseMeaning": "へや",
+      "strokeCount": 9,
+      "exampleWord": "教室",
+      "exampleReading": "きょうしつ",
+      "exampleEnglish": "classroom",
+      "highlightedReading": "しつ",
+      "exampleSentence": "きょうしつに　せんせいが　います",
+      "exampleSentenceEnglish": "The teacher is in the classroom.",
+      "semanticEmoji": "🏫",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:家",
+      "level": "n4",
+      "character": "家",
+      "primaryReading": "いえ",
+      "onyomi": [
+        "か",
+        "け"
+      ],
+      "kunyomi": [
+        "いえ",
+        "や"
+      ],
+      "englishMeaning": "house; family",
+      "japaneseMeaning": "いえ",
+      "strokeCount": 10,
+      "exampleWord": "家",
+      "exampleReading": "いえ",
+      "exampleEnglish": "house",
+      "highlightedReading": "いえ",
+      "exampleSentence": "いえで　ばんごはんを　たべます",
+      "exampleSentenceEnglish": "I eat dinner at home.",
+      "semanticEmoji": "🏠",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:屋",
+      "level": "n4",
+      "character": "屋",
+      "primaryReading": "や",
+      "onyomi": [
+        "おく"
+      ],
+      "kunyomi": [
+        "や"
+      ],
+      "englishMeaning": "shop; roof",
+      "japaneseMeaning": "みせ",
+      "strokeCount": 9,
+      "exampleWord": "本屋",
+      "exampleReading": "ほんや",
+      "exampleEnglish": "bookstore",
+      "highlightedReading": "や",
+      "exampleSentence": "ほんやで　じしょを　かいました",
+      "exampleSentenceEnglish": "I bought a dictionary at the bookstore.",
+      "semanticEmoji": "🏠",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:工",
+      "level": "n4",
+      "character": "工",
+      "primaryReading": "こう",
+      "onyomi": [
+        "こう",
+        "く"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "construction; craft",
+      "japaneseMeaning": "こうじ",
+      "strokeCount": 3,
+      "exampleWord": "工場",
+      "exampleReading": "こうじょう",
+      "exampleEnglish": "factory",
+      "highlightedReading": "こう",
+      "exampleSentence": "ちちは　こうじょうで　はたらいています",
+      "exampleSentenceEnglish": "My father works at a factory.",
+      "semanticEmoji": "⚙️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:帰",
+      "level": "n4",
+      "character": "帰",
+      "primaryReading": "かえ",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "かえる"
+      ],
+      "englishMeaning": "return home",
+      "japaneseMeaning": "かえる",
+      "strokeCount": 10,
+      "exampleWord": "帰る",
+      "exampleReading": "かえる",
+      "exampleEnglish": "return home",
+      "highlightedReading": "かえ",
+      "exampleSentence": "きょうは　ろくじに　かえります",
+      "exampleSentenceEnglish": "I will return home at six today.",
+      "semanticEmoji": "↩️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:広",
+      "level": "n4",
+      "character": "広",
+      "primaryReading": "ひろ",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "ひろい"
+      ],
+      "englishMeaning": "wide",
+      "japaneseMeaning": "ひろい",
+      "strokeCount": 5,
+      "exampleWord": "広い",
+      "exampleReading": "ひろい",
+      "exampleEnglish": "wide",
+      "highlightedReading": "ひろ",
+      "exampleSentence": "この　へやは　ひろいです",
+      "exampleSentenceEnglish": "This room is spacious.",
+      "semanticEmoji": "↔️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:度",
+      "level": "n4",
+      "character": "度",
+      "primaryReading": "ど",
+      "onyomi": [
+        "ど",
+        "たく"
+      ],
+      "kunyomi": [
+        "たび"
+      ],
+      "englishMeaning": "degree; time",
+      "japaneseMeaning": "かいすう",
+      "strokeCount": 9,
+      "exampleWord": "今度",
+      "exampleReading": "こんど",
+      "exampleEnglish": "next time",
+      "highlightedReading": "ど",
+      "exampleSentence": "こんど　いっしょに　いきましょう",
+      "exampleSentenceEnglish": "Let's go together next time.",
+      "semanticEmoji": "📐",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:建",
+      "level": "n4",
+      "character": "建",
+      "primaryReading": "た",
+      "onyomi": [
+        "けん",
+        "こん"
+      ],
+      "kunyomi": [
+        "たてる"
+      ],
+      "englishMeaning": "build",
+      "japaneseMeaning": "たてる",
+      "strokeCount": 9,
+      "exampleWord": "建てる",
+      "exampleReading": "たてる",
+      "exampleEnglish": "build",
+      "highlightedReading": "た",
+      "exampleSentence": "ここに　いえを　たてます",
+      "exampleSentenceEnglish": "We will build a house here.",
+      "semanticEmoji": "🏗️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:弟",
+      "level": "n4",
+      "character": "弟",
+      "primaryReading": "おとうと",
+      "onyomi": [
+        "てい",
+        "だい"
+      ],
+      "kunyomi": [
+        "おとうと"
+      ],
+      "englishMeaning": "younger brother",
+      "japaneseMeaning": "おとうと",
+      "strokeCount": 7,
+      "exampleWord": "弟",
+      "exampleReading": "おとうと",
+      "exampleEnglish": "younger brother",
+      "highlightedReading": "おとうと",
+      "exampleSentence": "おとうとは　サッカーが　すきです",
+      "exampleSentenceEnglish": "My younger brother likes soccer.",
+      "semanticEmoji": "🧒",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:強",
+      "level": "n4",
+      "character": "強",
+      "primaryReading": "つよ",
+      "onyomi": [
+        "きょう",
+        "ごう"
+      ],
+      "kunyomi": [
+        "つよい"
+      ],
+      "englishMeaning": "strong",
+      "japaneseMeaning": "つよい",
+      "strokeCount": 11,
+      "exampleWord": "強い",
+      "exampleReading": "つよい",
+      "exampleEnglish": "strong",
+      "highlightedReading": "つよ",
+      "exampleSentence": "きょうは　かぜが　つよいです",
+      "exampleSentenceEnglish": "The wind is strong today.",
+      "semanticEmoji": "🏋️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:待",
+      "level": "n4",
+      "character": "待",
+      "primaryReading": "ま",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "まつ"
+      ],
+      "englishMeaning": "wait",
+      "japaneseMeaning": "まつ",
+      "strokeCount": 9,
+      "exampleWord": "待つ",
+      "exampleReading": "まつ",
+      "exampleEnglish": "wait",
+      "highlightedReading": "ま",
+      "exampleSentence": "えきで　ともだちを　まちます",
+      "exampleSentenceEnglish": "I wait for my friend at the station.",
+      "semanticEmoji": "⏳",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:心",
+      "level": "n4",
+      "character": "心",
+      "primaryReading": "こころ",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "englishMeaning": "heart; mind",
+      "japaneseMeaning": "こころ",
+      "strokeCount": 4,
+      "exampleWord": "安心",
+      "exampleReading": "あんしん",
+      "exampleEnglish": "relief",
+      "highlightedReading": "しん",
+      "exampleSentence": "ぶじだと　きいて　あんしんしました",
+      "exampleSentenceEnglish": "I was relieved to hear they were safe.",
+      "semanticEmoji": "❤️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:思",
+      "level": "n4",
+      "character": "思",
+      "primaryReading": "おも",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "おもう"
+      ],
+      "englishMeaning": "think",
+      "japaneseMeaning": "おもう",
+      "strokeCount": 9,
+      "exampleWord": "思う",
+      "exampleReading": "おもう",
+      "exampleEnglish": "think",
+      "highlightedReading": "おも",
+      "exampleSentence": "これは　いいと　おもいます",
+      "exampleSentenceEnglish": "I think this is good.",
+      "semanticEmoji": "🤔",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:急",
+      "level": "n4",
+      "character": "急",
+      "primaryReading": "いそ",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "いそぐ"
+      ],
+      "englishMeaning": "hurry; sudden",
+      "japaneseMeaning": "いそぐ",
+      "strokeCount": 9,
+      "exampleWord": "急ぐ",
+      "exampleReading": "いそぐ",
+      "exampleEnglish": "hurry",
+      "highlightedReading": "いそ",
+      "exampleSentence": "じかんが　ないので　いそぎます",
+      "exampleSentenceEnglish": "I hurry because there is no time.",
+      "semanticEmoji": "⚡",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:悪",
+      "level": "n4",
+      "character": "悪",
+      "primaryReading": "わる",
+      "onyomi": [
+        "あく",
+        "お"
+      ],
+      "kunyomi": [
+        "わるい"
+      ],
+      "englishMeaning": "bad",
+      "japaneseMeaning": "わるい",
+      "strokeCount": 11,
+      "exampleWord": "悪い",
+      "exampleReading": "わるい",
+      "exampleEnglish": "bad",
+      "highlightedReading": "わる",
+      "exampleSentence": "きょうは　てんきが　わるいです",
+      "exampleSentenceEnglish": "The weather is bad today.",
+      "semanticEmoji": "👎",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:意",
+      "level": "n4",
+      "character": "意",
+      "primaryReading": "い",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "idea; intention",
+      "japaneseMeaning": "きもち",
+      "strokeCount": 13,
+      "exampleWord": "意味",
+      "exampleReading": "いみ",
+      "exampleEnglish": "meaning",
+      "highlightedReading": "い",
+      "exampleSentence": "この　ことばの　いみを　おしえてください",
+      "exampleSentenceEnglish": "Please tell me the meaning of this word.",
+      "semanticEmoji": "💡",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:持",
+      "level": "n4",
+      "character": "持",
+      "primaryReading": "も",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "もつ"
+      ],
+      "englishMeaning": "hold; have",
+      "japaneseMeaning": "もつ",
+      "strokeCount": 9,
+      "exampleWord": "持つ",
+      "exampleReading": "もつ",
+      "exampleEnglish": "hold",
+      "highlightedReading": "も",
+      "exampleSentence": "かさを　もって　いきます",
+      "exampleSentenceEnglish": "I will take an umbrella.",
+      "semanticEmoji": "✊",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:教",
+      "level": "n4",
+      "character": "教",
+      "primaryReading": "おし",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おしえる"
+      ],
+      "englishMeaning": "teach",
+      "japaneseMeaning": "おしえる",
+      "strokeCount": 11,
+      "exampleWord": "教える",
+      "exampleReading": "おしえる",
+      "exampleEnglish": "teach",
+      "highlightedReading": "おし",
+      "exampleSentence": "せんせいが　ぶんぽうを　おしえます",
+      "exampleSentenceEnglish": "The teacher explains grammar.",
+      "semanticEmoji": "👩‍🏫",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:文",
+      "level": "n4",
+      "character": "文",
+      "primaryReading": "ぶん",
+      "onyomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kunyomi": [
+        "ふみ"
+      ],
+      "englishMeaning": "sentence; writing",
+      "japaneseMeaning": "ぶん",
+      "strokeCount": 4,
+      "exampleWord": "作文",
+      "exampleReading": "さくぶん",
+      "exampleEnglish": "composition",
+      "highlightedReading": "ぶん",
+      "exampleSentence": "しゅうまつに　さくぶんを　かきます",
+      "exampleSentenceEnglish": "I write a composition on the weekend.",
+      "semanticEmoji": "📝",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:料",
+      "level": "n4",
+      "character": "料",
+      "primaryReading": "りょう",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "fee; material",
+      "japaneseMeaning": "りょうきん",
+      "strokeCount": 10,
+      "exampleWord": "料理",
+      "exampleReading": "りょうり",
+      "exampleEnglish": "cooking",
+      "highlightedReading": "りょう",
+      "exampleSentence": "ははは　りょうりが　とくいです",
+      "exampleSentenceEnglish": "My mother is good at cooking.",
+      "semanticEmoji": "🧱",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:方",
+      "level": "n4",
+      "character": "方",
+      "primaryReading": "かた",
+      "onyomi": [
+        "ほう"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "englishMeaning": "direction; way; person",
+      "japaneseMeaning": "ほうほう",
+      "strokeCount": 4,
+      "exampleWord": "読み方",
+      "exampleReading": "よみかた",
+      "exampleEnglish": "way of reading",
+      "highlightedReading": "かた",
+      "exampleSentence": "せんせいに　この　かんじの　よみかたを　ききます",
+      "exampleSentenceEnglish": "I ask my teacher how to read this kanji.",
+      "semanticEmoji": "🧭",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:旅",
+      "level": "n4",
+      "character": "旅",
+      "primaryReading": "たび",
+      "onyomi": [
+        "りょ"
+      ],
+      "kunyomi": [
+        "たび"
+      ],
+      "englishMeaning": "travel",
+      "japaneseMeaning": "たび",
+      "strokeCount": 10,
+      "exampleWord": "旅行",
+      "exampleReading": "りょこう",
+      "exampleEnglish": "travel",
+      "highlightedReading": "りょ",
+      "exampleSentence": "らいげつ　きょうとへ　りょこうします",
+      "exampleSentenceEnglish": "I will travel to Kyoto next month.",
+      "semanticEmoji": "🧳",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:族",
+      "level": "n4",
+      "character": "族",
+      "primaryReading": "ぞく",
+      "onyomi": [
+        "ぞく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "family; tribe",
+      "japaneseMeaning": "かぞく",
+      "strokeCount": 11,
+      "exampleWord": "家族",
+      "exampleReading": "かぞく",
+      "exampleEnglish": "family",
+      "highlightedReading": "ぞく",
+      "exampleSentence": "かぞくは　ごにんです",
+      "exampleSentenceEnglish": "There are five people in my family.",
+      "semanticEmoji": "👪",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:早",
+      "level": "n4",
+      "character": "早",
+      "primaryReading": "はや",
+      "onyomi": [
+        "そう",
+        "さっ"
+      ],
+      "kunyomi": [
+        "はやい"
+      ],
+      "englishMeaning": "early; fast",
+      "japaneseMeaning": "はやい",
+      "strokeCount": 6,
+      "exampleWord": "早い",
+      "exampleReading": "はやい",
+      "exampleEnglish": "early",
+      "highlightedReading": "はや",
+      "exampleSentence": "あしたは　はやく　おきます",
+      "exampleSentenceEnglish": "I will wake up early tomorrow.",
+      "semanticEmoji": "⏰",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:明",
+      "level": "n4",
+      "character": "明",
+      "primaryReading": "あか",
+      "onyomi": [
+        "めい",
+        "みょう"
+      ],
+      "kunyomi": [
+        "あかるい"
+      ],
+      "englishMeaning": "bright; clear",
+      "japaneseMeaning": "あかるい",
+      "strokeCount": 8,
+      "exampleWord": "明るい",
+      "exampleReading": "あかるい",
+      "exampleEnglish": "bright",
+      "highlightedReading": "あか",
+      "exampleSentence": "この　へやは　あかるいです",
+      "exampleSentenceEnglish": "This room is bright.",
+      "semanticEmoji": "💡",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:映",
+      "level": "n4",
+      "character": "映",
+      "primaryReading": "えい",
+      "onyomi": [
+        "えい"
+      ],
+      "kunyomi": [
+        "うつる"
+      ],
+      "englishMeaning": "reflect; project",
+      "japaneseMeaning": "うつる",
+      "strokeCount": 9,
+      "exampleWord": "映画",
+      "exampleReading": "えいが",
+      "exampleEnglish": "movie",
+      "highlightedReading": "えい",
+      "exampleSentence": "えいがを　にほんごで　みました",
+      "exampleSentenceEnglish": "I watched a movie in Japanese.",
+      "semanticEmoji": "🎬",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:春",
+      "level": "n4",
+      "character": "春",
+      "primaryReading": "はる",
+      "onyomi": [
+        "しゅん"
+      ],
+      "kunyomi": [
+        "はる"
+      ],
+      "englishMeaning": "spring",
+      "japaneseMeaning": "はる",
+      "strokeCount": 9,
+      "exampleWord": "春",
+      "exampleReading": "はる",
+      "exampleEnglish": "spring",
+      "highlightedReading": "はる",
+      "exampleSentence": "はるに　さくらが　さきます",
+      "exampleSentenceEnglish": "Cherry blossoms bloom in spring.",
+      "semanticEmoji": "🌸",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:昼",
+      "level": "n4",
+      "character": "昼",
+      "primaryReading": "ひる",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [
+        "ひる"
+      ],
+      "englishMeaning": "daytime; noon",
+      "japaneseMeaning": "ひる",
+      "strokeCount": 9,
+      "exampleWord": "昼休み",
+      "exampleReading": "ひるやすみ",
+      "exampleEnglish": "lunch break",
+      "highlightedReading": "ひる",
+      "exampleSentence": "ひるやすみに　さんぽします",
+      "exampleSentenceEnglish": "I take a walk during lunch break.",
+      "semanticEmoji": "🌞",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:曜",
+      "level": "n4",
+      "character": "曜",
+      "primaryReading": "よう",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "weekday",
+      "japaneseMeaning": "ようび",
+      "strokeCount": 18,
+      "exampleWord": "曜日",
+      "exampleReading": "ようび",
+      "exampleEnglish": "day of the week",
+      "highlightedReading": "よう",
+      "exampleSentence": "きょうは　なんようびですか",
+      "exampleSentenceEnglish": "What day of the week is it today?",
+      "semanticEmoji": "📆",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n4:有",
+      "level": "n4",
+      "character": "有",
+      "primaryReading": "ゆう",
+      "onyomi": [
+        "ゆう",
+        "う"
+      ],
+      "kunyomi": [
+        "ある"
+      ],
+      "englishMeaning": "exist; possess",
+      "japaneseMeaning": "ある",
+      "strokeCount": 6,
+      "exampleWord": "有名",
+      "exampleReading": "ゆうめい",
+      "exampleEnglish": "famous",
+      "highlightedReading": "ゆう",
+      "exampleSentence": "この　みせは　ゆうめいです",
+      "exampleSentenceEnglish": "This shop is famous.",
+      "semanticEmoji": "✅",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:服",
+      "level": "n4",
+      "character": "服",
+      "primaryReading": "ふく",
+      "onyomi": [
+        "ふく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "clothes",
+      "japaneseMeaning": "ようふく",
+      "strokeCount": 8,
+      "exampleWord": "洋服",
+      "exampleReading": "ようふく",
+      "exampleEnglish": "Western clothes",
+      "highlightedReading": "ふく",
+      "exampleSentence": "あたらしい　ようふくを　かいました",
+      "exampleSentenceEnglish": "I bought new clothes.",
+      "semanticEmoji": "👕",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:朝",
+      "level": "n4",
+      "character": "朝",
+      "primaryReading": "あさ",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "あさ"
+      ],
+      "englishMeaning": "morning",
+      "japaneseMeaning": "あさ",
+      "strokeCount": 12,
+      "exampleWord": "朝ご飯",
+      "exampleReading": "あさごはん",
+      "exampleEnglish": "breakfast",
+      "highlightedReading": "あさ",
+      "exampleSentence": "あさごはんに　パンを　たべます",
+      "exampleSentenceEnglish": "I eat bread for breakfast.",
+      "semanticEmoji": "🌅",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:業",
+      "level": "n4",
+      "character": "業",
+      "primaryReading": "ぎょう",
+      "onyomi": [
+        "ぎょう",
+        "ごう"
+      ],
+      "kunyomi": [
+        "わざ"
+      ],
+      "englishMeaning": "business; work",
+      "japaneseMeaning": "しごと",
+      "strokeCount": 13,
+      "exampleWord": "授業",
+      "exampleReading": "じゅぎょう",
+      "exampleEnglish": "class",
+      "highlightedReading": "ぎょう",
+      "exampleSentence": "じゅぎょうは　さんじまでです",
+      "exampleSentenceEnglish": "Class lasts until three.",
+      "semanticEmoji": "🎓",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:楽",
+      "level": "n4",
+      "character": "楽",
+      "primaryReading": "たの",
+      "onyomi": [
+        "がく",
+        "らく"
+      ],
+      "kunyomi": [
+        "たのしい"
+      ],
+      "englishMeaning": "fun; music; ease",
+      "japaneseMeaning": "たのしい",
+      "strokeCount": 13,
+      "exampleWord": "楽しい",
+      "exampleReading": "たのしい",
+      "exampleEnglish": "fun",
+      "highlightedReading": "たの",
+      "exampleSentence": "りょこうは　とても　たのしいです",
+      "exampleSentenceEnglish": "Traveling is very enjoyable.",
+      "semanticEmoji": "😄",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:歌",
+      "level": "n4",
+      "character": "歌",
+      "primaryReading": "うた",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "うた",
+        "うたう"
+      ],
+      "englishMeaning": "song; sing",
+      "japaneseMeaning": "うた",
+      "strokeCount": 14,
+      "exampleWord": "歌う",
+      "exampleReading": "うたう",
+      "exampleEnglish": "sing",
+      "highlightedReading": "うた",
+      "exampleSentence": "ステージで　うたいます",
+      "exampleSentenceEnglish": "I sing on stage.",
+      "semanticEmoji": "🎤",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:止",
+      "level": "n4",
+      "character": "止",
+      "primaryReading": "と",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "とまる"
+      ],
+      "englishMeaning": "stop",
+      "japaneseMeaning": "とまる",
+      "strokeCount": 4,
+      "exampleWord": "止まる",
+      "exampleReading": "とまる",
+      "exampleEnglish": "stop",
+      "highlightedReading": "と",
+      "exampleSentence": "バスが　えきまえに　とまります",
+      "exampleSentenceEnglish": "The bus stops in front of the station.",
+      "semanticEmoji": "🛑",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:正",
+      "level": "n4",
+      "character": "正",
+      "primaryReading": "ただ",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "ただしい"
+      ],
+      "englishMeaning": "correct",
+      "japaneseMeaning": "ただしい",
+      "strokeCount": 5,
+      "exampleWord": "正しい",
+      "exampleReading": "ただしい",
+      "exampleEnglish": "correct",
+      "highlightedReading": "ただ",
+      "exampleSentence": "ただしい　こたえを　えらんでください",
+      "exampleSentenceEnglish": "Please choose the correct answer.",
+      "semanticEmoji": "✅",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:歩",
+      "level": "n4",
+      "character": "歩",
+      "primaryReading": "ある",
+      "onyomi": [
+        "ほ",
+        "ぶ"
+      ],
+      "kunyomi": [
+        "あるく"
+      ],
+      "englishMeaning": "walk",
+      "japaneseMeaning": "あるく",
+      "strokeCount": 8,
+      "exampleWord": "歩く",
+      "exampleReading": "あるく",
+      "exampleEnglish": "walk",
+      "highlightedReading": "ある",
+      "exampleSentence": "まいあさ　えきまで　あるきます",
+      "exampleSentenceEnglish": "I walk to the station every morning.",
+      "semanticEmoji": "🚶",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:死",
+      "level": "n4",
+      "character": "死",
+      "primaryReading": "し",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "しぬ"
+      ],
+      "englishMeaning": "die",
+      "japaneseMeaning": "しぬ",
+      "strokeCount": 6,
+      "exampleWord": "死ぬ",
+      "exampleReading": "しぬ",
+      "exampleEnglish": "die",
+      "highlightedReading": "し",
+      "exampleSentence": "その　むしは　しにました",
+      "exampleSentenceEnglish": "That insect died.",
+      "semanticEmoji": "⚰️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:注",
+      "level": "n4",
+      "character": "注",
+      "primaryReading": "ちゅう",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [
+        "そそぐ"
+      ],
+      "englishMeaning": "attention; pour",
+      "japaneseMeaning": "ちゅうい",
+      "strokeCount": 8,
+      "exampleWord": "注意",
+      "exampleReading": "ちゅうい",
+      "exampleEnglish": "caution",
+      "highlightedReading": "ちゅう",
+      "exampleSentence": "くるまに　ちゅういしてください",
+      "exampleSentenceEnglish": "Please watch out for cars.",
+      "semanticEmoji": "⚠️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:洋",
+      "level": "n4",
+      "character": "洋",
+      "primaryReading": "よう",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "ocean; Western",
+      "japaneseMeaning": "せいよう",
+      "strokeCount": 9,
+      "exampleWord": "洋服",
+      "exampleReading": "ようふく",
+      "exampleEnglish": "Western clothes",
+      "highlightedReading": "よう",
+      "exampleSentence": "この　みせは　ようふくを　うっています",
+      "exampleSentenceEnglish": "This shop sells Western clothes.",
+      "semanticEmoji": "🌊",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:海",
+      "level": "n4",
+      "character": "海",
+      "primaryReading": "うみ",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "うみ"
+      ],
+      "englishMeaning": "sea",
+      "japaneseMeaning": "うみ",
+      "strokeCount": 9,
+      "exampleWord": "海",
+      "exampleReading": "うみ",
+      "exampleEnglish": "sea",
+      "highlightedReading": "うみ",
+      "exampleSentence": "なつに　うみで　およぎます",
+      "exampleSentenceEnglish": "I swim in the sea in summer.",
+      "semanticEmoji": "🏝️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:漢",
+      "level": "n4",
+      "character": "漢",
+      "primaryReading": "かん",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "Chinese; Han",
+      "japaneseMeaning": "かんじ",
+      "strokeCount": 13,
+      "exampleWord": "漢字",
+      "exampleReading": "かんじ",
+      "exampleEnglish": "kanji",
+      "highlightedReading": "かん",
+      "exampleSentence": "この　かんじは　なんと　よみますか",
+      "exampleSentenceEnglish": "How do you read this kanji?",
+      "semanticEmoji": "🈶",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:牛",
+      "level": "n4",
+      "character": "牛",
+      "primaryReading": "うし",
+      "onyomi": [
+        "ぎゅう"
+      ],
+      "kunyomi": [
+        "うし"
+      ],
+      "englishMeaning": "cow",
+      "japaneseMeaning": "うし",
+      "strokeCount": 4,
+      "exampleWord": "牛肉",
+      "exampleReading": "ぎゅうにく",
+      "exampleEnglish": "beef",
+      "highlightedReading": "ぎゅう",
+      "exampleSentence": "ばんごはんに　ぎゅうにくを　たべました",
+      "exampleSentenceEnglish": "I ate beef for dinner.",
+      "semanticEmoji": "🐄",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:物",
+      "level": "n4",
+      "character": "物",
+      "primaryReading": "もの",
+      "onyomi": [
+        "ぶつ",
+        "もつ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "englishMeaning": "thing",
+      "japaneseMeaning": "もの",
+      "strokeCount": 8,
+      "exampleWord": "食べ物",
+      "exampleReading": "たべもの",
+      "exampleEnglish": "food",
+      "highlightedReading": "もの",
+      "exampleSentence": "すきな　たべものは　カレーです",
+      "exampleSentenceEnglish": "My favorite food is curry.",
+      "semanticEmoji": "📦",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:特",
+      "level": "n4",
+      "character": "特",
+      "primaryReading": "とく",
+      "onyomi": [
+        "とく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "special",
+      "japaneseMeaning": "とくべつ",
+      "strokeCount": 10,
+      "exampleWord": "特別",
+      "exampleReading": "とくべつ",
+      "exampleEnglish": "special",
+      "highlightedReading": "とく",
+      "exampleSentence": "きょうは　とくべつな　ひです",
+      "exampleSentenceEnglish": "Today is a special day.",
+      "semanticEmoji": "⭐",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:犬",
+      "level": "n4",
+      "character": "犬",
+      "primaryReading": "いぬ",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "いぬ"
+      ],
+      "englishMeaning": "dog",
+      "japaneseMeaning": "いぬ",
+      "strokeCount": 4,
+      "exampleWord": "子犬",
+      "exampleReading": "こいぬ",
+      "exampleEnglish": "puppy",
+      "highlightedReading": "いぬ",
+      "exampleSentence": "こうえんで　こいぬを　みました",
+      "exampleSentenceEnglish": "I saw a puppy in the park.",
+      "semanticEmoji": "🐕",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:理",
+      "level": "n4",
+      "character": "理",
+      "primaryReading": "り",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "reason; logic",
+      "japaneseMeaning": "りゆう",
+      "strokeCount": 11,
+      "exampleWord": "料理",
+      "exampleReading": "りょうり",
+      "exampleEnglish": "cooking",
+      "highlightedReading": "り",
+      "exampleSentence": "にほんの　りょうりを　ならっています",
+      "exampleSentenceEnglish": "I am learning Japanese cooking.",
+      "semanticEmoji": "🧠",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:用",
+      "level": "n4",
+      "character": "用",
+      "primaryReading": "よう",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [
+        "もちいる"
+      ],
+      "englishMeaning": "use; business",
+      "japaneseMeaning": "ようじ",
+      "strokeCount": 5,
+      "exampleWord": "用事",
+      "exampleReading": "ようじ",
+      "exampleEnglish": "errand",
+      "highlightedReading": "よう",
+      "exampleSentence": "ごごは　ようじが　あります",
+      "exampleSentenceEnglish": "I have an errand this afternoon.",
+      "semanticEmoji": "📌",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:田",
+      "level": "n4",
+      "character": "田",
+      "primaryReading": "た",
+      "onyomi": [
+        "でん"
+      ],
+      "kunyomi": [
+        "た"
+      ],
+      "englishMeaning": "rice field",
+      "japaneseMeaning": "たんぼ",
+      "strokeCount": 5,
+      "exampleWord": "田んぼ",
+      "exampleReading": "たんぼ",
+      "exampleEnglish": "rice field",
+      "highlightedReading": "た",
+      "exampleSentence": "たんぼの　そばを　あるきます",
+      "exampleSentenceEnglish": "I walk beside a rice field.",
+      "semanticEmoji": "🌾",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:町",
+      "level": "n4",
+      "character": "町",
+      "primaryReading": "まち",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "englishMeaning": "town",
+      "japaneseMeaning": "まち",
+      "strokeCount": 7,
+      "exampleWord": "町",
+      "exampleReading": "まち",
+      "exampleEnglish": "town",
+      "highlightedReading": "まち",
+      "exampleSentence": "この　まちは　しずかです",
+      "exampleSentenceEnglish": "This town is quiet.",
+      "semanticEmoji": "🏘️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:画",
+      "level": "n4",
+      "character": "画",
+      "primaryReading": "が",
+      "onyomi": [
+        "が",
+        "かく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "picture; stroke",
+      "japaneseMeaning": "え",
+      "strokeCount": 8,
+      "exampleWord": "映画",
+      "exampleReading": "えいが",
+      "exampleEnglish": "movie",
+      "highlightedReading": "が",
+      "exampleSentence": "しゅうまつに　えいがを　みます",
+      "exampleSentenceEnglish": "I watch a movie on the weekend.",
+      "semanticEmoji": "🖼️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:界",
+      "level": "n4",
+      "character": "界",
+      "primaryReading": "かい",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "world; boundary",
+      "japaneseMeaning": "せかい",
+      "strokeCount": 9,
+      "exampleWord": "世界",
+      "exampleReading": "せかい",
+      "exampleEnglish": "world",
+      "highlightedReading": "かい",
+      "exampleSentence": "せかいには　いろいろな　くにが　あります",
+      "exampleSentenceEnglish": "There are many countries in the world.",
+      "semanticEmoji": "🌐",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:病",
+      "level": "n4",
+      "character": "病",
+      "primaryReading": "びょう",
+      "onyomi": [
+        "びょう",
+        "へい"
+      ],
+      "kunyomi": [
+        "やむ"
+      ],
+      "englishMeaning": "illness",
+      "japaneseMeaning": "びょうき",
+      "strokeCount": 10,
+      "exampleWord": "病気",
+      "exampleReading": "びょうき",
+      "exampleEnglish": "illness",
+      "highlightedReading": "びょう",
+      "exampleSentence": "びょうきなので　きょうは　やすみます",
+      "exampleSentenceEnglish": "I will rest today because I am ill.",
+      "semanticEmoji": "🤒",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:発",
+      "level": "n4",
+      "character": "発",
+      "primaryReading": "ぱつ",
+      "onyomi": [
+        "はつ",
+        "ほつ",
+        "ぱつ"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "departure; emit",
+      "japaneseMeaning": "しゅっぱつ",
+      "strokeCount": 9,
+      "exampleWord": "出発",
+      "exampleReading": "しゅっぱつ",
+      "exampleEnglish": "departure",
+      "highlightedReading": "ぱつ",
+      "exampleSentence": "でんしゃは　はちじに　しゅっぱつします",
+      "exampleSentenceEnglish": "The train departs at eight.",
+      "semanticEmoji": "🚀",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:的",
+      "level": "n4",
+      "character": "的",
+      "primaryReading": "てき",
+      "onyomi": [
+        "てき"
+      ],
+      "kunyomi": [
+        "まと"
+      ],
+      "englishMeaning": "target; -al",
+      "japaneseMeaning": "まと",
+      "strokeCount": 8,
+      "exampleWord": "目的",
+      "exampleReading": "もくてき",
+      "exampleEnglish": "purpose",
+      "highlightedReading": "てき",
+      "exampleSentence": "りょこうの　もくてきは　けんきゅうです",
+      "exampleSentenceEnglish": "The purpose of the trip is research.",
+      "semanticEmoji": "🎯",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:真",
+      "level": "n4",
+      "character": "真",
+      "primaryReading": "ま",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "englishMeaning": "true; real",
+      "japaneseMeaning": "ほんとう",
+      "strokeCount": 10,
+      "exampleWord": "写真",
+      "exampleReading": "しゃしん",
+      "exampleEnglish": "photograph",
+      "highlightedReading": "しん",
+      "exampleSentence": "みんなで　しゃしんを　とりましょう",
+      "exampleSentenceEnglish": "Let's take a photograph together.",
+      "semanticEmoji": "📷",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:着",
+      "level": "n4",
+      "character": "着",
+      "primaryReading": "き",
+      "onyomi": [
+        "ちゃく"
+      ],
+      "kunyomi": [
+        "きる",
+        "つく"
+      ],
+      "englishMeaning": "wear; arrive",
+      "japaneseMeaning": "きる",
+      "strokeCount": 12,
+      "exampleWord": "着る",
+      "exampleReading": "きる",
+      "exampleEnglish": "wear",
+      "highlightedReading": "き",
+      "exampleSentence": "あおい　シャツを　きています",
+      "exampleSentenceEnglish": "I am wearing a blue shirt.",
+      "semanticEmoji": "🧥",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:知",
+      "level": "n4",
+      "character": "知",
+      "primaryReading": "し",
+      "onyomi": [
+        "ち"
+      ],
+      "kunyomi": [
+        "しる"
+      ],
+      "englishMeaning": "know",
+      "japaneseMeaning": "しる",
+      "strokeCount": 8,
+      "exampleWord": "知る",
+      "exampleReading": "しる",
+      "exampleEnglish": "know",
+      "highlightedReading": "し",
+      "exampleSentence": "その　ニュースを　しっていますか",
+      "exampleSentenceEnglish": "Do you know that news?",
+      "semanticEmoji": "🧠",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:研",
+      "level": "n4",
+      "character": "研",
+      "primaryReading": "けん",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "とぐ"
+      ],
+      "englishMeaning": "polish; study",
+      "japaneseMeaning": "けんきゅう",
+      "strokeCount": 9,
+      "exampleWord": "研究",
+      "exampleReading": "けんきゅう",
+      "exampleEnglish": "research",
+      "highlightedReading": "けん",
+      "exampleSentence": "だいがくで　ことばを　けんきゅうします",
+      "exampleSentenceEnglish": "I research language at university.",
+      "semanticEmoji": "🔬",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:私",
+      "level": "n4",
+      "character": "私",
+      "primaryReading": "わたし",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "わたし"
+      ],
+      "englishMeaning": "I; private",
+      "japaneseMeaning": "わたし",
+      "strokeCount": 7,
+      "exampleWord": "私",
+      "exampleReading": "わたし",
+      "exampleEnglish": "I; me",
+      "highlightedReading": "わたし",
+      "exampleSentence": "わたしは　とうきょうに　すんでいます",
+      "exampleSentenceEnglish": "I live in Tokyo.",
+      "semanticEmoji": "🙋",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:秋",
+      "level": "n4",
+      "character": "秋",
+      "primaryReading": "あき",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "あき"
+      ],
+      "englishMeaning": "autumn",
+      "japaneseMeaning": "あき",
+      "strokeCount": 9,
+      "exampleWord": "秋",
+      "exampleReading": "あき",
+      "exampleEnglish": "autumn",
+      "highlightedReading": "あき",
+      "exampleSentence": "あきは　はっぱが　あかくなります",
+      "exampleSentenceEnglish": "Leaves turn red in autumn.",
+      "semanticEmoji": "🍂",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:究",
+      "level": "n4",
+      "character": "究",
+      "primaryReading": "きゅう",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "きわめる"
+      ],
+      "englishMeaning": "research; master",
+      "japaneseMeaning": "けんきゅう",
+      "strokeCount": 7,
+      "exampleWord": "研究",
+      "exampleReading": "けんきゅう",
+      "exampleEnglish": "research",
+      "highlightedReading": "きゅう",
+      "exampleSentence": "あには　だいがくで　うみを　けんきゅうしています",
+      "exampleSentenceEnglish": "My older brother researches the sea at university.",
+      "semanticEmoji": "🔎",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:答",
+      "level": "n4",
+      "character": "答",
+      "primaryReading": "こた",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "こたえる"
+      ],
+      "englishMeaning": "answer",
+      "japaneseMeaning": "こたえ",
+      "strokeCount": 12,
+      "exampleWord": "答える",
+      "exampleReading": "こたえる",
+      "exampleEnglish": "answer",
+      "highlightedReading": "こた",
+      "exampleSentence": "しつもんに　こたえてください",
+      "exampleSentenceEnglish": "Please answer the question.",
+      "semanticEmoji": "💬",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:紙",
+      "level": "n4",
+      "character": "紙",
+      "primaryReading": "がみ",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "かみ",
+        "がみ"
+      ],
+      "englishMeaning": "paper",
+      "japaneseMeaning": "かみ",
+      "strokeCount": 10,
+      "exampleWord": "手紙",
+      "exampleReading": "てがみ",
+      "exampleEnglish": "letter",
+      "highlightedReading": "がみ",
+      "exampleSentence": "ともだちに　てがみを　かきました",
+      "exampleSentenceEnglish": "I wrote a letter to my friend.",
+      "semanticEmoji": "📄",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:終",
+      "level": "n4",
+      "character": "終",
+      "primaryReading": "お",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "おわる"
+      ],
+      "englishMeaning": "finish",
+      "japaneseMeaning": "おわる",
+      "strokeCount": 11,
+      "exampleWord": "終わる",
+      "exampleReading": "おわる",
+      "exampleEnglish": "finish",
+      "highlightedReading": "お",
+      "exampleSentence": "しごとは　ごじに　おわります",
+      "exampleSentenceEnglish": "Work finishes at five.",
+      "semanticEmoji": "🔚",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:習",
+      "level": "n4",
+      "character": "習",
+      "primaryReading": "なら",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "ならう"
+      ],
+      "englishMeaning": "learn",
+      "japaneseMeaning": "ならう",
+      "strokeCount": 11,
+      "exampleWord": "習う",
+      "exampleReading": "ならう",
+      "exampleEnglish": "learn",
+      "highlightedReading": "なら",
+      "exampleSentence": "せんせいに　ピアノを　ならいます",
+      "exampleSentenceEnglish": "I learn piano from a teacher.",
+      "semanticEmoji": "📖",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:考",
+      "level": "n4",
+      "character": "考",
+      "primaryReading": "かんが",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "かんがえる"
+      ],
+      "englishMeaning": "think; consider",
+      "japaneseMeaning": "かんがえる",
+      "strokeCount": 6,
+      "exampleWord": "考える",
+      "exampleReading": "かんがえる",
+      "exampleEnglish": "consider",
+      "highlightedReading": "かんが",
+      "exampleSentence": "もういちど　よく　かんがえます",
+      "exampleSentenceEnglish": "I will think carefully once more.",
+      "semanticEmoji": "🧐",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:者",
+      "level": "n4",
+      "character": "者",
+      "primaryReading": "しゃ",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "englishMeaning": "person",
+      "japaneseMeaning": "ひと",
+      "strokeCount": 8,
+      "exampleWord": "医者",
+      "exampleReading": "いしゃ",
+      "exampleEnglish": "doctor",
+      "highlightedReading": "しゃ",
+      "exampleSentence": "いしゃに　くすりを　もらいました",
+      "exampleSentenceEnglish": "I received medicine from the doctor.",
+      "semanticEmoji": "🧑",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:肉",
+      "level": "n4",
+      "character": "肉",
+      "primaryReading": "にく",
+      "onyomi": [
+        "にく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "meat",
+      "japaneseMeaning": "にく",
+      "strokeCount": 6,
+      "exampleWord": "牛肉",
+      "exampleReading": "ぎゅうにく",
+      "exampleEnglish": "beef",
+      "highlightedReading": "にく",
+      "exampleSentence": "この　みせの　ぎゅうにくは　おいしいです",
+      "exampleSentenceEnglish": "The beef at this shop is delicious.",
+      "semanticEmoji": "🥩",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:自",
+      "level": "n4",
+      "character": "自",
+      "primaryReading": "じ",
+      "onyomi": [
+        "じ",
+        "し"
+      ],
+      "kunyomi": [
+        "みずから"
+      ],
+      "englishMeaning": "self",
+      "japaneseMeaning": "じぶん",
+      "strokeCount": 6,
+      "exampleWord": "自分",
+      "exampleReading": "じぶん",
+      "exampleEnglish": "oneself",
+      "highlightedReading": "じ",
+      "exampleSentence": "じぶんで　りょうりを　つくります",
+      "exampleSentenceEnglish": "I cook by myself.",
+      "semanticEmoji": "🪞",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:色",
+      "level": "n4",
+      "character": "色",
+      "primaryReading": "いろ",
+      "onyomi": [
+        "しょく",
+        "しき"
+      ],
+      "kunyomi": [
+        "いろ"
+      ],
+      "englishMeaning": "color",
+      "japaneseMeaning": "いろ",
+      "strokeCount": 6,
+      "exampleWord": "色",
+      "exampleReading": "いろ",
+      "exampleEnglish": "color",
+      "highlightedReading": "いろ",
+      "exampleSentence": "どの　いろが　すきですか",
+      "exampleSentenceEnglish": "Which color do you like?",
+      "semanticEmoji": "🎨",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:英",
+      "level": "n4",
+      "character": "英",
+      "primaryReading": "えい",
+      "onyomi": [
+        "えい"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "English; excellent",
+      "japaneseMeaning": "えいご",
+      "strokeCount": 8,
+      "exampleWord": "英語",
+      "exampleReading": "えいご",
+      "exampleEnglish": "English",
+      "highlightedReading": "えい",
+      "exampleSentence": "まいにち　えいごを　べんきょうします",
+      "exampleSentenceEnglish": "I study English every day.",
+      "semanticEmoji": "🇬🇧",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:茶",
+      "level": "n4",
+      "character": "茶",
+      "primaryReading": "ちゃ",
+      "onyomi": [
+        "ちゃ",
+        "さ"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "tea",
+      "japaneseMeaning": "おちゃ",
+      "strokeCount": 9,
+      "exampleWord": "お茶",
+      "exampleReading": "おちゃ",
+      "exampleEnglish": "tea",
+      "highlightedReading": "ちゃ",
+      "exampleSentence": "あたたかい　おちゃを　のみます",
+      "exampleSentenceEnglish": "I drink warm tea.",
+      "semanticEmoji": "🍵",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:親",
+      "level": "n4",
+      "character": "親",
+      "primaryReading": "おや",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "おや",
+        "したしい"
+      ],
+      "englishMeaning": "parent; close",
+      "japaneseMeaning": "おや",
+      "strokeCount": 16,
+      "exampleWord": "両親",
+      "exampleReading": "りょうしん",
+      "exampleEnglish": "parents",
+      "highlightedReading": "しん",
+      "exampleSentence": "りょうしんは　おおさかに　います",
+      "exampleSentenceEnglish": "My parents are in Osaka.",
+      "semanticEmoji": "👨‍👩‍👧",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n4:計",
+      "level": "n4",
+      "character": "計",
+      "primaryReading": "けい",
+      "onyomi": [
+        "けい"
+      ],
+      "kunyomi": [
+        "はかる"
+      ],
+      "englishMeaning": "measure; plan",
+      "japaneseMeaning": "けいかく",
+      "strokeCount": 9,
+      "exampleWord": "時計",
+      "exampleReading": "とけい",
+      "exampleEnglish": "clock",
+      "highlightedReading": "けい",
+      "exampleSentence": "とけいを　みると　しちじでした",
+      "exampleSentenceEnglish": "The clock showed seven.",
+      "semanticEmoji": "🧮",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:試",
+      "level": "n4",
+      "character": "試",
+      "primaryReading": "し",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "ためす"
+      ],
+      "englishMeaning": "test; try",
+      "japaneseMeaning": "ためす",
+      "strokeCount": 13,
+      "exampleWord": "試験",
+      "exampleReading": "しけん",
+      "exampleEnglish": "exam",
+      "highlightedReading": "し",
+      "exampleSentence": "らいしゅう　しけんが　あります",
+      "exampleSentenceEnglish": "There is an exam next week.",
+      "semanticEmoji": "🧪",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:貸",
+      "level": "n4",
+      "character": "貸",
+      "primaryReading": "か",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "かす"
+      ],
+      "englishMeaning": "lend",
+      "japaneseMeaning": "かす",
+      "strokeCount": 12,
+      "exampleWord": "貸す",
+      "exampleReading": "かす",
+      "exampleEnglish": "lend",
+      "highlightedReading": "か",
+      "exampleSentence": "ともだちに　じしょを　かします",
+      "exampleSentenceEnglish": "I lend my dictionary to a friend.",
+      "semanticEmoji": "🤝",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:質",
+      "level": "n4",
+      "character": "質",
+      "primaryReading": "しつ",
+      "onyomi": [
+        "しつ",
+        "しち"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "quality; question",
+      "japaneseMeaning": "しつもん",
+      "strokeCount": 15,
+      "exampleWord": "質問",
+      "exampleReading": "しつもん",
+      "exampleEnglish": "question",
+      "highlightedReading": "しつ",
+      "exampleSentence": "せんせいに　しつもんしました",
+      "exampleSentenceEnglish": "I asked the teacher a question.",
+      "semanticEmoji": "💎",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n4:赤",
+      "level": "n4",
+      "character": "赤",
+      "primaryReading": "あか",
+      "onyomi": [
+        "せき"
+      ],
+      "kunyomi": [
+        "あか",
+        "あかい"
+      ],
+      "englishMeaning": "red",
+      "japaneseMeaning": "あか",
+      "strokeCount": 7,
+      "exampleWord": "赤い",
+      "exampleReading": "あかい",
+      "exampleEnglish": "red",
+      "highlightedReading": "あか",
+      "exampleSentence": "あかい　りんごを　かいました",
+      "exampleSentenceEnglish": "I bought a red apple.",
+      "semanticEmoji": "🔴",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:走",
+      "level": "n4",
+      "character": "走",
+      "primaryReading": "はし",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "はしる"
+      ],
+      "englishMeaning": "run",
+      "japaneseMeaning": "はしる",
+      "strokeCount": 7,
+      "exampleWord": "走る",
+      "exampleReading": "はしる",
+      "exampleEnglish": "run",
+      "highlightedReading": "はし",
+      "exampleSentence": "まいあさ　こうえんを　はしります",
+      "exampleSentenceEnglish": "I run in the park every morning.",
+      "semanticEmoji": "🏃",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:起",
+      "level": "n4",
+      "character": "起",
+      "primaryReading": "お",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "おきる"
+      ],
+      "englishMeaning": "wake; occur",
+      "japaneseMeaning": "おきる",
+      "strokeCount": 10,
+      "exampleWord": "起きる",
+      "exampleReading": "おきる",
+      "exampleEnglish": "wake up",
+      "highlightedReading": "お",
+      "exampleSentence": "あしたは　ろくじに　おきます",
+      "exampleSentenceEnglish": "I will wake up at six tomorrow.",
+      "semanticEmoji": "🛏️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:転",
+      "level": "n4",
+      "character": "転",
+      "primaryReading": "てん",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [
+        "ころぶ"
+      ],
+      "englishMeaning": "turn; fall",
+      "japaneseMeaning": "まわる",
+      "strokeCount": 11,
+      "exampleWord": "自転車",
+      "exampleReading": "じてんしゃ",
+      "exampleEnglish": "bicycle",
+      "highlightedReading": "てん",
+      "exampleSentence": "じてんしゃで　がっこうへ　いきます",
+      "exampleSentenceEnglish": "I go to school by bicycle.",
+      "semanticEmoji": "🔃",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:近",
+      "level": "n4",
+      "character": "近",
+      "primaryReading": "ちか",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "ちかい"
+      ],
+      "englishMeaning": "near",
+      "japaneseMeaning": "ちかい",
+      "strokeCount": 7,
+      "exampleWord": "近い",
+      "exampleReading": "ちかい",
+      "exampleEnglish": "near",
+      "highlightedReading": "ちか",
+      "exampleSentence": "えきは　ここから　ちかいです",
+      "exampleSentenceEnglish": "The station is near here.",
+      "semanticEmoji": "📍",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:送",
+      "level": "n4",
+      "character": "送",
+      "primaryReading": "おく",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "おくる"
+      ],
+      "englishMeaning": "send",
+      "japaneseMeaning": "おくる",
+      "strokeCount": 9,
+      "exampleWord": "送る",
+      "exampleReading": "おくる",
+      "exampleEnglish": "send",
+      "highlightedReading": "おく",
+      "exampleSentence": "ともだちに　にもつを　おくります",
+      "exampleSentenceEnglish": "I send a package to my friend.",
+      "semanticEmoji": "📤",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:通",
+      "level": "n4",
+      "character": "通",
+      "primaryReading": "とお",
+      "onyomi": [
+        "つう",
+        "つ"
+      ],
+      "kunyomi": [
+        "とおる",
+        "かよう"
+      ],
+      "englishMeaning": "pass; commute",
+      "japaneseMeaning": "とおる",
+      "strokeCount": 10,
+      "exampleWord": "通る",
+      "exampleReading": "とおる",
+      "exampleEnglish": "pass through",
+      "highlightedReading": "とお",
+      "exampleSentence": "この　バスは　えきまえを　とおります",
+      "exampleSentenceEnglish": "This bus passes in front of the station.",
+      "semanticEmoji": "↔️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:運",
+      "level": "n4",
+      "character": "運",
+      "primaryReading": "うん",
+      "onyomi": [
+        "うん"
+      ],
+      "kunyomi": [
+        "はこぶ"
+      ],
+      "englishMeaning": "carry; luck",
+      "japaneseMeaning": "はこぶ",
+      "strokeCount": 12,
+      "exampleWord": "運転",
+      "exampleReading": "うんてん",
+      "exampleEnglish": "driving",
+      "highlightedReading": "うん",
+      "exampleSentence": "ちちは　まいにち　くるまを　うんてんします",
+      "exampleSentenceEnglish": "My father drives a car every day.",
+      "semanticEmoji": "🚚",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:重",
+      "level": "n4",
+      "character": "重",
+      "primaryReading": "おも",
+      "onyomi": [
+        "じゅう",
+        "ちょう"
+      ],
+      "kunyomi": [
+        "おもい"
+      ],
+      "englishMeaning": "heavy; important",
+      "japaneseMeaning": "おもい",
+      "strokeCount": 9,
+      "exampleWord": "重い",
+      "exampleReading": "おもい",
+      "exampleEnglish": "heavy",
+      "highlightedReading": "おも",
+      "exampleSentence": "この　にもつは　おもいです",
+      "exampleSentenceEnglish": "This luggage is heavy.",
+      "semanticEmoji": "🏋️‍♀️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:野",
+      "level": "n4",
+      "character": "野",
+      "primaryReading": "の",
+      "onyomi": [
+        "や"
+      ],
+      "kunyomi": [
+        "の"
+      ],
+      "englishMeaning": "field; wild",
+      "japaneseMeaning": "のはら",
+      "strokeCount": 11,
+      "exampleWord": "野菜",
+      "exampleReading": "やさい",
+      "exampleEnglish": "vegetable",
+      "highlightedReading": "や",
+      "exampleSentence": "まいにち　やさいを　たべます",
+      "exampleSentenceEnglish": "I eat vegetables every day.",
+      "semanticEmoji": "🏞️",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:銀",
+      "level": "n4",
+      "character": "銀",
+      "primaryReading": "ぎん",
+      "onyomi": [
+        "ぎん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "silver",
+      "japaneseMeaning": "ぎん",
+      "strokeCount": 14,
+      "exampleWord": "銀行",
+      "exampleReading": "ぎんこう",
+      "exampleEnglish": "bank",
+      "highlightedReading": "ぎん",
+      "exampleSentence": "ぎんこうで　おかねを　おろします",
+      "exampleSentenceEnglish": "I withdraw money at the bank.",
+      "semanticEmoji": "🥈",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:開",
+      "level": "n4",
+      "character": "開",
+      "primaryReading": "あ",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あける",
+        "ひらく"
+      ],
+      "englishMeaning": "open",
+      "japaneseMeaning": "あける",
+      "strokeCount": 12,
+      "exampleWord": "開ける",
+      "exampleReading": "あける",
+      "exampleEnglish": "open",
+      "highlightedReading": "あ",
+      "exampleSentence": "あついので　まどを　あけます",
+      "exampleSentenceEnglish": "I open the window because it is hot.",
+      "semanticEmoji": "🚪",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:院",
+      "level": "n4",
+      "character": "院",
+      "primaryReading": "いん",
+      "onyomi": [
+        "いん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "institution",
+      "japaneseMeaning": "たてもの",
+      "strokeCount": 10,
+      "exampleWord": "病院",
+      "exampleReading": "びょういん",
+      "exampleEnglish": "hospital",
+      "highlightedReading": "いん",
+      "exampleSentence": "びょういんは　えきの　ちかくです",
+      "exampleSentenceEnglish": "The hospital is near the station.",
+      "semanticEmoji": "🏢",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:集",
+      "level": "n4",
+      "character": "集",
+      "primaryReading": "あつ",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "あつまる"
+      ],
+      "englishMeaning": "gather",
+      "japaneseMeaning": "あつまる",
+      "strokeCount": 12,
+      "exampleWord": "集まる",
+      "exampleReading": "あつまる",
+      "exampleEnglish": "gather",
+      "highlightedReading": "あつ",
+      "exampleSentence": "えきまえに　みんなが　あつまります",
+      "exampleSentenceEnglish": "Everyone gathers in front of the station.",
+      "semanticEmoji": "🫂",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:青",
+      "level": "n4",
+      "character": "青",
+      "primaryReading": "あお",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "あお",
+        "あおい"
+      ],
+      "englishMeaning": "blue",
+      "japaneseMeaning": "あお",
+      "strokeCount": 8,
+      "exampleWord": "青い",
+      "exampleReading": "あおい",
+      "exampleEnglish": "blue",
+      "highlightedReading": "あお",
+      "exampleSentence": "そらが　あおいです",
+      "exampleSentenceEnglish": "The sky is blue.",
+      "semanticEmoji": "🔵",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:音",
+      "level": "n4",
+      "character": "音",
+      "primaryReading": "おと",
+      "onyomi": [
+        "おん",
+        "いん"
+      ],
+      "kunyomi": [
+        "おと",
+        "ね"
+      ],
+      "englishMeaning": "sound",
+      "japaneseMeaning": "おと",
+      "strokeCount": 9,
+      "exampleWord": "音楽",
+      "exampleReading": "おんがく",
+      "exampleEnglish": "music",
+      "highlightedReading": "おん",
+      "exampleSentence": "へやで　おんがくを　ききます",
+      "exampleSentenceEnglish": "I listen to music in my room.",
+      "semanticEmoji": "🎵",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:題",
+      "level": "n4",
+      "character": "題",
+      "primaryReading": "だい",
+      "onyomi": [
+        "だい"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "topic; problem",
+      "japaneseMeaning": "もんだい",
+      "strokeCount": 18,
+      "exampleWord": "問題",
+      "exampleReading": "もんだい",
+      "exampleEnglish": "problem",
+      "highlightedReading": "だい",
+      "exampleSentence": "この　もんだいを　いっしょに　ときましょう",
+      "exampleSentenceEnglish": "Let's solve this problem together.",
+      "semanticEmoji": "📋",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n4:風",
+      "level": "n4",
+      "character": "風",
+      "primaryReading": "かぜ",
+      "onyomi": [
+        "ふう",
+        "ふ"
+      ],
+      "kunyomi": [
+        "かぜ"
+      ],
+      "englishMeaning": "wind; style",
+      "japaneseMeaning": "かぜ",
+      "strokeCount": 9,
+      "exampleWord": "台風",
+      "exampleReading": "たいふう",
+      "exampleEnglish": "typhoon",
+      "highlightedReading": "ふう",
+      "exampleSentence": "たいふうが　ちかづいています",
+      "exampleSentenceEnglish": "A typhoon is approaching.",
+      "semanticEmoji": "🌀",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:飯",
+      "level": "n4",
+      "character": "飯",
+      "primaryReading": "はん",
+      "onyomi": [
+        "はん"
+      ],
+      "kunyomi": [
+        "めし"
+      ],
+      "englishMeaning": "meal; cooked rice",
+      "japaneseMeaning": "ごはん",
+      "strokeCount": 12,
+      "exampleWord": "ご飯",
+      "exampleReading": "ごはん",
+      "exampleEnglish": "meal",
+      "highlightedReading": "はん",
+      "exampleSentence": "あさごはんを　たべました",
+      "exampleSentenceEnglish": "I ate breakfast.",
+      "semanticEmoji": "🍚",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:館",
+      "level": "n4",
+      "character": "館",
+      "primaryReading": "かん",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "やかた"
+      ],
+      "englishMeaning": "building; hall",
+      "japaneseMeaning": "たてもの",
+      "strokeCount": 16,
+      "exampleWord": "図書館",
+      "exampleReading": "としょかん",
+      "exampleEnglish": "library",
+      "highlightedReading": "かん",
+      "exampleSentence": "としょかんで　しゅくだいを　します",
+      "exampleSentenceEnglish": "I do homework at the library.",
+      "semanticEmoji": "🏛️",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n4:験",
+      "level": "n4",
+      "character": "験",
+      "primaryReading": "けん",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "test; verification",
+      "japaneseMeaning": "ためす",
+      "strokeCount": 18,
+      "exampleWord": "試験",
+      "exampleReading": "しけん",
+      "exampleEnglish": "exam",
+      "highlightedReading": "けん",
+      "exampleSentence": "しけんの　まえに　ふくしゅうします",
+      "exampleSentenceEnglish": "I review before the exam.",
+      "semanticEmoji": "📑",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n4:鳥",
+      "level": "n4",
+      "character": "鳥",
+      "primaryReading": "とり",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "とり"
+      ],
+      "englishMeaning": "bird",
+      "japaneseMeaning": "とり",
+      "strokeCount": 11,
+      "exampleWord": "小鳥",
+      "exampleReading": "ことり",
+      "exampleEnglish": "small bird",
+      "highlightedReading": "とり",
+      "exampleSentence": "きの　うえに　ことりが　います",
+      "exampleSentenceEnglish": "There is a small bird in the tree.",
+      "semanticEmoji": "🐦",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n4:黒",
+      "level": "n4",
+      "character": "黒",
+      "primaryReading": "くろ",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "くろ",
+        "くろい"
+      ],
+      "englishMeaning": "black",
+      "japaneseMeaning": "くろ",
+      "strokeCount": 11,
+      "exampleWord": "黒い",
+      "exampleReading": "くろい",
+      "exampleEnglish": "black",
+      "highlightedReading": "くろ",
+      "exampleSentence": "くろい　くつを　はいています",
+      "exampleSentenceEnglish": "I am wearing black shoes.",
+      "semanticEmoji": "⚫",
+      "supportsHandwriting": true
+    }
+  ]
+}
