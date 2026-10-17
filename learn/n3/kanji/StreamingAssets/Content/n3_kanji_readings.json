@@ -1,0 +1,6528 @@
+{
+  "source": "KANJIDIC2",
+  "license": "CC BY-SA 4.0",
+  "sourceUrl": "https://www.edrdg.org/kanjidic/kanjd2index_legacy.html",
+  "characters": {
+    "身": {
+      "on": [
+        "しん"
+      ],
+      "kun": [
+        "み"
+      ],
+      "meanings": [
+        "somebody",
+        "person",
+        "one's station in life"
+      ]
+    },
+    "無": {
+      "on": [
+        "む",
+        "ぶ"
+      ],
+      "kun": [
+        "な.い"
+      ],
+      "meanings": [
+        "nothingness",
+        "none",
+        "ain't",
+        "nothing",
+        "nil",
+        "not"
+      ]
+    },
+    "台": {
+      "on": [
+        "だい",
+        "たい"
+      ],
+      "kun": [
+        "うてな",
+        "われ",
+        "つかさ"
+      ],
+      "meanings": [
+        "pedestal",
+        "a stand",
+        "counter for machines and vehicles"
+      ]
+    },
+    "可": {
+      "on": [
+        "か",
+        "こく"
+      ],
+      "kun": [
+        "-べ.き",
+        "-べ.し"
+      ],
+      "meanings": [
+        "can",
+        "passable",
+        "approval"
+      ]
+    },
+    "合": {
+      "on": [
+        "ごう",
+        "がっ",
+        "かっ"
+      ],
+      "kun": [
+        "あ.う",
+        "-あ.う",
+        "あ.い",
+        "あい-",
+        "-あ.い",
+        "-あい",
+        "あ.わす",
+        "あ.わせる",
+        "-あ.わせる"
+      ],
+      "meanings": [
+        "fit",
+        "suit",
+        "join",
+        "0.1"
+      ]
+    },
+    "部": {
+      "on": [
+        "ぶ"
+      ],
+      "kun": [
+        "-べ"
+      ],
+      "meanings": [
+        "section",
+        "bureau",
+        "dept",
+        "class",
+        "copy",
+        "part",
+        "portion",
+        "counter for copies of a newspaper or magazine"
+      ]
+    },
+    "彼": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "かれ",
+        "かの",
+        "か.の"
+      ],
+      "meanings": [
+        "he",
+        "that",
+        "the"
+      ]
+    },
+    "内": {
+      "on": [
+        "ない",
+        "だい"
+      ],
+      "kun": [
+        "うち"
+      ],
+      "meanings": [
+        "inside",
+        "within",
+        "between",
+        "among",
+        "house",
+        "home"
+      ]
+    },
+    "実": {
+      "on": [
+        "じつ",
+        "しつ"
+      ],
+      "kun": [
+        "み",
+        "みの.る",
+        "まこと",
+        "みの",
+        "みち.る"
+      ],
+      "meanings": [
+        "reality",
+        "truth",
+        "seed",
+        "fruit",
+        "nut"
+      ]
+    },
+    "当": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "あ.たる",
+        "あ.たり",
+        "あ.てる",
+        "あ.て",
+        "まさ.に",
+        "まさ.にべし"
+      ],
+      "meanings": [
+        "hit",
+        "right",
+        "appropriate",
+        "himself"
+      ]
+    },
+    "戦": {
+      "on": [
+        "せん"
+      ],
+      "kun": [
+        "いくさ",
+        "たたか.う",
+        "おのの.く",
+        "そよ.ぐ",
+        "わなな.く"
+      ],
+      "meanings": [
+        "war",
+        "battle",
+        "match"
+      ]
+    },
+    "性": {
+      "on": [
+        "せい",
+        "しょう"
+      ],
+      "kun": [
+        "さが"
+      ],
+      "meanings": [
+        "sex",
+        "gender",
+        "nature"
+      ]
+    },
+    "対": {
+      "on": [
+        "たい",
+        "つい"
+      ],
+      "kun": [
+        "あいて",
+        "こた.える",
+        "そろ.い",
+        "つれあ.い",
+        "なら.ぶ",
+        "むか.う"
+      ],
+      "meanings": [
+        "vis-a-vis",
+        "opposite",
+        "even",
+        "equal",
+        "versus",
+        "anti-",
+        "compare"
+      ]
+    },
+    "関": {
+      "on": [
+        "かん"
+      ],
+      "kun": [
+        "せき",
+        "-ぜき",
+        "かか.わる",
+        "からくり",
+        "かんぬき"
+      ],
+      "meanings": [
+        "connection",
+        "barrier",
+        "gateway",
+        "involve",
+        "concerning"
+      ]
+    },
+    "感": {
+      "on": [
+        "かん"
+      ],
+      "kun": [],
+      "meanings": [
+        "emotion",
+        "feeling",
+        "sensation"
+      ]
+    },
+    "定": {
+      "on": [
+        "てい",
+        "じょう"
+      ],
+      "kun": [
+        "さだ.める",
+        "さだ.まる",
+        "さだ.か"
+      ],
+      "meanings": [
+        "determine",
+        "fix",
+        "establish",
+        "decide"
+      ]
+    },
+    "政": {
+      "on": [
+        "せい",
+        "しょう"
+      ],
+      "kun": [
+        "まつりごと",
+        "まん"
+      ],
+      "meanings": [
+        "politics",
+        "government"
+      ]
+    },
+    "経": {
+      "on": [
+        "けい",
+        "きょう",
+        "きん"
+      ],
+      "kun": [
+        "へ.る",
+        "た.つ",
+        "たていと",
+        "はか.る",
+        "のり"
+      ],
+      "meanings": [
+        "sutra",
+        "longitude",
+        "pass thru",
+        "expire",
+        "warp"
+      ]
+    },
+    "法": {
+      "on": [
+        "ほう",
+        "はっ",
+        "ほっ",
+        "ふらん"
+      ],
+      "kun": [
+        "のり"
+      ],
+      "meanings": [
+        "method",
+        "law",
+        "rule",
+        "principle",
+        "model",
+        "system"
+      ]
+    },
+    "取": {
+      "on": [
+        "しゅ"
+      ],
+      "kun": [
+        "と.る",
+        "と.り",
+        "と.り-",
+        "とり",
+        "-ど.り"
+      ],
+      "meanings": [
+        "take",
+        "fetch",
+        "take up"
+      ]
+    },
+    "所": {
+      "on": [
+        "しょ"
+      ],
+      "kun": [
+        "ところ",
+        "-ところ",
+        "どころ",
+        "とこ"
+      ],
+      "meanings": [
+        "place",
+        "extent"
+      ]
+    },
+    "現": {
+      "on": [
+        "げん"
+      ],
+      "kun": [
+        "あらわ.れる",
+        "あらわ.す",
+        "うつつ",
+        "うつ.つ"
+      ],
+      "meanings": [
+        "present",
+        "existing",
+        "actual"
+      ]
+    },
+    "最": {
+      "on": [
+        "さい",
+        "しゅ"
+      ],
+      "kun": [
+        "もっと.も",
+        "つま"
+      ],
+      "meanings": [
+        "utmost",
+        "most",
+        "extreme"
+      ]
+    },
+    "化": {
+      "on": [
+        "か",
+        "け"
+      ],
+      "kun": [
+        "ば.ける",
+        "ば.かす",
+        "ふ.ける",
+        "け.する"
+      ],
+      "meanings": [
+        "change",
+        "take the form of",
+        "influence",
+        "enchant",
+        "delude",
+        "-ization"
+      ]
+    },
+    "民": {
+      "on": [
+        "みん"
+      ],
+      "kun": [
+        "たみ"
+      ],
+      "meanings": [
+        "people",
+        "nation",
+        "subjects"
+      ]
+    },
+    "相": {
+      "on": [
+        "そう",
+        "しょう"
+      ],
+      "kun": [
+        "あい-"
+      ],
+      "meanings": [
+        "inter-",
+        "mutual",
+        "together",
+        "each other",
+        "minister of state",
+        "councillor",
+        "aspect",
+        "phase",
+        "physiognomy"
+      ]
+    },
+    "全": {
+      "on": [
+        "ぜん"
+      ],
+      "kun": [
+        "まった.く",
+        "すべ.て"
+      ],
+      "meanings": [
+        "whole",
+        "entire",
+        "all",
+        "complete",
+        "fulfill"
+      ]
+    },
+    "情": {
+      "on": [
+        "じょう",
+        "せい"
+      ],
+      "kun": [
+        "なさ.け"
+      ],
+      "meanings": [
+        "feelings",
+        "emotion",
+        "passion",
+        "sympathy",
+        "circumstances",
+        "facts"
+      ]
+    },
+    "向": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "む.く",
+        "む.い",
+        "-む.き",
+        "む.ける",
+        "-む.け",
+        "む.かう",
+        "む.かい",
+        "む.こう",
+        "む.こう-",
+        "むこ",
+        "むか.い"
+      ],
+      "meanings": [
+        "yonder",
+        "facing",
+        "beyond",
+        "confront",
+        "defy",
+        "tend toward",
+        "approach"
+      ]
+    },
+    "平": {
+      "on": [
+        "へい",
+        "びょう",
+        "ひょう"
+      ],
+      "kun": [
+        "たい.ら",
+        "たい.らげる",
+        "ひら"
+      ],
+      "meanings": [
+        "even",
+        "flat",
+        "peace"
+      ]
+    },
+    "成": {
+      "on": [
+        "せい",
+        "じょう"
+      ],
+      "kun": [
+        "な.る",
+        "な.す",
+        "-な.す"
+      ],
+      "meanings": [
+        "turn into",
+        "become",
+        "get",
+        "grow",
+        "elapse",
+        "reach"
+      ]
+    },
+    "議": {
+      "on": [
+        "ぎ"
+      ],
+      "kun": [],
+      "meanings": [
+        "deliberation",
+        "consultation",
+        "debate",
+        "consideration"
+      ]
+    },
+    "信": {
+      "on": [
+        "しん"
+      ],
+      "kun": [],
+      "meanings": [
+        "faith",
+        "truth",
+        "fidelity",
+        "trust"
+      ]
+    },
+    "面": {
+      "on": [
+        "めん",
+        "べん"
+      ],
+      "kun": [
+        "おも",
+        "おもて",
+        "つら"
+      ],
+      "meanings": [
+        "mask",
+        "face",
+        "features",
+        "surface"
+      ]
+    },
+    "連": {
+      "on": [
+        "れん"
+      ],
+      "kun": [
+        "つら.なる",
+        "つら.ねる",
+        "つ.れる",
+        "-づ.れ"
+      ],
+      "meanings": [
+        "take along",
+        "lead",
+        "join",
+        "connect",
+        "party",
+        "gang",
+        "clique"
+      ]
+    },
+    "原": {
+      "on": [
+        "げん"
+      ],
+      "kun": [
+        "はら"
+      ],
+      "meanings": [
+        "meadow",
+        "original",
+        "primitive",
+        "field",
+        "plain",
+        "prairie",
+        "tundra",
+        "wilderness"
+      ]
+    },
+    "顔": {
+      "on": [
+        "がん"
+      ],
+      "kun": [
+        "かお"
+      ],
+      "meanings": [
+        "face",
+        "expression"
+      ]
+    },
+    "機": {
+      "on": [
+        "き"
+      ],
+      "kun": [
+        "はた"
+      ],
+      "meanings": [
+        "loom",
+        "mechanism",
+        "machine",
+        "airplane",
+        "opportunity",
+        "potency",
+        "efficacy",
+        "occasion"
+      ]
+    },
+    "次": {
+      "on": [
+        "じ",
+        "し"
+      ],
+      "kun": [
+        "つ.ぐ",
+        "つぎ"
+      ],
+      "meanings": [
+        "next",
+        "order",
+        "sequence"
+      ]
+    },
+    "数": {
+      "on": [
+        "すう",
+        "す",
+        "さく",
+        "そく",
+        "しゅ"
+      ],
+      "kun": [
+        "かず",
+        "かぞ.える",
+        "しばしば",
+        "せ.める",
+        "わずらわ.しい"
+      ],
+      "meanings": [
+        "number",
+        "strength",
+        "fate",
+        "law",
+        "figures"
+      ]
+    },
+    "美": {
+      "on": [
+        "び",
+        "み"
+      ],
+      "kun": [
+        "うつく.しい"
+      ],
+      "meanings": [
+        "beauty",
+        "beautiful"
+      ]
+    },
+    "回": {
+      "on": [
+        "かい",
+        "え"
+      ],
+      "kun": [
+        "まわ.る",
+        "-まわ.る",
+        "-まわ.り",
+        "まわ.す",
+        "-まわ.す",
+        "まわ.し-",
+        "-まわ.し",
+        "もとお.る",
+        "か.える"
+      ],
+      "meanings": [
+        "-times",
+        "round",
+        "game",
+        "revolve",
+        "counter for occurrences"
+      ]
+    },
+    "表": {
+      "on": [
+        "ひょう"
+      ],
+      "kun": [
+        "おもて",
+        "-おもて",
+        "あらわ.す",
+        "あらわ.れる",
+        "あら.わす"
+      ],
+      "meanings": [
+        "surface",
+        "table",
+        "chart",
+        "diagram"
+      ]
+    },
+    "声": {
+      "on": [
+        "せい",
+        "しょう"
+      ],
+      "kun": [
+        "こえ",
+        "こわ-"
+      ],
+      "meanings": [
+        "voice"
+      ]
+    },
+    "報": {
+      "on": [
+        "ほう"
+      ],
+      "kun": [
+        "むく.いる"
+      ],
+      "meanings": [
+        "report",
+        "news",
+        "reward",
+        "retribution"
+      ]
+    },
+    "要": {
+      "on": [
+        "よう"
+      ],
+      "kun": [
+        "い.る",
+        "かなめ"
+      ],
+      "meanings": [
+        "need",
+        "main point",
+        "essence",
+        "pivot",
+        "key to"
+      ]
+    },
+    "変": {
+      "on": [
+        "へん"
+      ],
+      "kun": [
+        "か.わる",
+        "か.わり",
+        "か.える"
+      ],
+      "meanings": [
+        "unusual",
+        "change",
+        "strange"
+      ]
+    },
+    "神": {
+      "on": [
+        "しん",
+        "じん"
+      ],
+      "kun": [
+        "かみ",
+        "かん-",
+        "こう-"
+      ],
+      "meanings": [
+        "gods",
+        "mind",
+        "soul"
+      ]
+    },
+    "記": {
+      "on": [
+        "き"
+      ],
+      "kun": [
+        "しる.す"
+      ],
+      "meanings": [
+        "scribe",
+        "account",
+        "narrative"
+      ]
+    },
+    "和": {
+      "on": [
+        "わ",
+        "お",
+        "か"
+      ],
+      "kun": [
+        "やわ.らぐ",
+        "やわ.らげる",
+        "なご.む",
+        "なご.やか",
+        "あ.える"
+      ],
+      "meanings": [
+        "harmony",
+        "Japanese style",
+        "peace",
+        "soften",
+        "Japan"
+      ]
+    },
+    "引": {
+      "on": [
+        "いん"
+      ],
+      "kun": [
+        "ひ.く",
+        "ひ.ける"
+      ],
+      "meanings": [
+        "pull",
+        "tug",
+        "jerk",
+        "admit",
+        "install",
+        "quote",
+        "refer to"
+      ]
+    },
+    "治": {
+      "on": [
+        "じ",
+        "ち"
+      ],
+      "kun": [
+        "おさ.める",
+        "おさ.まる",
+        "なお.る",
+        "なお.す"
+      ],
+      "meanings": [
+        "reign",
+        "be at peace",
+        "calm down",
+        "subdue",
+        "quell",
+        "govt",
+        "cure",
+        "heal",
+        "rule",
+        "conserve"
+      ]
+    },
+    "決": {
+      "on": [
+        "けつ"
+      ],
+      "kun": [
+        "き.める",
+        "-ぎ.め",
+        "き.まる",
+        "さ.く"
+      ],
+      "meanings": [
+        "decide",
+        "fix",
+        "agree upon",
+        "appoint"
+      ]
+    },
+    "太": {
+      "on": [
+        "たい",
+        "た"
+      ],
+      "kun": [
+        "ふと.い",
+        "ふと.る"
+      ],
+      "meanings": [
+        "plump",
+        "thick",
+        "big around"
+      ]
+    },
+    "込": {
+      "on": [],
+      "kun": [
+        "-こ.む",
+        "こ.む",
+        "こ.み",
+        "-こ.み",
+        "こ.める"
+      ],
+      "meanings": [
+        "crowded",
+        "mixture",
+        "in bulk",
+        "included",
+        "(kokuji)"
+      ]
+    },
+    "受": {
+      "on": [
+        "じゅ"
+      ],
+      "kun": [
+        "う.ける",
+        "-う.け",
+        "う.かる"
+      ],
+      "meanings": [
+        "accept",
+        "undergo",
+        "answer (phone)",
+        "take",
+        "get",
+        "catch",
+        "receive"
+      ]
+    },
+    "解": {
+      "on": [
+        "かい",
+        "げ"
+      ],
+      "kun": [
+        "と.く",
+        "と.かす",
+        "と.ける",
+        "ほど.く",
+        "ほぐ.す",
+        "わか.る",
+        "さと.る"
+      ],
+      "meanings": [
+        "unravel",
+        "notes",
+        "key",
+        "explanation",
+        "understanding",
+        "untie",
+        "undo",
+        "solve",
+        "answer",
+        "cancel",
+        "absolve",
+        "explain",
+        "minute"
+      ]
+    },
+    "市": {
+      "on": [
+        "し"
+      ],
+      "kun": [
+        "いち"
+      ],
+      "meanings": [
+        "market",
+        "city",
+        "town"
+      ]
+    },
+    "期": {
+      "on": [
+        "き",
+        "ご"
+      ],
+      "kun": [],
+      "meanings": [
+        "period",
+        "time",
+        "date",
+        "term"
+      ]
+    },
+    "様": {
+      "on": [
+        "よう",
+        "しょう"
+      ],
+      "kun": [
+        "さま",
+        "さん"
+      ],
+      "meanings": [
+        "Esq.",
+        "way",
+        "manner",
+        "situation",
+        "polite suffix"
+      ]
+    },
+    "活": {
+      "on": [
+        "かつ"
+      ],
+      "kun": [
+        "い.きる",
+        "い.かす",
+        "い.ける"
+      ],
+      "meanings": [
+        "lively",
+        "resuscitation",
+        "being helped",
+        "living"
+      ]
+    },
+    "頭": {
+      "on": [
+        "とう",
+        "ず",
+        "と"
+      ],
+      "kun": [
+        "あたま",
+        "かしら",
+        "-がしら",
+        "かぶり"
+      ],
+      "meanings": [
+        "head",
+        "counter for large animals"
+      ]
+    },
+    "組": {
+      "on": [
+        "そ"
+      ],
+      "kun": [
+        "く.む",
+        "くみ",
+        "-ぐみ"
+      ],
+      "meanings": [
+        "association",
+        "braid",
+        "plait",
+        "construct",
+        "assemble",
+        "unite",
+        "cooperate",
+        "grapple"
+      ]
+    },
+    "指": {
+      "on": [
+        "し"
+      ],
+      "kun": [
+        "ゆび",
+        "さ.す",
+        "-さ.し"
+      ],
+      "meanings": [
+        "finger",
+        "point to",
+        "indicate",
+        "put into",
+        "play (chess)",
+        "measure (ruler)"
+      ]
+    },
+    "説": {
+      "on": [
+        "せつ",
+        "ぜい"
+      ],
+      "kun": [
+        "と.く"
+      ],
+      "meanings": [
+        "opinion",
+        "theory",
+        "explanation",
+        "rumor"
+      ]
+    },
+    "能": {
+      "on": [
+        "のう"
+      ],
+      "kun": [
+        "よ.く",
+        "あた.う"
+      ],
+      "meanings": [
+        "ability",
+        "talent",
+        "skill",
+        "capacity"
+      ]
+    },
+    "葉": {
+      "on": [
+        "よう"
+      ],
+      "kun": [
+        "は"
+      ],
+      "meanings": [
+        "leaf",
+        "plane",
+        "lobe",
+        "needle",
+        "blade",
+        "spear",
+        "counter for flat things",
+        "fragment",
+        "piece"
+      ]
+    },
+    "流": {
+      "on": [
+        "りゅう",
+        "る"
+      ],
+      "kun": [
+        "なが.れる",
+        "なが.れ",
+        "なが.す",
+        "-なが.す"
+      ],
+      "meanings": [
+        "current",
+        "a sink",
+        "flow",
+        "forfeit"
+      ]
+    },
+    "然": {
+      "on": [
+        "ぜん",
+        "ねん"
+      ],
+      "kun": [
+        "しか",
+        "しか.り",
+        "しか.し",
+        "さ"
+      ],
+      "meanings": [
+        "sort of thing",
+        "so",
+        "if so",
+        "in that case",
+        "well"
+      ]
+    },
+    "初": {
+      "on": [
+        "しょ"
+      ],
+      "kun": [
+        "はじ.め",
+        "はじ.めて",
+        "はつ",
+        "はつ-",
+        "うい-",
+        "-そ.める",
+        "-ぞ.め"
+      ],
+      "meanings": [
+        "first time",
+        "beginning"
+      ]
+    },
+    "在": {
+      "on": [
+        "ざい"
+      ],
+      "kun": [
+        "あ.る"
+      ],
+      "meanings": [
+        "exist",
+        "outskirts",
+        "suburbs",
+        "located in"
+      ]
+    },
+    "調": {
+      "on": [
+        "ちょう"
+      ],
+      "kun": [
+        "しら.べる",
+        "しら.べ",
+        "ととの.う",
+        "ととの.える"
+      ],
+      "meanings": [
+        "tune",
+        "tone",
+        "meter",
+        "key (music)",
+        "writing style",
+        "prepare",
+        "exorcise",
+        "investigate",
+        "harmonize",
+        "mediate"
+      ]
+    },
+    "笑": {
+      "on": [
+        "しょう"
+      ],
+      "kun": [
+        "わら.う",
+        "え.む"
+      ],
+      "meanings": [
+        "laugh"
+      ]
+    },
+    "直": {
+      "on": [
+        "ちょく",
+        "じき",
+        "じか"
+      ],
+      "kun": [
+        "ただ.ちに",
+        "なお.す",
+        "-なお.す",
+        "なお.る",
+        "なお.き",
+        "す.ぐ"
+      ],
+      "meanings": [
+        "straightaway",
+        "honesty",
+        "frankness",
+        "fix",
+        "repair"
+      ]
+    },
+    "夫": {
+      "on": [
+        "ふ",
+        "ふう",
+        "ぶ"
+      ],
+      "kun": [
+        "おっと",
+        "それ"
+      ],
+      "meanings": [
+        "husband",
+        "man"
+      ]
+    },
+    "選": {
+      "on": [
+        "せん"
+      ],
+      "kun": [
+        "えら.ぶ",
+        "え.る",
+        "よ.る"
+      ],
+      "meanings": [
+        "elect",
+        "select",
+        "choose",
+        "prefer"
+      ]
+    },
+    "権": {
+      "on": [
+        "けん",
+        "ごん"
+      ],
+      "kun": [
+        "おもり",
+        "かり",
+        "はか.る"
+      ],
+      "meanings": [
+        "authority",
+        "power",
+        "rights"
+      ]
+    },
+    "利": {
+      "on": [
+        "り"
+      ],
+      "kun": [
+        "き.く"
+      ],
+      "meanings": [
+        "profit",
+        "advantage",
+        "benefit"
+      ]
+    },
+    "済": {
+      "on": [
+        "さい",
+        "せい"
+      ],
+      "kun": [
+        "す.む",
+        "-ず.み",
+        "-ずみ",
+        "す.まない",
+        "す.ます",
+        "-す.ます",
+        "すく.う",
+        "な.す",
+        "わたし",
+        "わた.る"
+      ],
+      "meanings": [
+        "settle (debt, etc.)",
+        "relieve (burden)",
+        "finish",
+        "come to an end",
+        "excusable",
+        "need not"
+      ]
+    },
+    "制": {
+      "on": [
+        "せい"
+      ],
+      "kun": [],
+      "meanings": [
+        "system",
+        "law",
+        "rule"
+      ]
+    },
+    "続": {
+      "on": [
+        "ぞく",
+        "しょく",
+        "こう",
+        "きょう"
+      ],
+      "kun": [
+        "つづ.く",
+        "つづ.ける",
+        "つぐ.ない"
+      ],
+      "meanings": [
+        "continue",
+        "series",
+        "sequel"
+      ]
+    },
+    "石": {
+      "on": [
+        "せき",
+        "しゃく",
+        "こく"
+      ],
+      "kun": [
+        "いし"
+      ],
+      "meanings": [
+        "stone"
+      ]
+    },
+    "進": {
+      "on": [
+        "しん"
+      ],
+      "kun": [
+        "すす.む",
+        "すす.める"
+      ],
+      "meanings": [
+        "advance",
+        "proceed",
+        "progress",
+        "promote"
+      ]
+    },
+    "伝": {
+      "on": [
+        "でん",
+        "てん"
+      ],
+      "kun": [
+        "つた.わる",
+        "つた.える",
+        "つた.う",
+        "つだ.う",
+        "-づた.い",
+        "つて"
+      ],
+      "meanings": [
+        "transmit",
+        "go along",
+        "walk along",
+        "follow",
+        "report",
+        "communicate",
+        "legend",
+        "tradition"
+      ]
+    },
+    "加": {
+      "on": [
+        "か"
+      ],
+      "kun": [
+        "くわ.える",
+        "くわ.わる"
+      ],
+      "meanings": [
+        "add",
+        "addition",
+        "increase",
+        "join",
+        "include",
+        "Canada"
+      ]
+    },
+    "助": {
+      "on": [
+        "じょ"
+      ],
+      "kun": [
+        "たす.ける",
+        "たす.かる",
+        "す.ける",
+        "すけ"
+      ],
+      "meanings": [
+        "help",
+        "rescue",
+        "assist"
+      ]
+    },
+    "点": {
+      "on": [
+        "てん"
+      ],
+      "kun": [
+        "つ.ける",
+        "つ.く",
+        "た.てる",
+        "さ.す",
+        "とぼ.す",
+        "とも.す",
+        "ぼち"
+      ],
+      "meanings": [
+        "spot",
+        "point",
+        "mark",
+        "speck",
+        "decimal point"
+      ]
+    },
+    "産": {
+      "on": [
+        "さん"
+      ],
+      "kun": [
+        "う.む",
+        "う.まれる",
+        "うぶ-",
+        "む.す"
+      ],
+      "meanings": [
+        "products",
+        "bear",
+        "give birth",
+        "yield",
+        "childbirth",
+        "native",
+        "property"
+      ]
+    },
+    "務": {
+      "on": [
+        "む"
+      ],
+      "kun": [
+        "つと.める"
+      ],
+      "meanings": [
+        "task",
+        "duties"
+      ]
+    },
+    "件": {
+      "on": [
+        "けん"
+      ],
+      "kun": [
+        "くだん"
+      ],
+      "meanings": [
+        "affair",
+        "case",
+        "matter",
+        "item"
+      ]
+    },
+    "命": {
+      "on": [
+        "めい",
+        "みょう"
+      ],
+      "kun": [
+        "いのち"
+      ],
+      "meanings": [
+        "fate",
+        "command",
+        "decree",
+        "destiny",
+        "life",
+        "appoint"
+      ]
+    },
+    "番": {
+      "on": [
+        "ばん"
+      ],
+      "kun": [
+        "つが.い"
+      ],
+      "meanings": [
+        "turn",
+        "number in a series"
+      ]
+    },
+    "落": {
+      "on": [
+        "らく"
+      ],
+      "kun": [
+        "お.ちる",
+        "お.ち",
+        "お.とす"
+      ],
+      "meanings": [
+        "fall",
+        "drop",
+        "come down",
+        "village",
+        "hamlet"
+      ]
+    },
+    "付": {
+      "on": [
+        "ふ"
+      ],
+      "kun": [
+        "つ.ける",
+        "-つ.ける",
+        "-づ.ける",
+        "つ.け",
+        "つ.け-",
+        "-つ.け",
+        "-づ.け",
+        "-づけ",
+        "つ.く",
+        "-づ.く",
+        "つ.き",
+        "-つ.き",
+        "-つき",
+        "-づ.き",
+        "-づき"
+      ],
+      "meanings": [
+        "adhere",
+        "attach",
+        "refer to",
+        "append"
+      ]
+    },
+    "得": {
+      "on": [
+        "とく"
+      ],
+      "kun": [
+        "え.る",
+        "う.る"
+      ],
+      "meanings": [
+        "gain",
+        "get",
+        "find",
+        "earn",
+        "acquire",
+        "can",
+        "may",
+        "able to",
+        "profit",
+        "advantage",
+        "benefit"
+      ]
+    },
+    "好": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "この.む",
+        "す.く",
+        "よ.い",
+        "い.い"
+      ],
+      "meanings": [
+        "fond",
+        "pleasing",
+        "like something"
+      ]
+    },
+    "違": {
+      "on": [
+        "い"
+      ],
+      "kun": [
+        "ちが.う",
+        "ちが.い",
+        "ちが.える",
+        "-ちが.える",
+        "たが.う",
+        "たが.える"
+      ],
+      "meanings": [
+        "difference",
+        "differ"
+      ]
+    },
+    "殺": {
+      "on": [
+        "さつ",
+        "さい",
+        "せつ"
+      ],
+      "kun": [
+        "ころ.す",
+        "-ごろ.し",
+        "そ.ぐ",
+        "あや.める"
+      ],
+      "meanings": [
+        "kill",
+        "murder",
+        "butcher",
+        "slice off",
+        "split",
+        "diminish",
+        "reduce",
+        "spoil"
+      ]
+    },
+    "置": {
+      "on": [
+        "ち"
+      ],
+      "kun": [
+        "お.く",
+        "-お.き"
+      ],
+      "meanings": [
+        "placement",
+        "put",
+        "set",
+        "deposit",
+        "leave behind",
+        "keep",
+        "employ",
+        "pawn"
+      ]
+    },
+    "返": {
+      "on": [
+        "へん"
+      ],
+      "kun": [
+        "かえ.す",
+        "-かえ.す",
+        "かえ.る",
+        "-かえ.る"
+      ],
+      "meanings": [
+        "return",
+        "answer",
+        "fade",
+        "repay"
+      ]
+    },
+    "論": {
+      "on": [
+        "ろん"
+      ],
+      "kun": [
+        "あげつら.う"
+      ],
+      "meanings": [
+        "argument",
+        "discourse"
+      ]
+    },
+    "際": {
+      "on": [
+        "さい"
+      ],
+      "kun": [
+        "きわ",
+        "-ぎわ"
+      ],
+      "meanings": [
+        "occasion",
+        "side",
+        "edge",
+        "verge",
+        "dangerous",
+        "adventurous",
+        "indecent",
+        "time",
+        "when"
+      ]
+    },
+    "歳": {
+      "on": [
+        "さい",
+        "せい"
+      ],
+      "kun": [
+        "とし",
+        "とせ",
+        "よわい"
+      ],
+      "meanings": [
+        "year-end",
+        "age",
+        "occasion",
+        "opportunity"
+      ]
+    },
+    "反": {
+      "on": [
+        "はん",
+        "ほん",
+        "たん",
+        "ほ"
+      ],
+      "kun": [
+        "そ.る",
+        "そ.らす",
+        "かえ.す",
+        "かえ.る",
+        "-かえ.る"
+      ],
+      "meanings": [
+        "anti-"
+      ]
+    },
+    "形": {
+      "on": [
+        "けい",
+        "ぎょう"
+      ],
+      "kun": [
+        "かた",
+        "-がた",
+        "かたち",
+        "なり"
+      ],
+      "meanings": [
+        "shape",
+        "form",
+        "style"
+      ]
+    },
+    "光": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "ひか.る",
+        "ひかり"
+      ],
+      "meanings": [
+        "ray",
+        "light"
+      ]
+    },
+    "首": {
+      "on": [
+        "しゅ"
+      ],
+      "kun": [
+        "くび"
+      ],
+      "meanings": [
+        "neck",
+        "counter for songs and poems"
+      ]
+    },
+    "勝": {
+      "on": [
+        "しょう"
+      ],
+      "kun": [
+        "か.つ",
+        "-が.ち",
+        "まさ.る",
+        "すぐ.れる",
+        "かつ"
+      ],
+      "meanings": [
+        "victory",
+        "win",
+        "prevail",
+        "excel"
+      ]
+    },
+    "必": {
+      "on": [
+        "ひつ"
+      ],
+      "kun": [
+        "かなら.ず"
+      ],
+      "meanings": [
+        "invariably",
+        "certain",
+        "inevitable"
+      ]
+    },
+    "係": {
+      "on": [
+        "けい"
+      ],
+      "kun": [
+        "かか.る",
+        "かかり",
+        "-がかり",
+        "かか.わる"
+      ],
+      "meanings": [
+        "person in charge",
+        "connection",
+        "duty",
+        "concern oneself"
+      ]
+    },
+    "由": {
+      "on": [
+        "ゆ",
+        "ゆう",
+        "ゆい"
+      ],
+      "kun": [
+        "よし",
+        "よ.る"
+      ],
+      "meanings": [
+        "wherefore",
+        "a reason"
+      ]
+    },
+    "愛": {
+      "on": [
+        "あい"
+      ],
+      "kun": [
+        "いと.しい",
+        "かな.しい",
+        "め.でる",
+        "お.しむ",
+        "まな"
+      ],
+      "meanings": [
+        "love",
+        "affection",
+        "favourite"
+      ]
+    },
+    "都": {
+      "on": [
+        "と",
+        "つ"
+      ],
+      "kun": [
+        "みやこ"
+      ],
+      "meanings": [
+        "metropolis",
+        "capital",
+        "all",
+        "everything"
+      ]
+    },
+    "放": {
+      "on": [
+        "ほう"
+      ],
+      "kun": [
+        "はな.す",
+        "-っぱな.し",
+        "はな.つ",
+        "はな.れる",
+        "こ.く",
+        "ほう.る"
+      ],
+      "meanings": [
+        "set free",
+        "release",
+        "fire",
+        "shoot",
+        "emit",
+        "banish",
+        "liberate"
+      ]
+    },
+    "確": {
+      "on": [
+        "かく",
+        "こう"
+      ],
+      "kun": [
+        "たし.か",
+        "たし.かめる"
+      ],
+      "meanings": [
+        "assurance",
+        "firm",
+        "tight",
+        "hard",
+        "solid",
+        "confirm",
+        "clear",
+        "evident"
+      ]
+    },
+    "過": {
+      "on": [
+        "か"
+      ],
+      "kun": [
+        "す.ぎる",
+        "す.ごす",
+        "あやま.ち",
+        "あやま.つ",
+        "よぎ.る",
+        "よ.ぎる"
+      ],
+      "meanings": [
+        "overdo",
+        "exceed",
+        "go beyond",
+        "error"
+      ]
+    },
+    "約": {
+      "on": [
+        "やく"
+      ],
+      "kun": [
+        "つづ.まる",
+        "つづ.める",
+        "つづま.やか"
+      ],
+      "meanings": [
+        "promise",
+        "approximately",
+        "shrink"
+      ]
+    },
+    "馬": {
+      "on": [
+        "ば",
+        "め",
+        "ま",
+        "ぼ",
+        "も"
+      ],
+      "kun": [
+        "うま",
+        "ま"
+      ],
+      "meanings": [
+        "horse"
+      ]
+    },
+    "状": {
+      "on": [
+        "じょう"
+      ],
+      "kun": [],
+      "meanings": [
+        "status quo",
+        "conditions",
+        "circumstances",
+        "form",
+        "appearance"
+      ]
+    },
+    "想": {
+      "on": [
+        "そう",
+        "そ"
+      ],
+      "kun": [
+        "おも.う"
+      ],
+      "meanings": [
+        "idea",
+        "thought",
+        "conception",
+        "think"
+      ]
+    },
+    "官": {
+      "on": [
+        "かん"
+      ],
+      "kun": [],
+      "meanings": [
+        "bureaucrat",
+        "the government",
+        "organ"
+      ]
+    },
+    "交": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "まじ.わる",
+        "まじ.える",
+        "ま.じる",
+        "まじ.る",
+        "ま.ざる",
+        "ま.ぜる",
+        "-か.う",
+        "か.わす",
+        "かわ.す",
+        "こもごも"
+      ],
+      "meanings": [
+        "mingle",
+        "mixing",
+        "association",
+        "coming & going"
+      ]
+    },
+    "米": {
+      "on": [
+        "べい",
+        "まい",
+        "めえとる"
+      ],
+      "kun": [
+        "こめ",
+        "よね"
+      ],
+      "meanings": [
+        "rice",
+        "USA",
+        "metre"
+      ]
+    },
+    "配": {
+      "on": [
+        "はい"
+      ],
+      "kun": [
+        "くば.る"
+      ],
+      "meanings": [
+        "distribute",
+        "spouse",
+        "exile",
+        "rationing"
+      ]
+    },
+    "若": {
+      "on": [
+        "じゃく",
+        "にゃく",
+        "にゃ"
+      ],
+      "kun": [
+        "わか.い",
+        "わか-",
+        "も.しくわ",
+        "も.し",
+        "も.しくは",
+        "ごと.し"
+      ],
+      "meanings": [
+        "young",
+        "if",
+        "perhaps",
+        "possibly",
+        "low number",
+        "immature"
+      ]
+    },
+    "資": {
+      "on": [
+        "し"
+      ],
+      "kun": [],
+      "meanings": [
+        "assets",
+        "resources",
+        "capital",
+        "funds",
+        "data",
+        "be conducive to",
+        "contribute to"
+      ]
+    },
+    "常": {
+      "on": [
+        "じょう"
+      ],
+      "kun": [
+        "つね",
+        "とこ-"
+      ],
+      "meanings": [
+        "usual",
+        "ordinary",
+        "normal",
+        "common",
+        "regular",
+        "continually",
+        "always",
+        "long-lasting"
+      ]
+    },
+    "果": {
+      "on": [
+        "か"
+      ],
+      "kun": [
+        "は.たす",
+        "はた.す",
+        "-は.たす",
+        "は.てる",
+        "-は.てる",
+        "は.て"
+      ],
+      "meanings": [
+        "fruit",
+        "reward",
+        "carry out",
+        "achieve",
+        "complete",
+        "end",
+        "finish",
+        "succeed"
+      ]
+    },
+    "呼": {
+      "on": [
+        "こ"
+      ],
+      "kun": [
+        "よ.ぶ"
+      ],
+      "meanings": [
+        "call",
+        "call out to",
+        "invite"
+      ]
+    },
+    "共": {
+      "on": [
+        "きょう"
+      ],
+      "kun": [
+        "とも",
+        "とも.に",
+        "-ども"
+      ],
+      "meanings": [
+        "together",
+        "both",
+        "neither",
+        "all",
+        "and",
+        "alike",
+        "with"
+      ]
+    },
+    "残": {
+      "on": [
+        "ざん",
+        "さん"
+      ],
+      "kun": [
+        "のこ.る",
+        "のこ.す",
+        "そこな.う",
+        "のこ.り"
+      ],
+      "meanings": [
+        "remainder",
+        "leftover",
+        "balance"
+      ]
+    },
+    "判": {
+      "on": [
+        "はん",
+        "ばん"
+      ],
+      "kun": [
+        "わか.る"
+      ],
+      "meanings": [
+        "judgement",
+        "judgment",
+        "signature",
+        "stamp",
+        "seal"
+      ]
+    },
+    "役": {
+      "on": [
+        "やく",
+        "えき"
+      ],
+      "kun": [],
+      "meanings": [
+        "duty",
+        "war",
+        "campaign",
+        "drafted labor",
+        "office",
+        "service",
+        "role"
+      ]
+    },
+    "他": {
+      "on": [
+        "た"
+      ],
+      "kun": [
+        "ほか"
+      ],
+      "meanings": [
+        "other",
+        "another",
+        "the others"
+      ]
+    },
+    "術": {
+      "on": [
+        "じゅつ"
+      ],
+      "kun": [
+        "すべ"
+      ],
+      "meanings": [
+        "art",
+        "technique",
+        "skill",
+        "means",
+        "trick",
+        "resources",
+        "magic"
+      ]
+    },
+    "支": {
+      "on": [
+        "し"
+      ],
+      "kun": [
+        "ささ.える",
+        "つか.える",
+        "か.う"
+      ],
+      "meanings": [
+        "branch",
+        "support",
+        "sustain",
+        "branch radical (no. 65)"
+      ]
+    },
+    "両": {
+      "on": [
+        "りょう"
+      ],
+      "kun": [
+        "てる",
+        "ふたつ"
+      ],
+      "meanings": [
+        "both",
+        "old Japanese coin",
+        "counter for carriages (e.g., in a train)",
+        "two"
+      ]
+    },
+    "乗": {
+      "on": [
+        "じょう",
+        "しょう"
+      ],
+      "kun": [
+        "の.る",
+        "-の.り",
+        "の.せる"
+      ],
+      "meanings": [
+        "ride",
+        "power",
+        "multiplication",
+        "record",
+        "counter for vehicles",
+        "board",
+        "mount",
+        "join"
+      ]
+    },
+    "供": {
+      "on": [
+        "きょう",
+        "く",
+        "くう",
+        "ぐ"
+      ],
+      "kun": [
+        "そな.える",
+        "とも",
+        "-ども"
+      ],
+      "meanings": [
+        "submit",
+        "offer",
+        "present",
+        "serve (meal)",
+        "accompany"
+      ]
+    },
+    "格": {
+      "on": [
+        "かく",
+        "こう",
+        "きゃく",
+        "ごう"
+      ],
+      "kun": [],
+      "meanings": [
+        "status",
+        "rank",
+        "capacity",
+        "character",
+        "case (law, grammar)"
+      ]
+    },
+    "打": {
+      "on": [
+        "だ",
+        "だーす"
+      ],
+      "kun": [
+        "う.つ",
+        "う.ち-",
+        "ぶ.つ"
+      ],
+      "meanings": [
+        "strike",
+        "hit",
+        "knock",
+        "pound",
+        "dozen"
+      ]
+    },
+    "御": {
+      "on": [
+        "ぎょ",
+        "ご"
+      ],
+      "kun": [
+        "おん-",
+        "お-",
+        "み-"
+      ],
+      "meanings": [
+        "honorable",
+        "manipulate",
+        "govern"
+      ]
+    },
+    "断": {
+      "on": [
+        "だん"
+      ],
+      "kun": [
+        "た.つ",
+        "ことわ.る",
+        "さだ.める"
+      ],
+      "meanings": [
+        "severance",
+        "decline",
+        "refuse",
+        "apologize",
+        "warn",
+        "dismiss",
+        "prohibit",
+        "decision",
+        "judgement",
+        "cutting"
+      ]
+    },
+    "式": {
+      "on": [
+        "しき"
+      ],
+      "kun": [],
+      "meanings": [
+        "style",
+        "ceremony",
+        "rite",
+        "function",
+        "method",
+        "system",
+        "form",
+        "expression"
+      ]
+    },
+    "師": {
+      "on": [
+        "し"
+      ],
+      "kun": [
+        "いくさ"
+      ],
+      "meanings": [
+        "expert",
+        "teacher",
+        "master",
+        "model",
+        "exemplar",
+        "army (incl. counter)",
+        "war"
+      ]
+    },
+    "告": {
+      "on": [
+        "こく"
+      ],
+      "kun": [
+        "つ.げる"
+      ],
+      "meanings": [
+        "revelation",
+        "tell",
+        "inform",
+        "announce"
+      ]
+    },
+    "深": {
+      "on": [
+        "しん"
+      ],
+      "kun": [
+        "ふか.い",
+        "-ぶか.い",
+        "ふか.まる",
+        "ふか.める",
+        "み-"
+      ],
+      "meanings": [
+        "deep",
+        "heighten",
+        "intensify",
+        "strengthen"
+      ]
+    },
+    "存": {
+      "on": [
+        "そん",
+        "ぞん"
+      ],
+      "kun": [
+        "ながら.える",
+        "あ.る",
+        "たも.つ",
+        "と.う"
+      ],
+      "meanings": [
+        "exist",
+        "suppose",
+        "be aware of",
+        "believe",
+        "feel"
+      ]
+    },
+    "争": {
+      "on": [
+        "そう"
+      ],
+      "kun": [
+        "あらそ.う",
+        "いか.でか"
+      ],
+      "meanings": [
+        "contend",
+        "dispute",
+        "argue"
+      ]
+    },
+    "覚": {
+      "on": [
+        "かく"
+      ],
+      "kun": [
+        "おぼ.える",
+        "さ.ます",
+        "さ.める",
+        "さと.る"
+      ],
+      "meanings": [
+        "memorize",
+        "learn",
+        "remember",
+        "awake",
+        "sober up"
+      ]
+    },
+    "側": {
+      "on": [
+        "そく"
+      ],
+      "kun": [
+        "かわ",
+        "がわ",
+        "そば"
+      ],
+      "meanings": [
+        "side",
+        "lean",
+        "oppose",
+        "regret"
+      ]
+    },
+    "飛": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "と.ぶ",
+        "と.ばす",
+        "-と.ばす"
+      ],
+      "meanings": [
+        "fly",
+        "skip (pages)",
+        "scatter"
+      ]
+    },
+    "参": {
+      "on": [
+        "さん",
+        "しん"
+      ],
+      "kun": [
+        "まい.る",
+        "まい-",
+        "まじわる",
+        "みつ"
+      ],
+      "meanings": [
+        "nonplussed",
+        "three (in documents)",
+        "going",
+        "coming",
+        "visiting",
+        "visit",
+        "be defeated",
+        "die",
+        "be madly in love",
+        "participate",
+        "take part in"
+      ]
+    },
+    "突": {
+      "on": [
+        "とつ",
+        "か"
+      ],
+      "kun": [
+        "つ.く"
+      ],
+      "meanings": [
+        "stab",
+        "protruding",
+        "thrust",
+        "pierce",
+        "prick",
+        "collision",
+        "sudden"
+      ]
+    },
+    "容": {
+      "on": [
+        "よう"
+      ],
+      "kun": [
+        "い.れる"
+      ],
+      "meanings": [
+        "contain",
+        "form",
+        "looks"
+      ]
+    },
+    "育": {
+      "on": [
+        "いく"
+      ],
+      "kun": [
+        "そだ.つ",
+        "そだ.ち",
+        "そだ.てる",
+        "はぐく.む"
+      ],
+      "meanings": [
+        "bring up",
+        "grow up",
+        "raise",
+        "rear"
+      ]
+    },
+    "構": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "かま.える",
+        "かま.う"
+      ],
+      "meanings": [
+        "posture",
+        "stance",
+        "appearance",
+        "build",
+        "set up"
+      ]
+    },
+    "認": {
+      "on": [
+        "にん"
+      ],
+      "kun": [
+        "みと.める",
+        "したた.める"
+      ],
+      "meanings": [
+        "acknowledge",
+        "witness",
+        "discern",
+        "recognize",
+        "appreciate",
+        "believe"
+      ]
+    },
+    "位": {
+      "on": [
+        "い"
+      ],
+      "kun": [
+        "くらい",
+        "ぐらい"
+      ],
+      "meanings": [
+        "rank",
+        "grade",
+        "throne",
+        "crown",
+        "about",
+        "some"
+      ]
+    },
+    "達": {
+      "on": [
+        "たつ",
+        "だ"
+      ],
+      "kun": [
+        "-たち"
+      ],
+      "meanings": [
+        "accomplished",
+        "reach",
+        "arrive",
+        "attain"
+      ]
+    },
+    "守": {
+      "on": [
+        "しゅ",
+        "す"
+      ],
+      "kun": [
+        "まも.る",
+        "まも.り",
+        "もり",
+        "-もり",
+        "かみ"
+      ],
+      "meanings": [
+        "guard",
+        "protect",
+        "defend",
+        "obey"
+      ]
+    },
+    "満": {
+      "on": [
+        "まん",
+        "ばん"
+      ],
+      "kun": [
+        "み.ちる",
+        "み.つ",
+        "み.たす"
+      ],
+      "meanings": [
+        "full",
+        "fullness",
+        "enough",
+        "satisfy"
+      ]
+    },
+    "消": {
+      "on": [
+        "しょう"
+      ],
+      "kun": [
+        "き.える",
+        "け.す"
+      ],
+      "meanings": [
+        "extinguish",
+        "blow out",
+        "turn off",
+        "neutralize",
+        "cancel"
+      ]
+    },
+    "任": {
+      "on": [
+        "にん"
+      ],
+      "kun": [
+        "まか.せる",
+        "まか.す"
+      ],
+      "meanings": [
+        "responsibility",
+        "duty",
+        "term",
+        "entrust to",
+        "appoint"
+      ]
+    },
+    "居": {
+      "on": [
+        "きょ",
+        "こ"
+      ],
+      "kun": [
+        "い.る",
+        "-い",
+        "お.る"
+      ],
+      "meanings": [
+        "reside",
+        "to be",
+        "exist",
+        "live with"
+      ]
+    },
+    "予": {
+      "on": [
+        "よ",
+        "しゃ"
+      ],
+      "kun": [
+        "あらかじ.め"
+      ],
+      "meanings": [
+        "beforehand",
+        "previous",
+        "myself",
+        "I"
+      ]
+    },
+    "路": {
+      "on": [
+        "ろ",
+        "る"
+      ],
+      "kun": [
+        "-じ",
+        "みち"
+      ],
+      "meanings": [
+        "path",
+        "route",
+        "road",
+        "distance"
+      ]
+    },
+    "座": {
+      "on": [
+        "ざ"
+      ],
+      "kun": [
+        "すわ.る"
+      ],
+      "meanings": [
+        "squat",
+        "seat",
+        "cushion",
+        "gathering",
+        "sit"
+      ]
+    },
+    "客": {
+      "on": [
+        "きゃく",
+        "かく"
+      ],
+      "kun": [],
+      "meanings": [
+        "guest",
+        "visitor",
+        "customer",
+        "client"
+      ]
+    },
+    "船": {
+      "on": [
+        "せん"
+      ],
+      "kun": [
+        "ふね",
+        "ふな-"
+      ],
+      "meanings": [
+        "ship",
+        "boat"
+      ]
+    },
+    "追": {
+      "on": [
+        "つい"
+      ],
+      "kun": [
+        "お.う"
+      ],
+      "meanings": [
+        "chase",
+        "drive away",
+        "follow",
+        "pursue",
+        "meanwhile"
+      ]
+    },
+    "背": {
+      "on": [
+        "はい"
+      ],
+      "kun": [
+        "せ",
+        "せい",
+        "そむ.く",
+        "そむ.ける"
+      ],
+      "meanings": [
+        "stature",
+        "height",
+        "back",
+        "behind",
+        "disobey",
+        "defy",
+        "go back on",
+        "rebel"
+      ]
+    },
+    "観": {
+      "on": [
+        "かん"
+      ],
+      "kun": [
+        "み.る",
+        "しめ.す"
+      ],
+      "meanings": [
+        "outlook",
+        "look",
+        "appearance",
+        "condition",
+        "view"
+      ]
+    },
+    "誰": {
+      "on": [
+        "すい"
+      ],
+      "kun": [
+        "だれ",
+        "たれ",
+        "た"
+      ],
+      "meanings": [
+        "who",
+        "someone",
+        "somebody"
+      ]
+    },
+    "息": {
+      "on": [
+        "そく"
+      ],
+      "kun": [
+        "いき"
+      ],
+      "meanings": [
+        "breath",
+        "respiration",
+        "son",
+        "interest (on money)",
+        "rest",
+        "coming to an end"
+      ]
+    },
+    "失": {
+      "on": [
+        "しつ"
+      ],
+      "kun": [
+        "うしな.う",
+        "う.せる"
+      ],
+      "meanings": [
+        "lose",
+        "error",
+        "fault",
+        "disadvantage",
+        "loss"
+      ]
+    },
+    "老": {
+      "on": [
+        "ろう"
+      ],
+      "kun": [
+        "お.いる",
+        "ふ.ける"
+      ],
+      "meanings": [
+        "old man",
+        "old age",
+        "grow old"
+      ]
+    },
+    "良": {
+      "on": [
+        "りょう"
+      ],
+      "kun": [
+        "よ.い",
+        "-よ.い",
+        "い.い",
+        "-い.い"
+      ],
+      "meanings": [
+        "good",
+        "pleasing",
+        "skilled"
+      ]
+    },
+    "示": {
+      "on": [
+        "じ",
+        "し"
+      ],
+      "kun": [
+        "しめ.す"
+      ],
+      "meanings": [
+        "show",
+        "indicate",
+        "point out",
+        "express",
+        "display"
+      ]
+    },
+    "号": {
+      "on": [
+        "ごう"
+      ],
+      "kun": [
+        "さけ.ぶ",
+        "よびな"
+      ],
+      "meanings": [
+        "nickname",
+        "number",
+        "item",
+        "title",
+        "pseudonym",
+        "name",
+        "call"
+      ]
+    },
+    "職": {
+      "on": [
+        "しょく",
+        "そく"
+      ],
+      "kun": [],
+      "meanings": [
+        "post",
+        "employment",
+        "work"
+      ]
+    },
+    "王": {
+      "on": [
+        "おう",
+        "-のう"
+      ],
+      "kun": [],
+      "meanings": [
+        "king",
+        "rule",
+        "magnate"
+      ]
+    },
+    "識": {
+      "on": [
+        "しき"
+      ],
+      "kun": [
+        "し.る",
+        "しる.す"
+      ],
+      "meanings": [
+        "discriminating",
+        "know",
+        "write"
+      ]
+    },
+    "警": {
+      "on": [
+        "けい"
+      ],
+      "kun": [
+        "いまし.める"
+      ],
+      "meanings": [
+        "admonish",
+        "commandment"
+      ]
+    },
+    "優": {
+      "on": [
+        "ゆう",
+        "う"
+      ],
+      "kun": [
+        "やさ.しい",
+        "すぐ.れる",
+        "まさ.る"
+      ],
+      "meanings": [
+        "tenderness",
+        "excel",
+        "surpass",
+        "actor",
+        "superiority",
+        "gentleness"
+      ]
+    },
+    "投": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "な.げる",
+        "-な.げ"
+      ],
+      "meanings": [
+        "throw",
+        "discard",
+        "abandon",
+        "launch into",
+        "join",
+        "invest in",
+        "hurl",
+        "give up",
+        "sell at a loss"
+      ]
+    },
+    "局": {
+      "on": [
+        "きょく"
+      ],
+      "kun": [
+        "つぼね"
+      ],
+      "meanings": [
+        "bureau",
+        "board",
+        "office",
+        "affair",
+        "conclusion",
+        "court lady",
+        "lady-in-waiting",
+        "her apartment"
+      ]
+    },
+    "難": {
+      "on": [
+        "なん"
+      ],
+      "kun": [
+        "かた.い",
+        "-がた.い",
+        "むずか.しい",
+        "むづか.しい",
+        "むつか.しい",
+        "-にく.い"
+      ],
+      "meanings": [
+        "difficult",
+        "impossible",
+        "trouble",
+        "accident",
+        "defect"
+      ]
+    },
+    "種": {
+      "on": [
+        "しゅ"
+      ],
+      "kun": [
+        "たね",
+        "-ぐさ"
+      ],
+      "meanings": [
+        "species",
+        "kind",
+        "class",
+        "variety",
+        "seed"
+      ]
+    },
+    "念": {
+      "on": [
+        "ねん"
+      ],
+      "kun": [],
+      "meanings": [
+        "wish",
+        "sense",
+        "idea",
+        "thought",
+        "feeling",
+        "desire",
+        "attention"
+      ]
+    },
+    "寄": {
+      "on": [
+        "き"
+      ],
+      "kun": [
+        "よ.る",
+        "-よ.り",
+        "よ.せる"
+      ],
+      "meanings": [
+        "draw near",
+        "stop in",
+        "bring near",
+        "gather",
+        "collect",
+        "send",
+        "forward"
+      ]
+    },
+    "商": {
+      "on": [
+        "しょう"
+      ],
+      "kun": [
+        "あきな.う"
+      ],
+      "meanings": [
+        "make a deal",
+        "selling",
+        "dealing in",
+        "merchant"
+      ]
+    },
+    "害": {
+      "on": [
+        "がい"
+      ],
+      "kun": [],
+      "meanings": [
+        "harm",
+        "injury"
+      ]
+    },
+    "頼": {
+      "on": [
+        "らい"
+      ],
+      "kun": [
+        "たの.む",
+        "たの.もしい",
+        "たよ.る"
+      ],
+      "meanings": [
+        "trust",
+        "request"
+      ]
+    },
+    "横": {
+      "on": [
+        "おう"
+      ],
+      "kun": [
+        "よこ"
+      ],
+      "meanings": [
+        "sideways",
+        "side",
+        "horizontal",
+        "width",
+        "woof",
+        "unreasonable",
+        "perverse"
+      ]
+    },
+    "増": {
+      "on": [
+        "ぞう"
+      ],
+      "kun": [
+        "ま.す",
+        "ま.し",
+        "ふ.える",
+        "ふ.やす"
+      ],
+      "meanings": [
+        "increase",
+        "add",
+        "augment",
+        "gain",
+        "promote"
+      ]
+    },
+    "差": {
+      "on": [
+        "さ"
+      ],
+      "kun": [
+        "さ.す",
+        "さ.し"
+      ],
+      "meanings": [
+        "distinction",
+        "difference",
+        "variation",
+        "discrepancy",
+        "margin",
+        "balance"
+      ]
+    },
+    "苦": {
+      "on": [
+        "く"
+      ],
+      "kun": [
+        "くる.しい",
+        "-ぐる.しい",
+        "くる.しむ",
+        "くる.しめる",
+        "にが.い",
+        "にが.る"
+      ],
+      "meanings": [
+        "suffering",
+        "trial",
+        "worry",
+        "hardship",
+        "feel bitter",
+        "scowl"
+      ]
+    },
+    "収": {
+      "on": [
+        "しゅう"
+      ],
+      "kun": [
+        "おさ.める",
+        "おさ.まる"
+      ],
+      "meanings": [
+        "income",
+        "obtain",
+        "reap",
+        "pay",
+        "supply",
+        "store"
+      ]
+    },
+    "段": {
+      "on": [
+        "だん",
+        "たん"
+      ],
+      "kun": [],
+      "meanings": [
+        "grade",
+        "steps",
+        "stairs"
+      ]
+    },
+    "俺": {
+      "on": [
+        "えん"
+      ],
+      "kun": [
+        "おれ",
+        "われ"
+      ],
+      "meanings": [
+        "I",
+        "myself"
+      ]
+    },
+    "渡": {
+      "on": [
+        "と"
+      ],
+      "kun": [
+        "わた.る",
+        "-わた.る",
+        "わた.す"
+      ],
+      "meanings": [
+        "transit",
+        "ford",
+        "ferry",
+        "cross",
+        "import",
+        "deliver",
+        "diameter",
+        "migrate"
+      ]
+    },
+    "与": {
+      "on": [
+        "よ"
+      ],
+      "kun": [
+        "あた.える",
+        "あずか.る",
+        "くみ.する",
+        "ともに"
+      ],
+      "meanings": [
+        "bestow",
+        "participate in",
+        "give",
+        "award",
+        "impart",
+        "provide",
+        "cause",
+        "gift",
+        "godsend"
+      ]
+    },
+    "演": {
+      "on": [
+        "えん"
+      ],
+      "kun": [],
+      "meanings": [
+        "performance",
+        "act",
+        "play",
+        "render",
+        "stage"
+      ]
+    },
+    "備": {
+      "on": [
+        "び"
+      ],
+      "kun": [
+        "そな.える",
+        "そな.わる",
+        "つぶさ.に"
+      ],
+      "meanings": [
+        "equip",
+        "provision",
+        "preparation"
+      ]
+    },
+    "申": {
+      "on": [
+        "しん"
+      ],
+      "kun": [
+        "もう.す",
+        "もう.し-",
+        "さる"
+      ],
+      "meanings": [
+        "have the honor to",
+        "sign of the monkey",
+        "3-5PM",
+        "ninth sign of Chinese zodiac"
+      ]
+    },
+    "例": {
+      "on": [
+        "れい"
+      ],
+      "kun": [
+        "たと.える"
+      ],
+      "meanings": [
+        "example",
+        "custom",
+        "usage",
+        "precedent"
+      ]
+    },
+    "働": {
+      "on": [
+        "どう"
+      ],
+      "kun": [
+        "はたら.く"
+      ],
+      "meanings": [
+        "work",
+        "(kokuji)"
+      ]
+    },
+    "景": {
+      "on": [
+        "けい"
+      ],
+      "kun": [],
+      "meanings": [
+        "scenery",
+        "view"
+      ]
+    },
+    "抜": {
+      "on": [
+        "ばつ",
+        "はつ",
+        "はい"
+      ],
+      "kun": [
+        "ぬ.く",
+        "-ぬ.く",
+        "ぬ.き",
+        "ぬ.ける",
+        "ぬ.かす",
+        "ぬ.かる"
+      ],
+      "meanings": [
+        "slip out",
+        "extract",
+        "pull out",
+        "pilfer",
+        "quote",
+        "remove",
+        "omit"
+      ]
+    },
+    "遠": {
+      "on": [
+        "えん",
+        "おん"
+      ],
+      "kun": [
+        "とお.い"
+      ],
+      "meanings": [
+        "distant",
+        "far"
+      ]
+    },
+    "絶": {
+      "on": [
+        "ぜつ"
+      ],
+      "kun": [
+        "た.える",
+        "た.やす",
+        "た.つ"
+      ],
+      "meanings": [
+        "discontinue",
+        "sever",
+        "cut off",
+        "abstain",
+        "interrupt",
+        "suppress",
+        "be beyond",
+        "without match",
+        "peerless",
+        "unparalleled"
+      ]
+    },
+    "負": {
+      "on": [
+        "ふ"
+      ],
+      "kun": [
+        "ま.ける",
+        "ま.かす",
+        "お.う"
+      ],
+      "meanings": [
+        "defeat",
+        "negative",
+        "-",
+        "minus",
+        "bear",
+        "owe",
+        "assume a responsibility"
+      ]
+    },
+    "福": {
+      "on": [
+        "ふく"
+      ],
+      "kun": [],
+      "meanings": [
+        "blessing",
+        "fortune",
+        "luck",
+        "wealth"
+      ]
+    },
+    "球": {
+      "on": [
+        "きゅう"
+      ],
+      "kun": [
+        "たま"
+      ],
+      "meanings": [
+        "ball",
+        "sphere"
+      ]
+    },
+    "酒": {
+      "on": [
+        "しゅ"
+      ],
+      "kun": [
+        "さけ",
+        "さか-"
+      ],
+      "meanings": [
+        "sake",
+        "alcohol"
+      ]
+    },
+    "君": {
+      "on": [
+        "くん"
+      ],
+      "kun": [
+        "きみ",
+        "-ぎみ"
+      ],
+      "meanings": [
+        "mister",
+        "you",
+        "ruler",
+        "male name suffix"
+      ]
+    },
+    "察": {
+      "on": [
+        "さつ"
+      ],
+      "kun": [],
+      "meanings": [
+        "guess",
+        "presume",
+        "surmise",
+        "judge",
+        "understand"
+      ]
+    },
+    "望": {
+      "on": [
+        "ぼう",
+        "もう"
+      ],
+      "kun": [
+        "のぞ.む",
+        "もち"
+      ],
+      "meanings": [
+        "ambition",
+        "full moon",
+        "hope",
+        "desire",
+        "aspire to",
+        "expect"
+      ]
+    },
+    "婚": {
+      "on": [
+        "こん"
+      ],
+      "kun": [],
+      "meanings": [
+        "marriage"
+      ]
+    },
+    "単": {
+      "on": [
+        "たん"
+      ],
+      "kun": [
+        "ひとえ"
+      ],
+      "meanings": [
+        "simple",
+        "one",
+        "single",
+        "merely"
+      ]
+    },
+    "押": {
+      "on": [
+        "おう"
+      ],
+      "kun": [
+        "お.す",
+        "お.し-",
+        "お.っ-",
+        "お.さえる",
+        "おさ.える"
+      ],
+      "meanings": [
+        "push",
+        "stop",
+        "check",
+        "subdue",
+        "attach",
+        "seize",
+        "weight",
+        "shove",
+        "press",
+        "seal",
+        "do in spite of"
+      ]
+    },
+    "割": {
+      "on": [
+        "かつ"
+      ],
+      "kun": [
+        "わ.る",
+        "わり",
+        "わ.り",
+        "わ.れる",
+        "さ.く"
+      ],
+      "meanings": [
+        "proportion",
+        "comparatively",
+        "divide",
+        "cut",
+        "separate",
+        "split"
+      ]
+    },
+    "限": {
+      "on": [
+        "げん"
+      ],
+      "kun": [
+        "かぎ.る",
+        "かぎ.り",
+        "-かぎ.り"
+      ],
+      "meanings": [
+        "limit",
+        "restrict",
+        "to best of ability"
+      ]
+    },
+    "戻": {
+      "on": [
+        "れい"
+      ],
+      "kun": [
+        "もど.す",
+        "もど.る"
+      ],
+      "meanings": [
+        "re-",
+        "return",
+        "revert",
+        "resume",
+        "restore",
+        "go backwards"
+      ]
+    },
+    "科": {
+      "on": [
+        "か"
+      ],
+      "kun": [],
+      "meanings": [
+        "department",
+        "course",
+        "section"
+      ]
+    },
+    "求": {
+      "on": [
+        "きゅう",
+        "ぐ"
+      ],
+      "kun": [
+        "もと.める"
+      ],
+      "meanings": [
+        "request",
+        "want",
+        "wish for",
+        "require",
+        "demand"
+      ]
+    },
+    "談": {
+      "on": [
+        "だん"
+      ],
+      "kun": [],
+      "meanings": [
+        "discuss",
+        "talk"
+      ]
+    },
+    "降": {
+      "on": [
+        "こう",
+        "ご"
+      ],
+      "kun": [
+        "お.りる",
+        "お.ろす",
+        "ふ.る",
+        "ふ.り",
+        "くだ.る",
+        "くだ.す"
+      ],
+      "meanings": [
+        "descend",
+        "precipitate",
+        "fall",
+        "surrender"
+      ]
+    },
+    "妻": {
+      "on": [
+        "さい"
+      ],
+      "kun": [
+        "つま"
+      ],
+      "meanings": [
+        "wife",
+        "spouse"
+      ]
+    },
+    "岡": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "おか"
+      ],
+      "meanings": [
+        "mount",
+        "hill",
+        "knoll"
+      ]
+    },
+    "熱": {
+      "on": [
+        "ねつ"
+      ],
+      "kun": [
+        "あつ.い"
+      ],
+      "meanings": [
+        "heat",
+        "temperature",
+        "fever",
+        "mania",
+        "passion"
+      ]
+    },
+    "浮": {
+      "on": [
+        "ふ"
+      ],
+      "kun": [
+        "う.く",
+        "う.かれる",
+        "う.かぶ",
+        "う.かべる"
+      ],
+      "meanings": [
+        "floating",
+        "float",
+        "rise to surface"
+      ]
+    },
+    "等": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "ひと.しい",
+        "など",
+        "-ら"
+      ],
+      "meanings": [
+        "etc.",
+        "and so forth",
+        "class (first)",
+        "quality",
+        "equal",
+        "similar"
+      ]
+    },
+    "末": {
+      "on": [
+        "まつ",
+        "ばつ"
+      ],
+      "kun": [
+        "すえ",
+        "うら",
+        "うれ"
+      ],
+      "meanings": [
+        "end",
+        "close",
+        "tip",
+        "powder",
+        "posterity"
+      ]
+    },
+    "幸": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "さいわ.い",
+        "さち",
+        "しあわ.せ"
+      ],
+      "meanings": [
+        "happiness",
+        "blessing",
+        "fortune"
+      ]
+    },
+    "草": {
+      "on": [
+        "そう"
+      ],
+      "kun": [
+        "くさ",
+        "くさ-",
+        "-ぐさ"
+      ],
+      "meanings": [
+        "grass",
+        "weeds",
+        "herbs",
+        "pasture",
+        "write",
+        "draft"
+      ]
+    },
+    "越": {
+      "on": [
+        "えつ",
+        "おつ"
+      ],
+      "kun": [
+        "こ.す",
+        "-こ.す",
+        "-ご.し",
+        "こ.える",
+        "-ご.え"
+      ],
+      "meanings": [
+        "surpass",
+        "cross over",
+        "move to",
+        "exceed",
+        "Vietnam"
+      ]
+    },
+    "登": {
+      "on": [
+        "とう",
+        "と",
+        "どう",
+        "しょう",
+        "ちょう"
+      ],
+      "kun": [
+        "のぼ.る",
+        "あ.がる"
+      ],
+      "meanings": [
+        "ascend",
+        "climb up"
+      ]
+    },
+    "類": {
+      "on": [
+        "るい"
+      ],
+      "kun": [
+        "たぐ.い"
+      ],
+      "meanings": [
+        "sort",
+        "kind",
+        "variety",
+        "class",
+        "genus"
+      ]
+    },
+    "未": {
+      "on": [
+        "み",
+        "び"
+      ],
+      "kun": [
+        "いま.だ",
+        "ま.だ",
+        "ひつじ"
+      ],
+      "meanings": [
+        "un-",
+        "not yet",
+        "hitherto",
+        "still",
+        "even now",
+        "sign of the ram",
+        "1-3PM",
+        "eighth sign of Chinese zodiac"
+      ]
+    },
+    "規": {
+      "on": [
+        "き"
+      ],
+      "kun": [],
+      "meanings": [
+        "standard",
+        "measure"
+      ]
+    },
+    "精": {
+      "on": [
+        "せい",
+        "しょう"
+      ],
+      "kun": [
+        "しら.げる",
+        "くわ.しい"
+      ],
+      "meanings": [
+        "refined",
+        "ghost",
+        "fairy",
+        "energy",
+        "vitality",
+        "semen",
+        "excellence",
+        "purity",
+        "skill"
+      ]
+    },
+    "抱": {
+      "on": [
+        "ほう"
+      ],
+      "kun": [
+        "だ.く",
+        "いだ.く",
+        "かか.える"
+      ],
+      "meanings": [
+        "embrace",
+        "hug",
+        "hold in arms"
+      ]
+    },
+    "労": {
+      "on": [
+        "ろう"
+      ],
+      "kun": [
+        "ろう.する",
+        "いたわ.る",
+        "いた.ずき",
+        "ねぎら",
+        "つか.れる",
+        "ねぎら.う"
+      ],
+      "meanings": [
+        "labor",
+        "thank for",
+        "reward for",
+        "toil",
+        "trouble"
+      ]
+    },
+    "処": {
+      "on": [
+        "しょ"
+      ],
+      "kun": [
+        "ところ",
+        "-こ",
+        "お.る"
+      ],
+      "meanings": [
+        "dispose",
+        "manage",
+        "deal with",
+        "sentence",
+        "condemn",
+        "act",
+        "behave",
+        "place"
+      ]
+    },
+    "退": {
+      "on": [
+        "たい"
+      ],
+      "kun": [
+        "しりぞ.く",
+        "しりぞ.ける",
+        "ひ.く",
+        "の.く",
+        "の.ける",
+        "ど.く"
+      ],
+      "meanings": [
+        "retreat",
+        "withdraw",
+        "retire",
+        "resign",
+        "repel",
+        "expel",
+        "reject"
+      ]
+    },
+    "費": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "つい.やす",
+        "つい.える"
+      ],
+      "meanings": [
+        "expense",
+        "cost",
+        "spend",
+        "consume",
+        "waste"
+      ]
+    },
+    "非": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "あら.ず"
+      ],
+      "meanings": [
+        "un-",
+        "mistake",
+        "negative",
+        "injustice",
+        "non-"
+      ]
+    },
+    "喜": {
+      "on": [
+        "き"
+      ],
+      "kun": [
+        "よろこ.ぶ",
+        "よろこ.ばす"
+      ],
+      "meanings": [
+        "rejoice",
+        "take pleasure in"
+      ]
+    },
+    "娘": {
+      "on": [
+        "じょう"
+      ],
+      "kun": [
+        "むすめ",
+        "こ"
+      ],
+      "meanings": [
+        "daughter",
+        "girl"
+      ]
+    },
+    "逃": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "に.げる",
+        "に.がす",
+        "のが.す",
+        "のが.れる"
+      ],
+      "meanings": [
+        "escape",
+        "flee",
+        "shirk",
+        "evade",
+        "set free"
+      ]
+    },
+    "探": {
+      "on": [
+        "たん"
+      ],
+      "kun": [
+        "さぐ.る",
+        "さが.す"
+      ],
+      "meanings": [
+        "grope",
+        "search",
+        "look for"
+      ]
+    },
+    "犯": {
+      "on": [
+        "はん",
+        "ぼん"
+      ],
+      "kun": [
+        "おか.す"
+      ],
+      "meanings": [
+        "crime",
+        "sin",
+        "offense"
+      ]
+    },
+    "薬": {
+      "on": [
+        "やく"
+      ],
+      "kun": [
+        "くすり"
+      ],
+      "meanings": [
+        "medicine",
+        "chemical",
+        "enamel",
+        "gunpowder",
+        "benefit"
+      ]
+    },
+    "園": {
+      "on": [
+        "えん"
+      ],
+      "kun": [
+        "その"
+      ],
+      "meanings": [
+        "park",
+        "garden",
+        "yard",
+        "farm"
+      ]
+    },
+    "疑": {
+      "on": [
+        "ぎ"
+      ],
+      "kun": [
+        "うたが.う"
+      ],
+      "meanings": [
+        "doubt",
+        "distrust",
+        "be suspicious",
+        "question"
+      ]
+    },
+    "緒": {
+      "on": [
+        "しょ",
+        "ちょ"
+      ],
+      "kun": [
+        "お",
+        "いとぐち"
+      ],
+      "meanings": [
+        "thong",
+        "beginning",
+        "inception",
+        "end",
+        "cord",
+        "strap",
+        "mental or emotional state"
+      ]
+    },
+    "静": {
+      "on": [
+        "せい",
+        "じょう"
+      ],
+      "kun": [
+        "しず-",
+        "しず.か",
+        "しず.まる",
+        "しず.める"
+      ],
+      "meanings": [
+        "quiet"
+      ]
+    },
+    "具": {
+      "on": [
+        "ぐ"
+      ],
+      "kun": [
+        "そな.える",
+        "つぶさ.に"
+      ],
+      "meanings": [
+        "tool",
+        "utensil",
+        "means",
+        "possess",
+        "ingredients",
+        "counter for armor, suits, sets of furniture"
+      ]
+    },
+    "席": {
+      "on": [
+        "せき"
+      ],
+      "kun": [
+        "むしろ"
+      ],
+      "meanings": [
+        "seat",
+        "mat",
+        "occasion",
+        "place"
+      ]
+    },
+    "速": {
+      "on": [
+        "そく"
+      ],
+      "kun": [
+        "はや.い",
+        "はや-",
+        "はや.める",
+        "すみ.やか"
+      ],
+      "meanings": [
+        "quick",
+        "fast"
+      ]
+    },
+    "舞": {
+      "on": [
+        "ぶ"
+      ],
+      "kun": [
+        "ま.う",
+        "-ま.う",
+        "まい"
+      ],
+      "meanings": [
+        "dance",
+        "flit",
+        "circle",
+        "wheel"
+      ]
+    },
+    "宿": {
+      "on": [
+        "しゅく"
+      ],
+      "kun": [
+        "やど",
+        "やど.る",
+        "やど.す"
+      ],
+      "meanings": [
+        "inn",
+        "lodging",
+        "relay station",
+        "dwell",
+        "lodge",
+        "be pregnant",
+        "home",
+        "dwelling"
+      ]
+    },
+    "程": {
+      "on": [
+        "てい"
+      ],
+      "kun": [
+        "ほど",
+        "-ほど"
+      ],
+      "meanings": [
+        "extent",
+        "degree",
+        "law",
+        "formula",
+        "distance",
+        "limits",
+        "amount"
+      ]
+    },
+    "倒": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "たお.れる",
+        "-だお.れ",
+        "たお.す",
+        "さかさま",
+        "さかさ",
+        "さかしま"
+      ],
+      "meanings": [
+        "overthrow",
+        "fall",
+        "collapse",
+        "drop",
+        "break down"
+      ]
+    },
+    "寝": {
+      "on": [
+        "しん"
+      ],
+      "kun": [
+        "ね.る",
+        "ね.かす",
+        "い.ぬ",
+        "みたまや",
+        "や.める"
+      ],
+      "meanings": [
+        "lie down",
+        "sleep",
+        "rest",
+        "bed",
+        "remain unsold"
+      ]
+    },
+    "宅": {
+      "on": [
+        "たく"
+      ],
+      "kun": [],
+      "meanings": [
+        "home",
+        "house",
+        "residence",
+        "our house",
+        "my husband"
+      ]
+    },
+    "絵": {
+      "on": [
+        "かい",
+        "え"
+      ],
+      "kun": [],
+      "meanings": [
+        "picture",
+        "drawing",
+        "painting",
+        "sketch"
+      ]
+    },
+    "破": {
+      "on": [
+        "は"
+      ],
+      "kun": [
+        "やぶ.る",
+        "やぶ.れる",
+        "わ.れる"
+      ],
+      "meanings": [
+        "rend",
+        "rip",
+        "tear",
+        "break",
+        "destroy",
+        "defeat",
+        "frustrate"
+      ]
+    },
+    "庭": {
+      "on": [
+        "てい"
+      ],
+      "kun": [
+        "にわ"
+      ],
+      "meanings": [
+        "courtyard",
+        "garden",
+        "yard"
+      ]
+    },
+    "婦": {
+      "on": [
+        "ふ"
+      ],
+      "kun": [
+        "よめ"
+      ],
+      "meanings": [
+        "lady",
+        "woman",
+        "wife",
+        "bride"
+      ]
+    },
+    "余": {
+      "on": [
+        "よ"
+      ],
+      "kun": [
+        "あま.る",
+        "あま.り",
+        "あま.す",
+        "あんま.り"
+      ],
+      "meanings": [
+        "too much",
+        "myself",
+        "surplus",
+        "other",
+        "remainder"
+      ]
+    },
+    "訪": {
+      "on": [
+        "ほう"
+      ],
+      "kun": [
+        "おとず.れる",
+        "たず.ねる",
+        "と.う"
+      ],
+      "meanings": [
+        "call on",
+        "visit",
+        "look up",
+        "offer sympathy"
+      ]
+    },
+    "冷": {
+      "on": [
+        "れい"
+      ],
+      "kun": [
+        "つめ.たい",
+        "ひ.える",
+        "ひ.や",
+        "ひ.ややか",
+        "ひ.やす",
+        "ひ.やかす",
+        "さ.める",
+        "さ.ます"
+      ],
+      "meanings": [
+        "cool",
+        "cold (beer, person)",
+        "chill"
+      ]
+    },
+    "暮": {
+      "on": [
+        "ぼ"
+      ],
+      "kun": [
+        "く.れる",
+        "く.らす"
+      ],
+      "meanings": [
+        "evening",
+        "twilight",
+        "season's end",
+        "livelihood",
+        "make a living",
+        "spend time"
+      ]
+    },
+    "腹": {
+      "on": [
+        "ふく"
+      ],
+      "kun": [
+        "はら"
+      ],
+      "meanings": [
+        "abdomen",
+        "belly",
+        "stomach"
+      ]
+    },
+    "危": {
+      "on": [
+        "き"
+      ],
+      "kun": [
+        "あぶ.ない",
+        "あや.うい",
+        "あや.ぶむ"
+      ],
+      "meanings": [
+        "dangerous",
+        "fear",
+        "uneasy"
+      ]
+    },
+    "許": {
+      "on": [
+        "きょ"
+      ],
+      "kun": [
+        "ゆる.す",
+        "もと"
+      ],
+      "meanings": [
+        "permit",
+        "approve"
+      ]
+    },
+    "似": {
+      "on": [
+        "じ"
+      ],
+      "kun": [
+        "に.る",
+        "ひ.る"
+      ],
+      "meanings": [
+        "becoming",
+        "resemble",
+        "counterfeit",
+        "imitate",
+        "suitable"
+      ]
+    },
+    "険": {
+      "on": [
+        "けん"
+      ],
+      "kun": [
+        "けわ.しい"
+      ],
+      "meanings": [
+        "precipitous",
+        "inaccessible place",
+        "impregnable position",
+        "steep place",
+        "sharp eyes"
+      ]
+    },
+    "財": {
+      "on": [
+        "ざい",
+        "さい",
+        "ぞく"
+      ],
+      "kun": [
+        "たから"
+      ],
+      "meanings": [
+        "property",
+        "money",
+        "wealth",
+        "assets"
+      ]
+    },
+    "遊": {
+      "on": [
+        "ゆう",
+        "ゆ"
+      ],
+      "kun": [
+        "あそ.ぶ",
+        "あそ.ばす"
+      ],
+      "meanings": [
+        "play"
+      ]
+    },
+    "雑": {
+      "on": [
+        "ざつ",
+        "ぞう"
+      ],
+      "kun": [
+        "まじ.える",
+        "まじ.る"
+      ],
+      "meanings": [
+        "miscellaneous"
+      ]
+    },
+    "恐": {
+      "on": [
+        "きょう"
+      ],
+      "kun": [
+        "おそ.れる",
+        "おそ.る",
+        "おそ.ろしい",
+        "こわ.い",
+        "こわ.がる"
+      ],
+      "meanings": [
+        "fear",
+        "dread",
+        "awe"
+      ]
+    },
+    "値": {
+      "on": [
+        "ち"
+      ],
+      "kun": [
+        "ね",
+        "あたい"
+      ],
+      "meanings": [
+        "price",
+        "cost",
+        "value"
+      ]
+    },
+    "暗": {
+      "on": [
+        "あん"
+      ],
+      "kun": [
+        "くら.い",
+        "くら.む",
+        "くれ.る"
+      ],
+      "meanings": [
+        "darkness",
+        "disappear",
+        "shade",
+        "informal",
+        "grow dark",
+        "be blinded"
+      ]
+    },
+    "積": {
+      "on": [
+        "せき"
+      ],
+      "kun": [
+        "つ.む",
+        "-づ.み",
+        "つ.もる",
+        "つ.もり"
+      ],
+      "meanings": [
+        "volume",
+        "product (x*y)",
+        "acreage",
+        "contents",
+        "pile up",
+        "stack",
+        "load",
+        "amass"
+      ]
+    },
+    "夢": {
+      "on": [
+        "む",
+        "ぼう"
+      ],
+      "kun": [
+        "ゆめ",
+        "ゆめ.みる",
+        "くら.い"
+      ],
+      "meanings": [
+        "dream",
+        "vision",
+        "illusion"
+      ]
+    },
+    "痛": {
+      "on": [
+        "つう"
+      ],
+      "kun": [
+        "いた.い",
+        "いた.む",
+        "いた.ましい",
+        "いた.める"
+      ],
+      "meanings": [
+        "pain",
+        "hurt",
+        "damage",
+        "bruise"
+      ]
+    },
+    "富": {
+      "on": [
+        "ふ",
+        "ふう"
+      ],
+      "kun": [
+        "と.む",
+        "とみ"
+      ],
+      "meanings": [
+        "wealth",
+        "enrich",
+        "abundant"
+      ]
+    },
+    "刻": {
+      "on": [
+        "こく"
+      ],
+      "kun": [
+        "きざ.む",
+        "きざ.み"
+      ],
+      "meanings": [
+        "engrave",
+        "cut fine",
+        "chop",
+        "hash",
+        "mince",
+        "time",
+        "carving"
+      ]
+    },
+    "鳴": {
+      "on": [
+        "めい"
+      ],
+      "kun": [
+        "な.く",
+        "な.る",
+        "な.らす"
+      ],
+      "meanings": [
+        "chirp",
+        "cry",
+        "bark",
+        "sound",
+        "ring",
+        "echo",
+        "honk"
+      ]
+    },
+    "欲": {
+      "on": [
+        "よく"
+      ],
+      "kun": [
+        "ほっ.する",
+        "ほ.しい"
+      ],
+      "meanings": [
+        "longing",
+        "covetousness",
+        "greed",
+        "passion",
+        "desire",
+        "craving"
+      ]
+    },
+    "途": {
+      "on": [
+        "と"
+      ],
+      "kun": [
+        "みち"
+      ],
+      "meanings": [
+        "route",
+        "way",
+        "road"
+      ]
+    },
+    "曲": {
+      "on": [
+        "きょく"
+      ],
+      "kun": [
+        "ま.がる",
+        "ま.げる",
+        "くま"
+      ],
+      "meanings": [
+        "bend",
+        "music",
+        "melody",
+        "composition",
+        "pleasure",
+        "injustice",
+        "fault",
+        "curve",
+        "crooked",
+        "perverse",
+        "lean"
+      ]
+    },
+    "完": {
+      "on": [
+        "かん"
+      ],
+      "kun": [],
+      "meanings": [
+        "perfect",
+        "completion",
+        "end"
+      ]
+    },
+    "願": {
+      "on": [
+        "がん"
+      ],
+      "kun": [
+        "ねが.う",
+        "-ねがい"
+      ],
+      "meanings": [
+        "petition",
+        "request",
+        "vow",
+        "wish",
+        "hope"
+      ]
+    },
+    "罪": {
+      "on": [
+        "ざい"
+      ],
+      "kun": [
+        "つみ"
+      ],
+      "meanings": [
+        "guilt",
+        "sin",
+        "crime",
+        "fault",
+        "blame",
+        "offense"
+      ]
+    },
+    "陽": {
+      "on": [
+        "よう"
+      ],
+      "kun": [
+        "ひ"
+      ],
+      "meanings": [
+        "sunshine",
+        "yang principle",
+        "positive",
+        "male",
+        "heaven",
+        "daytime"
+      ]
+    },
+    "亡": {
+      "on": [
+        "ぼう",
+        "もう"
+      ],
+      "kun": [
+        "な.い",
+        "な.き-",
+        "ほろ.びる",
+        "ほろ.ぶ",
+        "ほろ.ぼす"
+      ],
+      "meanings": [
+        "deceased",
+        "the late",
+        "dying",
+        "perish"
+      ]
+    },
+    "散": {
+      "on": [
+        "さん"
+      ],
+      "kun": [
+        "ち.る",
+        "ち.らす",
+        "-ち.らす",
+        "ち.らかす",
+        "ち.らかる",
+        "ち.らばる",
+        "ばら",
+        "ばら.ける"
+      ],
+      "meanings": [
+        "scatter",
+        "disperse",
+        "spend",
+        "squander"
+      ]
+    },
+    "掛": {
+      "on": [
+        "かい",
+        "けい"
+      ],
+      "kun": [
+        "か.ける",
+        "-か.ける",
+        "か.け",
+        "-か.け",
+        "-が.け",
+        "か.かる",
+        "-か.かる",
+        "-が.かる",
+        "か.かり",
+        "-が.かり",
+        "かかり",
+        "-がかり"
+      ],
+      "meanings": [
+        "hang",
+        "suspend",
+        "depend",
+        "arrive at",
+        "tax",
+        "pour"
+      ]
+    },
+    "昨": {
+      "on": [
+        "さく"
+      ],
+      "kun": [],
+      "meanings": [
+        "yesterday",
+        "previous"
+      ]
+    },
+    "怒": {
+      "on": [
+        "ど",
+        "ぬ"
+      ],
+      "kun": [
+        "いか.る",
+        "おこ.る"
+      ],
+      "meanings": [
+        "angry",
+        "be offended"
+      ]
+    },
+    "留": {
+      "on": [
+        "りゅう",
+        "る"
+      ],
+      "kun": [
+        "と.める",
+        "と.まる",
+        "とど.める",
+        "とど.まる",
+        "るうぶる"
+      ],
+      "meanings": [
+        "detain",
+        "fasten",
+        "halt",
+        "stop"
+      ]
+    },
+    "礼": {
+      "on": [
+        "れい",
+        "らい"
+      ],
+      "kun": [],
+      "meanings": [
+        "salute",
+        "bow",
+        "ceremony",
+        "thanks",
+        "remuneration"
+      ]
+    },
+    "列": {
+      "on": [
+        "れつ",
+        "れ"
+      ],
+      "kun": [],
+      "meanings": [
+        "file",
+        "row",
+        "rank",
+        "tier",
+        "column"
+      ]
+    },
+    "雪": {
+      "on": [
+        "せつ"
+      ],
+      "kun": [
+        "ゆき"
+      ],
+      "meanings": [
+        "snow"
+      ]
+    },
+    "払": {
+      "on": [
+        "ふつ",
+        "ひつ",
+        "ほつ"
+      ],
+      "kun": [
+        "はら.う",
+        "-はら.い",
+        "-ばら.い"
+      ],
+      "meanings": [
+        "pay",
+        "clear out",
+        "prune",
+        "banish",
+        "dispose of"
+      ]
+    },
+    "給": {
+      "on": [
+        "きゅう"
+      ],
+      "kun": [
+        "たま.う",
+        "たも.う",
+        "-たま.え"
+      ],
+      "meanings": [
+        "salary",
+        "wage",
+        "gift",
+        "allow",
+        "grant",
+        "bestow on"
+      ]
+    },
+    "敗": {
+      "on": [
+        "はい"
+      ],
+      "kun": [
+        "やぶ.れる"
+      ],
+      "meanings": [
+        "failure",
+        "defeat",
+        "reversal"
+      ]
+    },
+    "捕": {
+      "on": [
+        "ほ"
+      ],
+      "kun": [
+        "と.らえる",
+        "と.らわれる",
+        "と.る",
+        "とら.える",
+        "とら.われる",
+        "つか.まえる",
+        "つか.まる"
+      ],
+      "meanings": [
+        "catch",
+        "capture"
+      ]
+    },
+    "忘": {
+      "on": [
+        "ぼう"
+      ],
+      "kun": [
+        "わす.れる"
+      ],
+      "meanings": [
+        "forget"
+      ]
+    },
+    "晴": {
+      "on": [
+        "せい"
+      ],
+      "kun": [
+        "は.れる",
+        "は.れ",
+        "は.れ-",
+        "-ば.れ",
+        "は.らす"
+      ],
+      "meanings": [
+        "clear up"
+      ]
+    },
+    "因": {
+      "on": [
+        "いん"
+      ],
+      "kun": [
+        "よ.る",
+        "ちな.む"
+      ],
+      "meanings": [
+        "cause",
+        "factor",
+        "be associated with",
+        "depend on",
+        "be limited to"
+      ]
+    },
+    "折": {
+      "on": [
+        "せつ",
+        "しゃく"
+      ],
+      "kun": [
+        "お.る",
+        "おり",
+        "お.り",
+        "-お.り",
+        "お.れる"
+      ],
+      "meanings": [
+        "fold",
+        "break",
+        "fracture",
+        "bend",
+        "yield",
+        "submit"
+      ]
+    },
+    "迎": {
+      "on": [
+        "げい"
+      ],
+      "kun": [
+        "むか.える"
+      ],
+      "meanings": [
+        "welcome",
+        "meet",
+        "greet"
+      ]
+    },
+    "悲": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "かな.しい",
+        "かな.しむ"
+      ],
+      "meanings": [
+        "grieve",
+        "sad",
+        "deplore",
+        "regret"
+      ]
+    },
+    "港": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "みなと"
+      ],
+      "meanings": [
+        "harbor"
+      ]
+    },
+    "責": {
+      "on": [
+        "せき"
+      ],
+      "kun": [
+        "せ.める"
+      ],
+      "meanings": [
+        "blame",
+        "condemn",
+        "censure"
+      ]
+    },
+    "除": {
+      "on": [
+        "じょ",
+        "じ"
+      ],
+      "kun": [
+        "のぞ.く",
+        "-よ.け"
+      ],
+      "meanings": [
+        "exclude",
+        "division (x/3)",
+        "remove",
+        "abolish",
+        "cancel",
+        "except"
+      ]
+    },
+    "困": {
+      "on": [
+        "こん"
+      ],
+      "kun": [
+        "こま.る"
+      ],
+      "meanings": [
+        "quandary",
+        "become distressed",
+        "annoyed"
+      ]
+    },
+    "閉": {
+      "on": [
+        "へい"
+      ],
+      "kun": [
+        "と.じる",
+        "と.ざす",
+        "し.める",
+        "し.まる",
+        "た.てる"
+      ],
+      "meanings": [
+        "closed",
+        "shut"
+      ]
+    },
+    "吸": {
+      "on": [
+        "きゅう"
+      ],
+      "kun": [
+        "す.う"
+      ],
+      "meanings": [
+        "suck",
+        "imbibe",
+        "inhale",
+        "sip"
+      ]
+    },
+    "髪": {
+      "on": [
+        "はつ"
+      ],
+      "kun": [
+        "かみ"
+      ],
+      "meanings": [
+        "hair of the head"
+      ]
+    },
+    "束": {
+      "on": [
+        "そく"
+      ],
+      "kun": [
+        "たば",
+        "たば.ねる",
+        "つか",
+        "つか.ねる"
+      ],
+      "meanings": [
+        "bundle",
+        "sheaf",
+        "ream",
+        "tie in bundles",
+        "govern",
+        "manage",
+        "control"
+      ]
+    },
+    "眠": {
+      "on": [
+        "みん"
+      ],
+      "kun": [
+        "ねむ.る",
+        "ねむ.い"
+      ],
+      "meanings": [
+        "sleep",
+        "die",
+        "sleepy"
+      ]
+    },
+    "易": {
+      "on": [
+        "えき",
+        "い"
+      ],
+      "kun": [
+        "やさ.しい",
+        "やす.い"
+      ],
+      "meanings": [
+        "easy",
+        "ready to",
+        "simple",
+        "fortune-telling",
+        "divination"
+      ]
+    },
+    "窓": {
+      "on": [
+        "そう",
+        "す"
+      ],
+      "kun": [
+        "まど",
+        "てんまど",
+        "けむだし"
+      ],
+      "meanings": [
+        "window",
+        "pane"
+      ]
+    },
+    "祖": {
+      "on": [
+        "そ"
+      ],
+      "kun": [],
+      "meanings": [
+        "ancestor",
+        "pioneer",
+        "founder"
+      ]
+    },
+    "勤": {
+      "on": [
+        "きん",
+        "ごん"
+      ],
+      "kun": [
+        "つと.める",
+        "-づと.め",
+        "つと.まる",
+        "いそ.しむ"
+      ],
+      "meanings": [
+        "diligence",
+        "become employed",
+        "serve"
+      ]
+    },
+    "昔": {
+      "on": [
+        "せき",
+        "しゃく"
+      ],
+      "kun": [
+        "むかし"
+      ],
+      "meanings": [
+        "once upon a time",
+        "antiquity",
+        "old times"
+      ]
+    },
+    "便": {
+      "on": [
+        "べん",
+        "びん"
+      ],
+      "kun": [
+        "たよ.り"
+      ],
+      "meanings": [
+        "convenience",
+        "facility",
+        "excrement",
+        "feces",
+        "letter",
+        "chance"
+      ]
+    },
+    "適": {
+      "on": [
+        "てき"
+      ],
+      "kun": [
+        "かな.う"
+      ],
+      "meanings": [
+        "suitable",
+        "occasional",
+        "rare",
+        "qualified",
+        "capable"
+      ]
+    },
+    "吹": {
+      "on": [
+        "すい"
+      ],
+      "kun": [
+        "ふ.く"
+      ],
+      "meanings": [
+        "blow",
+        "breathe",
+        "puff",
+        "emit",
+        "smoke"
+      ]
+    },
+    "候": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "そうろう"
+      ],
+      "meanings": [
+        "climate",
+        "season",
+        "weather",
+        "wait for",
+        "expect"
+      ]
+    },
+    "怖": {
+      "on": [
+        "ふ",
+        "ほ"
+      ],
+      "kun": [
+        "こわ.い",
+        "こわ.がる",
+        "お.じる",
+        "おそ.れる"
+      ],
+      "meanings": [
+        "dreadful",
+        "be frightened",
+        "fearful"
+      ]
+    },
+    "辞": {
+      "on": [
+        "じ"
+      ],
+      "kun": [
+        "や.める",
+        "いな.む"
+      ],
+      "meanings": [
+        "resign",
+        "word",
+        "term",
+        "expression"
+      ]
+    },
+    "否": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "いな",
+        "いや"
+      ],
+      "meanings": [
+        "negate",
+        "no",
+        "noes",
+        "refuse",
+        "decline",
+        "deny"
+      ]
+    },
+    "遅": {
+      "on": [
+        "ち"
+      ],
+      "kun": [
+        "おく.れる",
+        "おく.らす",
+        "おそ.い"
+      ],
+      "meanings": [
+        "slow",
+        "late",
+        "back",
+        "later"
+      ]
+    },
+    "煙": {
+      "on": [
+        "えん"
+      ],
+      "kun": [
+        "けむ.る",
+        "けむり",
+        "けむ.い"
+      ],
+      "meanings": [
+        "smoke"
+      ]
+    },
+    "徒": {
+      "on": [
+        "と"
+      ],
+      "kun": [
+        "いたずら",
+        "あだ"
+      ],
+      "meanings": [
+        "on foot",
+        "junior",
+        "emptiness",
+        "vanity",
+        "futility",
+        "uselessness",
+        "ephemeral thing",
+        "gang",
+        "set",
+        "party",
+        "people"
+      ]
+    },
+    "欠": {
+      "on": [
+        "けつ",
+        "けん"
+      ],
+      "kun": [
+        "か.ける",
+        "か.く"
+      ],
+      "meanings": [
+        "lack",
+        "gap",
+        "fail",
+        "yawning radical (no. 76)"
+      ]
+    },
+    "迷": {
+      "on": [
+        "めい"
+      ],
+      "kun": [
+        "まよ.う"
+      ],
+      "meanings": [
+        "astray",
+        "be perplexed",
+        "in doubt",
+        "lost",
+        "err",
+        "illusion"
+      ]
+    },
+    "洗": {
+      "on": [
+        "せん"
+      ],
+      "kun": [
+        "あら.う"
+      ],
+      "meanings": [
+        "wash",
+        "inquire into",
+        "probe"
+      ]
+    },
+    "互": {
+      "on": [
+        "ご"
+      ],
+      "kun": [
+        "たが.い",
+        "かたみ.に"
+      ],
+      "meanings": [
+        "mutually",
+        "reciprocally",
+        "together"
+      ]
+    },
+    "才": {
+      "on": [
+        "さい"
+      ],
+      "kun": [],
+      "meanings": [
+        "genius",
+        "years old",
+        "cubic shaku"
+      ]
+    },
+    "更": {
+      "on": [
+        "こう"
+      ],
+      "kun": [
+        "さら",
+        "さら.に",
+        "ふ.ける",
+        "ふ.かす"
+      ],
+      "meanings": [
+        "grow late",
+        "night watch",
+        "sit up late",
+        "of course",
+        "renew",
+        "renovate",
+        "again",
+        "more and more",
+        "further"
+      ]
+    },
+    "歯": {
+      "on": [
+        "し"
+      ],
+      "kun": [
+        "よわい",
+        "は",
+        "よわ.い",
+        "よわい.する"
+      ],
+      "meanings": [
+        "tooth",
+        "cog"
+      ]
+    },
+    "盗": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "ぬす.む",
+        "ぬす.み"
+      ],
+      "meanings": [
+        "steal",
+        "rob",
+        "pilfer"
+      ]
+    },
+    "慣": {
+      "on": [
+        "かん"
+      ],
+      "kun": [
+        "な.れる",
+        "な.らす"
+      ],
+      "meanings": [
+        "accustomed",
+        "get used to",
+        "become experienced"
+      ]
+    },
+    "晩": {
+      "on": [
+        "ばん"
+      ],
+      "kun": [],
+      "meanings": [
+        "nightfall",
+        "night"
+      ]
+    },
+    "箱": {
+      "on": [
+        "そう"
+      ],
+      "kun": [
+        "はこ"
+      ],
+      "meanings": [
+        "box",
+        "chest",
+        "case",
+        "bin",
+        "railway car"
+      ]
+    },
+    "到": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "いた.る"
+      ],
+      "meanings": [
+        "arrival",
+        "proceed",
+        "reach",
+        "attain",
+        "result in"
+      ]
+    },
+    "頂": {
+      "on": [
+        "ちょう"
+      ],
+      "kun": [
+        "いただ.く",
+        "いただき"
+      ],
+      "meanings": [
+        "place on the head",
+        "receive",
+        "top of head",
+        "top",
+        "summit",
+        "peak"
+      ]
+    },
+    "杯": {
+      "on": [
+        "はい"
+      ],
+      "kun": [
+        "さかずき"
+      ],
+      "meanings": [
+        "counter for cupfuls",
+        "wine glass",
+        "glass",
+        "toast"
+      ]
+    },
+    "皆": {
+      "on": [
+        "かい"
+      ],
+      "kun": [
+        "みな",
+        "みんな"
+      ],
+      "meanings": [
+        "all",
+        "everything"
+      ]
+    },
+    "招": {
+      "on": [
+        "しょう"
+      ],
+      "kun": [
+        "まね.く"
+      ],
+      "meanings": [
+        "beckon",
+        "invite",
+        "summon",
+        "engage"
+      ]
+    },
+    "寒": {
+      "on": [
+        "かん"
+      ],
+      "kun": [
+        "さむ.い"
+      ],
+      "meanings": [
+        "cold"
+      ]
+    },
+    "恥": {
+      "on": [
+        "ち"
+      ],
+      "kun": [
+        "は.じる",
+        "はじ",
+        "は.じらう",
+        "は.ずかしい"
+      ],
+      "meanings": [
+        "shame",
+        "dishonor"
+      ]
+    },
+    "疲": {
+      "on": [
+        "ひ"
+      ],
+      "kun": [
+        "つか.れる",
+        "-づか.れ",
+        "つか.らす"
+      ],
+      "meanings": [
+        "exhausted",
+        "tire",
+        "weary"
+      ]
+    },
+    "貧": {
+      "on": [
+        "ひん",
+        "びん"
+      ],
+      "kun": [
+        "まず.しい"
+      ],
+      "meanings": [
+        "poverty",
+        "poor"
+      ]
+    },
+    "猫": {
+      "on": [
+        "びょう"
+      ],
+      "kun": [
+        "ねこ"
+      ],
+      "meanings": [
+        "cat"
+      ]
+    },
+    "誤": {
+      "on": [
+        "ご"
+      ],
+      "kun": [
+        "あやま.る",
+        "-あやま.る"
+      ],
+      "meanings": [
+        "mistake",
+        "err",
+        "do wrong",
+        "mislead"
+      ]
+    },
+    "努": {
+      "on": [
+        "ど"
+      ],
+      "kun": [
+        "つと.める"
+      ],
+      "meanings": [
+        "toil",
+        "diligent",
+        "as much as possible"
+      ]
+    },
+    "幾": {
+      "on": [
+        "き"
+      ],
+      "kun": [
+        "いく-",
+        "いく.つ",
+        "いく.ら"
+      ],
+      "meanings": [
+        "how many",
+        "how much",
+        "how far",
+        "how long",
+        "some",
+        "several"
+      ]
+    },
+    "賛": {
+      "on": [
+        "さん"
+      ],
+      "kun": [
+        "たす.ける",
+        "たた.える"
+      ],
+      "meanings": [
+        "approve",
+        "praise",
+        "title or inscription on picture",
+        "assist",
+        "agree with"
+      ]
+    },
+    "偶": {
+      "on": [
+        "ぐう"
+      ],
+      "kun": [
+        "たま"
+      ],
+      "meanings": [
+        "accidentally",
+        "even number",
+        "couple",
+        "man & wife",
+        "same kind"
+      ]
+    },
+    "忙": {
+      "on": [
+        "ぼう",
+        "もう"
+      ],
+      "kun": [
+        "いそが.しい",
+        "せわ.しい",
+        "おそ.れる",
+        "うれえるさま"
+      ],
+      "meanings": [
+        "busy",
+        "occupied",
+        "restless"
+      ]
+    },
+    "泳": {
+      "on": [
+        "えい"
+      ],
+      "kun": [
+        "およ.ぐ"
+      ],
+      "meanings": [
+        "swim"
+      ]
+    },
+    "靴": {
+      "on": [
+        "か"
+      ],
+      "kun": [
+        "くつ"
+      ],
+      "meanings": [
+        "shoes"
+      ]
+    },
+    "偉": {
+      "on": [
+        "い"
+      ],
+      "kun": [
+        "えら.い"
+      ],
+      "meanings": [
+        "admirable",
+        "greatness",
+        "remarkable",
+        "conceited",
+        "famous",
+        "excellent"
+      ]
+    },
+    "軍": {
+      "on": [
+        "ぐん"
+      ],
+      "kun": [
+        "いくさ"
+      ],
+      "meanings": [
+        "army",
+        "force",
+        "troops",
+        "war",
+        "battle"
+      ]
+    },
+    "兵": {
+      "on": [
+        "へい",
+        "ひょう"
+      ],
+      "kun": [
+        "つわもの"
+      ],
+      "meanings": [
+        "soldier",
+        "private",
+        "troops",
+        "army",
+        "warfare",
+        "strategy",
+        "tactics"
+      ]
+    },
+    "島": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "しま"
+      ],
+      "meanings": [
+        "island"
+      ]
+    },
+    "村": {
+      "on": [
+        "そん"
+      ],
+      "kun": [
+        "むら"
+      ],
+      "meanings": [
+        "village",
+        "town"
+      ]
+    },
+    "門": {
+      "on": [
+        "もん"
+      ],
+      "kun": [
+        "かど",
+        "と"
+      ],
+      "meanings": [
+        "gate",
+        "counter for cannons"
+      ]
+    },
+    "戸": {
+      "on": [
+        "こ"
+      ],
+      "kun": [
+        "と"
+      ],
+      "meanings": [
+        "door",
+        "counter for houses",
+        "door radical (no. 63)"
+      ]
+    },
+    "武": {
+      "on": [
+        "ぶ",
+        "む"
+      ],
+      "kun": [
+        "たけ",
+        "たけ.し"
+      ],
+      "meanings": [
+        "warrior",
+        "military",
+        "chivalry",
+        "arms"
+      ]
+    },
+    "城": {
+      "on": [
+        "じょう",
+        "せい"
+      ],
+      "kun": [
+        "しろ"
+      ],
+      "meanings": [
+        "castle"
+      ]
+    },
+    "総": {
+      "on": [
+        "そう"
+      ],
+      "kun": [
+        "す.べて",
+        "すべ.て",
+        "ふさ"
+      ],
+      "meanings": [
+        "general",
+        "whole",
+        "all",
+        "full",
+        "total"
+      ]
+    },
+    "団": {
+      "on": [
+        "だん",
+        "とん"
+      ],
+      "kun": [
+        "かたまり",
+        "まる.い"
+      ],
+      "meanings": [
+        "group",
+        "association"
+      ]
+    },
+    "線": {
+      "on": [
+        "せん"
+      ],
+      "kun": [
+        "すじ"
+      ],
+      "meanings": [
+        "line",
+        "track"
+      ]
+    },
+    "設": {
+      "on": [
+        "せつ"
+      ],
+      "kun": [
+        "もう.ける"
+      ],
+      "meanings": [
+        "establishment",
+        "provision",
+        "prepare"
+      ]
+    },
+    "勢": {
+      "on": [
+        "せい",
+        "ぜい"
+      ],
+      "kun": [
+        "いきお.い",
+        "はずみ"
+      ],
+      "meanings": [
+        "forces",
+        "energy",
+        "military strength"
+      ]
+    },
+    "党": {
+      "on": [
+        "とう"
+      ],
+      "kun": [
+        "なかま",
+        "むら"
+      ],
+      "meanings": [
+        "party",
+        "faction",
+        "clique"
+      ]
+    },
+    "史": {
+      "on": [
+        "し"
+      ],
+      "kun": [],
+      "meanings": [
+        "history",
+        "chronicle"
+      ]
+    },
+    "営": {
+      "on": [
+        "えい"
+      ],
+      "kun": [
+        "いとな.む",
+        "いとな.み"
+      ],
+      "meanings": [
+        "camp",
+        "perform",
+        "build",
+        "conduct (business)"
+      ]
+    },
+    "府": {
+      "on": [
+        "ふ"
+      ],
+      "kun": [],
+      "meanings": [
+        "borough",
+        "urban prefecture",
+        "govt office",
+        "representative body",
+        "storehouse"
+      ]
+    },
+    "巻": {
+      "on": [
+        "かん",
+        "けん"
+      ],
+      "kun": [
+        "ま.く",
+        "まき",
+        "ま.き"
+      ],
+      "meanings": [
+        "scroll",
+        "volume",
+        "book",
+        "part",
+        "roll up",
+        "wind up",
+        "tie",
+        "coil",
+        "counter for texts (or book scrolls)"
+      ]
+    },
+    "介": {
+      "on": [
+        "かい"
+      ],
+      "kun": [],
+      "meanings": [
+        "jammed in",
+        "shellfish",
+        "mediate",
+        "concern oneself with"
+      ]
+    },
+    "蔵": {
+      "on": [
+        "ぞう",
+        "そう"
+      ],
+      "kun": [
+        "くら",
+        "おさ.める",
+        "かく.れる"
+      ],
+      "meanings": [
+        "storehouse",
+        "hide",
+        "own",
+        "have",
+        "possess"
+      ]
+    },
+    "造": {
+      "on": [
+        "ぞう"
+      ],
+      "kun": [
+        "つく.る",
+        "つく.り",
+        "-づく.り"
+      ],
+      "meanings": [
+        "create",
+        "make",
+        "structure",
+        "physique"
+      ]
+    },
+    "根": {
+      "on": [
+        "こん"
+      ],
+      "kun": [
+        "ね",
+        "-ね"
+      ],
+      "meanings": [
+        "root",
+        "radical",
+        "head (pimple)"
+      ]
+    },
+    "寺": {
+      "on": [
+        "じ"
+      ],
+      "kun": [
+        "てら"
+      ],
+      "meanings": [
+        "Buddhist temple"
+      ]
+    },
+    "査": {
+      "on": [
+        "さ"
+      ],
+      "kun": [],
+      "meanings": [
+        "investigate"
+      ]
+    },
+    "将": {
+      "on": [
+        "しょう",
+        "そう"
+      ],
+      "kun": [
+        "まさ.に",
+        "はた",
+        "まさ",
+        "ひきい.る",
+        "もって"
+      ],
+      "meanings": [
+        "leader",
+        "commander",
+        "general",
+        "admiral",
+        "or",
+        "and again",
+        "soon",
+        "from now on",
+        "just about"
+      ]
+    },
+    "改": {
+      "on": [
+        "かい"
+      ],
+      "kun": [
+        "あらた.める",
+        "あらた.まる"
+      ],
+      "meanings": [
+        "reformation",
+        "change",
+        "modify",
+        "mend",
+        "renew",
+        "examine",
+        "inspect",
+        "search"
+      ]
+    },
+    "県": {
+      "on": [
+        "けん"
+      ],
+      "kun": [
+        "か.ける"
+      ],
+      "meanings": [
+        "prefecture"
+      ]
+    },
+    "泉": {
+      "on": [
+        "せん"
+      ],
+      "kun": [
+        "いずみ"
+      ],
+      "meanings": [
+        "spring",
+        "fountain"
+      ]
+    },
+    "像": {
+      "on": [
+        "ぞう"
+      ],
+      "kun": [],
+      "meanings": [
+        "statue",
+        "picture",
+        "image",
+        "figure",
+        "portrait"
+      ]
+    },
+    "細": {
+      "on": [
+        "さい"
+      ],
+      "kun": [
+        "ほそ.い",
+        "ほそ.る",
+        "こま.か",
+        "こま.かい"
+      ],
+      "meanings": [
+        "dainty",
+        "get thin",
+        "taper",
+        "slender",
+        "narrow",
+        "detailed",
+        "precise"
+      ]
+    }
+  }
+}
