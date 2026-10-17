@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fff8e9">
+    <meta name="description" content="Learn all 2,699 JLPT N1 Japanese vocabulary items used in the DraMap app through sound, images, meaning and retrieval practice.">
+    <link rel="canonical" href="https://shimizu510.github.io/japanese-training-lab/learn/n1/vocabulary/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <title>Learn N1 Japanese Vocabulary | Japanese Training Lab</title>
+    <link rel="shortcut icon" href="../../hiragana/favicon.ico">
+    <link rel="stylesheet" href="../../hiragana/assets/style.css?v=20261017102500">
+    <style>
+      :root { --word-accent:#af52de; --word-accent-dark:#71328f; }
+      .brand-mark,.loading-kana { background:var(--word-accent); }
+      .panel-left h1 em,.word-chart .panel-kicker { color:var(--word-accent-dark); }
+      .word-category-select { width:100%; margin:2px 0 14px; padding:10px 12px; border:1px solid var(--line); border-radius:12px; color:var(--ink); background:rgba(255,255,255,.82); font:700 11px/1.2 "M PLUS Rounded 1c",system-ui,sans-serif; }
+      .word-quick-row { grid-template-columns:repeat(5,minmax(0,1fr)); }
+      .word-quick-row button { padding:6px 2px; font-family:"M PLUS Rounded 1c",system-ui,sans-serif; }
+      .word-quick-row img { display:block; width:28px; height:28px; margin:0 auto 5px; object-fit:contain; image-rendering:auto; }
+      .word-quick-row b { display:block; overflow:hidden; font-size:9px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; }
+      .word-quick-row small { font-size:7px; }
+      .word-quick-row .active { background:var(--word-accent); box-shadow:0 8px 18px rgba(48,176,199,.22); }
+      .word-focus-title .focus-picture { flex:0 0 92px; width:92px; height:92px; display:grid; place-items:center; border-radius:25px; background:rgba(255,255,255,.78); box-shadow:0 14px 30px rgba(70,63,45,.08); }
+      .word-focus-title .focus-picture img { width:68px; height:68px; object-fit:contain; }
+      .word-focus-title span:last-child { min-width:0; }
+      .word-focus-title b { color:var(--word-accent-dark) !important; text-transform:none !important; letter-spacing:.03em !important; font-size:21px !important; }
+      .word-focus-title i { font-size:15px !important; font-weight:800; }
+      .word-romaji { display:block; margin-top:5px; color:var(--muted); font-size:11px; font-style:normal; }
+      .word-detail-card { grid-template-columns:88px 1fr; }
+      .word-detail-card .stroke-grid { border-color:rgba(48,176,199,.24); background:#effbfc; }
+      .word-detail-card .stroke-grid img { width:66px; height:66px; object-fit:contain; }
+      .word-detail-card small { color:var(--word-accent-dark); }
+      .category-badge { display:inline-flex; margin-top:8px; padding:5px 9px; border-radius:999px; color:var(--word-accent-dark); background:rgba(48,176,199,.12); font-size:9px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+      .word-chart { width:min(1120px,calc(100% - 32px)); }
+      .word-chart .chart-current { background:var(--word-accent-dark); }
+      .word-controls { position:sticky; top:55px; z-index:2; margin:0 0 16px; padding:12px; border-radius:15px; background:rgba(255,253,248,.96); box-shadow:0 9px 20px rgba(40,55,49,.08); }
+      .word-search { width:100%; padding:11px 14px; border:1px solid var(--line); border-radius:12px; color:var(--ink); background:#fff; font:600 12px/1.3 "M PLUS Rounded 1c",system-ui,sans-serif; }
+      .category-filters { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+      .category-filters button { padding:6px 9px; border:1px solid var(--line); border-radius:999px; color:var(--muted); background:#fff; font:800 9px/1 "M PLUS Rounded 1c",system-ui,sans-serif; cursor:pointer; }
+      .category-filters button.active { border-color:var(--word-accent); color:#fff; background:var(--word-accent); }
+      .word-result-count { margin:9px 2px 0; color:var(--muted); font-size:9px; }
+      .word-chart .chart-sections { display:block; }
+      .word-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:8px; }
+      .word-grid button { min-width:0; min-height:142px; padding:10px; border:1px solid var(--line); border-radius:13px; color:var(--ink); background:#fff; text-align:left; cursor:pointer; }
+      .word-grid button:hover,.word-grid button.active { border-color:var(--word-accent); background:#eefbfd; transform:translateY(-1px); }
+      .word-grid img { display:block; width:48px; height:48px; margin:0 auto 7px; object-fit:contain; }
+      .word-grid strong,.word-grid small,.word-grid span { display:block; }
+      .word-grid strong { overflow-wrap:anywhere; font:900 17px/1.25 "Noto Serif JP",serif; text-align:center; }
+      .word-grid .card-romaji { margin-top:4px; color:var(--word-accent-dark); font-size:9px; font-weight:800; text-align:center; }
+      .word-grid .card-meaning { margin-top:7px; color:var(--muted); font-size:9px; line-height:1.35; }
+      .word-grid .card-category { margin-top:7px; color:var(--red-dark); font-size:7px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+      .empty-results { grid-column:1/-1; padding:40px 10px; color:var(--muted); text-align:center; }
+      @media(max-width:720px) {
+        .word-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+        .word-grid button { min-height:132px; }
+        .word-controls { top:49px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../../" aria-label="Japanese Training Lab home">
+        <span class="brand-mark" aria-hidden="true">語</span>
+        <span><strong>Japanese Training Lab</strong><small>BY YUJI @ JAPAN</small></span>
+      </a>
+      <div class="header-actions">
+        <div class="lesson-label"><span aria-hidden="true">●</span> N1 VOCABULARY QUEST</div>
+        <button class="chart-open" type="button" aria-haspopup="dialog" aria-controls="word-chart">N1 word list</button>
+        <a class="learning-home" href="../../../index.html" aria-label="Back to Japanese Training Lab"><span aria-hidden="true">←</span> Back to Training Lab</a>
+      </div>
+    </header>
+
+    <main class="learning-stage">
+      <aside class="study-panel panel-left" aria-labelledby="today-title">
+        <p class="panel-kicker">TODAY'S QUEST</p>
+        <h1 id="today-title">Master all<br><em>2,699 N1</em><br>words.</h1>
+        <p class="panel-copy">Connect sound, image and meaning. Review each word in both directions until recall becomes automatic.</p>
+        <label class="panel-kicker" for="category-select">CHOOSE A CATEGORY</label>
+        <select class="word-category-select" id="category-select" aria-label="Choose a word category"><option value="all">All 2,699 words</option></select>
+        <div class="kana-row word-quick-row" data-quick-words aria-label="Choose a featured N1 word"></div>
+        <div class="tip-card"><span class="tip-icon" aria-hidden="true">耳</span><div><strong>Listen before translating</strong><p>Hear the Japanese sound, notice the image, then retrieve the meaning.</p></div></div>
+      </aside>
+
+      <section class="player-column" aria-label="N1 Japanese vocabulary learning game">
+        <div class="phone-shell">
+          <div class="phone-speaker" aria-hidden="true"></div>
+          <div id="unity-container" class="unity-desktop">
+            <canvas id="unity-canvas" width="540" height="960" tabindex="0" aria-label="DraMap N1 Japanese vocabulary learning game"></canvas>
+            <div id="unity-loading-bar" role="status" aria-live="polite">
+              <div class="loading-kana" aria-hidden="true">語</div><p>Preparing your word quest…</p>
+              <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+            </div>
+            <div id="unity-warning"> </div>
+          </div>
+        </div>
+        <div id="unity-footer"><p><span class="status-dot" aria-hidden="true"></span>The game uses the same portrait layout as the mobile app.</p></div>
+      </section>
+
+      <aside class="study-panel panel-right" aria-labelledby="hint-title">
+        <p class="panel-kicker">WORD FOCUS</p>
+        <h2 id="hint-title" class="word-focus-title">
+          <span class="focus-picture"><img data-focus-image src="assets/images/1f3e0.png" alt=""></span>
+          <span><b data-focus-japanese>現像（げんぞう）</b><i data-focus-meaning>developing (film)</i><em class="word-romaji" data-focus-romaji>genzou</em></span>
+        </h2>
+        <div class="stroke-card word-detail-card">
+          <div class="stroke-grid"><img data-detail-image src="assets/images/apple_1f4f7.png" alt="Illustration for 現像（げんぞう）"></div>
+          <div><small>SOUND &amp; MEANING</small><strong data-focus-reading>さほう</strong><p>Say the word aloud, then connect it to its image and meaning.</p><span class="category-badge" data-focus-category>Daily Life</span></div>
+        </div>
+        <div class="word-list" aria-label="Featured N1 word details"><p>QUICK CONNECTION</p><div class="word-items"><span><strong data-focus-japanese>現像（げんぞう）<small data-focus-summary>genzou · developing (film)</small></strong></span></div></div>
+        <p class="encouragement">One word at a time.<br>Sound, image, meaning.</p>
+      </aside>
+    </main>
+
+    <dialog id="word-chart" class="kana-chart word-chart" aria-labelledby="chart-title">
+      <div class="chart-heading">
+        <div><p class="panel-kicker">APP CONTENT LIST</p><h2 id="chart-title">N1 vocabulary list</h2><p>All 2,699 vocabulary items used by the DraMap N1 Vocabulary course.</p></div>
+        <button class="chart-close" type="button" aria-label="Close N1 vocabulary list">×</button>
+      </div>
+      <div class="chart-current" aria-live="polite"><span data-chart-word>現像（げんぞう）</span><strong data-chart-reading>genzou · developing (film)</strong><small>Current focus</small></div>
+      <div class="word-controls">
+        <input class="word-search" type="search" placeholder="Search Japanese, romaji or English" aria-label="Search N1 vocabulary">
+        <div class="category-filters" data-category-filters></div>
+        <p class="word-result-count" data-result-count>2,699 words</p>
+      </div>
+      <div class="chart-sections"><section><div class="word-grid" data-word-grid></div></section></div>
+    </dialog>
+
+    <footer class="page-footer"><p>If you cannot hear the audio, click the game screen once.</p><p>© DraMap / Learn Japanese</p></footer>
+    <script src="../../../assets/app.js"></script>
+    <script>
+      var lessonUrl = new URL(window.location.href);
+      lessonUrl.searchParams.set("course", "n1_vocabulary");
+      lessonUrl.searchParams.set("autostart", "1");
+      window.history.replaceState(null, "", lessonUrl);
+
+      var wordItems=[], currentWord=null, wordIndex=0, wordTimer, selectedCategory="all";
+      var categoryOrder=["abstract","verbs","adverbs"];
+      var categoryNames={daily:"Daily Life",verbs:"Verbs",adjectives:"Adjectives",work:"Work",health:"Health",abstract:"Abstract",adverbs:"Adverbs",nature:"Nature",transport:"Transport",school:"School",conversation:"Conversation"};
+      function escapeHtml(value){var el=document.createElement("span");el.textContent=value||"";return el.innerHTML;}
+      function imageUrl(item){if(item.imageResource)return "assets/images/"+encodeURIComponent(item.imageResource)+".png";var emoji=item.emoji||"語";return "data:image/svg+xml;charset=utf-8,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><rect width="96" height="96" rx="20" fill="#fff7e8"/><text x="48" y="63" text-anchor="middle" font-size="48">'+emoji+'</text></svg>');}
+      function categoryName(value){return categoryNames[value]||value||"Other";}
+      function wordsForCategory(value){return value==="all"?wordItems:wordItems.filter(function(item){return item.category===value;});}
+      function selectWord(id,manual){
+        var item=wordItems.find(function(entry){return entry.id===id;});
+        if(!item)return;
+        currentWord=item;
+        var src=imageUrl(item),label=categoryName(item.category);
+        document.querySelectorAll("[data-focus-japanese]").forEach(function(el){el.childNodes[0].nodeValue=item.japanese;});
+        document.querySelector("[data-focus-meaning]").textContent=item.english;
+        document.querySelector("[data-focus-romaji]").textContent=item.romaji;
+        document.querySelector("[data-focus-reading]").textContent=item.reading;
+        document.querySelector("[data-focus-category]").textContent=label;
+        document.querySelector("[data-focus-summary]").textContent=item.romaji+" · "+item.english;
+        document.querySelector("[data-focus-image]").src=src;
+        document.querySelector("[data-detail-image]").src=src;
+        document.querySelector("[data-detail-image]").alt="Illustration for "+item.japanese;
+        document.querySelector("[data-chart-word]").textContent=item.japanese;
+        document.querySelector("[data-chart-reading]").textContent=item.romaji+" · "+item.english;
+        document.querySelectorAll("[data-word-id]").forEach(function(button){button.classList.toggle("active",button.dataset.wordId===id);});
+        renderQuickWords(item.category,id);
+        if(manual)window.clearInterval(wordTimer);
+      }
+      function renderQuickWords(category,activeId){
+        var pool=wordsForCategory(selectedCategory==="all"?category:selectedCategory);
+        if(!pool.length)pool=wordItems;
+        var position=Math.max(0,pool.findIndex(function(item){return item.id===activeId;}));
+        var start=Math.floor(position/5)*5,quick=pool.slice(start,start+5);
+        if(quick.length<5)quick=quick.concat(pool.slice(0,5-quick.length));
+        document.querySelector("[data-quick-words]").innerHTML=quick.map(function(item){return '<button type="button" data-word-id="'+escapeHtml(item.id)+'"><img src="'+imageUrl(item)+'" alt=""><b>'+escapeHtml(item.japanese)+'</b><small>'+escapeHtml(item.romaji)+'</small></button>';}).join("");
+        document.querySelectorAll("[data-quick-words] [data-word-id]").forEach(function(button){button.classList.toggle("active",button.dataset.wordId===activeId);});
+      }
+      function renderWordGrid(){
+        var query=document.querySelector(".word-search").value.trim().toLocaleLowerCase();
+        var filtered=wordsForCategory(selectedCategory).filter(function(item){return !query||[item.japanese,item.reading,item.romaji,item.english].join(" ").toLocaleLowerCase().includes(query);});
+        document.querySelector("[data-result-count]").textContent=filtered.length+(filtered.length===1?" word":" words");
+        document.querySelector("[data-word-grid]").innerHTML=filtered.length?filtered.map(function(item){return '<button type="button" data-word-id="'+escapeHtml(item.id)+'" class="'+(currentWord&&currentWord.id===item.id?"active":"")+'"><img loading="lazy" src="'+imageUrl(item)+'" alt=""><strong>'+escapeHtml(item.japanese)+'</strong><span class="card-romaji">'+escapeHtml(item.romaji)+'</span><span class="card-meaning">'+escapeHtml(item.english)+'</span><span class="card-category">'+escapeHtml(categoryName(item.category))+'</span></button>';}).join(""):'<p class="empty-results">No words match this search.</p>';
+      }
+      function setCategory(category){
+        selectedCategory=category;
+        document.querySelector("#category-select").value=category;
+        document.querySelectorAll("[data-category]").forEach(function(button){button.classList.toggle("active",button.dataset.category===category);});
+        renderWordGrid();
+        var pool=wordsForCategory(category),next=pool.includes(currentWord)?currentWord:pool[0];
+        if(next)selectWord(next.id,true);
+      }
+      fetch("StreamingAssets/Content/n1_vocabulary.json?v=20261018130000").then(function(response){if(!response.ok)throw new Error("N1 Vocabulary content could not be loaded.");return response.json();}).then(function(catalog){
+        wordItems=catalog.items||[];
+        var select=document.querySelector("#category-select");
+        categoryOrder.forEach(function(category){var count=wordsForCategory(category).length;select.insertAdjacentHTML("beforeend",'<option value="'+category+'">'+categoryName(category)+' · '+count+'</option>');});
+        document.querySelector("[data-category-filters]").innerHTML=['<button type="button" class="active" data-category="all">All · '+wordItems.length+'</button>'].concat(categoryOrder.map(function(category){return '<button type="button" data-category="'+category+'">'+categoryName(category)+' · '+wordsForCategory(category).length+'</button>';})).join("");
+        currentWord=wordItems[0];renderWordGrid();selectWord(currentWord.id,false);
+        wordTimer=window.setInterval(function(){wordIndex=(wordIndex+1)%wordItems.length;selectWord(wordItems[wordIndex].id,false);},8000);
+      }).catch(function(error){document.querySelector("[data-word-grid]").innerHTML='<p class="empty-results">'+escapeHtml(error.message)+'</p>';});
+      document.addEventListener("click",function(event){var wordButton=event.target.closest("[data-word-id]");if(wordButton)selectWord(wordButton.dataset.wordId,true);var categoryButton=event.target.closest("[data-category]");if(categoryButton)setCategory(categoryButton.dataset.category);});
+      document.querySelector("#category-select").addEventListener("change",function(event){setCategory(event.target.value);});
+      document.querySelector(".word-search").addEventListener("input",renderWordGrid);
+      var chartDialog=document.querySelector("#word-chart");
+      document.querySelector(".chart-open").addEventListener("click",function(){renderWordGrid();chartDialog.showModal();});
+      document.querySelector(".chart-close").addEventListener("click",function(){chartDialog.close();});
+      chartDialog.addEventListener("click",function(event){if(event.target===chartDialog)chartDialog.close();});
+
+      var container=document.querySelector("#unity-container"),canvas=document.querySelector("#unity-canvas"),loadingBar=document.querySelector("#unity-loading-bar"),progressBarFull=document.querySelector("#unity-progress-bar-full"),warningBanner=document.querySelector("#unity-warning");
+      function unityShowBanner(msg,type){function update(){warningBanner.style.display=warningBanner.children.length?"block":"none";}var div=document.createElement("div");div.innerHTML=msg;warningBanner.appendChild(div);if(type==="error")div.style="background:red;padding:10px;";else{if(type==="warning")div.style="background:yellow;padding:10px;";setTimeout(function(){warningBanner.removeChild(div);update();},5000);}update();}
+      var webglBuildVersion="20261017234241",buildUrl="../../hiragana/Build",loaderUrl=buildUrl+"/webgl.loader.js?v="+webglBuildVersion;
+      var config={dataUrl:buildUrl+"/webgl.data?v="+webglBuildVersion,frameworkUrl:buildUrl+"/webgl.framework.js?v="+webglBuildVersion,codeUrl:buildUrl+"/webgl.wasm?v="+webglBuildVersion,streamingAssetsUrl:"StreamingAssets",companyName:"DefaultCompany",productName:"Learn Japanese",productVersion:"1.0",showBanner:unityShowBanner};
+      if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){container.className="unity-mobile";canvas.className="unity-mobile";}
+      loadingBar.style.display="block";
+      var script=document.createElement("script");script.src=loaderUrl;script.onload=function(){createUnityInstance(canvas,config,function(progress){progressBarFull.style.width=100*progress+"%";}).then(function(){loadingBar.style.display="none";}).catch(function(message){alert(message);});};document.body.appendChild(script);
+    </script>
+  </body>
+</html>
