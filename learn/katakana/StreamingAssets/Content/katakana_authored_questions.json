@@ -1,0 +1,1141 @@
+{
+  "schemaVersion": 1,
+  "questions": [
+    {
+      "id": "stroke_shi",
+      "lessonId": "stroke_direction",
+      "prompt": "シ",
+      "answer": "・・↗",
+      "choices": [
+        "・・↗",
+        "・・↓",
+        "・↗",
+        "・↓"
+      ],
+      "speech": "し",
+      "instruction": "シの線の向きを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "stroke_tsu",
+      "lessonId": "stroke_direction",
+      "prompt": "ツ",
+      "answer": "・・↓",
+      "choices": [
+        "・・↓",
+        "・・↗",
+        "・↓",
+        "・↗"
+      ],
+      "speech": "つ",
+      "instruction": "ツの線の向きを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "stroke_n",
+      "lessonId": "stroke_direction",
+      "prompt": "ン",
+      "answer": "・↗",
+      "choices": [
+        "・↗",
+        "・↓",
+        "・・↗",
+        "・・↓"
+      ],
+      "speech": "ん",
+      "instruction": "ンの線の向きを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "stroke_so",
+      "lessonId": "stroke_direction",
+      "prompt": "ソ",
+      "answer": "・↓",
+      "choices": [
+        "・↓",
+        "・↗",
+        "・・↓",
+        "・・↗"
+      ],
+      "speech": "そ",
+      "instruction": "ソの線の向きを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_ga",
+      "lessonId": "voiced",
+      "prompt": "ga",
+      "answer": "ガ",
+      "choices": [
+        "ガ",
+        "カ",
+        "ケ",
+        "ゴ"
+      ],
+      "speech": "が",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_gi",
+      "lessonId": "voiced",
+      "prompt": "gi",
+      "answer": "ギ",
+      "choices": [
+        "ギ",
+        "キ",
+        "ゲ",
+        "グ"
+      ],
+      "speech": "ぎ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_ji",
+      "lessonId": "voiced",
+      "prompt": "ji",
+      "answer": "ジ",
+      "choices": [
+        "ジ",
+        "シ",
+        "ズ",
+        "チ"
+      ],
+      "speech": "じ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_zu",
+      "lessonId": "voiced",
+      "prompt": "zu",
+      "answer": "ズ",
+      "choices": [
+        "ズ",
+        "ス",
+        "ジ",
+        "ゾ"
+      ],
+      "speech": "ず",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_da",
+      "lessonId": "voiced",
+      "prompt": "da",
+      "answer": "ダ",
+      "choices": [
+        "ダ",
+        "タ",
+        "デ",
+        "ド"
+      ],
+      "speech": "だ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_do",
+      "lessonId": "voiced",
+      "prompt": "do",
+      "answer": "ド",
+      "choices": [
+        "ド",
+        "ト",
+        "デ",
+        "ダ"
+      ],
+      "speech": "ど",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_ba",
+      "lessonId": "voiced",
+      "prompt": "ba",
+      "answer": "バ",
+      "choices": [
+        "バ",
+        "ハ",
+        "パ",
+        "マ"
+      ],
+      "speech": "ば",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_pa",
+      "lessonId": "voiced",
+      "prompt": "pa",
+      "answer": "パ",
+      "choices": [
+        "パ",
+        "バ",
+        "ハ",
+        "マ"
+      ],
+      "speech": "ぱ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "voice_pi",
+      "lessonId": "voiced",
+      "prompt": "pi",
+      "answer": "ピ",
+      "choices": [
+        "ピ",
+        "ビ",
+        "ヒ",
+        "パ"
+      ],
+      "speech": "ぴ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_coffee",
+      "lessonId": "long_vowel",
+      "prompt": "coffee",
+      "answer": "コーヒー",
+      "choices": [
+        "コーヒー",
+        "コヒー",
+        "コーヒ",
+        "コヒ"
+      ],
+      "speech": "こおひい",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_cake",
+      "lessonId": "long_vowel",
+      "prompt": "cake",
+      "answer": "ケーキ",
+      "choices": [
+        "ケーキ",
+        "ケキ",
+        "キーケ",
+        "ケーケ"
+      ],
+      "speech": "けえき",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_super",
+      "lessonId": "long_vowel",
+      "prompt": "supermarket",
+      "answer": "スーパー",
+      "choices": [
+        "スーパー",
+        "スパー",
+        "スーパ",
+        "スパ"
+      ],
+      "speech": "すうぱあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_sweater",
+      "lessonId": "long_vowel",
+      "prompt": "sweater",
+      "answer": "セーター",
+      "choices": [
+        "セーター",
+        "セター",
+        "セータ",
+        "セテー"
+      ],
+      "speech": "せえたあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_coat",
+      "lessonId": "long_vowel",
+      "prompt": "coat",
+      "answer": "コート",
+      "choices": [
+        "コート",
+        "コト",
+        "コートー",
+        "コトー"
+      ],
+      "speech": "こおと",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_closet",
+      "lessonId": "long_vowel",
+      "prompt": "closet",
+      "answer": "クローゼット",
+      "choices": [
+        "クローゼット",
+        "クロゼット",
+        "クーロゼット",
+        "クローセット"
+      ],
+      "speech": "くろおぜっと",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_hear_coat",
+      "lessonId": "long_vowel",
+      "prompt": "♪",
+      "answer": "コート",
+      "choices": [
+        "コート",
+        "コト",
+        "カード",
+        "カド"
+      ],
+      "speech": "こおと",
+      "instruction": "長い音がある単語を聞き分けてください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_hear_cake",
+      "lessonId": "long_vowel",
+      "prompt": "♪",
+      "answer": "ケーキ",
+      "choices": [
+        "ケーキ",
+        "ケキ",
+        "コーキ",
+        "コキ"
+      ],
+      "speech": "けえき",
+      "instruction": "長い音がある単語を聞き分けてください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "long_hear_super",
+      "lessonId": "long_vowel",
+      "prompt": "♪",
+      "answer": "スーパー",
+      "choices": [
+        "スーパー",
+        "スパ",
+        "スープ",
+        "スプ"
+      ],
+      "speech": "すうぱあ",
+      "instruction": "長い音がある単語を聞き分けてください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "tsu_bed",
+      "lessonId": "small_tsu",
+      "prompt": "♪",
+      "answer": "ベッド",
+      "choices": [
+        "ベッド",
+        "ベド",
+        "ベット",
+        "ベート"
+      ],
+      "speech": "べっど",
+      "instruction": "短いポーズがある単語を選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "tsu_cup",
+      "lessonId": "small_tsu",
+      "prompt": "♪",
+      "answer": "カップ",
+      "choices": [
+        "カップ",
+        "カプ",
+        "カープ",
+        "カポ"
+      ],
+      "speech": "かっぷ",
+      "instruction": "短いポーズがある単語を選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "tsu_bag",
+      "lessonId": "small_tsu",
+      "prompt": "♪",
+      "answer": "バッグ",
+      "choices": [
+        "バッグ",
+        "バグ",
+        "バーグ",
+        "バゴ"
+      ],
+      "speech": "ばっぐ",
+      "instruction": "短いポーズがある単語を選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "tsu_ticket",
+      "lessonId": "small_tsu",
+      "prompt": "♪",
+      "answer": "チケット",
+      "choices": [
+        "チケット",
+        "チケト",
+        "チケート",
+        "チキト"
+      ],
+      "speech": "ちけっと",
+      "instruction": "短いポーズがある単語を選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "tsu_soccer",
+      "lessonId": "small_tsu",
+      "prompt": "♪",
+      "answer": "サッカー",
+      "choices": [
+        "サッカー",
+        "サカー",
+        "サーコ",
+        "サカ"
+      ],
+      "speech": "さっかあ",
+      "instruction": "短いポーズがある単語を選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "yoon_kya",
+      "lessonId": "contracted",
+      "prompt": "kya",
+      "answer": "キャ",
+      "choices": [
+        "キャ",
+        "キヤ",
+        "キュ",
+        "チャ"
+      ],
+      "speech": "きゃ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "yoon_shirt",
+      "lessonId": "contracted",
+      "prompt": "shirt",
+      "answer": "シャツ",
+      "choices": [
+        "シャツ",
+        "シヤツ",
+        "シュツ",
+        "シャッ"
+      ],
+      "speech": "しゃつ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "yoon_cabbage",
+      "lessonId": "contracted",
+      "prompt": "cabbage",
+      "answer": "キャベツ",
+      "choices": [
+        "キャベツ",
+        "キヤベツ",
+        "キャベッ",
+        "チャベツ"
+      ],
+      "speech": "きゃべつ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "yoon_shower",
+      "lessonId": "contracted",
+      "prompt": "shower",
+      "answer": "シャワー",
+      "choices": [
+        "シャワー",
+        "シヤワー",
+        "シュワー",
+        "シャーワ"
+      ],
+      "speech": "しゃわあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "yoon_news",
+      "lessonId": "contracted",
+      "prompt": "news",
+      "answer": "ニュース",
+      "choices": [
+        "ニュース",
+        "ニユース",
+        "ニース",
+        "ニュス"
+      ],
+      "speech": "にゅうす",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "yoon_rucksack",
+      "lessonId": "contracted",
+      "prompt": "backpack",
+      "answer": "リュック",
+      "choices": [
+        "リュック",
+        "リユック",
+        "リュク",
+        "ルュック"
+      ],
+      "speech": "りゅっく",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_ti",
+      "lessonId": "foreign",
+      "prompt": "ti",
+      "answer": "ティ",
+      "choices": [
+        "ティ",
+        "テイ",
+        "ディ",
+        "チ"
+      ],
+      "speech": "てぃ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 3,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_di",
+      "lessonId": "foreign",
+      "prompt": "di",
+      "answer": "ディ",
+      "choices": [
+        "ディ",
+        "デイ",
+        "ティ",
+        "ジ"
+      ],
+      "speech": "でぃ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_fa",
+      "lessonId": "foreign",
+      "prompt": "fa",
+      "answer": "ファ",
+      "choices": [
+        "ファ",
+        "フア",
+        "フィ",
+        "フォ"
+      ],
+      "speech": "ふぁ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_fi",
+      "lessonId": "foreign",
+      "prompt": "fi",
+      "answer": "フィ",
+      "choices": [
+        "フィ",
+        "フイ",
+        "ファ",
+        "フェ"
+      ],
+      "speech": "ふぃ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_fe",
+      "lessonId": "foreign",
+      "prompt": "fe",
+      "answer": "フェ",
+      "choices": [
+        "フェ",
+        "フエ",
+        "フィ",
+        "フォ"
+      ],
+      "speech": "ふぇ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_fo",
+      "lessonId": "foreign",
+      "prompt": "fo",
+      "answer": "フォ",
+      "choices": [
+        "フォ",
+        "フオ",
+        "ファ",
+        "フェ"
+      ],
+      "speech": "ふぉ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_wi",
+      "lessonId": "foreign",
+      "prompt": "wi",
+      "answer": "ウィ",
+      "choices": [
+        "ウィ",
+        "ウイ",
+        "ウェ",
+        "ウォ"
+      ],
+      "speech": "うぃ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_we",
+      "lessonId": "foreign",
+      "prompt": "we",
+      "answer": "ウェ",
+      "choices": [
+        "ウェ",
+        "ウエ",
+        "ウィ",
+        "ウォ"
+      ],
+      "speech": "うぇ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_wo",
+      "lessonId": "foreign",
+      "prompt": "wo",
+      "answer": "ウォ",
+      "choices": [
+        "ウォ",
+        "ウオ",
+        "ウィ",
+        "ウェ"
+      ],
+      "speech": "うぉ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_she",
+      "lessonId": "foreign",
+      "prompt": "she",
+      "answer": "シェ",
+      "choices": [
+        "シェ",
+        "シエ",
+        "ジェ",
+        "チェ"
+      ],
+      "speech": "しぇ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_je",
+      "lessonId": "foreign",
+      "prompt": "je",
+      "answer": "ジェ",
+      "choices": [
+        "ジェ",
+        "ジエ",
+        "シェ",
+        "チェ"
+      ],
+      "speech": "じぇ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_che",
+      "lessonId": "foreign",
+      "prompt": "che",
+      "answer": "チェ",
+      "choices": [
+        "チェ",
+        "チエ",
+        "シェ",
+        "ジェ"
+      ],
+      "speech": "ちぇ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_tu",
+      "lessonId": "foreign",
+      "prompt": "tu",
+      "answer": "トゥ",
+      "choices": [
+        "トゥ",
+        "トウ",
+        "ドゥ",
+        "ツ"
+      ],
+      "speech": "とぅ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "foreign_du",
+      "lessonId": "foreign",
+      "prompt": "du",
+      "answer": "ドゥ",
+      "choices": [
+        "ドゥ",
+        "ドウ",
+        "トゥ",
+        "ヅ"
+      ],
+      "speech": "どぅ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "loan_bus",
+      "lessonId": "short_loanwords",
+      "prompt": "bus",
+      "answer": "バス",
+      "choices": [
+        "バス",
+        "パス",
+        "ベス",
+        "バズ"
+      ],
+      "speech": "ばす",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": true
+    },
+    {
+      "id": "loan_bread",
+      "lessonId": "short_loanwords",
+      "prompt": "bread",
+      "answer": "パン",
+      "choices": [
+        "パン",
+        "バン",
+        "ペン",
+        "ポン"
+      ],
+      "speech": "ぱん",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": true
+    },
+    {
+      "id": "loan_pen",
+      "lessonId": "short_loanwords",
+      "prompt": "pen",
+      "answer": "ペン",
+      "choices": [
+        "ペン",
+        "ベン",
+        "パン",
+        "ピン"
+      ],
+      "speech": "ぺん",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": true
+    },
+    {
+      "id": "loan_door",
+      "lessonId": "short_loanwords",
+      "prompt": "door",
+      "answer": "ドア",
+      "choices": [
+        "ドア",
+        "トア",
+        "ドオ",
+        "デア"
+      ],
+      "speech": "どあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": true
+    },
+    {
+      "id": "loan_gum",
+      "lessonId": "short_loanwords",
+      "prompt": "gum",
+      "answer": "ガム",
+      "choices": [
+        "ガム",
+        "カム",
+        "ガマ",
+        "ゴム"
+      ],
+      "speech": "がむ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": true
+    },
+    {
+      "id": "loan_chef",
+      "lessonId": "short_loanwords",
+      "prompt": "chef",
+      "answer": "シェフ",
+      "choices": [
+        "シェフ",
+        "シエフ",
+        "チェフ",
+        "ジェフ"
+      ],
+      "speech": "しぇふ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "loan_chess",
+      "lessonId": "short_loanwords",
+      "prompt": "chess",
+      "answer": "チェス",
+      "choices": [
+        "チェス",
+        "チエス",
+        "シェス",
+        "ジェス"
+      ],
+      "speech": "ちぇす",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "loan_web",
+      "lessonId": "short_loanwords",
+      "prompt": "web",
+      "answer": "ウェブ",
+      "choices": [
+        "ウェブ",
+        "ウエブ",
+        "ウェフ",
+        "ウィブ"
+      ],
+      "speech": "うぇぶ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "loan_tea",
+      "lessonId": "short_loanwords",
+      "prompt": "tea",
+      "answer": "ティー",
+      "choices": [
+        "ティー",
+        "テイー",
+        "ディー",
+        "チー"
+      ],
+      "speech": "てぃい",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "loan_phone",
+      "lessonId": "short_loanwords",
+      "prompt": "phone",
+      "answer": "フォン",
+      "choices": [
+        "フォン",
+        "フオン",
+        "ファン",
+        "フィン"
+      ],
+      "speech": "ふぉん",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_bus",
+      "lessonId": "real_words",
+      "prompt": "bus",
+      "answer": "バス",
+      "choices": [
+        "バス",
+        "パス",
+        "ベス",
+        "バズ"
+      ],
+      "speech": "ばす",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_tv",
+      "lessonId": "real_words",
+      "prompt": "テレビ",
+      "answer": "television",
+      "choices": [
+        "television",
+        "hotel",
+        "bus",
+        "notebook"
+      ],
+      "speech": "てれび",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_curry",
+      "lessonId": "real_words",
+      "prompt": "curry",
+      "answer": "カレー",
+      "choices": [
+        "カレー",
+        "カレ",
+        "カーレ",
+        "ガレー"
+      ],
+      "speech": "かれえ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_hotel",
+      "lessonId": "real_words",
+      "prompt": "ホテル",
+      "answer": "hotel",
+      "choices": [
+        "hotel",
+        "heater",
+        "elevator",
+        "apartment"
+      ],
+      "speech": "ほてる",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_note",
+      "lessonId": "real_words",
+      "prompt": "ノート",
+      "answer": "notebook",
+      "choices": [
+        "notebook",
+        "television",
+        "coat",
+        "ticket"
+      ],
+      "speech": "のおと",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_shower",
+      "lessonId": "real_words",
+      "prompt": "シャワー",
+      "answer": "shower",
+      "choices": [
+        "shower",
+        "sweater",
+        "curry",
+        "coffee"
+      ],
+      "speech": "しゃわあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_sweater",
+      "lessonId": "real_words",
+      "prompt": "sweater",
+      "answer": "セーター",
+      "choices": [
+        "セーター",
+        "セター",
+        "セータ",
+        "セテー"
+      ],
+      "speech": "せえたあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_stove",
+      "lessonId": "real_words",
+      "prompt": "ストーブ",
+      "answer": "heater",
+      "choices": [
+        "heater",
+        "hotel",
+        "sweater",
+        "elevator"
+      ],
+      "speech": "すとおぶ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_apartment",
+      "lessonId": "real_words",
+      "prompt": "apartment",
+      "answer": "アパート",
+      "choices": [
+        "アパート",
+        "アバート",
+        "アパト",
+        "アーパト"
+      ],
+      "speech": "あぱあと",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "word_elevator",
+      "lessonId": "real_words",
+      "prompt": "エレベーター",
+      "answer": "elevator",
+      "choices": [
+        "elevator",
+        "apartment",
+        "television",
+        "supermarket"
+      ],
+      "speech": "えれべえたあ",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "read_hotel",
+      "lessonId": "short_reading",
+      "prompt": "ホテルへ いきます。\nどこへ いきますか？",
+      "answer": "ホテル",
+      "choices": [
+        "ホテル",
+        "バス",
+        "ノート",
+        "テレビ"
+      ],
+      "speech": "ほてるへ いきます",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "read_bus",
+      "lessonId": "short_reading",
+      "prompt": "バスで いきます。\nなにで いきますか？",
+      "answer": "バス",
+      "choices": [
+        "バス",
+        "ホテル",
+        "カレー",
+        "ノート"
+      ],
+      "speech": "ばすで いきます",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "read_note",
+      "lessonId": "short_reading",
+      "prompt": "ノートを かいます。\nなにを かいますか？",
+      "answer": "ノート",
+      "choices": [
+        "ノート",
+        "テレビ",
+        "ホテル",
+        "バス"
+      ],
+      "speech": "のおとを かいます",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    },
+    {
+      "id": "read_tv",
+      "lessonId": "short_reading",
+      "prompt": "テレビを みます。\nなにを みますか？",
+      "answer": "テレビ",
+      "choices": [
+        "テレビ",
+        "ノート",
+        "カレー",
+        "バス"
+      ],
+      "speech": "てれびを みます",
+      "instruction": "正しい答えを選んでください",
+      "requiredCorrectAnswers": 2,
+      "supportsWriting": false
+    }
+  ]
+}
