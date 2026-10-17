@@ -203,7 +203,7 @@
 
       var container=document.querySelector("#unity-container"),canvas=document.querySelector("#unity-canvas"),loadingBar=document.querySelector("#unity-loading-bar"),progressBarFull=document.querySelector("#unity-progress-bar-full"),warningBanner=document.querySelector("#unity-warning");
       function unityShowBanner(msg,type){function update(){warningBanner.style.display=warningBanner.children.length?"block":"none";}var div=document.createElement("div");div.innerHTML=msg;warningBanner.appendChild(div);if(type==="error")div.style="background:red;padding:10px;";else{if(type==="warning")div.style="background:yellow;padding:10px;";setTimeout(function(){warningBanner.removeChild(div);update();},5000);}update();}
-      var webglBuildVersion="20261017100213",buildUrl="../hiragana/Build",loaderUrl=buildUrl+"/webgl.loader.js?v="+webglBuildVersion;
+      var webglBuildVersion="20261017103117",buildUrl="../hiragana/Build",loaderUrl=buildUrl+"/webgl.loader.js?v="+webglBuildVersion;
       var config={dataUrl:buildUrl+"/webgl.data?v="+webglBuildVersion,frameworkUrl:buildUrl+"/webgl.framework.js?v="+webglBuildVersion,codeUrl:buildUrl+"/webgl.wasm?v="+webglBuildVersion,streamingAssetsUrl:"StreamingAssets",companyName:"DefaultCompany",productName:"Learn Japanese",productVersion:"1.0",showBanner:unityShowBanner};
       if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){container.className="unity-mobile";canvas.className="unity-mobile";}
       loadingBar.style.display="block";
