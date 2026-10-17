@@ -1,0 +1,2304 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "kanji_n5:一",
+      "level": "n5",
+      "character": "一",
+      "primaryReading": "いち",
+      "onyomi": [
+        "いち"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "one",
+      "japaneseMeaning": "いち",
+      "strokeCount": 1,
+      "exampleWord": "一番",
+      "exampleReading": "いちばん",
+      "exampleEnglish": "number one",
+      "highlightedReading": "いち",
+      "exampleSentence": "いちばんを　えらぶ",
+      "exampleSentenceEnglish": "I choose number one.",
+      "supportsHandwriting": false
+    },
+    {
+      "id": "kanji_n5:二",
+      "level": "n5",
+      "character": "二",
+      "primaryReading": "に",
+      "onyomi": [
+        "に"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "two",
+      "japaneseMeaning": "に",
+      "strokeCount": 2,
+      "exampleWord": "二月",
+      "exampleReading": "にがつ",
+      "exampleEnglish": "February",
+      "highlightedReading": "に",
+      "exampleSentence": "にがつに　にほんへ　いく",
+      "exampleSentenceEnglish": "I go to Japan in February.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:三",
+      "level": "n5",
+      "character": "三",
+      "primaryReading": "さん",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "three",
+      "japaneseMeaning": "さん",
+      "strokeCount": 3,
+      "exampleWord": "三人",
+      "exampleReading": "さんにん",
+      "exampleEnglish": "three people",
+      "highlightedReading": "さん",
+      "exampleSentence": "さんにんで　あそぶ",
+      "exampleSentenceEnglish": "Three people play together.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:四",
+      "level": "n5",
+      "character": "四",
+      "primaryReading": "よん",
+      "onyomi": [
+        "よん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "four",
+      "japaneseMeaning": "よん",
+      "strokeCount": 5,
+      "exampleWord": "四番",
+      "exampleReading": "よんばん",
+      "exampleEnglish": "number four",
+      "highlightedReading": "よん",
+      "exampleSentence": "よんばんを　えらぶ",
+      "exampleSentenceEnglish": "I choose number four.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:五",
+      "level": "n5",
+      "character": "五",
+      "primaryReading": "ご",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "five",
+      "japaneseMeaning": "ご",
+      "strokeCount": 4,
+      "exampleWord": "五円",
+      "exampleReading": "ごえん",
+      "exampleEnglish": "five yen",
+      "highlightedReading": "ご",
+      "exampleSentence": "ごえんだまが　ある",
+      "exampleSentenceEnglish": "There is a five-yen coin.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:六",
+      "level": "n5",
+      "character": "六",
+      "primaryReading": "ろく",
+      "onyomi": [
+        "ろく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "six",
+      "japaneseMeaning": "ろく",
+      "strokeCount": 4,
+      "exampleWord": "六時",
+      "exampleReading": "ろくじ",
+      "exampleEnglish": "six o'clock",
+      "highlightedReading": "ろく",
+      "exampleSentence": "ろくじに　おきる",
+      "exampleSentenceEnglish": "I wake up at six o'clock.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:七",
+      "level": "n5",
+      "character": "七",
+      "primaryReading": "なな",
+      "onyomi": [
+        "なな"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "seven",
+      "japaneseMeaning": "なな",
+      "strokeCount": 2,
+      "exampleWord": "七本",
+      "exampleReading": "ななほん",
+      "exampleEnglish": "seven long objects",
+      "highlightedReading": "なな",
+      "exampleSentence": "ななほんの　えんぴつが　ある",
+      "exampleSentenceEnglish": "There are seven pencils.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:八",
+      "level": "n5",
+      "character": "八",
+      "primaryReading": "はち",
+      "onyomi": [
+        "はち"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "eight",
+      "japaneseMeaning": "はち",
+      "strokeCount": 2,
+      "exampleWord": "八時",
+      "exampleReading": "はちじ",
+      "exampleEnglish": "eight o'clock",
+      "highlightedReading": "はち",
+      "exampleSentence": "はちじに　がっこうへ　いく",
+      "exampleSentenceEnglish": "I go to school at eight o'clock.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:九",
+      "level": "n5",
+      "character": "九",
+      "primaryReading": "きゅう",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "nine",
+      "japaneseMeaning": "きゅう",
+      "strokeCount": 2,
+      "exampleWord": "九番",
+      "exampleReading": "きゅうばん",
+      "exampleEnglish": "number nine",
+      "highlightedReading": "きゅう",
+      "exampleSentence": "きゅうばんを　えらぶ",
+      "exampleSentenceEnglish": "I choose number nine.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:十",
+      "level": "n5",
+      "character": "十",
+      "primaryReading": "じゅう",
+      "onyomi": [
+        "じゅう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "ten",
+      "japaneseMeaning": "じゅう",
+      "strokeCount": 2,
+      "exampleWord": "十人",
+      "exampleReading": "じゅうにん",
+      "exampleEnglish": "ten people",
+      "highlightedReading": "じゅう",
+      "exampleSentence": "じゅうにんの　がくせいが　いる",
+      "exampleSentenceEnglish": "There are ten students.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:百",
+      "level": "n5",
+      "character": "百",
+      "primaryReading": "ひゃく",
+      "onyomi": [
+        "ひゃく"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "hundred",
+      "japaneseMeaning": "ひゃく",
+      "strokeCount": 6,
+      "exampleWord": "百円",
+      "exampleReading": "ひゃくえん",
+      "exampleEnglish": "100 yen",
+      "highlightedReading": "ひゃく",
+      "exampleSentence": "これは　ひゃくえんです",
+      "exampleSentenceEnglish": "This is 100 yen.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:千",
+      "level": "n5",
+      "character": "千",
+      "primaryReading": "せん",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "ち"
+      ],
+      "englishMeaning": "thousand",
+      "japaneseMeaning": "せん",
+      "strokeCount": 3,
+      "exampleWord": "千円",
+      "exampleReading": "せんえん",
+      "exampleEnglish": "1,000 yen",
+      "highlightedReading": "せん",
+      "exampleSentence": "ほんは　せんえんです",
+      "exampleSentenceEnglish": "The book is 1,000 yen.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:万",
+      "level": "n5",
+      "character": "万",
+      "primaryReading": "まん",
+      "onyomi": [
+        "まん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "ten thousand",
+      "japaneseMeaning": "いちまん",
+      "strokeCount": 3,
+      "exampleWord": "一万円",
+      "exampleReading": "いちまんえん",
+      "exampleEnglish": "10,000 yen",
+      "highlightedReading": "まん",
+      "exampleSentence": "これは　いちまんえんです",
+      "exampleSentenceEnglish": "This is 10,000 yen.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:円",
+      "level": "n5",
+      "character": "円",
+      "primaryReading": "えん",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [
+        "まる"
+      ],
+      "englishMeaning": "yen; circle",
+      "japaneseMeaning": "えん・まる",
+      "strokeCount": 4,
+      "exampleWord": "百円",
+      "exampleReading": "ひゃくえん",
+      "exampleEnglish": "100 yen",
+      "highlightedReading": "えん",
+      "exampleSentence": "パンは　ひゃくえんです",
+      "exampleSentenceEnglish": "The bread is 100 yen.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:日",
+      "level": "n5",
+      "character": "日",
+      "primaryReading": "ひ",
+      "onyomi": [
+        "にち",
+        "じつ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "か"
+      ],
+      "englishMeaning": "day; sun",
+      "japaneseMeaning": "ひ・たいよう",
+      "strokeCount": 4,
+      "exampleWord": "毎日",
+      "exampleReading": "まいにち",
+      "exampleEnglish": "every day",
+      "highlightedReading": "にち",
+      "exampleSentence": "まいにち　ほんを　よむ",
+      "exampleSentenceEnglish": "I read a book every day.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:月",
+      "level": "n5",
+      "character": "月",
+      "primaryReading": "つき",
+      "onyomi": [
+        "げつ",
+        "がつ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "englishMeaning": "month; moon",
+      "japaneseMeaning": "つき",
+      "strokeCount": 4,
+      "exampleWord": "月曜日",
+      "exampleReading": "げつようび",
+      "exampleEnglish": "Monday",
+      "highlightedReading": "げつ",
+      "exampleSentence": "げつようびに　がっこうへ　いく",
+      "exampleSentenceEnglish": "I go to school on Monday.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:火",
+      "level": "n5",
+      "character": "火",
+      "primaryReading": "ひ",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "ひ"
+      ],
+      "englishMeaning": "fire",
+      "japaneseMeaning": "ひ",
+      "strokeCount": 4,
+      "exampleWord": "火曜日",
+      "exampleReading": "かようび",
+      "exampleEnglish": "Tuesday",
+      "highlightedReading": "か",
+      "exampleSentence": "かようびに　ともだちと　あう",
+      "exampleSentenceEnglish": "I meet my friend on Tuesday.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:水",
+      "level": "n5",
+      "character": "水",
+      "primaryReading": "みず",
+      "onyomi": [
+        "すい"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "englishMeaning": "water",
+      "japaneseMeaning": "みず",
+      "strokeCount": 4,
+      "exampleWord": "水曜日",
+      "exampleReading": "すいようび",
+      "exampleEnglish": "Wednesday",
+      "highlightedReading": "すい",
+      "exampleSentence": "すいようびに　みずを　かう",
+      "exampleSentenceEnglish": "I buy water on Wednesday.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:木",
+      "level": "n5",
+      "character": "木",
+      "primaryReading": "き",
+      "onyomi": [
+        "もく",
+        "ぼく"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "englishMeaning": "tree; wood",
+      "japaneseMeaning": "き",
+      "strokeCount": 4,
+      "exampleWord": "木曜日",
+      "exampleReading": "もくようび",
+      "exampleEnglish": "Thursday",
+      "highlightedReading": "もく",
+      "exampleSentence": "もくようびに　ほんを　よむ",
+      "exampleSentenceEnglish": "I read a book on Thursday.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:金",
+      "level": "n5",
+      "character": "金",
+      "primaryReading": "かね",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "englishMeaning": "money; gold",
+      "japaneseMeaning": "おかね",
+      "strokeCount": 8,
+      "exampleWord": "お金",
+      "exampleReading": "おかね",
+      "exampleEnglish": "money",
+      "highlightedReading": "かね",
+      "exampleSentence": "かねを　はらう",
+      "exampleSentenceEnglish": "I pay money.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:土",
+      "level": "n5",
+      "character": "土",
+      "primaryReading": "つち",
+      "onyomi": [
+        "ど",
+        "と"
+      ],
+      "kunyomi": [
+        "つち"
+      ],
+      "englishMeaning": "earth; soil",
+      "japaneseMeaning": "つち",
+      "strokeCount": 3,
+      "exampleWord": "土曜日",
+      "exampleReading": "どようび",
+      "exampleEnglish": "Saturday",
+      "highlightedReading": "ど",
+      "exampleSentence": "どようびに　やすむ",
+      "exampleSentenceEnglish": "I rest on Saturday.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:年",
+      "level": "n5",
+      "character": "年",
+      "primaryReading": "とし",
+      "onyomi": [
+        "ねん"
+      ],
+      "kunyomi": [
+        "とし"
+      ],
+      "englishMeaning": "year",
+      "japaneseMeaning": "とし",
+      "strokeCount": 6,
+      "exampleWord": "今年",
+      "exampleReading": "ことし",
+      "exampleEnglish": "this year",
+      "highlightedReading": "とし",
+      "exampleSentence": "ことしは　いい　としです",
+      "exampleSentenceEnglish": "This is a good year.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:時",
+      "level": "n5",
+      "character": "時",
+      "primaryReading": "じ",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "englishMeaning": "time; hour",
+      "japaneseMeaning": "じかん",
+      "strokeCount": 10,
+      "exampleWord": "一時",
+      "exampleReading": "いちじ",
+      "exampleEnglish": "one o'clock",
+      "highlightedReading": "じ",
+      "exampleSentence": "いまは　いちじです",
+      "exampleSentenceEnglish": "It is one o'clock now.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:分",
+      "level": "n5",
+      "character": "分",
+      "primaryReading": "ふん",
+      "onyomi": [
+        "ふん",
+        "ぶん"
+      ],
+      "kunyomi": [
+        "わかる"
+      ],
+      "englishMeaning": "minute; part",
+      "japaneseMeaning": "ふん・ぶぶん",
+      "strokeCount": 4,
+      "exampleWord": "五分",
+      "exampleReading": "ごふん",
+      "exampleEnglish": "five minutes",
+      "highlightedReading": "ふん",
+      "exampleSentence": "あと　ごふん　まつ",
+      "exampleSentenceEnglish": "I wait five more minutes.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:半",
+      "level": "n5",
+      "character": "半",
+      "primaryReading": "はん",
+      "onyomi": [
+        "はん"
+      ],
+      "kunyomi": [
+        "なかば"
+      ],
+      "englishMeaning": "half",
+      "japaneseMeaning": "はんぶん",
+      "strokeCount": 5,
+      "exampleWord": "一時半",
+      "exampleReading": "いちじはん",
+      "exampleEnglish": "1:30",
+      "highlightedReading": "はん",
+      "exampleSentence": "いまは　いちじはんです",
+      "exampleSentenceEnglish": "It is 1:30 now.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:今",
+      "level": "n5",
+      "character": "今",
+      "primaryReading": "いま",
+      "onyomi": [
+        "こん"
+      ],
+      "kunyomi": [
+        "いま"
+      ],
+      "englishMeaning": "now",
+      "japaneseMeaning": "いま",
+      "strokeCount": 4,
+      "exampleWord": "今",
+      "exampleReading": "いま",
+      "exampleEnglish": "now",
+      "highlightedReading": "いま",
+      "exampleSentence": "いまから　ほんを　よむ",
+      "exampleSentenceEnglish": "I will read a book now.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:毎",
+      "level": "n5",
+      "character": "毎",
+      "primaryReading": "まい",
+      "onyomi": [
+        "まい"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "every",
+      "japaneseMeaning": "いつも",
+      "strokeCount": 6,
+      "exampleWord": "毎日",
+      "exampleReading": "まいにち",
+      "exampleEnglish": "every day",
+      "highlightedReading": "まい",
+      "exampleSentence": "まいにち　みずを　のむ",
+      "exampleSentenceEnglish": "I drink water every day.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:午",
+      "level": "n5",
+      "character": "午",
+      "primaryReading": "ご",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "noon",
+      "japaneseMeaning": "ひる",
+      "strokeCount": 4,
+      "exampleWord": "午後",
+      "exampleReading": "ごご",
+      "exampleEnglish": "afternoon",
+      "highlightedReading": "ご",
+      "exampleSentence": "ごごに　ともだちと　あう",
+      "exampleSentenceEnglish": "I meet my friend in the afternoon.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:前",
+      "level": "n5",
+      "character": "前",
+      "primaryReading": "まえ",
+      "onyomi": [
+        "ぜん"
+      ],
+      "kunyomi": [
+        "まえ"
+      ],
+      "englishMeaning": "before; front",
+      "japaneseMeaning": "まえ",
+      "strokeCount": 9,
+      "exampleWord": "午前",
+      "exampleReading": "ごぜん",
+      "exampleEnglish": "morning; a.m.",
+      "highlightedReading": "ぜん",
+      "exampleSentence": "ごぜんに　がっこうへ　いく",
+      "exampleSentenceEnglish": "I go to school in the morning.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:後",
+      "level": "n5",
+      "character": "後",
+      "primaryReading": "あと",
+      "onyomi": [
+        "ご",
+        "こう"
+      ],
+      "kunyomi": [
+        "あと",
+        "うしろ"
+      ],
+      "englishMeaning": "after; behind",
+      "japaneseMeaning": "あと・うしろ",
+      "strokeCount": 9,
+      "exampleWord": "午後",
+      "exampleReading": "ごご",
+      "exampleEnglish": "afternoon; p.m.",
+      "highlightedReading": "ご",
+      "exampleSentence": "ごごに　ほんを　かう",
+      "exampleSentenceEnglish": "I buy a book in the afternoon.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:人",
+      "level": "n5",
+      "character": "人",
+      "primaryReading": "ひと",
+      "onyomi": [
+        "じん",
+        "にん"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "englishMeaning": "person",
+      "japaneseMeaning": "ひと",
+      "strokeCount": 2,
+      "exampleWord": "日本人",
+      "exampleReading": "にほんじん",
+      "exampleEnglish": "Japanese person",
+      "highlightedReading": "じん",
+      "exampleSentence": "あのひとは　にほんじんです",
+      "exampleSentenceEnglish": "That person is Japanese.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:男",
+      "level": "n5",
+      "character": "男",
+      "primaryReading": "おとこ",
+      "onyomi": [
+        "だん",
+        "なん"
+      ],
+      "kunyomi": [
+        "おとこ"
+      ],
+      "englishMeaning": "man; male",
+      "japaneseMeaning": "おとこ",
+      "strokeCount": 7,
+      "exampleWord": "男の人",
+      "exampleReading": "おとこのひと",
+      "exampleEnglish": "man",
+      "highlightedReading": "おとこ",
+      "exampleSentence": "おとこのひとが　そこに　いる",
+      "exampleSentenceEnglish": "There is a man there.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:女",
+      "level": "n5",
+      "character": "女",
+      "primaryReading": "おんな",
+      "onyomi": [
+        "じょ"
+      ],
+      "kunyomi": [
+        "おんな"
+      ],
+      "englishMeaning": "woman; female",
+      "japaneseMeaning": "おんな",
+      "strokeCount": 3,
+      "exampleWord": "女の人",
+      "exampleReading": "おんなのひと",
+      "exampleEnglish": "woman",
+      "highlightedReading": "おんな",
+      "exampleSentence": "おんなのひとが　せんせいです",
+      "exampleSentenceEnglish": "The woman is a teacher.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:子",
+      "level": "n5",
+      "character": "子",
+      "primaryReading": "こ",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "englishMeaning": "child",
+      "japaneseMeaning": "こども",
+      "strokeCount": 3,
+      "exampleWord": "子ども",
+      "exampleReading": "こども",
+      "exampleEnglish": "child",
+      "highlightedReading": "こ",
+      "exampleSentence": "こどもが　ほんを　よむ",
+      "exampleSentenceEnglish": "A child reads a book.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:父",
+      "level": "n5",
+      "character": "父",
+      "primaryReading": "ちち",
+      "onyomi": [
+        "ふ"
+      ],
+      "kunyomi": [
+        "ちち"
+      ],
+      "englishMeaning": "father",
+      "japaneseMeaning": "おとうさん",
+      "strokeCount": 4,
+      "exampleWord": "父",
+      "exampleReading": "ちち",
+      "exampleEnglish": "father",
+      "highlightedReading": "ちち",
+      "exampleSentence": "ちちは　コーヒーを　のむ",
+      "exampleSentenceEnglish": "My father drinks coffee.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:母",
+      "level": "n5",
+      "character": "母",
+      "primaryReading": "はは",
+      "onyomi": [
+        "ぼ"
+      ],
+      "kunyomi": [
+        "はは"
+      ],
+      "englishMeaning": "mother",
+      "japaneseMeaning": "おかあさん",
+      "strokeCount": 5,
+      "exampleWord": "母",
+      "exampleReading": "はは",
+      "exampleEnglish": "mother",
+      "highlightedReading": "はは",
+      "exampleSentence": "ははが　パンを　かう",
+      "exampleSentenceEnglish": "My mother buys bread.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:友",
+      "level": "n5",
+      "character": "友",
+      "primaryReading": "とも",
+      "onyomi": [
+        "ゆう"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "englishMeaning": "friend",
+      "japaneseMeaning": "ともだち",
+      "strokeCount": 4,
+      "exampleWord": "友だち",
+      "exampleReading": "ともだち",
+      "exampleEnglish": "friend",
+      "highlightedReading": "とも",
+      "exampleSentence": "ともだちと　がっこうへ　いく",
+      "exampleSentenceEnglish": "I go to school with my friend.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:名",
+      "level": "n5",
+      "character": "名",
+      "primaryReading": "な",
+      "onyomi": [
+        "めい",
+        "みょう"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "englishMeaning": "name",
+      "japaneseMeaning": "なまえ",
+      "strokeCount": 6,
+      "exampleWord": "名前",
+      "exampleReading": "なまえ",
+      "exampleEnglish": "name",
+      "highlightedReading": "な",
+      "exampleSentence": "ここに　わたしの　なまえを　かく",
+      "exampleSentenceEnglish": "I write my name here.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:先",
+      "level": "n5",
+      "character": "先",
+      "primaryReading": "さき",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "englishMeaning": "ahead; previous",
+      "japaneseMeaning": "さき",
+      "strokeCount": 6,
+      "exampleWord": "先生",
+      "exampleReading": "せんせい",
+      "exampleEnglish": "teacher",
+      "highlightedReading": "せん",
+      "exampleSentence": "せんせいが　にほんごを　はなす",
+      "exampleSentenceEnglish": "The teacher speaks Japanese.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:生",
+      "level": "n5",
+      "character": "生",
+      "primaryReading": "せい",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "いきる",
+        "うまれる"
+      ],
+      "englishMeaning": "life; birth",
+      "japaneseMeaning": "いきる",
+      "strokeCount": 5,
+      "exampleWord": "学生",
+      "exampleReading": "がくせい",
+      "exampleEnglish": "student",
+      "highlightedReading": "せい",
+      "exampleSentence": "がくせいが　ほんを　よむ",
+      "exampleSentenceEnglish": "A student reads a book.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:学",
+      "level": "n5",
+      "character": "学",
+      "primaryReading": "がく",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まなぶ"
+      ],
+      "englishMeaning": "study; learning",
+      "japaneseMeaning": "まなぶ",
+      "strokeCount": 8,
+      "exampleWord": "学校",
+      "exampleReading": "がっこう",
+      "exampleEnglish": "school",
+      "highlightedReading": "がっ",
+      "exampleSentence": "がっこうは　ここです",
+      "exampleSentenceEnglish": "The school is here.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:校",
+      "level": "n5",
+      "character": "校",
+      "primaryReading": "こう",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "school",
+      "japaneseMeaning": "がっこう",
+      "strokeCount": 10,
+      "exampleWord": "学校",
+      "exampleReading": "がっこう",
+      "exampleEnglish": "school",
+      "highlightedReading": "こう",
+      "exampleSentence": "がっこうで　ほんを　よむ",
+      "exampleSentenceEnglish": "I read a book at school.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:本",
+      "level": "n5",
+      "character": "本",
+      "primaryReading": "ほん",
+      "onyomi": [
+        "ほん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "englishMeaning": "book; origin",
+      "japaneseMeaning": "ほん",
+      "strokeCount": 5,
+      "exampleWord": "本",
+      "exampleReading": "ほん",
+      "exampleEnglish": "book",
+      "highlightedReading": "ほん",
+      "exampleSentence": "あたらしい　ほんを　かう",
+      "exampleSentenceEnglish": "I buy a new book.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:語",
+      "level": "n5",
+      "character": "語",
+      "primaryReading": "ご",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "かたる"
+      ],
+      "englishMeaning": "language; word",
+      "japaneseMeaning": "ことば",
+      "strokeCount": 14,
+      "exampleWord": "日本語",
+      "exampleReading": "にほんご",
+      "exampleEnglish": "Japanese language",
+      "highlightedReading": "ご",
+      "exampleSentence": "にほんごを　はなす",
+      "exampleSentenceEnglish": "I speak Japanese.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:書",
+      "level": "n5",
+      "character": "書",
+      "primaryReading": "かく",
+      "onyomi": [
+        "しょ"
+      ],
+      "kunyomi": [
+        "かく"
+      ],
+      "englishMeaning": "write",
+      "japaneseMeaning": "かく",
+      "strokeCount": 10,
+      "exampleWord": "書く",
+      "exampleReading": "かく",
+      "exampleEnglish": "to write",
+      "highlightedReading": "か",
+      "exampleSentence": "なまえを　かく",
+      "exampleSentenceEnglish": "I write my name.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:読",
+      "level": "n5",
+      "character": "読",
+      "primaryReading": "よむ",
+      "onyomi": [
+        "どく"
+      ],
+      "kunyomi": [
+        "よむ"
+      ],
+      "englishMeaning": "read",
+      "japaneseMeaning": "よむ",
+      "strokeCount": 14,
+      "exampleWord": "読む",
+      "exampleReading": "よむ",
+      "exampleEnglish": "to read",
+      "highlightedReading": "よ",
+      "exampleSentence": "よるに　ほんを　よむ",
+      "exampleSentenceEnglish": "I read a book at night.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:聞",
+      "level": "n5",
+      "character": "聞",
+      "primaryReading": "きく",
+      "onyomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kunyomi": [
+        "きく"
+      ],
+      "englishMeaning": "hear; listen; ask",
+      "japaneseMeaning": "きく",
+      "strokeCount": 14,
+      "exampleWord": "聞く",
+      "exampleReading": "きく",
+      "exampleEnglish": "to listen; ask",
+      "highlightedReading": "き",
+      "exampleSentence": "おんがくを　きく",
+      "exampleSentenceEnglish": "I listen to music.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:話",
+      "level": "n5",
+      "character": "話",
+      "primaryReading": "はなす",
+      "onyomi": [
+        "わ"
+      ],
+      "kunyomi": [
+        "はなす",
+        "はなし"
+      ],
+      "englishMeaning": "speak; story",
+      "japaneseMeaning": "はなす",
+      "strokeCount": 13,
+      "exampleWord": "話す",
+      "exampleReading": "はなす",
+      "exampleEnglish": "to speak",
+      "highlightedReading": "はな",
+      "exampleSentence": "ともだちと　はなす",
+      "exampleSentenceEnglish": "I talk with my friend.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:言",
+      "level": "n5",
+      "character": "言",
+      "primaryReading": "いう",
+      "onyomi": [
+        "げん",
+        "ごん"
+      ],
+      "kunyomi": [
+        "いう"
+      ],
+      "englishMeaning": "say; word",
+      "japaneseMeaning": "いう",
+      "strokeCount": 7,
+      "exampleWord": "言う",
+      "exampleReading": "いう",
+      "exampleEnglish": "to say",
+      "highlightedReading": "い",
+      "exampleSentence": "ありがとうと　いう",
+      "exampleSentenceEnglish": "I say thank you.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:会",
+      "level": "n5",
+      "character": "会",
+      "primaryReading": "あう",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あう"
+      ],
+      "englishMeaning": "meet",
+      "japaneseMeaning": "あう",
+      "strokeCount": 6,
+      "exampleWord": "会う",
+      "exampleReading": "あう",
+      "exampleEnglish": "to meet",
+      "highlightedReading": "あ",
+      "exampleSentence": "えきで　ともだちに　あう",
+      "exampleSentenceEnglish": "I meet my friend at the station.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:行",
+      "level": "n5",
+      "character": "行",
+      "primaryReading": "いく",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "いく",
+        "おこなう"
+      ],
+      "englishMeaning": "go",
+      "japaneseMeaning": "いく",
+      "strokeCount": 6,
+      "exampleWord": "行く",
+      "exampleReading": "いく",
+      "exampleEnglish": "to go",
+      "highlightedReading": "い",
+      "exampleSentence": "まいにち　がっこうへ　いく",
+      "exampleSentenceEnglish": "I go to school every day.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:来",
+      "level": "n5",
+      "character": "来",
+      "primaryReading": "くる",
+      "onyomi": [
+        "らい"
+      ],
+      "kunyomi": [
+        "くる"
+      ],
+      "englishMeaning": "come",
+      "japaneseMeaning": "くる",
+      "strokeCount": 7,
+      "exampleWord": "来る",
+      "exampleReading": "くる",
+      "exampleEnglish": "to come",
+      "highlightedReading": "く",
+      "exampleSentence": "ともだちが　くる",
+      "exampleSentenceEnglish": "My friend comes.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:入",
+      "level": "n5",
+      "character": "入",
+      "primaryReading": "はいる",
+      "onyomi": [
+        "にゅう"
+      ],
+      "kunyomi": [
+        "はいる",
+        "いれる"
+      ],
+      "englishMeaning": "enter; put in",
+      "japaneseMeaning": "はいる",
+      "strokeCount": 2,
+      "exampleWord": "入る",
+      "exampleReading": "はいる",
+      "exampleEnglish": "to enter",
+      "highlightedReading": "はい",
+      "exampleSentence": "みせに　はいる",
+      "exampleSentenceEnglish": "I enter the shop.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:出",
+      "level": "n5",
+      "character": "出",
+      "primaryReading": "でる",
+      "onyomi": [
+        "しゅつ"
+      ],
+      "kunyomi": [
+        "でる",
+        "だす"
+      ],
+      "englishMeaning": "exit; take out",
+      "japaneseMeaning": "でる",
+      "strokeCount": 5,
+      "exampleWord": "出口",
+      "exampleReading": "でぐち",
+      "exampleEnglish": "exit",
+      "highlightedReading": "で",
+      "exampleSentence": "いえを　でる",
+      "exampleSentenceEnglish": "I leave the house.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:立",
+      "level": "n5",
+      "character": "立",
+      "primaryReading": "たつ",
+      "onyomi": [
+        "りつ"
+      ],
+      "kunyomi": [
+        "たつ"
+      ],
+      "englishMeaning": "stand",
+      "japaneseMeaning": "たつ",
+      "strokeCount": 5,
+      "exampleWord": "立つ",
+      "exampleReading": "たつ",
+      "exampleEnglish": "to stand",
+      "highlightedReading": "た",
+      "exampleSentence": "えきの　まえに　たつ",
+      "exampleSentenceEnglish": "I stand in front of the station.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:休",
+      "level": "n5",
+      "character": "休",
+      "primaryReading": "やすむ",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "やすむ"
+      ],
+      "englishMeaning": "rest",
+      "japaneseMeaning": "やすむ",
+      "strokeCount": 6,
+      "exampleWord": "休む",
+      "exampleReading": "やすむ",
+      "exampleEnglish": "to rest",
+      "highlightedReading": "やす",
+      "exampleSentence": "きょうは　やすむ",
+      "exampleSentenceEnglish": "I rest today.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:見",
+      "level": "n5",
+      "character": "見",
+      "primaryReading": "みる",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "みる"
+      ],
+      "englishMeaning": "see; look",
+      "japaneseMeaning": "みる",
+      "strokeCount": 7,
+      "exampleWord": "見る",
+      "exampleReading": "みる",
+      "exampleEnglish": "to see",
+      "highlightedReading": "み",
+      "exampleSentence": "やまを　みる",
+      "exampleSentenceEnglish": "I look at the mountain.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:食",
+      "level": "n5",
+      "character": "食",
+      "primaryReading": "たべる",
+      "onyomi": [
+        "しょく"
+      ],
+      "kunyomi": [
+        "たべる"
+      ],
+      "englishMeaning": "eat; food",
+      "japaneseMeaning": "たべる",
+      "strokeCount": 9,
+      "exampleWord": "食べる",
+      "exampleReading": "たべる",
+      "exampleEnglish": "to eat",
+      "highlightedReading": "た",
+      "exampleSentence": "ごはんを　たべる",
+      "exampleSentenceEnglish": "I eat a meal.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:飲",
+      "level": "n5",
+      "character": "飲",
+      "primaryReading": "のむ",
+      "onyomi": [
+        "いん"
+      ],
+      "kunyomi": [
+        "のむ"
+      ],
+      "englishMeaning": "drink",
+      "japaneseMeaning": "のむ",
+      "strokeCount": 12,
+      "exampleWord": "飲む",
+      "exampleReading": "のむ",
+      "exampleEnglish": "to drink",
+      "highlightedReading": "の",
+      "exampleSentence": "みずを　のむ",
+      "exampleSentenceEnglish": "I drink water.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:買",
+      "level": "n5",
+      "character": "買",
+      "primaryReading": "かう",
+      "onyomi": [
+        "ばい"
+      ],
+      "kunyomi": [
+        "かう"
+      ],
+      "englishMeaning": "buy",
+      "japaneseMeaning": "かう",
+      "strokeCount": 12,
+      "exampleWord": "買う",
+      "exampleReading": "かう",
+      "exampleEnglish": "to buy",
+      "highlightedReading": "か",
+      "exampleSentence": "ほんを　かう",
+      "exampleSentenceEnglish": "I buy a book.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:何",
+      "level": "n5",
+      "character": "何",
+      "primaryReading": "なに",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "なに",
+        "なん"
+      ],
+      "englishMeaning": "what",
+      "japaneseMeaning": "なに",
+      "strokeCount": 7,
+      "exampleWord": "何ですか",
+      "exampleReading": "なんですか",
+      "exampleEnglish": "what is it?",
+      "highlightedReading": "なん",
+      "exampleSentence": "これは　なんですか",
+      "exampleSentenceEnglish": "What is this?",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:大",
+      "level": "n5",
+      "character": "大",
+      "primaryReading": "おおきい",
+      "onyomi": [
+        "だい",
+        "たい"
+      ],
+      "kunyomi": [
+        "おおきい"
+      ],
+      "englishMeaning": "big",
+      "japaneseMeaning": "おおきい",
+      "strokeCount": 3,
+      "exampleWord": "大きい",
+      "exampleReading": "おおきい",
+      "exampleEnglish": "big",
+      "highlightedReading": "おお",
+      "exampleSentence": "おおきい　いぬが　いる",
+      "exampleSentenceEnglish": "There is a big dog.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:小",
+      "level": "n5",
+      "character": "小",
+      "primaryReading": "ちいさい",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "ちいさい"
+      ],
+      "englishMeaning": "small",
+      "japaneseMeaning": "ちいさい",
+      "strokeCount": 3,
+      "exampleWord": "小さい",
+      "exampleReading": "ちいさい",
+      "exampleEnglish": "small",
+      "highlightedReading": "ちい",
+      "exampleSentence": "ちいさい　ねこが　いる",
+      "exampleSentenceEnglish": "There is a small cat.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:多",
+      "level": "n5",
+      "character": "多",
+      "primaryReading": "おおい",
+      "onyomi": [
+        "た"
+      ],
+      "kunyomi": [
+        "おおい"
+      ],
+      "englishMeaning": "many",
+      "japaneseMeaning": "おおい",
+      "strokeCount": 6,
+      "exampleWord": "多い",
+      "exampleReading": "おおい",
+      "exampleEnglish": "many",
+      "highlightedReading": "おお",
+      "exampleSentence": "ひとが　おおい",
+      "exampleSentenceEnglish": "There are many people.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:少",
+      "level": "n5",
+      "character": "少",
+      "primaryReading": "すくない",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "すくない",
+        "すこし"
+      ],
+      "englishMeaning": "few; little",
+      "japaneseMeaning": "すくない",
+      "strokeCount": 4,
+      "exampleWord": "少ない",
+      "exampleReading": "すくない",
+      "exampleEnglish": "few",
+      "highlightedReading": "すく",
+      "exampleSentence": "みずが　すくない",
+      "exampleSentenceEnglish": "There is little water.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:長",
+      "level": "n5",
+      "character": "長",
+      "primaryReading": "ながい",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "ながい"
+      ],
+      "englishMeaning": "long; leader",
+      "japaneseMeaning": "ながい",
+      "strokeCount": 8,
+      "exampleWord": "長い",
+      "exampleReading": "ながい",
+      "exampleEnglish": "long",
+      "highlightedReading": "なが",
+      "exampleSentence": "この　みちは　ながい",
+      "exampleSentenceEnglish": "This road is long.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:高",
+      "level": "n5",
+      "character": "高",
+      "primaryReading": "たかい",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "たかい"
+      ],
+      "englishMeaning": "high; expensive",
+      "japaneseMeaning": "たかい",
+      "strokeCount": 10,
+      "exampleWord": "高い",
+      "exampleReading": "たかい",
+      "exampleEnglish": "high; expensive",
+      "highlightedReading": "たか",
+      "exampleSentence": "この　ほんは　たかい",
+      "exampleSentenceEnglish": "This book is expensive.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:安",
+      "level": "n5",
+      "character": "安",
+      "primaryReading": "やすい",
+      "onyomi": [
+        "あん"
+      ],
+      "kunyomi": [
+        "やすい"
+      ],
+      "englishMeaning": "cheap; safe",
+      "japaneseMeaning": "やすい",
+      "strokeCount": 6,
+      "exampleWord": "安い",
+      "exampleReading": "やすい",
+      "exampleEnglish": "cheap",
+      "highlightedReading": "やす",
+      "exampleSentence": "この　パンは　やすい",
+      "exampleSentenceEnglish": "This bread is cheap.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:新",
+      "level": "n5",
+      "character": "新",
+      "primaryReading": "あたらしい",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "あたらしい"
+      ],
+      "englishMeaning": "new",
+      "japaneseMeaning": "あたらしい",
+      "strokeCount": 13,
+      "exampleWord": "新しい",
+      "exampleReading": "あたらしい",
+      "exampleEnglish": "new",
+      "highlightedReading": "あたら",
+      "exampleSentence": "あたらしい　くつを　かう",
+      "exampleSentenceEnglish": "I buy new shoes.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:古",
+      "level": "n5",
+      "character": "古",
+      "primaryReading": "ふるい",
+      "onyomi": [
+        "こ"
+      ],
+      "kunyomi": [
+        "ふるい"
+      ],
+      "englishMeaning": "old",
+      "japaneseMeaning": "ふるい",
+      "strokeCount": 5,
+      "exampleWord": "古い",
+      "exampleReading": "ふるい",
+      "exampleEnglish": "old",
+      "highlightedReading": "ふる",
+      "exampleSentence": "ふるい　ほんを　よむ",
+      "exampleSentenceEnglish": "I read an old book.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:白",
+      "level": "n5",
+      "character": "白",
+      "primaryReading": "しろ",
+      "onyomi": [
+        "はく"
+      ],
+      "kunyomi": [
+        "しろ",
+        "しろい"
+      ],
+      "englishMeaning": "white",
+      "japaneseMeaning": "しろ",
+      "strokeCount": 5,
+      "exampleWord": "白い",
+      "exampleReading": "しろい",
+      "exampleEnglish": "white",
+      "highlightedReading": "しろ",
+      "exampleSentence": "しろい　はなが　ある",
+      "exampleSentenceEnglish": "There is a white flower.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:上",
+      "level": "n5",
+      "character": "上",
+      "primaryReading": "うえ",
+      "onyomi": [
+        "じょう",
+        "しょう"
+      ],
+      "kunyomi": [
+        "うえ",
+        "あがる"
+      ],
+      "englishMeaning": "up; above",
+      "japaneseMeaning": "うえ",
+      "strokeCount": 3,
+      "exampleWord": "上",
+      "exampleReading": "うえ",
+      "exampleEnglish": "above",
+      "highlightedReading": "うえ",
+      "exampleSentence": "ほんは　つくえの　うえです",
+      "exampleSentenceEnglish": "The book is on the desk.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:下",
+      "level": "n5",
+      "character": "下",
+      "primaryReading": "した",
+      "onyomi": [
+        "か",
+        "げ"
+      ],
+      "kunyomi": [
+        "した",
+        "さがる"
+      ],
+      "englishMeaning": "down; below",
+      "japaneseMeaning": "した",
+      "strokeCount": 3,
+      "exampleWord": "下",
+      "exampleReading": "した",
+      "exampleEnglish": "below",
+      "highlightedReading": "した",
+      "exampleSentence": "ねこは　いすの　したです",
+      "exampleSentenceEnglish": "The cat is under the chair.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:左",
+      "level": "n5",
+      "character": "左",
+      "primaryReading": "ひだり",
+      "onyomi": [
+        "さ"
+      ],
+      "kunyomi": [
+        "ひだり"
+      ],
+      "englishMeaning": "left",
+      "japaneseMeaning": "ひだり",
+      "strokeCount": 5,
+      "exampleWord": "左",
+      "exampleReading": "ひだり",
+      "exampleEnglish": "left",
+      "highlightedReading": "ひだり",
+      "exampleSentence": "ひだりを　みる",
+      "exampleSentenceEnglish": "I look left.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:右",
+      "level": "n5",
+      "character": "右",
+      "primaryReading": "みぎ",
+      "onyomi": [
+        "う",
+        "ゆう"
+      ],
+      "kunyomi": [
+        "みぎ"
+      ],
+      "englishMeaning": "right",
+      "japaneseMeaning": "みぎ",
+      "strokeCount": 5,
+      "exampleWord": "右",
+      "exampleReading": "みぎ",
+      "exampleEnglish": "right",
+      "highlightedReading": "みぎ",
+      "exampleSentence": "みぎへ　いく",
+      "exampleSentenceEnglish": "I go right.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:中",
+      "level": "n5",
+      "character": "中",
+      "primaryReading": "なか",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "englishMeaning": "inside; middle",
+      "japaneseMeaning": "なか",
+      "strokeCount": 4,
+      "exampleWord": "中",
+      "exampleReading": "なか",
+      "exampleEnglish": "inside",
+      "highlightedReading": "なか",
+      "exampleSentence": "かばんの　なかに　ほんが　ある",
+      "exampleSentenceEnglish": "There is a book in the bag.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:外",
+      "level": "n5",
+      "character": "外",
+      "primaryReading": "そと",
+      "onyomi": [
+        "がい"
+      ],
+      "kunyomi": [
+        "そと"
+      ],
+      "englishMeaning": "outside",
+      "japaneseMeaning": "そと",
+      "strokeCount": 5,
+      "exampleWord": "外国",
+      "exampleReading": "がいこく",
+      "exampleEnglish": "foreign country",
+      "highlightedReading": "がい",
+      "exampleSentence": "がいこくへ　いく",
+      "exampleSentenceEnglish": "I go to a foreign country.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:東",
+      "level": "n5",
+      "character": "東",
+      "primaryReading": "ひがし",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "ひがし"
+      ],
+      "englishMeaning": "east",
+      "japaneseMeaning": "ひがし",
+      "strokeCount": 8,
+      "exampleWord": "東京",
+      "exampleReading": "とうきょう",
+      "exampleEnglish": "Tokyo",
+      "highlightedReading": "とう",
+      "exampleSentence": "とうきょうへ　いく",
+      "exampleSentenceEnglish": "I go to Tokyo.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:西",
+      "level": "n5",
+      "character": "西",
+      "primaryReading": "にし",
+      "onyomi": [
+        "せい",
+        "さい"
+      ],
+      "kunyomi": [
+        "にし"
+      ],
+      "englishMeaning": "west",
+      "japaneseMeaning": "にし",
+      "strokeCount": 6,
+      "exampleWord": "西口",
+      "exampleReading": "にしぐち",
+      "exampleEnglish": "west exit",
+      "highlightedReading": "にし",
+      "exampleSentence": "にしぐちで　あう",
+      "exampleSentenceEnglish": "We meet at the west exit.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:南",
+      "level": "n5",
+      "character": "南",
+      "primaryReading": "みなみ",
+      "onyomi": [
+        "なん"
+      ],
+      "kunyomi": [
+        "みなみ"
+      ],
+      "englishMeaning": "south",
+      "japaneseMeaning": "みなみ",
+      "strokeCount": 9,
+      "exampleWord": "南口",
+      "exampleReading": "みなみぐち",
+      "exampleEnglish": "south exit",
+      "highlightedReading": "みなみ",
+      "exampleSentence": "みなみぐちへ　いく",
+      "exampleSentenceEnglish": "I go to the south exit.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:北",
+      "level": "n5",
+      "character": "北",
+      "primaryReading": "きた",
+      "onyomi": [
+        "ほく"
+      ],
+      "kunyomi": [
+        "きた"
+      ],
+      "englishMeaning": "north",
+      "japaneseMeaning": "きた",
+      "strokeCount": 5,
+      "exampleWord": "北口",
+      "exampleReading": "きたぐち",
+      "exampleEnglish": "north exit",
+      "highlightedReading": "きた",
+      "exampleSentence": "きたぐちで　まつ",
+      "exampleSentenceEnglish": "I wait at the north exit.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:国",
+      "level": "n5",
+      "character": "国",
+      "primaryReading": "くに",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "くに"
+      ],
+      "englishMeaning": "country",
+      "japaneseMeaning": "くに",
+      "strokeCount": 8,
+      "exampleWord": "国",
+      "exampleReading": "くに",
+      "exampleEnglish": "country",
+      "highlightedReading": "くに",
+      "exampleSentence": "この　くには　おおきい",
+      "exampleSentenceEnglish": "This country is big.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:山",
+      "level": "n5",
+      "character": "山",
+      "primaryReading": "やま",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "やま"
+      ],
+      "englishMeaning": "mountain",
+      "japaneseMeaning": "やま",
+      "strokeCount": 3,
+      "exampleWord": "富士山",
+      "exampleReading": "ふじさん",
+      "exampleEnglish": "Mt. Fuji",
+      "highlightedReading": "さん",
+      "exampleSentence": "ふじさんを　みる",
+      "exampleSentenceEnglish": "I see Mt. Fuji.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:川",
+      "level": "n5",
+      "character": "川",
+      "primaryReading": "かわ",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "かわ"
+      ],
+      "englishMeaning": "river",
+      "japaneseMeaning": "かわ",
+      "strokeCount": 3,
+      "exampleWord": "川",
+      "exampleReading": "かわ",
+      "exampleEnglish": "river",
+      "highlightedReading": "かわ",
+      "exampleSentence": "かわに　さかなが　いる",
+      "exampleSentenceEnglish": "There are fish in the river.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:天",
+      "level": "n5",
+      "character": "天",
+      "primaryReading": "てん",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [
+        "あめ"
+      ],
+      "englishMeaning": "sky; heaven",
+      "japaneseMeaning": "そら",
+      "strokeCount": 4,
+      "exampleWord": "天気",
+      "exampleReading": "てんき",
+      "exampleEnglish": "weather",
+      "highlightedReading": "てん",
+      "exampleSentence": "きょうは　いい　てんきです",
+      "exampleSentenceEnglish": "The weather is good today.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:気",
+      "level": "n5",
+      "character": "気",
+      "primaryReading": "き",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "spirit; air",
+      "japaneseMeaning": "きもち",
+      "strokeCount": 6,
+      "exampleWord": "天気",
+      "exampleReading": "てんき",
+      "exampleEnglish": "weather",
+      "highlightedReading": "き",
+      "exampleSentence": "てんきが　いい",
+      "exampleSentenceEnglish": "The weather is good.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:雨",
+      "level": "n5",
+      "character": "雨",
+      "primaryReading": "あめ",
+      "onyomi": [
+        "う"
+      ],
+      "kunyomi": [
+        "あめ"
+      ],
+      "englishMeaning": "rain",
+      "japaneseMeaning": "あめ",
+      "strokeCount": 8,
+      "exampleWord": "雨",
+      "exampleReading": "あめ",
+      "exampleEnglish": "rain",
+      "highlightedReading": "あめ",
+      "exampleSentence": "あめが　ふる",
+      "exampleSentenceEnglish": "It rains.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:空",
+      "level": "n5",
+      "character": "空",
+      "primaryReading": "そら",
+      "onyomi": [
+        "くう"
+      ],
+      "kunyomi": [
+        "そら",
+        "から"
+      ],
+      "englishMeaning": "sky; empty",
+      "japaneseMeaning": "そら",
+      "strokeCount": 8,
+      "exampleWord": "空",
+      "exampleReading": "そら",
+      "exampleEnglish": "sky",
+      "highlightedReading": "そら",
+      "exampleSentence": "そらを　みる",
+      "exampleSentenceEnglish": "I look at the sky.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:花",
+      "level": "n5",
+      "character": "花",
+      "primaryReading": "はな",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "englishMeaning": "flower",
+      "japaneseMeaning": "はな",
+      "strokeCount": 7,
+      "exampleWord": "花",
+      "exampleReading": "はな",
+      "exampleEnglish": "flower",
+      "highlightedReading": "はな",
+      "exampleSentence": "はなを　かう",
+      "exampleSentenceEnglish": "I buy flowers.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:魚",
+      "level": "n5",
+      "character": "魚",
+      "primaryReading": "さかな",
+      "onyomi": [
+        "ぎょ"
+      ],
+      "kunyomi": [
+        "さかな"
+      ],
+      "englishMeaning": "fish",
+      "japaneseMeaning": "さかな",
+      "strokeCount": 11,
+      "exampleWord": "魚",
+      "exampleReading": "さかな",
+      "exampleEnglish": "fish",
+      "highlightedReading": "さかな",
+      "exampleSentence": "さかなを　たべる",
+      "exampleSentenceEnglish": "I eat fish.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:耳",
+      "level": "n5",
+      "character": "耳",
+      "primaryReading": "みみ",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "みみ"
+      ],
+      "englishMeaning": "ear",
+      "japaneseMeaning": "みみ",
+      "strokeCount": 6,
+      "exampleWord": "耳",
+      "exampleReading": "みみ",
+      "exampleEnglish": "ear",
+      "highlightedReading": "みみ",
+      "exampleSentence": "みみを　すまして　おとを　きく",
+      "exampleSentenceEnglish": "I listen carefully to the sound.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:目",
+      "level": "n5",
+      "character": "目",
+      "primaryReading": "め",
+      "onyomi": [
+        "もく"
+      ],
+      "kunyomi": [
+        "め"
+      ],
+      "englishMeaning": "eye",
+      "japaneseMeaning": "め",
+      "strokeCount": 5,
+      "exampleWord": "目",
+      "exampleReading": "め",
+      "exampleEnglish": "eye",
+      "highlightedReading": "め",
+      "exampleSentence": "ほんを　よんで　めが　つかれた",
+      "exampleSentenceEnglish": "My eyes became tired from reading.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:口",
+      "level": "n5",
+      "character": "口",
+      "primaryReading": "くち",
+      "onyomi": [
+        "こう",
+        "く"
+      ],
+      "kunyomi": [
+        "くち"
+      ],
+      "englishMeaning": "mouth; opening",
+      "japaneseMeaning": "くち",
+      "strokeCount": 3,
+      "exampleWord": "口",
+      "exampleReading": "くち",
+      "exampleEnglish": "mouth",
+      "highlightedReading": "くち",
+      "exampleSentence": "くちを　あける",
+      "exampleSentenceEnglish": "I open my mouth.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:手",
+      "level": "n5",
+      "character": "手",
+      "primaryReading": "て",
+      "onyomi": [
+        "しゅ"
+      ],
+      "kunyomi": [
+        "て"
+      ],
+      "englishMeaning": "hand",
+      "japaneseMeaning": "て",
+      "strokeCount": 4,
+      "exampleWord": "手",
+      "exampleReading": "て",
+      "exampleEnglish": "hand",
+      "highlightedReading": "て",
+      "exampleSentence": "てを　あらう",
+      "exampleSentenceEnglish": "I wash my hands.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:足",
+      "level": "n5",
+      "character": "足",
+      "primaryReading": "あし",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "あし",
+        "たりる"
+      ],
+      "englishMeaning": "foot; leg",
+      "japaneseMeaning": "あし",
+      "strokeCount": 7,
+      "exampleWord": "足",
+      "exampleReading": "あし",
+      "exampleEnglish": "foot; leg",
+      "highlightedReading": "あし",
+      "exampleSentence": "あしが　いたい",
+      "exampleSentenceEnglish": "My leg hurts.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:車",
+      "level": "n5",
+      "character": "車",
+      "primaryReading": "くるま",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "englishMeaning": "car; vehicle",
+      "japaneseMeaning": "くるま",
+      "strokeCount": 7,
+      "exampleWord": "電車",
+      "exampleReading": "でんしゃ",
+      "exampleEnglish": "train",
+      "highlightedReading": "しゃ",
+      "exampleSentence": "でんしゃで　がっこうへ　いく",
+      "exampleSentenceEnglish": "I go to school by train.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:電",
+      "level": "n5",
+      "character": "電",
+      "primaryReading": "でん",
+      "onyomi": [
+        "でん"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "electricity",
+      "japaneseMeaning": "でんき",
+      "strokeCount": 13,
+      "exampleWord": "電車",
+      "exampleReading": "でんしゃ",
+      "exampleEnglish": "train",
+      "highlightedReading": "でん",
+      "exampleSentence": "でんしゃに　のる",
+      "exampleSentenceEnglish": "I ride the train.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:駅",
+      "level": "n5",
+      "character": "駅",
+      "primaryReading": "えき",
+      "onyomi": [
+        "えき"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "station",
+      "japaneseMeaning": "えき",
+      "strokeCount": 14,
+      "exampleWord": "駅",
+      "exampleReading": "えき",
+      "exampleEnglish": "station",
+      "highlightedReading": "えき",
+      "exampleSentence": "えきで　ともだちを　まつ",
+      "exampleSentenceEnglish": "I wait for my friend at the station.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:道",
+      "level": "n5",
+      "character": "道",
+      "primaryReading": "みち",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "englishMeaning": "road; way",
+      "japaneseMeaning": "みち",
+      "strokeCount": 12,
+      "exampleWord": "道",
+      "exampleReading": "みち",
+      "exampleEnglish": "road",
+      "highlightedReading": "みち",
+      "exampleSentence": "この　みちを　まっすぐ　いく",
+      "exampleSentenceEnglish": "I go straight along this road.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:店",
+      "level": "n5",
+      "character": "店",
+      "primaryReading": "みせ",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [
+        "みせ"
+      ],
+      "englishMeaning": "shop",
+      "japaneseMeaning": "みせ",
+      "strokeCount": 8,
+      "exampleWord": "店",
+      "exampleReading": "みせ",
+      "exampleEnglish": "shop",
+      "highlightedReading": "みせ",
+      "exampleSentence": "みせで　パンを　かう",
+      "exampleSentenceEnglish": "I buy bread at the shop.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:社",
+      "level": "n5",
+      "character": "社",
+      "primaryReading": "しゃ",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "やしろ"
+      ],
+      "englishMeaning": "company; shrine",
+      "japaneseMeaning": "かいしゃ",
+      "strokeCount": 7,
+      "exampleWord": "会社",
+      "exampleReading": "かいしゃ",
+      "exampleEnglish": "company",
+      "highlightedReading": "しゃ",
+      "exampleSentence": "かいしゃへ　いく",
+      "exampleSentenceEnglish": "I go to the company.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:週",
+      "level": "n5",
+      "character": "週",
+      "primaryReading": "しゅう",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+
+      ],
+      "englishMeaning": "week",
+      "japaneseMeaning": "しゅう",
+      "strokeCount": 11,
+      "exampleWord": "今週",
+      "exampleReading": "こんしゅう",
+      "exampleEnglish": "this week",
+      "highlightedReading": "しゅう",
+      "exampleSentence": "こんしゅうは　いそがしい",
+      "exampleSentenceEnglish": "I am busy this week.",
+      "supportsHandwriting": true
+    },
+    {
+      "id": "kanji_n5:間",
+      "level": "n5",
+      "character": "間",
+      "primaryReading": "あいだ",
+      "onyomi": [
+        "かん",
+        "けん"
+      ],
+      "kunyomi": [
+        "あいだ"
+      ],
+      "englishMeaning": "interval; between",
+      "japaneseMeaning": "あいだ",
+      "strokeCount": 12,
+      "exampleWord": "時間",
+      "exampleReading": "じかん",
+      "exampleEnglish": "time",
+      "highlightedReading": "かん",
+      "exampleSentence": "じかんが　ない",
+      "exampleSentenceEnglish": "There is no time.",
+      "supportsHandwriting": true
+    }
+  ]
+}

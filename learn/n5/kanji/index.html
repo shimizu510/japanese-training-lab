@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fff8e9">
+    <meta name="description" content="Learn the 103 N5 Kanji used in the DraMap app through meanings, readings, example words and guided practice.">
+    <link rel="canonical" href="https://shimizu510.github.io/japanese-training-lab/learn/n5/kanji/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <title>Learn N5 Kanji Online | Japanese Training Lab</title>
+    <link rel="shortcut icon" href="../../hiragana/favicon.ico">
+    <link rel="stylesheet" href="../../hiragana/assets/style.css?v=20261017093000">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../../" aria-label="Japanese Training Lab home">
+        <span class="brand-mark" aria-hidden="true">漢</span>
+        <span><strong>Japanese Training Lab</strong><small>BY YUJI @ JAPAN</small></span>
+      </a>
+      <div class="header-actions">
+        <div class="lesson-label"><span aria-hidden="true">●</span> N5 KANJI QUEST</div>
+        <button class="chart-open" type="button" aria-haspopup="dialog" aria-controls="kanji-chart">Kanji list</button>
+        <a class="learning-home" href="../../../index.html" aria-label="Back to Japanese Training Lab"><span aria-hidden="true">←</span> Back to Training Lab</a>
+      </div>
+    </header>
+
+    <main class="learning-stage">
+      <aside class="study-panel panel-left" aria-labelledby="today-title">
+        <p class="panel-kicker">TODAY'S QUEST</p>
+        <h1 id="today-title">Master N5 Kanji<br><em>meanings</em> and<br><em>readings.</em></h1>
+        <p class="panel-copy">Connect each character with its meaning, reading, and a useful example word.</p>
+        <div class="kana-row" aria-label="Choose a featured N5 Kanji">
+          <button class="active" type="button" data-kanji="一">一<small>いち</small></button><button type="button" data-kanji="二">二<small>に</small></button><button type="button" data-kanji="三">三<small>さん</small></button><button type="button" data-kanji="四">四<small>よん</small></button><button type="button" data-kanji="五">五<small>ご</small></button>
+        </div>
+        <div class="tip-card"><span class="tip-icon" aria-hidden="true">読</span><div><strong>Learn in context</strong><p>A reading is easier to remember when you meet it inside a real word.</p></div></div>
+      </aside>
+
+      <section class="player-column" aria-label="N5 Kanji learning game">
+        <div class="phone-shell">
+          <div class="phone-speaker" aria-hidden="true"></div>
+          <div id="unity-container" class="unity-desktop">
+            <canvas id="unity-canvas" width="540" height="960" tabindex="0" aria-label="DraMap N5 Kanji learning game"></canvas>
+            <div id="unity-loading-bar" role="status" aria-live="polite">
+              <div class="loading-kana" aria-hidden="true">漢</div><p>Preparing your quest…</p>
+              <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+            </div>
+            <div id="unity-warning"> </div>
+          </div>
+        </div>
+        <div id="unity-footer">
+          <p><span class="status-dot" aria-hidden="true"></span>The game uses the same portrait layout as the mobile app.</p>
+        </div>
+      </section>
+
+      <aside class="study-panel panel-right" aria-labelledby="hint-title">
+        <p class="panel-kicker">N5 KANJI FOCUS</p>
+        <h2 id="hint-title"><span class="big-kana" data-focus-kanji>一</span><span><b data-focus-reading>いち</b> <i data-focus-meaning>one</i></span></h2>
+        <div class="stroke-card">
+          <div class="stroke-grid" aria-label="Shape of the featured Kanji"><span data-focus-kanji>一</span></div>
+          <div><small>READING &amp; SHAPE</small><strong data-focus-strokes>Written in 1 stroke</strong><p data-focus-tip>On: いち</p></div>
+        </div>
+        <div class="word-list" aria-label="Example word for the featured Kanji">
+          <p>EXAMPLE WORD</p>
+          <div class="word-items" data-word-items><span><strong>一番<small>いちばん · number one</small></strong></span></div>
+        </div>
+        <p class="encouragement">One Kanji at a time.<br>Meaning, reading, context.</p>
+      </aside>
+    </main>
+
+    <dialog id="kanji-chart" class="kana-chart kanji-chart" aria-labelledby="chart-title">
+      <div class="chart-heading">
+        <div><p class="panel-kicker">APP CONTENT LIST</p><h2 id="chart-title">N5 Kanji list</h2><p>All 103 characters used by the DraMap N5 Kanji course.</p></div>
+        <button class="chart-close" type="button" aria-label="Close N5 Kanji list">×</button>
+      </div>
+      <div class="chart-current" aria-live="polite"><span data-chart-kanji>一</span><strong data-chart-reading>いち · one</strong><small>Current focus</small></div>
+      <div class="chart-sections" data-chart-sections></div>
+    </dialog>
+
+    <footer class="page-footer"><p>If you cannot hear the audio, click the game screen once.</p><p>© DraMap / Learn Japanese</p></footer>
+    <script src="../../../assets/app.js"></script>
+    <script>
+
+      // This page is dedicated to N5 Kanji. Add a WebGL-only deep link before
+      // Unity starts so the native app keeps its usual Start/menu flow.
+      var lessonUrl = new URL(window.location.href);
+      lessonUrl.searchParams.set("course", "n5_kanji");
+      lessonUrl.searchParams.set("autostart", "1");
+      window.history.replaceState(null, "", lessonUrl);
+
+      var kanjiItems=[], focusTimer, kanjiIndex=0;
+      function escapeHtml(value) { var el=document.createElement("span"); el.textContent=value || ""; return el.innerHTML; }
+      function selectKanji(character, manual) {
+        var item=kanjiItems.find(function(entry){ return entry.character===character; });
+        if (!item) return;
+        document.querySelectorAll("[data-focus-kanji]").forEach(function(el){ el.textContent=item.character; });
+        document.querySelector("[data-focus-reading]").textContent=item.primaryReading;
+        document.querySelector("[data-focus-meaning]").textContent=item.englishMeaning;
+        document.querySelector("[data-chart-kanji]").textContent=item.character;
+        document.querySelector("[data-chart-reading]").textContent=item.primaryReading+" · "+item.englishMeaning;
+        document.querySelector("[data-focus-strokes]").textContent="Written in "+item.strokeCount+(item.strokeCount===1?" stroke":" strokes");
+        var on=(item.onyomi || []).join(", ") || "—", kun=(item.kunyomi || []).join(", ") || "—";
+        document.querySelector("[data-focus-tip]").textContent="On: "+on+" · Kun: "+kun;
+        document.querySelector("[data-word-items]").innerHTML='<span><strong>'+escapeHtml(item.exampleWord)+'<small>'+escapeHtml(item.exampleReading)+' · '+escapeHtml(item.exampleEnglish)+'</small></strong></span>';
+        document.querySelectorAll("[data-kanji]").forEach(function(button){ button.classList.toggle("active",button.dataset.kanji===character); });
+        if (manual) window.clearInterval(focusTimer);
+      }
+
+      var chartSections=document.querySelector("[data-chart-sections]");
+      fetch("StreamingAssets/Content/n5_kanji.json").then(function(response){
+        if (!response.ok) throw new Error("N5 Kanji list could not be loaded.");
+        return response.json();
+      }).then(function(data){
+        kanjiItems=data.items || [];
+        chartSections.innerHTML='<section><h3>APP N5 KANJI · '+kanjiItems.length+' CHARACTERS</h3><div class="chart-grid">'+kanjiItems.map(function(item){ return '<button type="button" data-kanji="'+escapeHtml(item.character)+'"><span>'+escapeHtml(item.character)+'</span><small>'+escapeHtml(item.primaryReading)+'</small></button>'; }).join("")+'</div></section>';
+        selectKanji(kanjiItems[0].character,false);
+        focusTimer=window.setInterval(function(){ kanjiIndex=(kanjiIndex+1)%kanjiItems.length; selectKanji(kanjiItems[kanjiIndex].character,false); },8000);
+      }).catch(function(error){ chartSections.innerHTML='<p class="focus-note">'+escapeHtml(error.message)+'</p>'; });
+      document.addEventListener("click",function(event){ var button=event.target.closest("[data-kanji]"); if(button) selectKanji(button.dataset.kanji,true); });
+      var chartDialog=document.querySelector("#kanji-chart");
+      document.querySelector(".chart-open").addEventListener("click",function(){ chartDialog.showModal(); });
+      document.querySelector(".chart-close").addEventListener("click",function(){ chartDialog.close(); });
+      chartDialog.addEventListener("click",function(event){ if(event.target===chartDialog) chartDialog.close(); });
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var webglBuildVersion = "20261017094500";
+      var buildUrl = "../../hiragana/Build";
+      var loaderUrl = buildUrl + "/webgl.loader.js?v=" + webglBuildVersion;
+      var config = {
+        dataUrl: buildUrl + "/webgl.data?v=" + webglBuildVersion,
+        frameworkUrl: buildUrl + "/webgl.framework.js?v=" + webglBuildVersion,
+        codeUrl: buildUrl + "/webgl.wasm?v=" + webglBuildVersion,
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Learn Japanese",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      }
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
+
+    </script>
+  </body>
+</html>

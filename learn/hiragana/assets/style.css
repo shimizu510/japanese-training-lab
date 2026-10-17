@@ -99,6 +99,11 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .chart-grid span,.chart-grid small { display:block; }
 .chart-grid span { font:700 22px/1.05 "Noto Serif JP",serif; }
 .chart-grid small { margin-top:4px; color:var(--muted); font-size:8px; }
+.kanji-chart .chart-sections { display:block; }
+.kanji-chart .chart-sections section:first-child { grid-row:auto; }
+.kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(10,1fr); }
+.kanji-chart .chart-grid button { min-height:61px; }
+.kanji-chart .chart-grid span { font-size:25px; }
 .page-footer { width:min(1480px,calc(100% - 48px)); min-height:58px; margin:0 auto; padding:15px 0 20px; display:flex; justify-content:space-between; gap:16px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; }
 .page-footer p { margin:0; }
 @keyframes float { 50% { transform:translateY(-7px) rotate(2deg); } }
@@ -139,6 +144,8 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
   .chart-sections section+section { margin-top:20px; }
   .chart-grid { gap:4px; }
   .chart-grid button { min-height:49px; }
+  .kanji-chart .chart-sections section:last-child .chart-grid { grid-template-columns:repeat(5,1fr); }
+  .kanji-chart .chart-grid button { min-height:54px; }
 }
 @media (max-height:720px) and (min-width:721px) {
   .site-header { height:64px; }
