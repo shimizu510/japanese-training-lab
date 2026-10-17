@@ -129,8 +129,8 @@
       document.querySelector(".chart-open").addEventListener("click",function(){ chartDialog.showModal(); });
       document.querySelector(".chart-close").addEventListener("click",function(){ chartDialog.close(); });
       chartDialog.addEventListener("click",function(event){ if(event.target===chartDialog) chartDialog.close(); });
-      var vowelCycle=["あ","い","う","え","お"], vowelIndex=0;
-      focusTimer=window.setInterval(function(){ vowelIndex=(vowelIndex+1)%vowelCycle.length; selectKana(vowelCycle[vowelIndex],false); },8000);
+      var basicKanaCycle=chartGroups[0].rows.map(function(item){ return item[1]; }), basicKanaIndex=0;
+      focusTimer=window.setInterval(function(){ basicKanaIndex=(basicKanaIndex+1)%basicKanaCycle.length; selectKana(basicKanaCycle[basicKanaIndex],false); },8000);
 
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
