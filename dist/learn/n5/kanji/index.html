@@ -10,7 +10,7 @@
     <meta name="robots" content="index,follow,max-image-preview:large">
     <title>Learn N5 Kanji Online | Japanese Training Lab</title>
     <link rel="shortcut icon" href="../../hiragana/favicon.ico">
-    <link rel="stylesheet" href="../../hiragana/assets/style.css?v=20261017101000">
+    <link rel="stylesheet" href="../../hiragana/assets/style.css?v=20261017102500">
   </head>
   <body>
     <header class="site-header">
@@ -100,6 +100,10 @@
       function renderReadingList(readings) {
         return readings && readings.length ? readings.map(renderReading).join('<span class="reading-separator">, </span>') : '<span class="no-reading">—</span>';
       }
+      function renderMeaningList(meanings, fallback) {
+        var values=meanings && meanings.length ? meanings : [fallback];
+        return values.filter(Boolean).map(escapeHtml).join('<span class="meaning-separator"> · </span>');
+      }
       function renderExampleWord(item) {
         var word=item.exampleWord || "";
         var index=word.indexOf(item.character);
@@ -114,7 +118,7 @@
         var complete=kanjiReadings[character] || {on:item.onyomi || [],kun:item.kunyomi || []};
         document.querySelectorAll("[data-focus-kanji]").forEach(function(el){ el.textContent=item.character; });
         document.querySelector("[data-focus-reading]").textContent=item.primaryReading;
-        document.querySelector("[data-focus-meaning]").textContent=item.englishMeaning;
+        document.querySelector("[data-focus-meaning]").innerHTML=renderMeaningList(complete.meanings,item.englishMeaning);
         document.querySelector("[data-chart-kanji]").textContent=item.character;
         document.querySelector("[data-chart-reading]").textContent=item.primaryReading+" · "+item.englishMeaning;
         document.querySelector("[data-focus-strokes]").textContent="Written in "+item.strokeCount+(item.strokeCount===1?" stroke":" strokes");
@@ -131,7 +135,7 @@
       ]).then(function(results){
         kanjiItems=results[0].items || [];
         kanjiReadings=results[1].characters || {};
-        chartSections.innerHTML='<section><h3>APP N5 KANJI · '+kanjiItems.length+' CHARACTERS</h3><div class="chart-grid">'+kanjiItems.map(function(item){ var complete=kanjiReadings[item.character] || {on:[],kun:[]}; return '<button type="button" data-kanji="'+escapeHtml(item.character)+'"><span class="chart-kanji">'+escapeHtml(item.character)+'</span><span class="chart-reading"><b>On</b> '+renderReadingList(complete.on)+'</span><span class="chart-reading"><b>Kun</b> '+renderReadingList(complete.kun)+'</span></button>'; }).join("")+'</div></section>';
+        chartSections.innerHTML='<section><h3>APP N5 KANJI · '+kanjiItems.length+' CHARACTERS</h3><div class="chart-grid">'+kanjiItems.map(function(item){ var complete=kanjiReadings[item.character] || {on:[],kun:[],meanings:[item.englishMeaning]}; return '<button type="button" data-kanji="'+escapeHtml(item.character)+'"><span class="chart-kanji">'+escapeHtml(item.character)+'</span><span class="chart-meaning"><b>Meaning</b> '+renderMeaningList(complete.meanings,item.englishMeaning)+'</span><span class="chart-reading"><b>On</b> '+renderReadingList(complete.on)+'</span><span class="chart-reading"><b>Kun</b> '+renderReadingList(complete.kun)+'</span></button>'; }).join("")+'</div></section>';
         selectKanji(kanjiItems[0].character,false);
         focusTimer=window.setInterval(function(){ kanjiIndex=(kanjiIndex+1)%kanjiItems.length; selectKanji(kanjiItems[kanjiIndex].character,false); },8000);
       }).catch(function(error){ chartSections.innerHTML='<p class="focus-note">'+escapeHtml(error.message)+'</p>'; });
