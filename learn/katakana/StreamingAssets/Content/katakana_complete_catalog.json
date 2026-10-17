@@ -1,0 +1,1521 @@
+[
+  {
+    "id": "basic:シ",
+    "text": "シ",
+    "reading": "し",
+    "romaji": "shi",
+    "category": "basic",
+    "confusions": [
+      "ツ"
+    ]
+  },
+  {
+    "id": "basic:ツ",
+    "text": "ツ",
+    "reading": "つ",
+    "romaji": "tsu",
+    "category": "basic",
+    "confusions": [
+      "シ"
+    ]
+  },
+  {
+    "id": "basic:ク",
+    "text": "ク",
+    "reading": "く",
+    "romaji": "ku",
+    "category": "basic",
+    "confusions": [
+      "ヘ"
+    ]
+  },
+  {
+    "id": "basic:ヘ",
+    "text": "ヘ",
+    "reading": "へ",
+    "romaji": "he",
+    "category": "basic",
+    "confusions": [
+      "ク"
+    ]
+  },
+  {
+    "id": "basic:イ",
+    "text": "イ",
+    "reading": "い",
+    "romaji": "i",
+    "category": "basic",
+    "confusions": [
+      "リ"
+    ]
+  },
+  {
+    "id": "basic:コ",
+    "text": "コ",
+    "reading": "こ",
+    "romaji": "ko",
+    "category": "basic",
+    "confusions": [
+      "ニ"
+    ]
+  },
+  {
+    "id": "basic:テ",
+    "text": "テ",
+    "reading": "て",
+    "romaji": "te",
+    "category": "basic",
+    "confusions": [
+      "コ"
+    ]
+  },
+  {
+    "id": "basic:ノ",
+    "text": "ノ",
+    "reading": "の",
+    "romaji": "no",
+    "category": "basic",
+    "confusions": [
+      "メ"
+    ]
+  },
+  {
+    "id": "basic:ヒ",
+    "text": "ヒ",
+    "reading": "ひ",
+    "romaji": "hi",
+    "category": "basic",
+    "confusions": [
+      "ト"
+    ]
+  },
+  {
+    "id": "basic:ロ",
+    "text": "ロ",
+    "reading": "ろ",
+    "romaji": "ro",
+    "category": "basic",
+    "confusions": [
+      "ル"
+    ]
+  },
+  {
+    "id": "basic:ア",
+    "text": "ア",
+    "reading": "あ",
+    "romaji": "a",
+    "category": "basic",
+    "confusions": [
+      "オ"
+    ]
+  },
+  {
+    "id": "basic:ウ",
+    "text": "ウ",
+    "reading": "う",
+    "romaji": "u",
+    "category": "basic",
+    "confusions": [
+      "ラ"
+    ]
+  },
+  {
+    "id": "basic:エ",
+    "text": "エ",
+    "reading": "え",
+    "romaji": "e",
+    "category": "basic",
+    "confusions": [
+      "ン"
+    ]
+  },
+  {
+    "id": "basic:オ",
+    "text": "オ",
+    "reading": "お",
+    "romaji": "o",
+    "category": "basic",
+    "confusions": [
+      "ア"
+    ]
+  },
+  {
+    "id": "basic:カ",
+    "text": "カ",
+    "reading": "か",
+    "romaji": "ka",
+    "category": "basic",
+    "confusions": [
+      "ヤ"
+    ]
+  },
+  {
+    "id": "basic:キ",
+    "text": "キ",
+    "reading": "き",
+    "romaji": "ki",
+    "category": "basic",
+    "confusions": [
+      "サ"
+    ]
+  },
+  {
+    "id": "basic:ケ",
+    "text": "ケ",
+    "reading": "け",
+    "romaji": "ke",
+    "category": "basic",
+    "confusions": [
+      "ハ"
+    ]
+  },
+  {
+    "id": "basic:サ",
+    "text": "サ",
+    "reading": "さ",
+    "romaji": "sa",
+    "category": "basic",
+    "confusions": [
+      "キ"
+    ]
+  },
+  {
+    "id": "basic:ス",
+    "text": "ス",
+    "reading": "す",
+    "romaji": "su",
+    "category": "basic",
+    "confusions": [
+      "ム"
+    ]
+  },
+  {
+    "id": "basic:セ",
+    "text": "セ",
+    "reading": "せ",
+    "romaji": "se",
+    "category": "basic",
+    "confusions": [
+      "ヤ"
+    ]
+  },
+  {
+    "id": "basic:ソ",
+    "text": "ソ",
+    "reading": "そ",
+    "romaji": "so",
+    "category": "basic",
+    "confusions": [
+      "ン"
+    ]
+  },
+  {
+    "id": "basic:タ",
+    "text": "タ",
+    "reading": "た",
+    "romaji": "ta",
+    "category": "basic",
+    "confusions": [
+      "ナ"
+    ]
+  },
+  {
+    "id": "basic:チ",
+    "text": "チ",
+    "reading": "ち",
+    "romaji": "chi",
+    "category": "basic",
+    "confusions": [
+      "ラ"
+    ]
+  },
+  {
+    "id": "basic:ト",
+    "text": "ト",
+    "reading": "と",
+    "romaji": "to",
+    "category": "basic",
+    "confusions": [
+      "ヒ"
+    ]
+  },
+  {
+    "id": "basic:ナ",
+    "text": "ナ",
+    "reading": "な",
+    "romaji": "na",
+    "category": "basic",
+    "confusions": [
+      "タ"
+    ]
+  },
+  {
+    "id": "basic:ニ",
+    "text": "ニ",
+    "reading": "に",
+    "romaji": "ni",
+    "category": "basic",
+    "confusions": [
+      "コ"
+    ]
+  },
+  {
+    "id": "basic:ヌ",
+    "text": "ヌ",
+    "reading": "ぬ",
+    "romaji": "nu",
+    "category": "basic",
+    "confusions": [
+      "メ"
+    ]
+  },
+  {
+    "id": "basic:ネ",
+    "text": "ネ",
+    "reading": "ね",
+    "romaji": "ne",
+    "category": "basic",
+    "confusions": [
+      "レ",
+      "ワ"
+    ]
+  },
+  {
+    "id": "basic:ハ",
+    "text": "ハ",
+    "reading": "は",
+    "romaji": "ha",
+    "category": "basic",
+    "confusions": [
+      "ケ",
+      "ホ"
+    ]
+  },
+  {
+    "id": "basic:フ",
+    "text": "フ",
+    "reading": "ふ",
+    "romaji": "fu",
+    "category": "basic",
+    "confusions": [
+      "ウ"
+    ]
+  },
+  {
+    "id": "basic:ホ",
+    "text": "ホ",
+    "reading": "ほ",
+    "romaji": "ho",
+    "category": "basic",
+    "confusions": [
+      "ハ",
+      "マ"
+    ]
+  },
+  {
+    "id": "basic:マ",
+    "text": "マ",
+    "reading": "ま",
+    "romaji": "ma",
+    "category": "basic",
+    "confusions": [
+      "ホ"
+    ]
+  },
+  {
+    "id": "basic:ミ",
+    "text": "ミ",
+    "reading": "み",
+    "romaji": "mi",
+    "category": "basic",
+    "confusions": [
+      "ユ"
+    ]
+  },
+  {
+    "id": "basic:ム",
+    "text": "ム",
+    "reading": "む",
+    "romaji": "mu",
+    "category": "basic",
+    "confusions": [
+      "ス"
+    ]
+  },
+  {
+    "id": "basic:メ",
+    "text": "メ",
+    "reading": "め",
+    "romaji": "me",
+    "category": "basic",
+    "confusions": [
+      "ヌ",
+      "ノ"
+    ]
+  },
+  {
+    "id": "basic:モ",
+    "text": "モ",
+    "reading": "も",
+    "romaji": "mo",
+    "category": "basic",
+    "confusions": [
+      "ヨ"
+    ]
+  },
+  {
+    "id": "basic:ヤ",
+    "text": "ヤ",
+    "reading": "や",
+    "romaji": "ya",
+    "category": "basic",
+    "confusions": [
+      "カ",
+      "セ"
+    ]
+  },
+  {
+    "id": "basic:ユ",
+    "text": "ユ",
+    "reading": "ゆ",
+    "romaji": "yu",
+    "category": "basic",
+    "confusions": [
+      "ミ"
+    ]
+  },
+  {
+    "id": "basic:ヨ",
+    "text": "ヨ",
+    "reading": "よ",
+    "romaji": "yo",
+    "category": "basic",
+    "confusions": [
+      "マ",
+      "モ"
+    ]
+  },
+  {
+    "id": "basic:ラ",
+    "text": "ラ",
+    "reading": "ら",
+    "romaji": "ra",
+    "category": "basic",
+    "confusions": [
+      "ウ",
+      "チ"
+    ]
+  },
+  {
+    "id": "basic:リ",
+    "text": "リ",
+    "reading": "り",
+    "romaji": "ri",
+    "category": "basic",
+    "confusions": [
+      "イ"
+    ]
+  },
+  {
+    "id": "basic:ル",
+    "text": "ル",
+    "reading": "る",
+    "romaji": "ru",
+    "category": "basic",
+    "confusions": [
+      "ロ"
+    ]
+  },
+  {
+    "id": "basic:レ",
+    "text": "レ",
+    "reading": "れ",
+    "romaji": "re",
+    "category": "basic",
+    "confusions": [
+      "ネ",
+      "ワ"
+    ]
+  },
+  {
+    "id": "basic:ワ",
+    "text": "ワ",
+    "reading": "わ",
+    "romaji": "wa",
+    "category": "basic",
+    "confusions": [
+      "ネ",
+      "レ"
+    ]
+  },
+  {
+    "id": "basic:ヲ",
+    "text": "ヲ",
+    "reading": "を",
+    "romaji": "o",
+    "category": "basic",
+    "confusions": [
+      "オ"
+    ]
+  },
+  {
+    "id": "basic:ン",
+    "text": "ン",
+    "reading": "ん",
+    "romaji": "n",
+    "category": "basic",
+    "confusions": [
+      "ソ"
+    ]
+  },
+  {
+    "id": "voiced:ガ",
+    "text": "ガ",
+    "reading": "が",
+    "romaji": "ga",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ギ",
+    "text": "ギ",
+    "reading": "ぎ",
+    "romaji": "gi",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:グ",
+    "text": "グ",
+    "reading": "ぐ",
+    "romaji": "gu",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ゲ",
+    "text": "ゲ",
+    "reading": "げ",
+    "romaji": "ge",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ゴ",
+    "text": "ゴ",
+    "reading": "ご",
+    "romaji": "go",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ザ",
+    "text": "ザ",
+    "reading": "ざ",
+    "romaji": "za",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ジ",
+    "text": "ジ",
+    "reading": "じ",
+    "romaji": "ji",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ズ",
+    "text": "ズ",
+    "reading": "ず",
+    "romaji": "zu",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ゼ",
+    "text": "ゼ",
+    "reading": "ぜ",
+    "romaji": "ze",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ゾ",
+    "text": "ゾ",
+    "reading": "ぞ",
+    "romaji": "zo",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ダ",
+    "text": "ダ",
+    "reading": "だ",
+    "romaji": "da",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ヂ",
+    "text": "ヂ",
+    "reading": "ぢ",
+    "romaji": "ji",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ヅ",
+    "text": "ヅ",
+    "reading": "づ",
+    "romaji": "zu",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:デ",
+    "text": "デ",
+    "reading": "で",
+    "romaji": "de",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ド",
+    "text": "ド",
+    "reading": "ど",
+    "romaji": "do",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:バ",
+    "text": "バ",
+    "reading": "ば",
+    "romaji": "ba",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ビ",
+    "text": "ビ",
+    "reading": "び",
+    "romaji": "bi",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ブ",
+    "text": "ブ",
+    "reading": "ぶ",
+    "romaji": "bu",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ベ",
+    "text": "ベ",
+    "reading": "べ",
+    "romaji": "be",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ボ",
+    "text": "ボ",
+    "reading": "ぼ",
+    "romaji": "bo",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:パ",
+    "text": "パ",
+    "reading": "ぱ",
+    "romaji": "pa",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ピ",
+    "text": "ピ",
+    "reading": "ぴ",
+    "romaji": "pi",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:プ",
+    "text": "プ",
+    "reading": "ぷ",
+    "romaji": "pu",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ペ",
+    "text": "ペ",
+    "reading": "ぺ",
+    "romaji": "pe",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "voiced:ポ",
+    "text": "ポ",
+    "reading": "ぽ",
+    "romaji": "po",
+    "category": "voiced",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:キャ",
+    "text": "キャ",
+    "reading": "きゃ",
+    "romaji": "kya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:キュ",
+    "text": "キュ",
+    "reading": "きゅ",
+    "romaji": "kyu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:キョ",
+    "text": "キョ",
+    "reading": "きょ",
+    "romaji": "kyo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:シャ",
+    "text": "シャ",
+    "reading": "しゃ",
+    "romaji": "sha",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:シュ",
+    "text": "シュ",
+    "reading": "しゅ",
+    "romaji": "shu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ショ",
+    "text": "ショ",
+    "reading": "しょ",
+    "romaji": "sho",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:チャ",
+    "text": "チャ",
+    "reading": "ちゃ",
+    "romaji": "cha",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:チュ",
+    "text": "チュ",
+    "reading": "ちゅ",
+    "romaji": "chu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:チョ",
+    "text": "チョ",
+    "reading": "ちょ",
+    "romaji": "cho",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ニャ",
+    "text": "ニャ",
+    "reading": "にゃ",
+    "romaji": "nya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ニュ",
+    "text": "ニュ",
+    "reading": "にゅ",
+    "romaji": "nyu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ニョ",
+    "text": "ニョ",
+    "reading": "にょ",
+    "romaji": "nyo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ヒャ",
+    "text": "ヒャ",
+    "reading": "ひゃ",
+    "romaji": "hya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ヒュ",
+    "text": "ヒュ",
+    "reading": "ひゅ",
+    "romaji": "hyu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ヒョ",
+    "text": "ヒョ",
+    "reading": "ひょ",
+    "romaji": "hyo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ミャ",
+    "text": "ミャ",
+    "reading": "みゃ",
+    "romaji": "mya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ミュ",
+    "text": "ミュ",
+    "reading": "みゅ",
+    "romaji": "myu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ミョ",
+    "text": "ミョ",
+    "reading": "みょ",
+    "romaji": "myo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:リャ",
+    "text": "リャ",
+    "reading": "りゃ",
+    "romaji": "rya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:リュ",
+    "text": "リュ",
+    "reading": "りゅ",
+    "romaji": "ryu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:リョ",
+    "text": "リョ",
+    "reading": "りょ",
+    "romaji": "ryo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ギャ",
+    "text": "ギャ",
+    "reading": "ぎゃ",
+    "romaji": "gya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ギュ",
+    "text": "ギュ",
+    "reading": "ぎゅ",
+    "romaji": "gyu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ギョ",
+    "text": "ギョ",
+    "reading": "ぎょ",
+    "romaji": "gyo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ジャ",
+    "text": "ジャ",
+    "reading": "じゃ",
+    "romaji": "ja",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ジュ",
+    "text": "ジュ",
+    "reading": "じゅ",
+    "romaji": "ju",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ジョ",
+    "text": "ジョ",
+    "reading": "じょ",
+    "romaji": "jo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ビャ",
+    "text": "ビャ",
+    "reading": "びゃ",
+    "romaji": "bya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ビュ",
+    "text": "ビュ",
+    "reading": "びゅ",
+    "romaji": "byu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ビョ",
+    "text": "ビョ",
+    "reading": "びょ",
+    "romaji": "byo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ピャ",
+    "text": "ピャ",
+    "reading": "ぴゃ",
+    "romaji": "pya",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ピュ",
+    "text": "ピュ",
+    "reading": "ぴゅ",
+    "romaji": "pyu",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "contracted:ピョ",
+    "text": "ピョ",
+    "reading": "ぴょ",
+    "romaji": "pyo",
+    "category": "contracted",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ティ",
+    "text": "ティ",
+    "reading": "ティ",
+    "romaji": "ti",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ディ",
+    "text": "ディ",
+    "reading": "ディ",
+    "romaji": "di",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ファ",
+    "text": "ファ",
+    "reading": "ファ",
+    "romaji": "fa",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:フィ",
+    "text": "フィ",
+    "reading": "フィ",
+    "romaji": "fi",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:フェ",
+    "text": "フェ",
+    "reading": "フェ",
+    "romaji": "fe",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:フォ",
+    "text": "フォ",
+    "reading": "フォ",
+    "romaji": "fo",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ウィ",
+    "text": "ウィ",
+    "reading": "ウィ",
+    "romaji": "wi",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ウェ",
+    "text": "ウェ",
+    "reading": "ウェ",
+    "romaji": "we",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ウォ",
+    "text": "ウォ",
+    "reading": "ウォ",
+    "romaji": "wo",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:シェ",
+    "text": "シェ",
+    "reading": "シェ",
+    "romaji": "she",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ジェ",
+    "text": "ジェ",
+    "reading": "ジェ",
+    "romaji": "je",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:チェ",
+    "text": "チェ",
+    "reading": "チェ",
+    "romaji": "che",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:トゥ",
+    "text": "トゥ",
+    "reading": "トゥ",
+    "romaji": "tu",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "foreign_sound:ドゥ",
+    "text": "ドゥ",
+    "reading": "ドゥ",
+    "romaji": "du",
+    "category": "foreign_sound",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:バス",
+    "text": "バス",
+    "reading": "ばす",
+    "romaji": "basu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:パン",
+    "text": "パン",
+    "reading": "ぱん",
+    "romaji": "pan",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ペン",
+    "text": "ペン",
+    "reading": "ぺん",
+    "romaji": "pen",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ドア",
+    "text": "ドア",
+    "reading": "どあ",
+    "romaji": "doa",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ガム",
+    "text": "ガム",
+    "reading": "がむ",
+    "romaji": "gamu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:シェフ",
+    "text": "シェフ",
+    "reading": "しぇふ",
+    "romaji": "shefu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:チェス",
+    "text": "チェス",
+    "reading": "ちぇす",
+    "romaji": "chesu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ウェブ",
+    "text": "ウェブ",
+    "reading": "うぇぶ",
+    "romaji": "webu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ティー",
+    "text": "ティー",
+    "reading": "てぃー",
+    "romaji": "tii",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:フォン",
+    "text": "フォン",
+    "reading": "ふぉん",
+    "romaji": "fon",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:コーヒー",
+    "text": "コーヒー",
+    "reading": "こーひー",
+    "romaji": "koohii",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ケーキ",
+    "text": "ケーキ",
+    "reading": "けーき",
+    "romaji": "keeki",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:スーパー",
+    "text": "スーパー",
+    "reading": "すーぱー",
+    "romaji": "suupaa",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:セーター",
+    "text": "セーター",
+    "reading": "せーたー",
+    "romaji": "seetaa",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:コート",
+    "text": "コート",
+    "reading": "こーと",
+    "romaji": "kooto",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:クローゼット",
+    "text": "クローゼット",
+    "reading": "くろーぜっと",
+    "romaji": "kuroozetto",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ベッド",
+    "text": "ベッド",
+    "reading": "べっど",
+    "romaji": "beddo",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:カップ",
+    "text": "カップ",
+    "reading": "かっぷ",
+    "romaji": "kappu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:バッグ",
+    "text": "バッグ",
+    "reading": "ばっぐ",
+    "romaji": "baggu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:チケット",
+    "text": "チケット",
+    "reading": "ちけっと",
+    "romaji": "chiketto",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:サッカー",
+    "text": "サッカー",
+    "reading": "さっかー",
+    "romaji": "sakkaa",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:シャツ",
+    "text": "シャツ",
+    "reading": "しゃつ",
+    "romaji": "shatsu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:キャベツ",
+    "text": "キャベツ",
+    "reading": "きゃべつ",
+    "romaji": "kyabetsu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:シャワー",
+    "text": "シャワー",
+    "reading": "しゃわー",
+    "romaji": "shawaa",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ニュース",
+    "text": "ニュース",
+    "reading": "にゅーす",
+    "romaji": "nyuusu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:リュック",
+    "text": "リュック",
+    "reading": "りゅっく",
+    "romaji": "ryukku",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:テレビ",
+    "text": "テレビ",
+    "reading": "てれび",
+    "romaji": "terebi",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:カレー",
+    "text": "カレー",
+    "reading": "かれー",
+    "romaji": "karee",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ホテル",
+    "text": "ホテル",
+    "reading": "ほてる",
+    "romaji": "hoteru",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ノート",
+    "text": "ノート",
+    "reading": "のーと",
+    "romaji": "nooto",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:ストーブ",
+    "text": "ストーブ",
+    "reading": "すとーぶ",
+    "romaji": "sutoobu",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:アパート",
+    "text": "アパート",
+    "reading": "あぱーと",
+    "romaji": "apaato",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  },
+  {
+    "id": "loanword:エレベーター",
+    "text": "エレベーター",
+    "reading": "えれべーたー",
+    "romaji": "erebeetaa",
+    "category": "loanword",
+    "confusions": [
+
+    ]
+  }
+]
