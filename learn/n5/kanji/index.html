@@ -131,7 +131,7 @@
       var chartSections=document.querySelector("[data-chart-sections]");
       Promise.all([
         fetch("StreamingAssets/Content/n5_kanji.json").then(function(response){ if (!response.ok) throw new Error("N5 Kanji list could not be loaded."); return response.json(); }),
-        fetch("StreamingAssets/Content/n5_kanji_readings.json").then(function(response){ if (!response.ok) throw new Error("Complete Kanji readings could not be loaded."); return response.json(); })
+        fetch("StreamingAssets/Content/n5_kanji_readings.json?v=20261017103200").then(function(response){ if (!response.ok) throw new Error("Complete Kanji readings could not be loaded."); return response.json(); })
       ]).then(function(results){
         kanjiItems=results[0].items || [];
         kanjiReadings=results[1].characters || {};
