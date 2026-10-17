@@ -17,8 +17,9 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .lesson-label { color:var(--green); font-size:13px; font-weight:800; letter-spacing:.08em; }
 .lesson-label span { color:#e7a93b; margin-right:5px; }
 .header-actions { display:flex; align-items:center; gap:20px; }
-.learning-home { display:inline-flex; align-items:center; gap:7px; padding:10px 15px; border:1px solid var(--line); border-radius:999px; color:var(--ink); background:rgba(255,255,255,.7); box-shadow:0 5px 16px rgba(40,50,45,.07); font-size:12px; font-weight:800; text-decoration:none; transition:transform .15s ease,color .15s ease,background .15s ease; }
-.learning-home:hover { color:var(--red-dark); background:#fff; transform:translateY(-1px); }
+.learning-home,.chart-open { display:inline-flex; align-items:center; gap:7px; padding:10px 15px; border:1px solid var(--line); border-radius:999px; color:var(--ink); background:rgba(255,255,255,.7); box-shadow:0 5px 16px rgba(40,50,45,.07); font:800 12px/1.2 "M PLUS Rounded 1c",system-ui,sans-serif; text-decoration:none; transition:transform .15s ease,color .15s ease,background .15s ease; cursor:pointer; }
+.chart-open { color:var(--green); }
+.learning-home:hover,.chart-open:hover { color:var(--red-dark); background:#fff; transform:translateY(-1px); }
 
 .learning-stage { width:min(1480px,calc(100% - 48px)); margin:0 auto; padding:34px 0 26px; display:grid; grid-template-columns:minmax(230px,1fr) minmax(320px,500px) minmax(230px,1fr); gap:clamp(24px,4vw,70px); align-items:center; }
 .study-panel { max-width:340px; }
@@ -29,7 +30,7 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .panel-left h1 em { color:var(--red); font-style:normal; }
 .panel-copy { margin:20px 0; color:var(--muted); font-size:14px; line-height:1.9; }
 .kana-row { display:grid; grid-template-columns:repeat(5,1fr); gap:5px; margin:22px 0; }
-.kana-row span { min-width:0; padding:8px 2px 6px; text-align:center; border:1px solid var(--line); border-radius:12px; background:rgba(255,255,255,.68); font:700 20px/1 "Noto Serif JP",serif; }
+.kana-row button { min-width:0; padding:8px 2px 6px; text-align:center; border:1px solid var(--line); border-radius:12px; color:var(--ink); background:rgba(255,255,255,.68); font:700 20px/1 "Noto Serif JP",serif; cursor:pointer; transition:transform .18s ease,background .18s ease,color .18s ease; }
 .kana-row small { display:block; margin-top:6px; color:var(--muted); font:500 9px/1 sans-serif; }
 .kana-row .active { border-color:transparent; background:var(--red); color:#fff; transform:translateY(-4px); box-shadow:0 8px 18px rgba(190,62,52,.2); }
 .kana-row .active small { color:rgba(255,255,255,.8); }
@@ -61,6 +62,7 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .panel-right h2 b,.panel-right h2 span { display:block; }
 .panel-right h2 b { margin-bottom:5px; color:var(--green); font:800 15px/1 sans-serif; text-transform:uppercase; letter-spacing:.1em; }
 .panel-right h2 span:last-child { font-size:17px; }
+.panel-right h2 i { font-style:normal; }
 .stroke-card { display:grid; grid-template-columns:88px 1fr; gap:15px; align-items:center; padding:15px; border-radius:19px; background:rgba(255,255,255,.75); box-shadow:0 14px 30px rgba(70,63,45,.07); }
 .stroke-grid { width:88px; aspect-ratio:1; display:grid; place-items:center; color:rgba(36,49,45,.78); background:linear-gradient(90deg,transparent 49%,rgba(230,93,79,.18) 50%,transparent 51%),linear-gradient(0deg,transparent 49%,rgba(230,93,79,.18) 50%,transparent 51%),#fffaf0; border:1px solid rgba(230,93,79,.2); }
 .stroke-grid span { font:900 58px/1 "Noto Serif JP",serif; }
@@ -70,10 +72,33 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
 .stroke-card p { margin:5px 0 0; color:var(--muted); font-size:10px; line-height:1.6; }
 .word-list { margin-top:17px; padding-top:14px; border-top:1px solid var(--line); }
 .word-list>p { margin:0 0 9px; color:var(--muted); font-size:11px; font-weight:700; }
-.word-list>div { display:inline-flex; align-items:center; gap:6px; margin:0 4px 6px 0; padding:7px 9px; border:1px solid var(--line); border-radius:11px; background:rgba(255,255,255,.54); }
+.word-items { display:flex; flex-wrap:wrap; gap:5px; }
+.word-items>span { display:inline-flex; align-items:center; gap:6px; padding:7px 9px; border:1px solid var(--line); border-radius:11px; background:rgba(255,255,255,.54); }
 .word-list strong { font-size:12px; }
 .word-list small { display:block; color:var(--muted); font-size:8px; font-weight:500; }
+.focus-note { margin:0; color:var(--muted); font-size:11px; line-height:1.6; }
 .encouragement { margin:20px 0 0; color:var(--green); font:700 16px/1.75 "Noto Serif JP",serif; }
+.kana-chart { width:min(980px,calc(100% - 32px)); max-height:min(820px,calc(100dvh - 32px)); padding:24px; border:0; border-radius:26px; color:var(--ink); background:#fffdf8; box-shadow:0 30px 90px rgba(24,36,31,.32); }
+.kana-chart::backdrop { background:rgba(25,36,32,.58); backdrop-filter:blur(5px); }
+.chart-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; padding-bottom:16px; border-bottom:1px solid var(--line); }
+.chart-heading .panel-kicker { margin-bottom:7px; }
+.chart-heading h2 { margin:0; font:900 30px/1.1 "Noto Serif JP",serif; }
+.chart-heading p:last-child { margin:7px 0 0; color:var(--muted); font-size:12px; }
+.chart-close { width:42px; height:42px; border:1px solid var(--line); border-radius:50%; color:var(--ink); background:#fff; font:400 27px/1 sans-serif; cursor:pointer; }
+.chart-current { position:sticky; top:-24px; z-index:2; display:flex; align-items:baseline; gap:10px; margin:0 -24px 18px; padding:12px 24px; color:#fff; background:var(--green); box-shadow:0 8px 20px rgba(42,76,62,.15); }
+.chart-current span { font:900 36px/1 "Noto Serif JP",serif; }
+.chart-current strong { font-size:16px; text-transform:uppercase; }
+.chart-current small { margin-left:auto; opacity:.8; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.chart-sections { display:grid; grid-template-columns:1.5fr 1fr; gap:22px; }
+.chart-sections section:first-child { grid-row:span 2; }
+.chart-sections h3 { margin:0 0 9px; color:var(--green); font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+.chart-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:5px; }
+.chart-sections section:last-child .chart-grid { grid-template-columns:repeat(3,1fr); }
+.chart-grid button { min-height:53px; padding:5px 2px; border:1px solid var(--line); border-radius:9px; color:var(--ink); background:#fff; cursor:pointer; }
+.chart-grid button:hover,.chart-grid button.active { border-color:var(--red); background:#fff1e9; transform:translateY(-1px); }
+.chart-grid span,.chart-grid small { display:block; }
+.chart-grid span { font:700 22px/1.05 "Noto Serif JP",serif; }
+.chart-grid small { margin-top:4px; color:var(--muted); font-size:8px; }
 .page-footer { width:min(1480px,calc(100% - 48px)); min-height:58px; margin:0 auto; padding:15px 0 20px; display:flex; justify-content:space-between; gap:16px; border-top:1px solid var(--line); color:var(--muted); font-size:10px; }
 .page-footer p { margin:0; }
 @keyframes float { 50% { transform:translateY(-7px) rotate(2deg); } }
@@ -94,6 +119,7 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
   .header-actions { gap:8px; }
   .lesson-label { display:none; }
   .learning-home { padding:8px 11px; font-size:10px; }
+  .chart-open { padding:8px 10px; font-size:10px; }
   .learning-stage { width:100%; padding:14px 0 0; display:block; }
   .study-panel { display:none; }
   .player-column { width:100%; }
@@ -105,6 +131,14 @@ body::after { content:"の"; right:-8vw; top:5vh; transform:rotate(10deg); }
   #unity-footer p { max-width:180px; }
   .page-footer { width:calc(100% - 30px); margin-top:14px; display:block; text-align:center; }
   .page-footer p+p { margin-top:5px; }
+  .kana-chart { width:calc(100% - 18px); max-height:calc(100dvh - 18px); padding:18px; border-radius:20px; }
+  .chart-heading h2 { font-size:24px; }
+  .chart-heading p:last-child { max-width:220px; }
+  .chart-current { top:-18px; margin:0 -18px 16px; padding:10px 18px; }
+  .chart-sections { display:block; }
+  .chart-sections section+section { margin-top:20px; }
+  .chart-grid { gap:4px; }
+  .chart-grid button { min-height:49px; }
 }
 @media (max-height:720px) and (min-width:721px) {
   .site-header { height:64px; }
