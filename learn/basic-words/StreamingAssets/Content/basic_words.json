@@ -1,0 +1,3110 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "basic:watashi",
+      "japanese": "わたし",
+      "reading": "わたし",
+      "romaji": "watashi",
+      "english": "I / me",
+      "category": "people",
+      "imageResource": "watashi"
+    },
+    {
+      "id": "basic:anata",
+      "japanese": "あなた",
+      "reading": "あなた",
+      "romaji": "anata",
+      "english": "you",
+      "category": "people",
+      "imageResource": "anata"
+    },
+    {
+      "id": "basic:sensei",
+      "japanese": "せんせい",
+      "reading": "せんせい",
+      "romaji": "sensee",
+      "english": "teacher",
+      "category": "people",
+      "imageResource": "sensei"
+    },
+    {
+      "id": "basic:otousan",
+      "japanese": "おとうさん",
+      "reading": "おとうさん",
+      "romaji": "otoosan",
+      "english": "father",
+      "category": "people",
+      "imageResource": "otousan"
+    },
+    {
+      "id": "basic:okaasan",
+      "japanese": "おかあさん",
+      "reading": "おかあさん",
+      "romaji": "okaasan",
+      "english": "mother",
+      "category": "people",
+      "imageResource": "okaasan"
+    },
+    {
+      "id": "basic:inu",
+      "japanese": "いぬ",
+      "reading": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "category": "animals",
+      "imageResource": "inu"
+    },
+    {
+      "id": "basic:neko",
+      "japanese": "ねこ",
+      "reading": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "category": "animals",
+      "imageResource": "neko"
+    },
+    {
+      "id": "basic:tori",
+      "japanese": "とり",
+      "reading": "とり",
+      "romaji": "tori",
+      "english": "bird",
+      "category": "animals",
+      "imageResource": "tori"
+    },
+    {
+      "id": "basic:sakana",
+      "japanese": "さかな",
+      "reading": "さかな",
+      "romaji": "sakana",
+      "english": "fish",
+      "category": "animals",
+      "imageResource": "sakana"
+    },
+    {
+      "id": "basic:kuma",
+      "japanese": "くま",
+      "reading": "くま",
+      "romaji": "kuma",
+      "english": "bear",
+      "category": "animals",
+      "imageResource": "kuma"
+    },
+    {
+      "id": "basic:mizu",
+      "japanese": "みず",
+      "reading": "みず",
+      "romaji": "mizu",
+      "english": "water",
+      "category": "food",
+      "imageResource": "mizu"
+    },
+    {
+      "id": "basic:gohan",
+      "japanese": "ごはん",
+      "reading": "ごはん",
+      "romaji": "gohan",
+      "english": "rice / meal",
+      "category": "food",
+      "imageResource": "gohan"
+    },
+    {
+      "id": "basic:tamago",
+      "japanese": "たまご",
+      "reading": "たまご",
+      "romaji": "tamago",
+      "english": "egg",
+      "category": "food",
+      "imageResource": "tamago"
+    },
+    {
+      "id": "basic:ringo",
+      "japanese": "りんご",
+      "reading": "りんご",
+      "romaji": "ringo",
+      "english": "apple",
+      "category": "food",
+      "imageResource": "ringo"
+    },
+    {
+      "id": "basic:pan",
+      "japanese": "パン",
+      "reading": "パン",
+      "romaji": "pan",
+      "english": "bread",
+      "category": "food",
+      "imageResource": "pan"
+    },
+    {
+      "id": "basic:ie",
+      "japanese": "いえ",
+      "reading": "いえ",
+      "romaji": "ie",
+      "english": "house",
+      "category": "things",
+      "imageResource": "ie"
+    },
+    {
+      "id": "basic:kasa",
+      "japanese": "かさ",
+      "reading": "かさ",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "category": "things",
+      "imageResource": "kasa"
+    },
+    {
+      "id": "basic:kutsu",
+      "japanese": "くつ",
+      "reading": "くつ",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "category": "things",
+      "imageResource": "kutsu"
+    },
+    {
+      "id": "basic:kuruma",
+      "japanese": "くるま",
+      "reading": "くるま",
+      "romaji": "kuruma",
+      "english": "car",
+      "category": "things",
+      "imageResource": "kuruma"
+    },
+    {
+      "id": "basic:terebi",
+      "japanese": "テレビ",
+      "reading": "テレビ",
+      "romaji": "terebi",
+      "english": "television",
+      "category": "things",
+      "imageResource": "terebi"
+    },
+    {
+      "id": "basic:yama",
+      "japanese": "やま",
+      "reading": "やま",
+      "romaji": "yama",
+      "english": "mountain",
+      "category": "nature",
+      "imageResource": "yama"
+    },
+    {
+      "id": "basic:kawa",
+      "japanese": "かわ",
+      "reading": "かわ",
+      "romaji": "kawa",
+      "english": "river",
+      "category": "nature",
+      "imageResource": "kawa"
+    },
+    {
+      "id": "basic:ame",
+      "japanese": "あめ",
+      "reading": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "category": "nature",
+      "imageResource": "ame"
+    },
+    {
+      "id": "basic:yuki",
+      "japanese": "ゆき",
+      "reading": "ゆき",
+      "romaji": "yuki",
+      "english": "snow",
+      "category": "nature",
+      "imageResource": "yuki"
+    },
+    {
+      "id": "basic:hana",
+      "japanese": "はな",
+      "reading": "はな",
+      "romaji": "hana",
+      "english": "flower",
+      "category": "nature",
+      "imageResource": "hana"
+    },
+    {
+      "id": "basic:asa",
+      "japanese": "あさ",
+      "reading": "あさ",
+      "romaji": "asa",
+      "english": "morning",
+      "category": "daily",
+      "imageResource": "asa"
+    },
+    {
+      "id": "basic:yoru",
+      "japanese": "よる",
+      "reading": "よる",
+      "romaji": "yoru",
+      "english": "night",
+      "category": "daily",
+      "imageResource": "yoru"
+    },
+    {
+      "id": "basic:gakkou",
+      "japanese": "がっこう",
+      "reading": "がっこう",
+      "romaji": "gakkoo",
+      "english": "school",
+      "category": "daily",
+      "imageResource": "gakkou"
+    },
+    {
+      "id": "basic:basu",
+      "japanese": "バス",
+      "reading": "バス",
+      "romaji": "basu",
+      "english": "bus",
+      "category": "daily",
+      "imageResource": "basu"
+    },
+    {
+      "id": "basic:koohii",
+      "japanese": "コーヒー",
+      "reading": "コーヒー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "category": "daily",
+      "imageResource": "koohii"
+    },
+    {
+      "id": "basic:core001",
+      "japanese": "あかるい",
+      "reading": "あかるい",
+      "romaji": "akarui",
+      "english": "bright (in reference to personality or weather)",
+      "category": "people",
+      "imageResource": "core001"
+    },
+    {
+      "id": "basic:core002",
+      "japanese": "どうぶつ",
+      "reading": "どうぶつ",
+      "romaji": "doubutsu",
+      "english": "animal",
+      "category": "animals",
+      "imageResource": "core002"
+    },
+    {
+      "id": "basic:core003",
+      "japanese": "あさごはん",
+      "reading": "あさごはん",
+      "romaji": "asagohan",
+      "english": "breakfast",
+      "category": "food",
+      "imageResource": "core003"
+    },
+    {
+      "id": "basic:core004",
+      "japanese": "ああ",
+      "reading": "ああ",
+      "romaji": "aa",
+      "english": "Ah!, Oh!",
+      "category": "things",
+      "imageResource": "core004"
+    },
+    {
+      "id": "basic:core005",
+      "japanese": "あそこ",
+      "reading": "あそこ",
+      "romaji": "asoko",
+      "english": "there, over there, that place",
+      "category": "places",
+      "imageResource": "core005"
+    },
+    {
+      "id": "basic:core006",
+      "japanese": "あき",
+      "reading": "あき",
+      "romaji": "aki",
+      "english": "fall (season)",
+      "category": "nature",
+      "imageResource": "core006"
+    },
+    {
+      "id": "basic:core007",
+      "japanese": "あさって",
+      "reading": "あさって",
+      "romaji": "asatte",
+      "english": "day after tomorrow",
+      "category": "time",
+      "imageResource": "core007"
+    },
+    {
+      "id": "basic:core008",
+      "japanese": "あう",
+      "reading": "あう",
+      "romaji": "au",
+      "english": "to meet, to see",
+      "category": "actions",
+      "imageResource": "core008"
+    },
+    {
+      "id": "basic:core009",
+      "japanese": "あたらしい",
+      "reading": "あたらしい",
+      "romaji": "atarashii",
+      "english": "new",
+      "category": "descriptions",
+      "imageResource": "core009"
+    },
+    {
+      "id": "basic:core010",
+      "japanese": "あまり",
+      "reading": "あまり",
+      "romaji": "amari",
+      "english": "not very",
+      "category": "language",
+      "imageResource": "core010"
+    },
+    {
+      "id": "basic:core011",
+      "japanese": "あに",
+      "reading": "あに",
+      "romaji": "ani",
+      "english": "(my) older brother (humble)",
+      "category": "people",
+      "imageResource": "core011"
+    },
+    {
+      "id": "basic:core012",
+      "japanese": "なく",
+      "reading": "なく",
+      "romaji": "naku",
+      "english": "to make sound (animal)",
+      "category": "animals",
+      "imageResource": "core012"
+    },
+    {
+      "id": "basic:core013",
+      "japanese": "あつい",
+      "reading": "あつい",
+      "romaji": "atsui",
+      "english": "hot (in reference to weather), warm",
+      "category": "food",
+      "imageResource": "core013"
+    },
+    {
+      "id": "basic:core014",
+      "japanese": "あお",
+      "reading": "あお",
+      "romaji": "ao",
+      "english": "blue",
+      "category": "things",
+      "imageResource": "core014"
+    },
+    {
+      "id": "basic:core015",
+      "japanese": "えき",
+      "reading": "えき",
+      "romaji": "eki",
+      "english": "station",
+      "category": "places",
+      "imageResource": "core015"
+    },
+    {
+      "id": "basic:core016",
+      "japanese": "うみ",
+      "reading": "うみ",
+      "romaji": "umi",
+      "english": "sea, beach",
+      "category": "nature",
+      "imageResource": "core016"
+    },
+    {
+      "id": "basic:core017",
+      "japanese": "あした",
+      "reading": "あした",
+      "romaji": "ashita",
+      "english": "tomorrow",
+      "category": "time",
+      "imageResource": "core017"
+    },
+    {
+      "id": "basic:core018",
+      "japanese": "あく",
+      "reading": "あく",
+      "romaji": "aku",
+      "english": "to open, to become open",
+      "category": "actions",
+      "imageResource": "core018"
+    },
+    {
+      "id": "basic:core019",
+      "japanese": "いろ",
+      "reading": "いろ",
+      "romaji": "iro",
+      "english": "color",
+      "category": "descriptions",
+      "imageResource": "core019"
+    },
+    {
+      "id": "basic:core020",
+      "japanese": "いいえ",
+      "reading": "いいえ",
+      "romaji": "iie",
+      "english": "no, not at all",
+      "category": "language",
+      "imageResource": "core020"
+    },
+    {
+      "id": "basic:core021",
+      "japanese": "あね",
+      "reading": "あね",
+      "romaji": "ane",
+      "english": "(my) older sister (humble)",
+      "category": "people",
+      "imageResource": "core021"
+    },
+    {
+      "id": "basic:core022",
+      "japanese": "なつやすみ",
+      "reading": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "english": "summer vacation",
+      "category": "animals",
+      "imageResource": "core022"
+    },
+    {
+      "id": "basic:core023",
+      "japanese": "あまい",
+      "reading": "あまい",
+      "romaji": "amai",
+      "english": "generous, sweet",
+      "category": "food",
+      "imageResource": "core023"
+    },
+    {
+      "id": "basic:core024",
+      "japanese": "あおい",
+      "reading": "あおい",
+      "romaji": "aoi",
+      "english": "blue",
+      "category": "things",
+      "imageResource": "core024"
+    },
+    {
+      "id": "basic:core025",
+      "japanese": "がいこく",
+      "reading": "がいこく",
+      "romaji": "gaikoku",
+      "english": "foreign country",
+      "category": "places",
+      "imageResource": "core025"
+    },
+    {
+      "id": "basic:core026",
+      "japanese": "かぜ",
+      "reading": "かぜ",
+      "romaji": "kaze",
+      "english": "wind, breeze",
+      "category": "nature",
+      "imageResource": "core026"
+    },
+    {
+      "id": "basic:core027",
+      "japanese": "いちにち",
+      "reading": "いちにち",
+      "romaji": "ichinichi",
+      "english": "one day (duration)",
+      "category": "time",
+      "imageResource": "core027"
+    },
+    {
+      "id": "basic:core028",
+      "japanese": "あける",
+      "reading": "あける",
+      "romaji": "akeru",
+      "english": "to open (v.t.)",
+      "category": "actions",
+      "imageResource": "core028"
+    },
+    {
+      "id": "basic:core029",
+      "japanese": "おおきい",
+      "reading": "おおきい",
+      "romaji": "ookii",
+      "english": "big, large",
+      "category": "descriptions",
+      "imageResource": "core029"
+    },
+    {
+      "id": "basic:core030",
+      "japanese": "いかが",
+      "reading": "いかが",
+      "romaji": "ikaga",
+      "english": "how, in what way",
+      "category": "language",
+      "imageResource": "core030"
+    },
+    {
+      "id": "basic:core031",
+      "japanese": "いくつ",
+      "reading": "いくつ",
+      "romaji": "ikutsu",
+      "english": "how many, how old",
+      "category": "people",
+      "imageResource": "core031"
+    },
+    {
+      "id": "basic:core032",
+      "japanese": "えいがかん",
+      "reading": "えいがかん",
+      "romaji": "eigakan",
+      "english": "movie theater, cinema",
+      "category": "food",
+      "imageResource": "core032"
+    },
+    {
+      "id": "basic:core033",
+      "japanese": "あか",
+      "reading": "あか",
+      "romaji": "aka",
+      "english": "red",
+      "category": "things",
+      "imageResource": "core033"
+    },
+    {
+      "id": "basic:core034",
+      "japanese": "かいもの",
+      "reading": "かいもの",
+      "romaji": "kaimono",
+      "english": "shopping",
+      "category": "places",
+      "imageResource": "core034"
+    },
+    {
+      "id": "basic:core035",
+      "japanese": "かびん",
+      "reading": "かびん",
+      "romaji": "kabin",
+      "english": "(flower) vase",
+      "category": "nature",
+      "imageResource": "core035"
+    },
+    {
+      "id": "basic:core036",
+      "japanese": "いつか",
+      "reading": "いつか",
+      "romaji": "itsuka",
+      "english": "five days",
+      "category": "time",
+      "imageResource": "core036"
+    },
+    {
+      "id": "basic:core037",
+      "japanese": "あげる",
+      "reading": "あげる",
+      "romaji": "ageru",
+      "english": "to raise, to lift",
+      "category": "actions",
+      "imageResource": "core037"
+    },
+    {
+      "id": "basic:core038",
+      "japanese": "おおきな",
+      "reading": "おおきな",
+      "romaji": "ookina",
+      "english": "big",
+      "category": "descriptions",
+      "imageResource": "core038"
+    },
+    {
+      "id": "basic:core039",
+      "japanese": "いま",
+      "reading": "いま",
+      "romaji": "ima",
+      "english": "now",
+      "category": "language",
+      "imageResource": "core039"
+    },
+    {
+      "id": "basic:core040",
+      "japanese": "いくら",
+      "reading": "いくら",
+      "romaji": "ikura",
+      "english": "how much, how many",
+      "category": "people",
+      "imageResource": "core040"
+    },
+    {
+      "id": "basic:core041",
+      "japanese": "おかし",
+      "reading": "おかし",
+      "romaji": "okashi",
+      "english": "confections, sweets, snack",
+      "category": "food",
+      "imageResource": "core041"
+    },
+    {
+      "id": "basic:core042",
+      "japanese": "あかい",
+      "reading": "あかい",
+      "romaji": "akai",
+      "english": "red",
+      "category": "things",
+      "imageResource": "core042"
+    },
+    {
+      "id": "basic:core043",
+      "japanese": "きょうしつ",
+      "reading": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "english": "classroom",
+      "category": "places",
+      "imageResource": "core043"
+    },
+    {
+      "id": "basic:core044",
+      "japanese": "き",
+      "reading": "き",
+      "romaji": "ki",
+      "english": "tree, wood, timber",
+      "category": "nature",
+      "imageResource": "core044"
+    },
+    {
+      "id": "basic:core045",
+      "japanese": "おととい",
+      "reading": "おととい",
+      "romaji": "ototoi",
+      "english": "the day before yesterday",
+      "category": "time",
+      "imageResource": "core045"
+    },
+    {
+      "id": "basic:core046",
+      "japanese": "あそぶ",
+      "reading": "あそぶ",
+      "romaji": "asobu",
+      "english": "to play",
+      "category": "actions",
+      "imageResource": "core046"
+    },
+    {
+      "id": "basic:core047",
+      "japanese": "おそい",
+      "reading": "おそい",
+      "romaji": "osoi",
+      "english": "slow",
+      "category": "descriptions",
+      "imageResource": "core047"
+    },
+    {
+      "id": "basic:core048",
+      "japanese": "うるさい",
+      "reading": "うるさい",
+      "romaji": "urusai",
+      "english": "noisy",
+      "category": "language",
+      "imageResource": "core048"
+    },
+    {
+      "id": "basic:core049",
+      "japanese": "いしゃ",
+      "reading": "いしゃ",
+      "romaji": "isha",
+      "english": "doctor",
+      "category": "people",
+      "imageResource": "core049"
+    },
+    {
+      "id": "basic:core050",
+      "japanese": "おしえる",
+      "reading": "おしえる",
+      "romaji": "oshieru",
+      "english": "to teach, to inform, to instruct",
+      "category": "food",
+      "imageResource": "core050"
+    },
+    {
+      "id": "basic:core051",
+      "japanese": "あし",
+      "reading": "あし",
+      "romaji": "ashi",
+      "english": "foot",
+      "category": "things",
+      "imageResource": "core051"
+    },
+    {
+      "id": "basic:core052",
+      "japanese": "ぎんこう",
+      "reading": "ぎんこう",
+      "romaji": "ginkou",
+      "english": "bank",
+      "category": "places",
+      "imageResource": "core052"
+    },
+    {
+      "id": "basic:core053",
+      "japanese": "くもる",
+      "reading": "くもる",
+      "romaji": "kumoru",
+      "english": "to become cloudy, to become dim",
+      "category": "nature",
+      "imageResource": "core053"
+    },
+    {
+      "id": "basic:core054",
+      "japanese": "おととし",
+      "reading": "おととし",
+      "romaji": "ototoshi",
+      "english": "year before last",
+      "category": "time",
+      "imageResource": "core054"
+    },
+    {
+      "id": "basic:core055",
+      "japanese": "あびる",
+      "reading": "あびる",
+      "romaji": "abiru",
+      "english": "to bathe, to shower",
+      "category": "actions",
+      "imageResource": "core055"
+    },
+    {
+      "id": "basic:core056",
+      "japanese": "からい",
+      "reading": "からい",
+      "romaji": "karai",
+      "english": "hot and spicy",
+      "category": "descriptions",
+      "imageResource": "core056"
+    },
+    {
+      "id": "basic:core057",
+      "japanese": "えいご",
+      "reading": "えいご",
+      "romaji": "eigo",
+      "english": "English (language)",
+      "category": "language",
+      "imageResource": "core057"
+    },
+    {
+      "id": "basic:core058",
+      "japanese": "いそがしい",
+      "reading": "いそがしい",
+      "romaji": "isogashii",
+      "english": "busy (people, days)",
+      "category": "people",
+      "imageResource": "core058"
+    },
+    {
+      "id": "basic:core059",
+      "japanese": "おちゃ",
+      "reading": "おちゃ",
+      "romaji": "ocha",
+      "english": "(green) tea",
+      "category": "food",
+      "imageResource": "core059"
+    },
+    {
+      "id": "basic:core060",
+      "japanese": "あたたかい",
+      "reading": "あたたかい",
+      "romaji": "atatakai",
+      "english": "warm",
+      "category": "things",
+      "imageResource": "core060"
+    },
+    {
+      "id": "basic:core061",
+      "japanese": "くに",
+      "reading": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "category": "places",
+      "imageResource": "core061"
+    },
+    {
+      "id": "basic:core062",
+      "japanese": "そら",
+      "reading": "そら",
+      "romaji": "sora",
+      "english": "sky",
+      "category": "nature",
+      "imageResource": "core062"
+    },
+    {
+      "id": "basic:core063",
+      "japanese": "かかる",
+      "reading": "かかる",
+      "romaji": "kakaru",
+      "english": "it takes (amount of time, money) (v.i.)",
+      "category": "time",
+      "imageResource": "core063"
+    },
+    {
+      "id": "basic:core064",
+      "japanese": "あらう",
+      "reading": "あらう",
+      "romaji": "arau",
+      "english": "to wash",
+      "category": "actions",
+      "imageResource": "core064"
+    },
+    {
+      "id": "basic:core065",
+      "japanese": "きたない",
+      "reading": "きたない",
+      "romaji": "kitanai",
+      "english": "dirty, unclean, filthy",
+      "category": "descriptions",
+      "imageResource": "core065"
+    },
+    {
+      "id": "basic:core066",
+      "japanese": "ええ",
+      "reading": "ええ",
+      "romaji": "ee",
+      "english": "yes",
+      "category": "language",
+      "imageResource": "core066"
+    },
+    {
+      "id": "basic:core067",
+      "japanese": "いもうと",
+      "reading": "いもうと",
+      "romaji": "imouto",
+      "english": "younger sister (humble)",
+      "category": "people",
+      "imageResource": "core067"
+    },
+    {
+      "id": "basic:core068",
+      "japanese": "おべんとう",
+      "reading": "おべんとう",
+      "romaji": "obentou",
+      "english": "a boxed lunch",
+      "category": "food",
+      "imageResource": "core068"
+    },
+    {
+      "id": "basic:core069",
+      "japanese": "あたま",
+      "reading": "あたま",
+      "romaji": "atama",
+      "english": "head",
+      "category": "things",
+      "imageResource": "core069"
+    },
+    {
+      "id": "basic:core070",
+      "japanese": "けいかん",
+      "reading": "けいかん",
+      "romaji": "keikan",
+      "english": "police officer",
+      "category": "places",
+      "imageResource": "core070"
+    },
+    {
+      "id": "basic:core071",
+      "japanese": "ちかてつ",
+      "reading": "ちかてつ",
+      "romaji": "chikatetsu",
+      "english": "underground train, subway",
+      "category": "nature",
+      "imageResource": "core071"
+    },
+    {
+      "id": "basic:core072",
+      "japanese": "かようび",
+      "reading": "かようび",
+      "romaji": "kayoubi",
+      "english": "Tuesday",
+      "category": "time",
+      "imageResource": "core072"
+    },
+    {
+      "id": "basic:core073",
+      "japanese": "ある",
+      "reading": "ある",
+      "romaji": "aru",
+      "english": "to be, to have",
+      "category": "actions",
+      "imageResource": "core073"
+    },
+    {
+      "id": "basic:core074",
+      "japanese": "きれい",
+      "reading": "きれい",
+      "romaji": "kirei",
+      "english": "pretty, clean, tidy",
+      "category": "descriptions",
+      "imageResource": "core074"
+    },
+    {
+      "id": "basic:core075",
+      "japanese": "かた",
+      "reading": "かた",
+      "romaji": "kata",
+      "english": "-- honorific form for 人 (ひと) --",
+      "category": "language",
+      "imageResource": "core075"
+    },
+    {
+      "id": "basic:core076",
+      "japanese": "おおい",
+      "reading": "おおい",
+      "romaji": "ooi",
+      "english": "many",
+      "category": "people",
+      "imageResource": "core076"
+    },
+    {
+      "id": "basic:core077",
+      "japanese": "カレー",
+      "reading": "カレー",
+      "romaji": "karee",
+      "english": "curry (abbr. for curry and rice)",
+      "category": "food",
+      "imageResource": "core077"
+    },
+    {
+      "id": "basic:core078",
+      "japanese": "あちら",
+      "reading": "あちら",
+      "romaji": "achira",
+      "english": "this way (polite)",
+      "category": "things",
+      "imageResource": "core078"
+    },
+    {
+      "id": "basic:core079",
+      "japanese": "こうえん",
+      "reading": "こうえん",
+      "romaji": "kouen",
+      "english": "a park",
+      "category": "places",
+      "imageResource": "core079"
+    },
+    {
+      "id": "basic:core080",
+      "japanese": "でんしゃ",
+      "reading": "でんしゃ",
+      "romaji": "densha",
+      "english": "electric train",
+      "category": "nature",
+      "imageResource": "core080"
+    },
+    {
+      "id": "basic:core081",
+      "japanese": "きのう",
+      "reading": "きのう",
+      "romaji": "kinou",
+      "english": "yesterday",
+      "category": "time",
+      "imageResource": "core081"
+    },
+    {
+      "id": "basic:core082",
+      "japanese": "あるく",
+      "reading": "あるく",
+      "romaji": "aruku",
+      "english": "to walk",
+      "category": "actions",
+      "imageResource": "core082"
+    },
+    {
+      "id": "basic:core083",
+      "japanese": "しずか",
+      "reading": "しずか",
+      "romaji": "shizuka",
+      "english": "quiet, calm",
+      "category": "descriptions",
+      "imageResource": "core083"
+    },
+    {
+      "id": "basic:core084",
+      "japanese": "かるい",
+      "reading": "かるい",
+      "romaji": "karui",
+      "english": "light, non-serious, minor",
+      "category": "language",
+      "imageResource": "core084"
+    },
+    {
+      "id": "basic:core085",
+      "japanese": "おおぜい",
+      "reading": "おおぜい",
+      "romaji": "oozei",
+      "english": "great number of people",
+      "category": "people",
+      "imageResource": "core085"
+    },
+    {
+      "id": "basic:core086",
+      "japanese": "ぎゅうにゅう",
+      "reading": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "english": "milk",
+      "category": "food",
+      "imageResource": "core086"
+    },
+    {
+      "id": "basic:core087",
+      "japanese": "あっち",
+      "reading": "あっち",
+      "romaji": "acchi",
+      "english": "over there",
+      "category": "things",
+      "imageResource": "core087"
+    },
+    {
+      "id": "basic:core088",
+      "japanese": "ここ",
+      "reading": "ここ",
+      "romaji": "koko",
+      "english": "here, this place",
+      "category": "places",
+      "imageResource": "core088"
+    },
+    {
+      "id": "basic:core089",
+      "japanese": "にちようび",
+      "reading": "にちようび",
+      "romaji": "nichiyoubi",
+      "english": "Sunday",
+      "category": "nature",
+      "imageResource": "core089"
+    },
+    {
+      "id": "basic:core090",
+      "japanese": "きょう",
+      "reading": "きょう",
+      "romaji": "kyou",
+      "english": "today, this day",
+      "category": "time",
+      "imageResource": "core090"
+    },
+    {
+      "id": "basic:core091",
+      "japanese": "いう",
+      "reading": "いう",
+      "romaji": "iu",
+      "english": "to say",
+      "category": "actions",
+      "imageResource": "core091"
+    },
+    {
+      "id": "basic:core092",
+      "japanese": "じょうず",
+      "reading": "じょうず",
+      "romaji": "jouzu",
+      "english": "be good at, skillful",
+      "category": "descriptions",
+      "imageResource": "core092"
+    },
+    {
+      "id": "basic:core093",
+      "japanese": "きた",
+      "reading": "きた",
+      "romaji": "kita",
+      "english": "north",
+      "category": "language",
+      "imageResource": "core093"
+    },
+    {
+      "id": "basic:core094",
+      "japanese": "おくさん",
+      "reading": "おくさん",
+      "romaji": "okusan",
+      "english": "(someone else's) wife (hon.)",
+      "category": "people",
+      "imageResource": "core094"
+    },
+    {
+      "id": "basic:core095",
+      "japanese": "くだもの",
+      "reading": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "category": "food",
+      "imageResource": "core095"
+    },
+    {
+      "id": "basic:core096",
+      "japanese": "あと",
+      "reading": "あと",
+      "romaji": "ato",
+      "english": "afterwards (later)",
+      "category": "things",
+      "imageResource": "core096"
+    },
+    {
+      "id": "basic:core097",
+      "japanese": "じゅぎょう",
+      "reading": "じゅぎょう",
+      "romaji": "jugyou",
+      "english": "a class (of school)",
+      "category": "places",
+      "imageResource": "core097"
+    },
+    {
+      "id": "basic:core098",
+      "japanese": "はれる",
+      "reading": "はれる",
+      "romaji": "hareru",
+      "english": "to be sunny",
+      "category": "nature",
+      "imageResource": "core098"
+    },
+    {
+      "id": "basic:core099",
+      "japanese": "きょねん",
+      "reading": "きょねん",
+      "romaji": "kyonen",
+      "english": "last year",
+      "category": "time",
+      "imageResource": "core099"
+    },
+    {
+      "id": "basic:core100",
+      "japanese": "いれる",
+      "reading": "いれる",
+      "romaji": "ireru",
+      "english": "to put in",
+      "category": "actions",
+      "imageResource": "core100"
+    },
+    {
+      "id": "basic:core101",
+      "japanese": "しんぶん",
+      "reading": "しんぶん",
+      "romaji": "shinbun",
+      "english": "newspaper",
+      "category": "descriptions",
+      "imageResource": "core101"
+    },
+    {
+      "id": "basic:core102",
+      "japanese": "ください",
+      "reading": "ください",
+      "romaji": "kudasai",
+      "english": "(with te-form verb) please do for me",
+      "category": "language",
+      "imageResource": "core102"
+    },
+    {
+      "id": "basic:core103",
+      "japanese": "おじさん",
+      "reading": "おじさん",
+      "romaji": "ojisan",
+      "english": "uncle, middle-aged man",
+      "category": "people",
+      "imageResource": "core103"
+    },
+    {
+      "id": "basic:core104",
+      "japanese": "くもり",
+      "reading": "くもり",
+      "romaji": "kumori",
+      "english": "cloudiness, cloudy weather",
+      "category": "food",
+      "imageResource": "core104"
+    },
+    {
+      "id": "basic:core105",
+      "japanese": "アパート",
+      "reading": "アパート",
+      "romaji": "apaato",
+      "english": "apartment (abbr.)",
+      "category": "things",
+      "imageResource": "core105"
+    },
+    {
+      "id": "basic:core106",
+      "japanese": "そこ",
+      "reading": "そこ",
+      "romaji": "soko",
+      "english": "that place, there",
+      "category": "places",
+      "imageResource": "core106"
+    },
+    {
+      "id": "basic:core107",
+      "japanese": "ふく",
+      "reading": "ふく",
+      "romaji": "fuku",
+      "english": "to blow (wind, etc.)",
+      "category": "nature",
+      "imageResource": "core107"
+    },
+    {
+      "id": "basic:core108",
+      "japanese": "きんようび",
+      "reading": "きんようび",
+      "romaji": "kinyoubi",
+      "english": "Friday",
+      "category": "time",
+      "imageResource": "core108"
+    },
+    {
+      "id": "basic:core109",
+      "japanese": "うたう",
+      "reading": "うたう",
+      "romaji": "utau",
+      "english": "to sing",
+      "category": "actions",
+      "imageResource": "core109"
+    },
+    {
+      "id": "basic:core110",
+      "japanese": "そば",
+      "reading": "そば",
+      "romaji": "soba",
+      "english": "near, close, beside",
+      "category": "descriptions",
+      "imageResource": "core110"
+    },
+    {
+      "id": "basic:core111",
+      "japanese": "ごご",
+      "reading": "ごご",
+      "romaji": "gogo",
+      "english": "afternoon, P.M.",
+      "category": "language",
+      "imageResource": "core111"
+    },
+    {
+      "id": "basic:core112",
+      "japanese": "おとうと",
+      "reading": "おとうと",
+      "romaji": "otouto",
+      "english": "younger brother",
+      "category": "people",
+      "imageResource": "core112"
+    },
+    {
+      "id": "basic:core113",
+      "japanese": "こうちゃ",
+      "reading": "こうちゃ",
+      "romaji": "koucha",
+      "english": "black tea",
+      "category": "food",
+      "imageResource": "core113"
+    },
+    {
+      "id": "basic:core114",
+      "japanese": "あの",
+      "reading": "あの",
+      "romaji": "ano",
+      "english": "that over there",
+      "category": "things",
+      "imageResource": "core114"
+    },
+    {
+      "id": "basic:core115",
+      "japanese": "デパート",
+      "reading": "デパート",
+      "romaji": "depaato",
+      "english": "(abbr.) department store",
+      "category": "places",
+      "imageResource": "core115"
+    },
+    {
+      "id": "basic:core116",
+      "japanese": "ふる",
+      "reading": "ふる",
+      "romaji": "furu",
+      "english": "to precipitate, to fall (e.g., rain, snow, etc.)",
+      "category": "nature",
+      "imageResource": "core116"
+    },
+    {
+      "id": "basic:core117",
+      "japanese": "けさ",
+      "reading": "けさ",
+      "romaji": "kesa",
+      "english": "this morning",
+      "category": "time",
+      "imageResource": "core117"
+    },
+    {
+      "id": "basic:core118",
+      "japanese": "うまれる",
+      "reading": "うまれる",
+      "romaji": "umareru",
+      "english": "to be born",
+      "category": "actions",
+      "imageResource": "core118"
+    },
+    {
+      "id": "basic:core119",
+      "japanese": "ちいさい",
+      "reading": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small, little",
+      "category": "descriptions",
+      "imageResource": "core119"
+    },
+    {
+      "id": "basic:core120",
+      "japanese": "ことば",
+      "reading": "ことば",
+      "romaji": "kotoba",
+      "english": "language",
+      "category": "language",
+      "imageResource": "core120"
+    },
+    {
+      "id": "basic:core121",
+      "japanese": "おとこ",
+      "reading": "おとこ",
+      "romaji": "otoko",
+      "english": "man, male",
+      "category": "people",
+      "imageResource": "core121"
+    },
+    {
+      "id": "basic:core122",
+      "japanese": "さむい",
+      "reading": "さむい",
+      "romaji": "samui",
+      "english": "cold (in reference to weather)",
+      "category": "food",
+      "imageResource": "core122"
+    },
+    {
+      "id": "basic:core123",
+      "japanese": "あぶない",
+      "reading": "あぶない",
+      "romaji": "abunai",
+      "english": "dangerous, critical",
+      "category": "things",
+      "imageResource": "core123"
+    },
+    {
+      "id": "basic:core124",
+      "japanese": "でんき",
+      "reading": "でんき",
+      "romaji": "denki",
+      "english": "electricity, (electric) light",
+      "category": "places",
+      "imageResource": "core124"
+    },
+    {
+      "id": "basic:core125",
+      "japanese": "まど",
+      "reading": "まど",
+      "romaji": "mado",
+      "english": "window",
+      "category": "nature",
+      "imageResource": "core125"
+    },
+    {
+      "id": "basic:core126",
+      "japanese": "げつようび",
+      "reading": "げつようび",
+      "romaji": "getsuyoubi",
+      "english": "Monday",
+      "category": "time",
+      "imageResource": "core126"
+    },
+    {
+      "id": "basic:core127",
+      "japanese": "うる",
+      "reading": "うる",
+      "romaji": "uru",
+      "english": "to sell (v.t.)",
+      "category": "actions",
+      "imageResource": "core127"
+    },
+    {
+      "id": "basic:core128",
+      "japanese": "ちいさな",
+      "reading": "ちいさな",
+      "romaji": "chiisana",
+      "english": "small, little",
+      "category": "descriptions",
+      "imageResource": "core128"
+    },
+    {
+      "id": "basic:core129",
+      "japanese": "さあ",
+      "reading": "さあ",
+      "romaji": "saa",
+      "english": "come now, well",
+      "category": "language",
+      "imageResource": "core129"
+    },
+    {
+      "id": "basic:core130",
+      "japanese": "おとこのこ",
+      "reading": "おとこのこ",
+      "romaji": "otokonoko",
+      "english": "boy",
+      "category": "people",
+      "imageResource": "core130"
+    },
+    {
+      "id": "basic:core131",
+      "japanese": "しお",
+      "reading": "しお",
+      "romaji": "shio",
+      "english": "salt",
+      "category": "food",
+      "imageResource": "core131"
+    },
+    {
+      "id": "basic:core132",
+      "japanese": "あれ",
+      "reading": "あれ",
+      "romaji": "are",
+      "english": "that one (over there)",
+      "category": "things",
+      "imageResource": "core132"
+    },
+    {
+      "id": "basic:core133",
+      "japanese": "トイレ",
+      "reading": "トイレ",
+      "romaji": "toire",
+      "english": "bathroom",
+      "category": "places",
+      "imageResource": "core133"
+    },
+    {
+      "id": "basic:core134",
+      "japanese": "みち",
+      "reading": "みち",
+      "romaji": "michi",
+      "english": "road, street",
+      "category": "nature",
+      "imageResource": "core134"
+    },
+    {
+      "id": "basic:core135",
+      "japanese": "ここのか",
+      "reading": "ここのか",
+      "romaji": "kokonoka",
+      "english": "nine days",
+      "category": "time",
+      "imageResource": "core135"
+    },
+    {
+      "id": "basic:core136",
+      "japanese": "おきる",
+      "reading": "おきる",
+      "romaji": "okiru",
+      "english": "to get up (e.g., from sleeping)",
+      "category": "actions",
+      "imageResource": "core136"
+    },
+    {
+      "id": "basic:core137",
+      "japanese": "ちかい",
+      "reading": "ちかい",
+      "romaji": "chikai",
+      "english": "near, close by, short",
+      "category": "descriptions",
+      "imageResource": "core137"
+    },
+    {
+      "id": "basic:core138",
+      "japanese": "しかし",
+      "reading": "しかし",
+      "romaji": "shikashi",
+      "english": "however",
+      "category": "language",
+      "imageResource": "core138"
+    },
+    {
+      "id": "basic:core139",
+      "japanese": "おにいさん",
+      "reading": "おにいさん",
+      "romaji": "oniisan",
+      "english": "(someone else's) older brother (formal)",
+      "category": "people",
+      "imageResource": "core139"
+    },
+    {
+      "id": "basic:core140",
+      "japanese": "した",
+      "reading": "した",
+      "romaji": "shita",
+      "english": "under, below, beneath",
+      "category": "food",
+      "imageResource": "core140"
+    },
+    {
+      "id": "basic:core141",
+      "japanese": "いけ",
+      "reading": "いけ",
+      "romaji": "ike",
+      "english": "pond",
+      "category": "things",
+      "imageResource": "core141"
+    },
+    {
+      "id": "basic:core142",
+      "japanese": "どこ",
+      "reading": "どこ",
+      "romaji": "doko",
+      "english": "where, what place",
+      "category": "places",
+      "imageResource": "core142"
+    },
+    {
+      "id": "basic:core143",
+      "japanese": "ごぜん",
+      "reading": "ごぜん",
+      "romaji": "gozen",
+      "english": "morning, A.M.",
+      "category": "time",
+      "imageResource": "core143"
+    },
+    {
+      "id": "basic:core144",
+      "japanese": "おく",
+      "reading": "おく",
+      "romaji": "oku",
+      "english": "to put",
+      "category": "actions",
+      "imageResource": "core144"
+    },
+    {
+      "id": "basic:core145",
+      "japanese": "ちかく",
+      "reading": "ちかく",
+      "romaji": "chikaku",
+      "english": "nearby",
+      "category": "descriptions",
+      "imageResource": "core145"
+    },
+    {
+      "id": "basic:core146",
+      "japanese": "シャワー",
+      "reading": "シャワー",
+      "romaji": "shawaa",
+      "english": "shower",
+      "category": "language",
+      "imageResource": "core146"
+    },
+    {
+      "id": "basic:core147",
+      "japanese": "おねえさん",
+      "reading": "おねえさん",
+      "romaji": "oneesan",
+      "english": "older sister (formal)",
+      "category": "people",
+      "imageResource": "core147"
+    },
+    {
+      "id": "basic:core148",
+      "japanese": "すう",
+      "reading": "すう",
+      "romaji": "suu",
+      "english": "to breathe in, to suck",
+      "category": "food",
+      "imageResource": "core148"
+    },
+    {
+      "id": "basic:core149",
+      "japanese": "いす",
+      "reading": "いす",
+      "romaji": "isu",
+      "english": "chair",
+      "category": "things",
+      "imageResource": "core149"
+    },
+    {
+      "id": "basic:core150",
+      "japanese": "ところ",
+      "reading": "ところ",
+      "romaji": "tokoro",
+      "english": "place",
+      "category": "places",
+      "imageResource": "core150"
+    },
+    {
+      "id": "basic:core151",
+      "japanese": "ことし",
+      "reading": "ことし",
+      "romaji": "kotoshi",
+      "english": "this year",
+      "category": "time",
+      "imageResource": "core151"
+    },
+    {
+      "id": "basic:core152",
+      "japanese": "おす",
+      "reading": "おす",
+      "romaji": "osu",
+      "english": "to push, to press, to stamp (e.g., a passport)",
+      "category": "actions",
+      "imageResource": "core152"
+    },
+    {
+      "id": "basic:core153",
+      "japanese": "とおい",
+      "reading": "とおい",
+      "romaji": "tooi",
+      "english": "far (away), distant",
+      "category": "descriptions",
+      "imageResource": "core153"
+    },
+    {
+      "id": "basic:core154",
+      "japanese": "ぜんぶ",
+      "reading": "ぜんぶ",
+      "romaji": "zenbu",
+      "english": "all, entire, whole",
+      "category": "language",
+      "imageResource": "core154"
+    },
+    {
+      "id": "basic:core155",
+      "japanese": "おまわりさん",
+      "reading": "おまわりさん",
+      "romaji": "omawarisan",
+      "english": "policeman (friendly term)",
+      "category": "people",
+      "imageResource": "core155"
+    },
+    {
+      "id": "basic:core156",
+      "japanese": "すずしい",
+      "reading": "すずしい",
+      "romaji": "suzushii",
+      "english": "cool, refreshing (in reference to weather)",
+      "category": "food",
+      "imageResource": "core156"
+    },
+    {
+      "id": "basic:core157",
+      "japanese": "いたい",
+      "reading": "いたい",
+      "romaji": "itai",
+      "english": "hurt",
+      "category": "things",
+      "imageResource": "core157"
+    },
+    {
+      "id": "basic:core158",
+      "japanese": "としょかん",
+      "reading": "としょかん",
+      "romaji": "toshokan",
+      "english": "library",
+      "category": "places",
+      "imageResource": "core158"
+    },
+    {
+      "id": "basic:core159",
+      "japanese": "こんげつ",
+      "reading": "こんげつ",
+      "romaji": "kongetsu",
+      "english": "this month",
+      "category": "time",
+      "imageResource": "core159"
+    },
+    {
+      "id": "basic:core160",
+      "japanese": "およぐ",
+      "reading": "およぐ",
+      "romaji": "oyogu",
+      "english": "to swim",
+      "category": "actions",
+      "imageResource": "core160"
+    },
+    {
+      "id": "basic:core161",
+      "japanese": "ながい",
+      "reading": "ながい",
+      "romaji": "nagai",
+      "english": "long, lengthy",
+      "category": "descriptions",
+      "imageResource": "core161"
+    },
+    {
+      "id": "basic:core162",
+      "japanese": "だれ",
+      "reading": "だれ",
+      "romaji": "dare",
+      "english": "who",
+      "category": "language",
+      "imageResource": "core162"
+    },
+    {
+      "id": "basic:core163",
+      "japanese": "おんな",
+      "reading": "おんな",
+      "romaji": "onna",
+      "english": "woman, female",
+      "category": "people",
+      "imageResource": "core163"
+    },
+    {
+      "id": "basic:core164",
+      "japanese": "ストーブ",
+      "reading": "ストーブ",
+      "romaji": "sutoobu",
+      "english": "heater (lit: stove)",
+      "category": "food",
+      "imageResource": "core164"
+    },
+    {
+      "id": "basic:core165",
+      "japanese": "いち",
+      "reading": "いち",
+      "romaji": "ichi",
+      "english": "one",
+      "category": "things",
+      "imageResource": "core165"
+    },
+    {
+      "id": "basic:core166",
+      "japanese": "びょういん",
+      "reading": "びょういん",
+      "romaji": "byouin",
+      "english": "hospital",
+      "category": "places",
+      "imageResource": "core166"
+    },
+    {
+      "id": "basic:core167",
+      "japanese": "こんしゅう",
+      "reading": "こんしゅう",
+      "romaji": "konshuu",
+      "english": "this week",
+      "category": "time",
+      "imageResource": "core167"
+    },
+    {
+      "id": "basic:core168",
+      "japanese": "おりる",
+      "reading": "おりる",
+      "romaji": "oriru",
+      "english": "to get off",
+      "category": "actions",
+      "imageResource": "core168"
+    },
+    {
+      "id": "basic:core169",
+      "japanese": "にぎやか",
+      "reading": "にぎやか",
+      "romaji": "nigiyaka",
+      "english": "bustling, busy",
+      "category": "descriptions",
+      "imageResource": "core169"
+    },
+    {
+      "id": "basic:core170",
+      "japanese": "ちょっと",
+      "reading": "ちょっと",
+      "romaji": "chotto",
+      "english": "a little, somewhat",
+      "category": "language",
+      "imageResource": "core170"
+    },
+    {
+      "id": "basic:core171",
+      "japanese": "おんなのこ",
+      "reading": "おんなのこ",
+      "romaji": "onnanoko",
+      "english": "girl",
+      "category": "people",
+      "imageResource": "core171"
+    },
+    {
+      "id": "basic:core172",
+      "japanese": "セーター",
+      "reading": "セーター",
+      "romaji": "seetaa",
+      "english": "sweater",
+      "category": "food",
+      "imageResource": "core172"
+    },
+    {
+      "id": "basic:core173",
+      "japanese": "いちばん",
+      "reading": "いちばん",
+      "romaji": "ichiban",
+      "english": "best (most), first, number one",
+      "category": "things",
+      "imageResource": "core173"
+    },
+    {
+      "id": "basic:core174",
+      "japanese": "へや",
+      "reading": "へや",
+      "romaji": "heya",
+      "english": "a room",
+      "category": "places",
+      "imageResource": "core174"
+    },
+    {
+      "id": "basic:core175",
+      "japanese": "こんばん",
+      "reading": "こんばん",
+      "romaji": "konban",
+      "english": "tonight, this evening",
+      "category": "time",
+      "imageResource": "core175"
+    },
+    {
+      "id": "basic:core176",
+      "japanese": "おわる",
+      "reading": "おわる",
+      "romaji": "owaru",
+      "english": "to finish, to close",
+      "category": "actions",
+      "imageResource": "core176"
+    },
+    {
+      "id": "basic:core177",
+      "japanese": "ニュース",
+      "reading": "ニュース",
+      "romaji": "nyuusu",
+      "english": "news",
+      "category": "descriptions",
+      "imageResource": "core177"
+    },
+    {
+      "id": "basic:core178",
+      "japanese": "でも",
+      "reading": "でも",
+      "romaji": "demo",
+      "english": "but, however",
+      "category": "language",
+      "imageResource": "core178"
+    },
+    {
+      "id": "basic:core179",
+      "japanese": "がくせい",
+      "reading": "がくせい",
+      "romaji": "gakusei",
+      "english": "student",
+      "category": "people",
+      "imageResource": "core179"
+    },
+    {
+      "id": "basic:core180",
+      "japanese": "たべもの",
+      "reading": "たべもの",
+      "romaji": "tabemono",
+      "english": "food",
+      "category": "food",
+      "imageResource": "core180"
+    },
+    {
+      "id": "basic:core181",
+      "japanese": "いつ",
+      "reading": "いつ",
+      "romaji": "itsu",
+      "english": "when",
+      "category": "things",
+      "imageResource": "core181"
+    },
+    {
+      "id": "basic:core182",
+      "japanese": "ホテル",
+      "reading": "ホテル",
+      "romaji": "hoteru",
+      "english": "hotel",
+      "category": "places",
+      "imageResource": "core182"
+    },
+    {
+      "id": "basic:core183",
+      "japanese": "さらいねん",
+      "reading": "さらいねん",
+      "romaji": "sarainen",
+      "english": "year after next",
+      "category": "time",
+      "imageResource": "core183"
+    },
+    {
+      "id": "basic:core184",
+      "japanese": "かう",
+      "reading": "かう",
+      "romaji": "kau",
+      "english": "to buy",
+      "category": "actions",
+      "imageResource": "core184"
+    },
+    {
+      "id": "basic:core185",
+      "japanese": "ひくい",
+      "reading": "ひくい",
+      "romaji": "hikui",
+      "english": "short, low",
+      "category": "descriptions",
+      "imageResource": "core185"
+    },
+    {
+      "id": "basic:core186",
+      "japanese": "どう",
+      "reading": "どう",
+      "romaji": "dou",
+      "english": "how, in what way",
+      "category": "language",
+      "imageResource": "core186"
+    },
+    {
+      "id": "basic:core187",
+      "japanese": "かぞく",
+      "reading": "かぞく",
+      "romaji": "kazoku",
+      "english": "family, members of a family",
+      "category": "people",
+      "imageResource": "core187"
+    },
+    {
+      "id": "basic:core188",
+      "japanese": "たべる",
+      "reading": "たべる",
+      "romaji": "taberu",
+      "english": "to eat",
+      "category": "food",
+      "imageResource": "core188"
+    },
+    {
+      "id": "basic:core189",
+      "japanese": "いっしょ",
+      "reading": "いっしょ",
+      "romaji": "issho",
+      "english": "together",
+      "category": "things",
+      "imageResource": "core189"
+    },
+    {
+      "id": "basic:core190",
+      "japanese": "まち",
+      "reading": "まち",
+      "romaji": "machi",
+      "english": "town",
+      "category": "places",
+      "imageResource": "core190"
+    },
+    {
+      "id": "basic:core191",
+      "japanese": "じかん",
+      "reading": "じかん",
+      "romaji": "jikan",
+      "english": "time",
+      "category": "time",
+      "imageResource": "core191"
+    },
+    {
+      "id": "basic:core192",
+      "japanese": "かえす",
+      "reading": "かえす",
+      "romaji": "kaesu",
+      "english": "to return something",
+      "category": "actions",
+      "imageResource": "core192"
+    },
+    {
+      "id": "basic:core193",
+      "japanese": "みじかい",
+      "reading": "みじかい",
+      "romaji": "mijikai",
+      "english": "short (length)",
+      "category": "descriptions",
+      "imageResource": "core193"
+    },
+    {
+      "id": "basic:core194",
+      "japanese": "どうして",
+      "reading": "どうして",
+      "romaji": "doushite",
+      "english": "why, for what reason",
+      "category": "language",
+      "imageResource": "core194"
+    },
+    {
+      "id": "basic:core195",
+      "japanese": "きょうだい",
+      "reading": "きょうだい",
+      "romaji": "kyoudai",
+      "english": "siblings (humble), brothers and sisters",
+      "category": "people",
+      "imageResource": "core195"
+    },
+    {
+      "id": "basic:core196",
+      "japanese": "ちゃわん",
+      "reading": "ちゃわん",
+      "romaji": "chawan",
+      "english": "rice bowl",
+      "category": "food",
+      "imageResource": "core196"
+    },
+    {
+      "id": "basic:core197",
+      "japanese": "いつつ",
+      "reading": "いつつ",
+      "romaji": "itsutsu",
+      "english": "five things",
+      "category": "things",
+      "imageResource": "core197"
+    },
+    {
+      "id": "basic:core198",
+      "japanese": "みせ",
+      "reading": "みせ",
+      "romaji": "mise",
+      "english": "store, shop",
+      "category": "places",
+      "imageResource": "core198"
+    },
+    {
+      "id": "basic:core199",
+      "japanese": "すいようび",
+      "reading": "すいようび",
+      "romaji": "suiyoubi",
+      "english": "Wednesday",
+      "category": "time",
+      "imageResource": "core199"
+    },
+    {
+      "id": "basic:core200",
+      "japanese": "かえる",
+      "reading": "かえる",
+      "romaji": "kaeru",
+      "english": "to go back, to go home, to return",
+      "category": "actions",
+      "imageResource": "core200"
+    },
+    {
+      "id": "basic:core201",
+      "japanese": "むずかしい",
+      "reading": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "category": "descriptions",
+      "imageResource": "core201"
+    },
+    {
+      "id": "basic:core202",
+      "japanese": "どうぞ",
+      "reading": "どうぞ",
+      "romaji": "douzo",
+      "english": "please, kindly, by all means",
+      "category": "language",
+      "imageResource": "core202"
+    },
+    {
+      "id": "basic:core203",
+      "japanese": "こちら",
+      "reading": "こちら",
+      "romaji": "kochira",
+      "english": "this person (polite)",
+      "category": "people",
+      "imageResource": "core203"
+    },
+    {
+      "id": "basic:core204",
+      "japanese": "つくる",
+      "reading": "つくる",
+      "romaji": "tsukuru",
+      "english": "to make, to create",
+      "category": "food",
+      "imageResource": "core204"
+    },
+    {
+      "id": "basic:core205",
+      "japanese": "いみ",
+      "reading": "いみ",
+      "romaji": "imi",
+      "english": "meaning, significance",
+      "category": "things",
+      "imageResource": "core205"
+    },
+    {
+      "id": "basic:core206",
+      "japanese": "ゆうびんきょく",
+      "reading": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "english": "post office",
+      "category": "places",
+      "imageResource": "core206"
+    },
+    {
+      "id": "basic:core207",
+      "japanese": "せんげつ",
+      "reading": "せんげつ",
+      "romaji": "sengetsu",
+      "english": "last month",
+      "category": "time",
+      "imageResource": "core207"
+    },
+    {
+      "id": "basic:core208",
+      "japanese": "かく",
+      "reading": "かく",
+      "romaji": "kaku",
+      "english": "to write",
+      "category": "actions",
+      "imageResource": "core208"
+    },
+    {
+      "id": "basic:core209",
+      "japanese": "やさしい",
+      "reading": "やさしい",
+      "romaji": "yasashii",
+      "english": "easy, plain, simple",
+      "category": "descriptions",
+      "imageResource": "core209"
+    },
+    {
+      "id": "basic:core210",
+      "japanese": "どうも",
+      "reading": "どうも",
+      "romaji": "doumo",
+      "english": "Thank you",
+      "category": "language",
+      "imageResource": "core210"
+    },
+    {
+      "id": "basic:core211",
+      "japanese": "こっち",
+      "reading": "こっち",
+      "romaji": "kocchi",
+      "english": "this person",
+      "category": "people",
+      "imageResource": "core211"
+    },
+    {
+      "id": "basic:core212",
+      "japanese": "てんき",
+      "reading": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "category": "food",
+      "imageResource": "core212"
+    },
+    {
+      "id": "basic:core213",
+      "japanese": "いや",
+      "reading": "いや",
+      "romaji": "iya",
+      "english": "disagreeable, detestable, unpleasant",
+      "category": "things",
+      "imageResource": "core213"
+    },
+    {
+      "id": "basic:core214",
+      "japanese": "せんしゅう",
+      "reading": "せんしゅう",
+      "romaji": "senshuu",
+      "english": "last week",
+      "category": "time",
+      "imageResource": "core214"
+    },
+    {
+      "id": "basic:core215",
+      "japanese": "かける",
+      "reading": "かける",
+      "romaji": "kakeru",
+      "english": "to put on (e.g., glasses)",
+      "category": "actions",
+      "imageResource": "core215"
+    },
+    {
+      "id": "basic:core216",
+      "japanese": "やすい",
+      "reading": "やすい",
+      "romaji": "yasui",
+      "english": "inexpensive",
+      "category": "descriptions",
+      "imageResource": "core216"
+    },
+    {
+      "id": "basic:core217",
+      "japanese": "どちら",
+      "reading": "どちら",
+      "romaji": "dochira",
+      "english": "which (one) (way)",
+      "category": "language",
+      "imageResource": "core217"
+    },
+    {
+      "id": "basic:core218",
+      "japanese": "こども",
+      "reading": "こども",
+      "romaji": "kodomo",
+      "english": "child(ren)",
+      "category": "people",
+      "imageResource": "core218"
+    },
+    {
+      "id": "basic:core219",
+      "japanese": "とても",
+      "reading": "とても",
+      "romaji": "totemo",
+      "english": "very (much), greatly, exceedingly",
+      "category": "food",
+      "imageResource": "core219"
+    },
+    {
+      "id": "basic:core220",
+      "japanese": "いりぐち",
+      "reading": "いりぐち",
+      "romaji": "iriguchi",
+      "english": "entrance",
+      "category": "things",
+      "imageResource": "core220"
+    },
+    {
+      "id": "basic:core221",
+      "japanese": "たんじょうび",
+      "reading": "たんじょうび",
+      "romaji": "tanjoubi",
+      "english": "birthday",
+      "category": "time",
+      "imageResource": "core221"
+    },
+    {
+      "id": "basic:core222",
+      "japanese": "かす",
+      "reading": "かす",
+      "romaji": "kasu",
+      "english": "to lend",
+      "category": "actions",
+      "imageResource": "core222"
+    },
+    {
+      "id": "basic:core223",
+      "japanese": "ゆっくりと",
+      "reading": "ゆっくりと",
+      "romaji": "yukkurito",
+      "english": "slowly, at ease",
+      "category": "descriptions",
+      "imageResource": "core223"
+    },
+    {
+      "id": "basic:core224",
+      "japanese": "どっち",
+      "reading": "どっち",
+      "romaji": "docchi",
+      "english": "which one, which way",
+      "category": "language",
+      "imageResource": "core224"
+    },
+    {
+      "id": "basic:core225",
+      "japanese": "せいと",
+      "reading": "せいと",
+      "romaji": "seito",
+      "english": "student",
+      "category": "people",
+      "imageResource": "core225"
+    },
+    {
+      "id": "basic:core226",
+      "japanese": "とりにく",
+      "reading": "とりにく",
+      "romaji": "toriniku",
+      "english": "chicken meat",
+      "category": "food",
+      "imageResource": "core226"
+    },
+    {
+      "id": "basic:core227",
+      "japanese": "いる",
+      "reading": "いる",
+      "romaji": "iru",
+      "english": "(humble) to be (animate), to exist",
+      "category": "things",
+      "imageResource": "core227"
+    },
+    {
+      "id": "basic:core228",
+      "japanese": "ついたち",
+      "reading": "ついたち",
+      "romaji": "tsuitachi",
+      "english": "one day",
+      "category": "time",
+      "imageResource": "core228"
+    },
+    {
+      "id": "basic:core229",
+      "japanese": "かぶる",
+      "reading": "かぶる",
+      "romaji": "kaburu",
+      "english": "to wear, to put on (e.g., a hat on the head)",
+      "category": "actions",
+      "imageResource": "core229"
+    },
+    {
+      "id": "basic:core230",
+      "japanese": "わるい",
+      "reading": "わるい",
+      "romaji": "warui",
+      "english": "bad, sinful",
+      "category": "descriptions",
+      "imageResource": "core230"
+    },
+    {
+      "id": "basic:core231",
+      "japanese": "どなた",
+      "reading": "どなた",
+      "romaji": "donata",
+      "english": "who",
+      "category": "language",
+      "imageResource": "core231"
+    },
+    {
+      "id": "basic:core232",
+      "japanese": "たくさん",
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "english": "many, much",
+      "category": "people",
+      "imageResource": "core232"
+    },
+    {
+      "id": "basic:core233",
+      "japanese": "にく",
+      "reading": "にく",
+      "romaji": "niku",
+      "english": "meat",
+      "category": "food",
+      "imageResource": "core233"
+    },
+    {
+      "id": "basic:core234",
+      "japanese": "いろいろ",
+      "reading": "いろいろ",
+      "romaji": "iroiro",
+      "english": "various",
+      "category": "things",
+      "imageResource": "core234"
+    },
+    {
+      "id": "basic:core235",
+      "japanese": "とおか",
+      "reading": "とおか",
+      "romaji": "tooka",
+      "english": "ten days",
+      "category": "time",
+      "imageResource": "core235"
+    },
+    {
+      "id": "basic:core236",
+      "japanese": "かりる",
+      "reading": "かりる",
+      "romaji": "kariru",
+      "english": "to borrow, to owe",
+      "category": "actions",
+      "imageResource": "core236"
+    },
+    {
+      "id": "basic:core237",
+      "japanese": "どの",
+      "reading": "どの",
+      "romaji": "dono",
+      "english": "which",
+      "category": "language",
+      "imageResource": "core237"
+    },
+    {
+      "id": "basic:core238",
+      "japanese": "つめたい",
+      "reading": "つめたい",
+      "romaji": "tsumetai",
+      "english": "cold (things, people)",
+      "category": "people",
+      "imageResource": "core238"
+    },
+    {
+      "id": "basic:core239",
+      "japanese": "のみもの",
+      "reading": "のみもの",
+      "romaji": "nomimono",
+      "english": "drink, beverage",
+      "category": "food",
+      "imageResource": "core239"
+    },
+    {
+      "id": "basic:core240",
+      "japanese": "うえ",
+      "reading": "うえ",
+      "romaji": "ue",
+      "english": "above (up, top, etc.), over, on top of",
+      "category": "things",
+      "imageResource": "core240"
+    },
+    {
+      "id": "basic:core241",
+      "japanese": "ときどき",
+      "reading": "ときどき",
+      "romaji": "tokidoki",
+      "english": "sometimes",
+      "category": "time",
+      "imageResource": "core241"
+    },
+    {
+      "id": "basic:core242",
+      "japanese": "きえる",
+      "reading": "きえる",
+      "romaji": "kieru",
+      "english": "to vanish, to disappear",
+      "category": "actions",
+      "imageResource": "core242"
+    },
+    {
+      "id": "basic:core243",
+      "japanese": "どれ",
+      "reading": "どれ",
+      "romaji": "dore",
+      "english": "which one",
+      "category": "language",
+      "imageResource": "core243"
+    },
+    {
+      "id": "basic:core244",
+      "japanese": "ともだち",
+      "reading": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "category": "people",
+      "imageResource": "core244"
+    },
+    {
+      "id": "basic:core245",
+      "japanese": "のむ",
+      "reading": "のむ",
+      "romaji": "nomu",
+      "english": "to drink",
+      "category": "food",
+      "imageResource": "core245"
+    },
+    {
+      "id": "basic:core246",
+      "japanese": "うしろ",
+      "reading": "うしろ",
+      "romaji": "ushiro",
+      "english": "back, behind, rear",
+      "category": "things",
+      "imageResource": "core246"
+    },
+    {
+      "id": "basic:core247",
+      "japanese": "とし",
+      "reading": "とし",
+      "romaji": "toshi",
+      "english": "year, age",
+      "category": "time",
+      "imageResource": "core247"
+    },
+    {
+      "id": "basic:core248",
+      "japanese": "きく",
+      "reading": "きく",
+      "romaji": "kiku",
+      "english": "to hear, to listen, to ask",
+      "category": "actions",
+      "imageResource": "core248"
+    },
+    {
+      "id": "basic:core249",
+      "japanese": "どんな",
+      "reading": "どんな",
+      "romaji": "donna",
+      "english": "what, what kind of",
+      "category": "language",
+      "imageResource": "core249"
+    },
+    {
+      "id": "basic:core250",
+      "japanese": "ひと",
+      "reading": "ひと",
+      "romaji": "hito",
+      "english": "man, person",
+      "category": "people",
+      "imageResource": "core250"
+    },
+    {
+      "id": "basic:core251",
+      "japanese": "はれ",
+      "reading": "はれ",
+      "romaji": "hare",
+      "english": "clear (sunny) weather",
+      "category": "food",
+      "imageResource": "core251"
+    },
+    {
+      "id": "basic:core252",
+      "japanese": "うすい",
+      "reading": "うすい",
+      "romaji": "usui",
+      "english": "thin, weak",
+      "category": "things",
+      "imageResource": "core252"
+    },
+    {
+      "id": "basic:core253",
+      "japanese": "どようび",
+      "reading": "どようび",
+      "romaji": "doyoubi",
+      "english": "Saturday",
+      "category": "time",
+      "imageResource": "core253"
+    },
+    {
+      "id": "basic:core254",
+      "japanese": "きる",
+      "reading": "きる",
+      "romaji": "kiru",
+      "english": "to cut",
+      "category": "actions",
+      "imageResource": "core254"
+    },
+    {
+      "id": "basic:core255",
+      "japanese": "なぜ",
+      "reading": "なぜ",
+      "romaji": "naze",
+      "english": "why (same as どうして)",
+      "category": "language",
+      "imageResource": "core255"
+    },
+    {
+      "id": "basic:core256",
+      "japanese": "ひとり",
+      "reading": "ひとり",
+      "romaji": "hitori",
+      "english": "one person",
+      "category": "people",
+      "imageResource": "core256"
+    },
+    {
+      "id": "basic:core257",
+      "japanese": "ばんごはん",
+      "reading": "ばんごはん",
+      "romaji": "bangohan",
+      "english": "dinner, evening meal",
+      "category": "food",
+      "imageResource": "core257"
+    },
+    {
+      "id": "basic:core258",
+      "japanese": "うた",
+      "reading": "うた",
+      "romaji": "uta",
+      "english": "a song",
+      "category": "things",
+      "imageResource": "core258"
+    },
+    {
+      "id": "basic:core259",
+      "japanese": "なつ",
+      "reading": "なつ",
+      "romaji": "natsu",
+      "english": "summer",
+      "category": "time",
+      "imageResource": "core259"
+    },
+    {
+      "id": "basic:core260",
+      "japanese": "くる",
+      "reading": "くる",
+      "romaji": "kuru",
+      "english": "to come",
+      "category": "actions",
+      "imageResource": "core260"
+    },
+    {
+      "id": "basic:core261",
+      "japanese": "ノート",
+      "reading": "ノート",
+      "romaji": "nooto",
+      "english": "notebook",
+      "category": "language",
+      "imageResource": "core261"
+    },
+    {
+      "id": "basic:core262",
+      "japanese": "ふたり",
+      "reading": "ふたり",
+      "romaji": "futari",
+      "english": "two people",
+      "category": "people",
+      "imageResource": "core262"
+    },
+    {
+      "id": "basic:core263",
+      "japanese": "ひるごはん",
+      "reading": "ひるごはん",
+      "romaji": "hirugohan",
+      "english": "lunch, midday meal",
+      "category": "food",
+      "imageResource": "core263"
+    },
+    {
+      "id": "basic:core264",
+      "japanese": "うち",
+      "reading": "うち",
+      "romaji": "uchi",
+      "english": "home",
+      "category": "things",
+      "imageResource": "core264"
+    },
+    {
+      "id": "basic:core265",
+      "japanese": "なのか",
+      "reading": "なのか",
+      "romaji": "nanoka",
+      "english": "seven days",
+      "category": "time",
+      "imageResource": "core265"
+    },
+    {
+      "id": "basic:core266",
+      "japanese": "けす",
+      "reading": "けす",
+      "romaji": "kesu",
+      "english": "to erase, to delete, to turn off power",
+      "category": "actions",
+      "imageResource": "core266"
+    },
+    {
+      "id": "basic:core267",
+      "japanese": "はい",
+      "reading": "はい",
+      "romaji": "hai",
+      "english": "yes",
+      "category": "language",
+      "imageResource": "core267"
+    },
+    {
+      "id": "basic:core268",
+      "japanese": "りゅうがくせい",
+      "reading": "りゅうがくせい",
+      "romaji": "ryuugakusei",
+      "english": "international student",
+      "category": "people",
+      "imageResource": "core268"
+    },
+    {
+      "id": "basic:core269",
+      "japanese": "やさい",
+      "reading": "やさい",
+      "romaji": "yasai",
+      "english": "vegetable",
+      "category": "food",
+      "imageResource": "core269"
+    },
+    {
+      "id": "basic:core270",
+      "japanese": "うわぎ",
+      "reading": "うわぎ",
+      "romaji": "uwagi",
+      "english": "coat, jacket",
+      "category": "things",
+      "imageResource": "core270"
+    },
+    {
+      "id": "basic:core271",
+      "japanese": "はじめて",
+      "reading": "はじめて",
+      "romaji": "hajimete",
+      "english": "for the first time",
+      "category": "time",
+      "imageResource": "core271"
+    },
+    {
+      "id": "basic:core272",
+      "japanese": "こたえる",
+      "reading": "こたえる",
+      "romaji": "kotaeru",
+      "english": "to answer, to reply",
+      "category": "actions",
+      "imageResource": "core272"
+    },
+    {
+      "id": "basic:core273",
+      "japanese": "もしもし",
+      "reading": "もしもし",
+      "romaji": "moshimoshi",
+      "english": "Hello? (used on the phone)",
+      "category": "language",
+      "imageResource": "core273"
+    },
+    {
+      "id": "basic:core274",
+      "japanese": "りょうしん",
+      "reading": "りょうしん",
+      "romaji": "ryoushin",
+      "english": "parents (lit., both parents)",
+      "category": "people",
+      "imageResource": "core274"
+    },
+    {
+      "id": "basic:core275",
+      "japanese": "ゆうはん",
+      "reading": "ゆうはん",
+      "romaji": "yuuhan",
+      "english": "dinner, supper, evening meal",
+      "category": "food",
+      "imageResource": "core275"
+    },
+    {
+      "id": "basic:core276",
+      "japanese": "え",
+      "reading": "え",
+      "romaji": "e",
+      "english": "a painting",
+      "category": "things",
+      "imageResource": "core276"
+    },
+    {
+      "id": "basic:core277",
+      "japanese": "はたち",
+      "reading": "はたち",
+      "romaji": "hatachi",
+      "english": "20 years old",
+      "category": "time",
+      "imageResource": "core277"
+    },
+    {
+      "id": "basic:core278",
+      "japanese": "コピーする",
+      "reading": "コピーする",
+      "romaji": "kopiisuru",
+      "english": "to copy",
+      "category": "actions",
+      "imageResource": "core278"
+    },
+    {
+      "id": "basic:core279",
+      "japanese": "れい",
+      "reading": "れい",
+      "romaji": "rei",
+      "english": "zero, nought",
+      "category": "language",
+      "imageResource": "core279"
+    },
+    {
+      "id": "basic:core280",
+      "japanese": "えいが",
+      "reading": "えいが",
+      "romaji": "eiga",
+      "english": "movie, film",
+      "category": "things",
+      "imageResource": "core280"
+    },
+    {
+      "id": "basic:core281",
+      "japanese": "はつか",
+      "reading": "はつか",
+      "romaji": "hatsuka",
+      "english": "twenty days, twentieth (day of the month)",
+      "category": "time",
+      "imageResource": "core281"
+    },
+    {
+      "id": "basic:core282",
+      "japanese": "こまる",
+      "reading": "こまる",
+      "romaji": "komaru",
+      "english": "to be bothered, to have difficulty",
+      "category": "actions",
+      "imageResource": "core282"
+    },
+    {
+      "id": "basic:core283",
+      "japanese": "エレベーター",
+      "reading": "エレベーター",
+      "romaji": "erebeetaa",
+      "english": "elevator",
+      "category": "things",
+      "imageResource": "core283"
+    },
+    {
+      "id": "basic:core284",
+      "japanese": "はる",
+      "reading": "はる",
+      "romaji": "haru",
+      "english": "spring",
+      "category": "time",
+      "imageResource": "core284"
+    },
+    {
+      "id": "basic:core285",
+      "japanese": "さく",
+      "reading": "さく",
+      "romaji": "saku",
+      "english": "to bloom",
+      "category": "actions",
+      "imageResource": "core285"
+    },
+    {
+      "id": "basic:core286",
+      "japanese": "えんぴつ",
+      "reading": "えんぴつ",
+      "romaji": "enpitsu",
+      "english": "pencil",
+      "category": "things",
+      "imageResource": "core286"
+    },
+    {
+      "id": "basic:core287",
+      "japanese": "ばん",
+      "reading": "ばん",
+      "romaji": "ban",
+      "english": "evening",
+      "category": "time",
+      "imageResource": "core287"
+    },
+    {
+      "id": "basic:core288",
+      "japanese": "しぬ",
+      "reading": "しぬ",
+      "romaji": "shinu",
+      "english": "to die",
+      "category": "actions",
+      "imageResource": "core288"
+    },
+    {
+      "id": "basic:core289",
+      "japanese": "おいしい",
+      "reading": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious, tasty",
+      "category": "things",
+      "imageResource": "core289"
+    },
+    {
+      "id": "basic:core290",
+      "japanese": "ひとつき",
+      "reading": "ひとつき",
+      "romaji": "hitotsuki",
+      "english": "one month",
+      "category": "time",
+      "imageResource": "core290"
+    },
+    {
+      "id": "basic:core291",
+      "japanese": "しまる",
+      "reading": "しまる",
+      "romaji": "shimaru",
+      "english": "to close, to be closed",
+      "category": "actions",
+      "imageResource": "core291"
+    },
+    {
+      "id": "basic:core292",
+      "japanese": "おかね",
+      "reading": "おかね",
+      "romaji": "okane",
+      "english": "money",
+      "category": "things",
+      "imageResource": "core292"
+    },
+    {
+      "id": "basic:core293",
+      "japanese": "ひま",
+      "reading": "ひま",
+      "romaji": "hima",
+      "english": "free time, leisure",
+      "category": "time",
+      "imageResource": "core293"
+    },
+    {
+      "id": "basic:core294",
+      "japanese": "しめる",
+      "reading": "しめる",
+      "romaji": "shimeru",
+      "english": "to close, to shut",
+      "category": "actions",
+      "imageResource": "core294"
+    },
+    {
+      "id": "basic:core295",
+      "japanese": "おさけ",
+      "reading": "おさけ",
+      "romaji": "osake",
+      "english": "sake",
+      "category": "things",
+      "imageResource": "core295"
+    },
+    {
+      "id": "basic:core296",
+      "japanese": "ひる",
+      "reading": "ひる",
+      "romaji": "hiru",
+      "english": "noon, daytime",
+      "category": "time",
+      "imageResource": "core296"
+    },
+    {
+      "id": "basic:core297",
+      "japanese": "しる",
+      "reading": "しる",
+      "romaji": "shiru",
+      "english": "to know, to understand",
+      "category": "actions",
+      "imageResource": "core297"
+    },
+    {
+      "id": "basic:core298",
+      "japanese": "おさら",
+      "reading": "おさら",
+      "romaji": "osara",
+      "english": "plate, dish",
+      "category": "things",
+      "imageResource": "core298"
+    },
+    {
+      "id": "basic:core299",
+      "japanese": "ふつか",
+      "reading": "ふつか",
+      "romaji": "futsuka",
+      "english": "two days",
+      "category": "time",
+      "imageResource": "core299"
+    },
+    {
+      "id": "basic:core300",
+      "japanese": "すむ",
+      "reading": "すむ",
+      "romaji": "sumu",
+      "english": "to reside, to live in",
+      "category": "actions",
+      "imageResource": "core300"
+    },
+    {
+      "id": "basic:core301",
+      "japanese": "おじいさん",
+      "reading": "おじいさん",
+      "romaji": "ojiisan",
+      "english": "grandfather, male senior citizen",
+      "category": "things",
+      "imageResource": "core301"
+    },
+    {
+      "id": "basic:core302",
+      "japanese": "ふゆ",
+      "reading": "ふゆ",
+      "romaji": "fuyu",
+      "english": "winter",
+      "category": "time",
+      "imageResource": "core302"
+    },
+    {
+      "id": "basic:core303",
+      "japanese": "する",
+      "reading": "する",
+      "romaji": "suru",
+      "english": "to do, to try",
+      "category": "actions",
+      "imageResource": "core303"
+    },
+    {
+      "id": "basic:core304",
+      "japanese": "おとな",
+      "reading": "おとな",
+      "romaji": "otona",
+      "english": "adult",
+      "category": "things",
+      "imageResource": "core304"
+    },
+    {
+      "id": "basic:core305",
+      "japanese": "まいあさ",
+      "reading": "まいあさ",
+      "romaji": "maiasa",
+      "english": "every morning",
+      "category": "time",
+      "imageResource": "core305"
+    },
+    {
+      "id": "basic:core306",
+      "japanese": "すわる",
+      "reading": "すわる",
+      "romaji": "suwaru",
+      "english": "to sit",
+      "category": "actions",
+      "imageResource": "core306"
+    },
+    {
+      "id": "basic:core307",
+      "japanese": "おなか",
+      "reading": "おなか",
+      "romaji": "onaka",
+      "english": "stomach",
+      "category": "things",
+      "imageResource": "core307"
+    },
+    {
+      "id": "basic:core308",
+      "japanese": "まいしゅう",
+      "reading": "まいしゅう",
+      "romaji": "maishuu",
+      "english": "every week",
+      "category": "time",
+      "imageResource": "core308"
+    },
+    {
+      "id": "basic:core309",
+      "japanese": "だす",
+      "reading": "だす",
+      "romaji": "dasu",
+      "english": "to take (something) out",
+      "category": "actions",
+      "imageResource": "core309"
+    },
+    {
+      "id": "basic:core310",
+      "japanese": "おなじ",
+      "reading": "おなじ",
+      "romaji": "onaji",
+      "english": "same, identical",
+      "category": "things",
+      "imageResource": "core310"
+    },
+    {
+      "id": "basic:core311",
+      "japanese": "まいにち",
+      "reading": "まいにち",
+      "romaji": "mainichi",
+      "english": "every day",
+      "category": "time",
+      "imageResource": "core311"
+    },
+    {
+      "id": "basic:core312",
+      "japanese": "たつ",
+      "reading": "たつ",
+      "romaji": "tatsu",
+      "english": "to stand up",
+      "category": "actions",
+      "imageResource": "core312"
+    },
+    {
+      "id": "basic:core313",
+      "japanese": "おばさん",
+      "reading": "おばさん",
+      "romaji": "obasan",
+      "english": "aunt",
+      "category": "things",
+      "imageResource": "core313"
+    },
+    {
+      "id": "basic:core314",
+      "japanese": "まいばん",
+      "reading": "まいばん",
+      "romaji": "maiban",
+      "english": "every night",
+      "category": "time",
+      "imageResource": "core314"
+    },
+    {
+      "id": "basic:core315",
+      "japanese": "たのむ",
+      "reading": "たのむ",
+      "romaji": "tanomu",
+      "english": "to request, to ask (a favor)",
+      "category": "actions",
+      "imageResource": "core315"
+    }
+  ]
+}
