@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fff8e9">
+    <meta name="description" content="Learn 64 essential Japanese grammar patterns with guided examples, sentence building, listening and beginner reading practice.">
+    <link rel="canonical" href="https://shimizu510.github.io/japanese-training-lab/learn/grammar-reading/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <title>Learn Basic Japanese Grammar &amp; Reading | Japanese Training Lab</title>
+    <link rel="shortcut icon" href="../hiragana/favicon.ico">
+    <link rel="stylesheet" href="../hiragana/assets/style.css?v=20261017102500">
+    <style>
+      :root { --grammar-accent:#7458c8; --grammar-dark:#50399d; --grammar-soft:#f1edff; }
+      .brand-mark,.loading-kana { background:var(--grammar-accent); }
+      .panel-left h1 em,.grammar-guide .panel-kicker { color:var(--grammar-accent); }
+      .lesson-label { color:var(--grammar-dark); }
+      .pattern-selector { width:100%; margin:2px 0 12px; padding:10px 12px; border:1px solid var(--line); border-radius:12px; color:var(--ink); background:rgba(255,255,255,.84); font:700 11px/1.2 "M PLUS Rounded 1c",system-ui,sans-serif; }
+      .pattern-nav { display:grid; grid-template-columns:42px 1fr 42px; gap:7px; margin:0 0 18px; }
+      .pattern-nav button { min-width:0; min-height:43px; padding:7px; border:1px solid var(--line); border-radius:12px; color:var(--ink); background:rgba(255,255,255,.72); font:800 11px/1.2 "M PLUS Rounded 1c",system-ui,sans-serif; cursor:pointer; }
+      .pattern-nav button:nth-child(2) { color:#fff; background:var(--grammar-accent); border-color:var(--grammar-accent); }
+      .pattern-focus { display:block !important; }
+      .pattern-number { display:inline-flex; margin-bottom:9px; padding:5px 8px; border-radius:999px; color:var(--grammar-dark); background:var(--grammar-soft); font:800 9px/1 "M PLUS Rounded 1c",system-ui,sans-serif; letter-spacing:.08em; }
+      .pattern-japanese { display:block; color:var(--grammar-accent); font:900 clamp(31px,3vw,47px)/1.25 "Noto Serif JP",serif; overflow-wrap:anywhere; }
+      .pattern-focus span:last-child { display:block; margin-top:10px; }
+      .pattern-focus b { color:var(--green) !important; font-size:10px !important; }
+      .pattern-focus i { margin-top:6px; font-size:16px !important; }
+      .grammar-card { grid-template-columns:88px 1fr; }
+      .grammar-symbol { width:88px; aspect-ratio:1; display:grid; place-items:center; border:1px solid rgba(116,88,200,.22); background:linear-gradient(90deg,transparent 49%,rgba(116,88,200,.12) 50%,transparent 51%),linear-gradient(0deg,transparent 49%,rgba(116,88,200,.12) 50%,transparent 51%),#faf8ff; color:var(--grammar-dark); font:900 45px/1 "Noto Serif JP",serif; }
+      .grammar-card small { color:var(--grammar-accent); }
+      .sample-block { margin-top:17px; padding-top:14px; border-top:1px solid var(--line); }
+      .sample-block>p { margin:0 0 8px; color:var(--muted); font-size:10px; font-weight:800; letter-spacing:.08em; }
+      .sample-japanese { margin:0; color:var(--ink); font:800 16px/1.55 "Noto Serif JP",serif; }
+      .sample-english { margin:4px 0 0; color:var(--muted); font-size:10px; line-height:1.5; }
+      .grammar-guide { width:min(1080px,calc(100% - 32px)); }
+      .grammar-guide .chart-current { background:var(--grammar-dark); }
+      .grammar-controls { position:sticky; top:55px; z-index:2; margin:0 0 16px; padding:12px; border-radius:15px; background:rgba(255,253,248,.96); box-shadow:0 9px 20px rgba(40,55,49,.08); }
+      .grammar-search { width:100%; padding:11px 14px; border:1px solid var(--line); border-radius:12px; color:var(--ink); background:#fff; font:600 12px/1.3 "M PLUS Rounded 1c",system-ui,sans-serif; }
+      .grammar-count { margin:8px 2px 0; color:var(--muted); font-size:9px; }
+      .grammar-guide .chart-sections { display:block; }
+      .grammar-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; }
+      .grammar-grid button { min-width:0; min-height:150px; padding:13px; border:1px solid var(--line); border-radius:14px; color:var(--ink); background:#fff; text-align:left; cursor:pointer; transition:.16s ease; }
+      .grammar-grid button:hover,.grammar-grid button.active { border-color:var(--grammar-accent); background:#f7f4ff; transform:translateY(-1px); }
+      .grammar-grid small,.grammar-grid strong,.grammar-grid span { display:block; }
+      .grammar-grid small { color:var(--grammar-accent); font-size:8px; font-weight:900; letter-spacing:.08em; }
+      .grammar-grid strong { margin:8px 0; font:900 18px/1.35 "Noto Serif JP",serif; overflow-wrap:anywhere; }
+      .grammar-grid .grammar-title { color:var(--ink); font-size:11px; font-weight:800; line-height:1.4; }
+      .grammar-grid .grammar-example { margin-top:9px; color:var(--muted); font-size:9px; line-height:1.5; }
+      .empty-results { grid-column:1/-1; padding:40px 10px; color:var(--muted); text-align:center; }
+      @media(max-width:720px) {
+        .grammar-guide .chart-current { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:4px 12px; }
+        .grammar-guide .chart-current span { font-size:27px; line-height:1.2; overflow-wrap:anywhere; }
+        .grammar-guide .chart-current strong { grid-column:1; font-size:11px; line-height:1.35; }
+        .grammar-guide .chart-current small { grid-column:2; grid-row:1 / span 2; margin-left:0; text-align:right; }
+        .grammar-grid { grid-template-columns:1fr; }
+        .grammar-grid button { min-height:0; }
+        .grammar-controls { top:49px; }
+      }
+    </style>
+    <link rel="stylesheet" href="/japanese-training-lab/assets/live-status.css?v=1">
+    <script defer src="/japanese-training-lab/assets/live-status.js?v=1"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../" aria-label="Japanese Training Lab home">
+        <span class="brand-mark" aria-hidden="true">文</span>
+        <span><strong>Japanese Training Lab</strong><small>BY YUJI @ JAPAN</small></span>
+      </a>
+      <div class="header-actions">
+        <div class="lesson-label"><span aria-hidden="true">●</span> GRAMMAR &amp; READING QUEST</div>
+        <button class="chart-open" type="button" aria-haspopup="dialog" aria-controls="grammar-guide">Grammar guide</button>
+        <a class="learning-home" href="../../index.html" aria-label="Back to Japanese Training Lab"><span aria-hidden="true">←</span> Back to Training Lab</a>
+      </div>
+    </header>
+
+    <main class="learning-stage">
+      <aside class="study-panel panel-left" aria-labelledby="today-title">
+        <p class="panel-kicker">TODAY'S QUEST</p>
+        <h1 id="today-title">Build your first<br><em>Japanese</em><br>sentences.</h1>
+        <p class="panel-copy">Learn each pattern, hear it in context, then build and read the sentence for yourself.</p>
+        <label class="panel-kicker" for="pattern-select">CHOOSE A PATTERN</label>
+        <select class="pattern-selector" id="pattern-select" aria-label="Choose a grammar pattern"></select>
+        <div class="pattern-nav" aria-label="Move between grammar patterns">
+          <button type="button" data-pattern-prev aria-label="Previous pattern">←</button>
+          <button type="button" data-pattern-open>View in guide</button>
+          <button type="button" data-pattern-next aria-label="Next pattern">→</button>
+        </div>
+        <div class="tip-card"><span class="tip-icon" aria-hidden="true">組</span><div><strong>Read in chunks</strong><p>Notice the job of each phrase instead of translating one word at a time.</p></div></div>
+      </aside>
+
+      <section class="player-column" aria-label="Basic Japanese grammar and reading game">
+        <div class="phone-shell">
+          <div class="phone-speaker" aria-hidden="true"></div>
+          <div id="unity-container" class="unity-desktop">
+            <canvas id="unity-canvas" width="540" height="960" tabindex="0" aria-label="DraMap basic Japanese grammar and reading game"></canvas>
+            <div id="unity-loading-bar" role="status" aria-live="polite">
+              <div class="loading-kana" aria-hidden="true">文</div><p>Preparing your grammar quest…</p>
+              <div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+            </div>
+            <div id="unity-warning"> </div>
+          </div>
+        </div>
+        <div id="unity-footer"><p><span class="status-dot" aria-hidden="true"></span>The game uses the same portrait layout as the mobile app.</p></div>
+      </section>
+
+      <aside class="study-panel panel-right" aria-labelledby="hint-title">
+        <p class="panel-kicker">GRAMMAR FOCUS</p>
+        <h2 id="hint-title" class="pattern-focus">
+          <small class="pattern-number" data-pattern-number>PATTERN 01 / 64</small>
+          <span class="pattern-japanese" data-pattern>〇 は 〇 です</span>
+          <span><b data-pattern-label>A IS B</b><i data-pattern-title>A is B</i></span>
+        </h2>
+        <div class="stroke-card grammar-card">
+          <div class="grammar-symbol" data-pattern-symbol>は</div>
+          <div><small>HOW IT WORKS</small><strong data-pattern-explanation>Use the word after は to describe the topic before it.</strong><p>Meet the pattern, then retrieve it inside a complete sentence.</p></div>
+        </div>
+        <div class="sample-block">
+          <p>EXAMPLE IN CONTEXT</p>
+          <p class="sample-japanese" data-sample-japanese>あお は いろ です。</p>
+          <p class="sample-english" data-sample-english>Blue is a color.</p>
+        </div>
+        <p class="encouragement">One pattern at a time.<br>Meaning, structure, context.</p>
+      </aside>
+    </main>
+
+    <dialog id="grammar-guide" class="kana-chart grammar-guide" aria-labelledby="guide-title">
+      <div class="chart-heading">
+        <div><p class="panel-kicker">APP CONTENT GUIDE</p><h2 id="guide-title">Basic grammar guide</h2><p>All 64 sentence patterns used by the DraMap foundation grammar course.</p></div>
+        <button class="chart-close" type="button" aria-label="Close grammar guide">×</button>
+      </div>
+      <div class="chart-current" aria-live="polite"><span data-guide-pattern>〇 は 〇 です</span><strong data-guide-title>A is B</strong><small>Current focus</small></div>
+      <div class="grammar-controls">
+        <input class="grammar-search" type="search" placeholder="Search pattern, example or English explanation" aria-label="Search grammar patterns">
+        <p class="grammar-count" data-result-count>64 patterns</p>
+      </div>
+      <div class="chart-sections"><section><div class="grammar-grid" data-grammar-grid></div></section></div>
+    </dialog>
+
+    <footer class="page-footer"><p>If you cannot hear the audio, click the game screen once.</p><p>© DraMap / Learn Japanese</p></footer>
+    <script src="../../assets/app.js"></script>
+    <script>
+      var lessonUrl=new URL(window.location.href);
+      lessonUrl.searchParams.set("course","foundation_grammar_reading");
+      lessonUrl.searchParams.set("autostart","1");
+      window.history.replaceState(null,"",lessonUrl);
+
+      var grammarItems=[],grammarIndex=0,grammarTimer;
+      function escapeHtml(value){var el=document.createElement("span");el.textContent=value||"";return el.innerHTML;}
+      function patternSymbol(item){var matches=(item.pattern||"").match(/[はもかのとやがをにへでよね]|これ|それ|あれ/);return matches?matches[0]:"文";}
+      function selectPattern(index,manual){
+        if(!grammarItems.length)return;
+        grammarIndex=(index+grammarItems.length)%grammarItems.length;
+        var item=grammarItems[grammarIndex],number=String(grammarIndex+1).padStart(2,"0");
+        document.querySelector("[data-pattern-number]").textContent="PATTERN "+number+" / "+grammarItems.length;
+        document.querySelector("[data-pattern]").textContent=item.pattern;
+        document.querySelector("[data-pattern-label]").textContent="FOUNDATION GRAMMAR";
+        document.querySelector("[data-pattern-title]").textContent=item.titleEN;
+        document.querySelector("[data-pattern-symbol]").textContent=patternSymbol(item);
+        document.querySelector("[data-pattern-explanation]").textContent=item.explanationEN;
+        document.querySelector("[data-sample-japanese]").textContent=item.sampleJapanese;
+        document.querySelector("[data-sample-english]").textContent=item.sampleEnglish;
+        document.querySelector("[data-guide-pattern]").textContent=item.pattern;
+        document.querySelector("[data-guide-title]").textContent=item.titleEN;
+        document.querySelector("#pattern-select").value=item.sourceID;
+        document.querySelectorAll("[data-grammar-id]").forEach(function(button){button.classList.toggle("active",button.dataset.grammarId===item.sourceID);});
+        if(manual)window.clearInterval(grammarTimer);
+      }
+      function renderGrammarGrid(){
+        var query=document.querySelector(".grammar-search").value.trim().toLocaleLowerCase();
+        var filtered=grammarItems.filter(function(item){return !query||[item.pattern,item.titleEN,item.explanationEN,item.sampleJapanese,item.sampleEnglish].join(" ").toLocaleLowerCase().includes(query);});
+        document.querySelector("[data-result-count]").textContent=filtered.length+(filtered.length===1?" pattern":" patterns");
+        document.querySelector("[data-grammar-grid]").innerHTML=filtered.length?filtered.map(function(item){var position=grammarItems.indexOf(item);return '<button type="button" data-grammar-id="'+escapeHtml(item.sourceID)+'" data-grammar-index="'+position+'" class="'+(position===grammarIndex?'active':'')+'"><small>PATTERN '+String(position+1).padStart(2,'0')+'</small><strong>'+escapeHtml(item.pattern)+'</strong><span class="grammar-title">'+escapeHtml(item.titleEN)+'</span><span class="grammar-example">'+escapeHtml(item.sampleJapanese)+'<br>'+escapeHtml(item.sampleEnglish)+'</span></button>';}).join(""):'<p class="empty-results">No grammar patterns match this search.</p>';
+      }
+      fetch("StreamingAssets/Content/foundation_grammar_reading.json?v=2026101901").then(function(response){if(!response.ok)throw new Error("Grammar content could not be loaded.");return response.json();}).then(function(catalog){
+        grammarItems=catalog.grammar||[];
+        document.querySelector("#pattern-select").innerHTML=grammarItems.map(function(item,index){return '<option value="'+escapeHtml(item.sourceID)+'">'+String(index+1).padStart(2,'0')+' · '+escapeHtml(item.pattern)+' · '+escapeHtml(item.titleEN)+'</option>';}).join("");
+        renderGrammarGrid();selectPattern(0,false);
+        grammarTimer=window.setInterval(function(){selectPattern(grammarIndex+1,false);},9000);
+      }).catch(function(error){document.querySelector("[data-grammar-grid]").innerHTML='<p class="empty-results">'+escapeHtml(error.message)+'</p>';});
+      document.querySelector("#pattern-select").addEventListener("change",function(event){var index=grammarItems.findIndex(function(item){return item.sourceID===event.target.value;});selectPattern(index,true);});
+      document.querySelector("[data-pattern-prev]").addEventListener("click",function(){selectPattern(grammarIndex-1,true);});
+      document.querySelector("[data-pattern-next]").addEventListener("click",function(){selectPattern(grammarIndex+1,true);});
+      document.querySelector(".grammar-search").addEventListener("input",renderGrammarGrid);
+      var guideDialog=document.querySelector("#grammar-guide");
+      function openGuide(){renderGrammarGrid();guideDialog.showModal();}
+      document.querySelector(".chart-open").addEventListener("click",openGuide);
+      document.querySelector("[data-pattern-open]").addEventListener("click",openGuide);
+      document.querySelector(".chart-close").addEventListener("click",function(){guideDialog.close();});
+      guideDialog.addEventListener("click",function(event){if(event.target===guideDialog)guideDialog.close();var button=event.target.closest("[data-grammar-index]");if(button){selectPattern(Number(button.dataset.grammarIndex),true);guideDialog.close();}});
+
+      var container=document.querySelector("#unity-container"),canvas=document.querySelector("#unity-canvas"),loadingBar=document.querySelector("#unity-loading-bar"),progressBarFull=document.querySelector("#unity-progress-bar-full"),warningBanner=document.querySelector("#unity-warning");
+      function unityShowBanner(msg,type){function update(){warningBanner.style.display=warningBanner.children.length?"block":"none";}var div=document.createElement("div");div.innerHTML=msg;warningBanner.appendChild(div);if(type==="error")div.style="background:red;padding:10px;";else{if(type==="warning")div.style="background:yellow;padding:10px;";setTimeout(function(){warningBanner.removeChild(div);update();},5000);}update();}
+      var webglBuildVersion="20261017234241",buildUrl="../hiragana/Build",loaderUrl=buildUrl+"/webgl.loader.js?v="+webglBuildVersion;
+      var config={dataUrl:buildUrl+"/webgl.data?v="+webglBuildVersion,frameworkUrl:buildUrl+"/webgl.framework.js?v="+webglBuildVersion,codeUrl:buildUrl+"/webgl.wasm?v="+webglBuildVersion,streamingAssetsUrl:"StreamingAssets",companyName:"DefaultCompany",productName:"Learn Japanese",productVersion:"1.0",showBanner:unityShowBanner};
+      if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){container.className="unity-mobile";canvas.className="unity-mobile";}
+      loadingBar.style.display="block";
+      var script=document.createElement("script");script.src=loaderUrl;script.onload=function(){createUnityInstance(canvas,config,function(progress){progressBarFull.style.width=100*progress+"%";}).then(function(){loadingBar.style.display="none";}).catch(function(message){alert(message);});};document.body.appendChild(script);
+    </script>
+  </body>
+</html>
