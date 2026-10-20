@@ -1,0 +1,97 @@
+.level-jump {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 32px;
+}
+
+.level-jump a {
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  text-decoration: none;
+  font-size: .82rem;
+  font-weight: 850;
+}
+
+.level-jump a:hover,
+.level-jump a:focus-visible {
+  border-color: var(--level-color, var(--ink));
+  color: var(--level-color, var(--ink));
+}
+
+.course-levels {
+  display: grid;
+  gap: 28px;
+}
+
+.course-level {
+  --level-color: #2454ff;
+  --level-soft: #eef2ff;
+  padding: 28px;
+  background: var(--level-soft);
+  border: 1px solid color-mix(in srgb, var(--level-color) 25%, #fff);
+  scroll-margin-top: 95px;
+}
+
+.course-level.foundation { --level-color: #16796d; --level-soft: #eaf7f3; }
+.course-level.n5 { --level-color: #46833d; --level-soft: #eff8eb; }
+.course-level.n4 { --level-color: #2f67c7; --level-soft: #edf3ff; }
+.course-level.n3 { --level-color: #6750b5; --level-soft: #f2efff; }
+.course-level.n2 { --level-color: #a76313; --level-soft: #fff5e4; }
+.course-level.n1 { --level-color: #a43d49; --level-soft: #fff0f1; }
+
+.level-heading {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.level-badge {
+  display: grid;
+  place-items: center;
+  min-width: 78px;
+  height: 58px;
+  padding: 0 16px;
+  border-radius: 8px;
+  background: var(--level-color);
+  color: #fff;
+  font: 900 1.35rem/1 var(--serif);
+}
+
+.level-heading h3 {
+  margin: 0;
+  font: 800 1.55rem/1.1 var(--serif);
+}
+
+.level-heading p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.course-level .course-card {
+  min-height: 220px;
+  border: 0;
+  border-top: 6px solid var(--level-color);
+  background: #fff;
+  color: var(--ink);
+}
+
+.course-level .course-card .level,
+.course-level .course-card .status {
+  color: var(--level-color);
+}
+
+.course-level .course-card p {
+  color: var(--muted);
+}
+
+@media (max-width: 560px) {
+  .course-level { padding: 18px; }
+  .level-heading { grid-template-columns: 1fr; gap: 10px; }
+  .level-badge { justify-self: start; min-width: 70px; height: 48px; }
+}
