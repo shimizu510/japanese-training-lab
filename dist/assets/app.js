@@ -1,176 +1,62 @@
 const menuButton = document.querySelector('.mobile-toggle');
+if (menuButton) menuButton.addEventListener('click', () => { const links=document.querySelector('.nav-links'); const open=links.classList.toggle('is-open'); menuButton.setAttribute('aria-expanded',String(open)); });
 
-if (menuButton) {
-  menuButton.addEventListener('click', () => {
-    const links = document.querySelector('.nav-links');
-    const open = links.style.display === 'flex';
-    links.style.display = open ? 'none' : 'flex';
-    if (!open) {
-      Object.assign(links.style, {
-        position: 'absolute',
-        top: '64px',
-        left: '0',
-        right: '0',
-        padding: '20px',
-        background: '#f7f5ef',
-        flexDirection: 'column',
-        borderBottom: '1px solid #c9c7be'
-      });
-    }
-  });
-}
-
-const questions = [
-  { q: 'Can you read ひらがな without romaji?', a: ['Not yet', 'Some characters', 'Yes, comfortably'] },
-  { q: 'What is your main goal?', a: ['Start from the beginning', 'Travel and daily life', 'Pass the JLPT'] },
-  { q: 'How well can you understand simple Japanese sentences?', a: ['Not yet', 'Slowly, with help', 'Comfortably'] },
-  { q: 'Which training feels hardest?', a: ['Reading characters', 'Remembering words', 'Grammar and reading'] }
+const STORAGE_KEY='japanese-training-lab-coach-v2';
+const LEGACY_PROGRESS_KEY='japanese-training-lab-progress';
+const DRAMAP_URL='https://apps.apple.com/us/app/dramap/id6761260013';
+const scriptUrl=document.currentScript?.src||new URL('assets/app.js',document.baseURI).href;
+const siteRoot=new URL('../',scriptUrl);
+const routes={
+  Hiragana:{course:'hiragana',title:'Hiragana',href:'learn/hiragana/',reason:'Build instant sound-to-character recognition before adding vocabulary and grammar.'},
+  Katakana:{course:'katakana',title:'Katakana',href:'learn/katakana/',reason:'Make loanword reading automatic, then move into foundational vocabulary.'},
+  Foundation:{course:'foundation_grammar_reading',title:'Foundation Grammar & Reading',href:'learn/grammar-reading/',reason:'Connect essential words to complete Japanese sentence patterns.'},
+  N5:{course:'n5_grammar_reading',title:'N5 Grammar & Reading',href:'learn/n5/grammar-reading/',reason:'Build reliable beginner sentence processing with N5 grammar and reading.'},
+  N4:{course:'n4_grammar_reading',title:'N4 Grammar & Reading',href:'learn/n4/grammar-reading/',reason:'Strengthen connected sentences and elementary reading speed.'},
+  N3:{course:'n3_grammar_reading',title:'N3 Grammar & Reading',href:'learn/n3/grammar-reading/',reason:'Bridge into intermediate Japanese with faster grammar recognition.'},
+  N2:{course:'n2_grammar_reading',title:'N2 Grammar & Reading',href:'learn/n2/grammar-reading/',reason:'Train upper-intermediate accuracy and detailed reading.'},
+  N1:{course:'n1_grammar_reading',title:'N1 Grammar & Reading',href:'learn/n1/grammar-reading/',reason:'Practice advanced vocabulary and nuanced sentence comprehension.'}
+};
+// Ported from DraMap's LearningHubController placement bank.
+const placementQuestions=[
+  {level:'Hiragana',skill:'reading',prompt:"Which character is 'a'?",context:'あ',answer:'あ',choices:['あ','お','め','ぬ']},
+  {level:'Katakana',skill:'reading',prompt:"Which character is 'a'?",context:'ア',answer:'ア',choices:['ア','オ','マ','ヌ']},
+  {level:'Foundation',skill:'vocabulary',prompt:'What does this mean?',context:'おとうさん',answer:'father',choices:['father','teacher','school','friend']},
+  {level:'N5',skill:'kanji',prompt:'What does this kanji mean?',context:'山',answer:'mountain',choices:['mountain','river','book','person']},
+  {level:'N4',skill:'vocabulary',prompt:'What does this word mean?',context:'準備',answer:'preparation',choices:['preparation','promise','explanation','experience']},
+  {level:'N3',skill:'grammar',prompt:'Choose the best expression',context:'雨が降り___です。',answer:'そう',choices:['そう','しか','ほど','まで']},
+  {level:'N2',skill:'vocabulary',prompt:'What does this word mean?',context:'維持',answer:'maintenance',choices:['maintenance','release','criticism','movement']},
+  {level:'N1',skill:'vocabulary',prompt:'What does this word mean?',context:'騒動',answer:'disturbance',choices:['disturbance','silence','agreement','custom']}
 ];
+const routesOrder=['Hiragana','Katakana','Foundation','N5','N4','N3','N2','N1'];
+function defaultState(){return{version:2,profile:null,assessment:null,sessions:[],lastCourse:null};}
+function loadState(){try{const saved=JSON.parse(localStorage.getItem(STORAGE_KEY));return saved&&saved.version===2?{...defaultState(),...saved}:defaultState();}catch(_){return defaultState();}}
+function saveState(state){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch(_){}}
+function absolute(href){return new URL(href,siteRoot).href;}
+function recommendedRoute(state){return routes[state.assessment?.estimatedLevel]||routes.Hiragana;}
+function todayMinutes(state){return Number(state.profile?.minutes||10);}
 
-const progressKey = 'japanese-training-lab-progress';
-const hiraganaProgressKey = 'japanese-training-lab-hiragana-progress';
-const scriptUrl = document.currentScript?.src || new URL('assets/app.js', document.baseURI).href;
-const siteRoot = new URL('../', scriptUrl);
-let step = 0;
-const answers = [];
-const assessment = document.querySelector('[data-assessment]');
+function addProgressNavigation(){const links=document.querySelector('.nav-links');if(!links||links.querySelector('[data-progress-link]'))return;const link=document.createElement('a');link.href=absolute('progress/');link.textContent='My plan';link.dataset.progressLink='true';links.appendChild(link);}
+function renderCoachHome(){const host=document.querySelector('[data-coach-home]');if(!host)return;const state=loadState();if(!state.assessment){host.innerHTML='<div class="coach-status"><span class="coach-step">YOUR FIRST STEP</span><strong>Find your starting point</strong><p>Answer three setup questions, then complete a short DraMap level check.</p></div><a class="button red coach-primary" href="'+absolute('assessment/')+'"><span>Start free assessment</span><small>About 3 minutes · no account</small></a>';return;}const route=recommendedRoute(state),count=(state.sessions||[]).length,label=count?'SESSION CHAIN · '+count+' COMPLETE':'TODAY\'S TRAINING · '+todayMinutes(state)+' MIN';host.innerHTML='<div class="coach-status"><span class="coach-step">'+label+'</span><strong>'+route.title+'</strong><p>'+route.reason+'</p></div><a class="button red coach-primary" href="'+absolute(route.href)+'"><span>Continue my plan</span><small>Your next step is ready</small></a>';}
 
-function saveRecommendation(recommendation) {
-  try {
-    localStorage.setItem(progressKey, JSON.stringify({
-      ...recommendation,
-      completedAt: new Date().toISOString()
-    }));
-  } catch (error) {
-    console.info('Progress could not be saved in this browser.', error);
-  }
+function renderAssessment(){
+  const host=document.querySelector('[data-assessment]');if(!host)return;
+  let setupStep=0,questionIndex=0,correct=0,timer=20,timerId=null;const answers=[];const profile={goal:'',minutes:10,selfLevel:''};
+  const setup=[
+    {key:'goal',label:'What do you want Japanese for?',options:[['Daily life','daily'],['Travel in Japan','travel'],['Pass the JLPT','jlpt']]},
+    {key:'minutes',label:'How much time can you usually study?',options:[['5 minutes',5],['10 minutes',10],['15 minutes',15]]},
+    {key:'selfLevel',label:'Which description feels closest?',options:[["I'm starting",'new'],['I know some Japanese','some'],['I already study for the JLPT','jlpt']]}
+  ];
+  function progress(percent,text){host.querySelector('[data-assessment-progress]').style.width=percent+'%';host.querySelector('[data-assessment-count]').textContent=text;}
+  function shell(){host.innerHTML='<div class="diagnostic-top"><span data-assessment-count></span><button type="button" class="text-button" data-restart>Start over</button></div><div class="assessment-progress"><span data-assessment-progress></span></div><section class="diagnostic-card" data-diagnostic-card></section>';host.querySelector('[data-restart]').addEventListener('click',()=>{clearInterval(timerId);setupStep=questionIndex=correct=0;answers.length=0;renderSetup();});}
+  function renderSetup(){clearInterval(timerId);const item=setup[setupStep];progress((setupStep/(setup.length+placementQuestions.length))*100,'SETUP '+(setupStep+1)+' OF '+setup.length);host.querySelector('[data-diagnostic-card]').innerHTML='<div class="eyebrow">Build your study plan</div><h2>'+item.label+'</h2><div class="diagnostic-choices">'+item.options.map(([label,value])=>'<button class="diagnostic-choice" data-value="'+value+'"><span>'+label+'</span><b>›</b></button>').join('')+'</div>';host.querySelectorAll('[data-value]').forEach(button=>button.addEventListener('click',()=>{profile[item.key]=item.key==='minutes'?Number(button.dataset.value):button.dataset.value;setupStep+=1;setupStep<setup.length?renderSetup():renderTestIntro();}));}
+  function renderTestIntro(){progress((setup.length/(setup.length+placementQuestions.length))*100,'LEVEL CHECK');host.querySelector('[data-diagnostic-card]').innerHTML='<div class="eyebrow">DraMap placement test</div><h2>Now check what you can recognize.</h2><p class="diagnostic-lead">Eight questions move from Hiragana to N1. Each has a 20-second limit. It is fine not to know an answer.</p><button class="button red diagnostic-start" type="button">Start level check</button>';host.querySelector('.diagnostic-start').addEventListener('click',renderQuestion);}
+  function renderQuestion(){if(questionIndex>=placementQuestions.length)return finish();const item=placementQuestions[questionIndex];timer=20;progress(((setup.length+questionIndex)/(setup.length+placementQuestions.length))*100,'QUESTION '+(questionIndex+1)+' OF '+placementQuestions.length+' · '+item.level.toUpperCase());host.querySelector('[data-diagnostic-card]').innerHTML='<div class="diagnostic-question-head"><span>'+item.prompt+'</span><b data-timer>20s</b></div><div class="diagnostic-context">'+item.context+'</div><div class="diagnostic-choices">'+item.choices.map(value=>'<button class="diagnostic-choice" data-answer="'+value+'"><span>'+value+'</span><b>›</b></button>').join('')+'</div>';const startedAt=Date.now();timerId=setInterval(()=>{timer-=1;const el=host.querySelector('[data-timer]');if(el)el.textContent=timer+'s';if(timer<=0)selectAnswer('',startedAt);},1000);host.querySelectorAll('[data-answer]').forEach(button=>button.addEventListener('click',()=>selectAnswer(button.dataset.answer,startedAt)));}
+  function selectAnswer(value,startedAt){clearInterval(timerId);const item=placementQuestions[questionIndex];const isCorrect=value===item.answer;if(isCorrect)correct+=1;answers.push({level:item.level,skill:item.skill,correct:isCorrect,responseMs:Date.now()-startedAt});host.querySelectorAll('[data-answer]').forEach(button=>{button.disabled=true;if(button.dataset.answer===item.answer)button.classList.add('correct');else if(button.dataset.answer===value)button.classList.add('wrong');});setTimeout(()=>{questionIndex+=1;renderQuestion();},650);}
+  function finish(){progress(100,'YOUR STARTING PLAN');const reachedIndex=Math.max(0,Math.min(routesOrder.length-1,Math.floor((correct/placementQuestions.length)*routesOrder.length)));const estimatedLevel=routesOrder[reachedIndex],route=routes[estimatedLevel],skills={};answers.forEach(a=>{const s=skills[a.skill]||(skills[a.skill]={correct:0,total:0});s.total++;if(a.correct)s.correct++;});const state=loadState();state.profile=profile;state.assessment={estimatedLevel,recommendedCourse:route.course,correct,total:placementQuestions.length,confidence:Math.round((.5+Math.abs(correct/placementQuestions.length-.5))*100),skills,completedAt:new Date().toISOString()};saveState(state);try{localStorage.setItem(LEGACY_PROGRESS_KEY,JSON.stringify({title:'Start at '+estimatedLevel,body:route.reason,href:absolute(route.href),completedAt:state.assessment.completedAt}));}catch(_){}host.querySelector('[data-diagnostic-card]').innerHTML='<div class="result-level"><span>RECOMMENDED START</span><strong>'+estimatedLevel+'</strong></div><div class="result-copy"><h2>'+route.title+'</h2><p>'+route.reason+'</p><div class="result-facts"><span><b>'+correct+'/'+placementQuestions.length+'</b> correct</span><span><b>'+profile.minutes+' min</b> daily plan</span><span><b>Saved</b> on this device</span></div><a class="button red coach-primary" href="'+absolute(route.href)+'"><span>Start my first session</span><small>'+profile.minutes+'-minute plan</small></a><a class="text-link" href="'+absolute('progress/')+'">See my complete plan</a></div>';}
+  shell();renderSetup();
 }
 
-function showSavedRecommendation() {
-  if (!document.querySelector('.hero')) return;
-
-  try {
-    const saved = JSON.parse(localStorage.getItem(progressKey));
-    if (!saved?.title || !saved?.href) return;
-
-    const strip = document.querySelector('.principle-strip');
-    const panel = document.createElement('section');
-    panel.className = 'section';
-    panel.innerHTML = `<div class="wrap"><div class="prescription"><article class="focus-card"><div class="eyebrow">Continue your plan</div><h3>${saved.title}</h3><p>${saved.body}</p><a class="button red" href="${saved.href}">Resume recommended course</a></article><div class="session-list"><div class="session"><b>01</b><div><strong>Your result is saved</strong><span>No account is required. Progress stays in this browser.</span></div><span class="tag">LOCAL</span></div></div></div></div>`;
-    strip.insertAdjacentElement('afterend', panel);
-  } catch (error) {
-    localStorage.removeItem(progressKey);
-  }
-}
-
-if (assessment) {
-  const questionElement = assessment.querySelector('.question');
-  const resultElement = assessment.querySelector('.result');
-  const progressElement = assessment.querySelector('.assessment-progress span');
-
-  function renderQuestion() {
-    const item = questions[step];
-    questionElement.innerHTML = `<div class="eyebrow">Question ${step + 1} of ${questions.length}</div><h2>${item.q}</h2><div class="choices">${item.a.map((answer, index) => `<button class="choice" data-value="${index}">${answer}</button>`).join('')}</div>`;
-    progressElement.style.width = `${(step / questions.length) * 100}%`;
-    questionElement.querySelectorAll('.choice').forEach(button => {
-      button.addEventListener('click', () => {
-        answers.push(Number(button.dataset.value));
-        step += 1;
-        step < questions.length ? renderQuestion() : showResult();
-      });
-    });
-  }
-
-  function showResult() {
-    questionElement.style.display = 'none';
-    progressElement.style.width = '100%';
-    const score = answers.reduce((total, answer) => total + answer, 0);
-    let recommendation = {
-      title: 'Begin with Hiragana',
-      body: 'Build fast sound-to-character recognition before adding vocabulary and grammar.',
-      href: '../learn/hiragana/'
-    };
-
-    if (score >= 5) {
-      recommendation = {
-        title: 'Begin with Foundation Training',
-        body: 'Strengthen vocabulary retrieval and basic sentence processing, then reassess.',
-        href: '../courses/#foundation'
-      };
-    }
-    if (score >= 7) {
-      recommendation = {
-        title: 'Start with a JLPT skills check',
-        body: 'Your next step should isolate vocabulary, kanji, grammar and reading speed instead of guessing a level.',
-        href: '../courses/#jlpt'
-      };
-    }
-
-    recommendation.href = new URL(recommendation.href, window.location.href).href;
-    saveRecommendation(recommendation);
-    resultElement.innerHTML = `<div class="eyebrow">Your first prescription</div><h2>${recommendation.title}</h2><p>${recommendation.body}</p><div class="actions"><a class="button gold" href="${recommendation.href}">Open recommended course</a><a class="button" href="../courses/">Browse all courses</a></div>`;
-    resultElement.classList.add('visible');
-  }
-
-  renderQuestion();
-}
-
-showSavedRecommendation();
-
-function addProgressNavigation() {
-  const links = document.querySelector('.nav-links');
-  if (!links || links.querySelector('[data-progress-link]')) return;
-  const link = document.createElement('a');
-  link.href = new URL('progress/', siteRoot).href;
-  link.textContent = 'My progress';
-  link.dataset.progressLink = 'true';
-  links.appendChild(link);
-}
-
-function renderProgressDashboard() {
-  const dashboard = document.querySelector('[data-progress-dashboard]');
-  if (!dashboard) return;
-
-  let assessmentResult = null;
-  let hiraganaResult = null;
-  try { assessmentResult = JSON.parse(localStorage.getItem(progressKey)); } catch (_) {}
-  try { hiraganaResult = JSON.parse(localStorage.getItem(hiraganaProgressKey)); } catch (_) {}
-
-  const assessmentCard = assessmentResult
-    ? `<article class="progress-card"><span class="level">CURRENT PRESCRIPTION</span><h2>${assessmentResult.title}</h2><p>${assessmentResult.body}</p><a class="button red" href="${assessmentResult.href}">Resume course</a></article>`
-    : `<article class="progress-card"><span class="level">START HERE</span><h2>No assessment yet</h2><p>Take the four-question starting assessment to receive your first training route.</p><a class="button red" href="../assessment/">Take assessment</a></article>`;
-
-  const hiraganaCard = hiraganaResult
-      ? `<article class="progress-card dark"><span class="level">HIRAGANA TRAINING</span><h2>${hiraganaResult.accuracyPercent || 0}% session accuracy</h2><div class="progress-meter"><span style="width:${Math.min(100, Math.max(0, hiraganaResult.accuracyPercent || 0))}%"></span></div><p>${hiraganaResult.completedSteps || 0} activities completed. ${hiraganaResult.currentItem ? `Latest item: <strong>${hiraganaResult.currentItem}</strong>.` : ''}</p><a class="button gold" href="../learn/hiragana/">Continue Hiragana</a></article>`
-    : `<article class="progress-card dark"><span class="level">HIRAGANA TRAINING</span><h2>Your first session is ready</h2><p>Accuracy and difficult characters will appear here after the updated Unity WebGL build is available.</p><a class="button gold" href="../learn/hiragana/">Open Hiragana course</a></article>`;
-
-  dashboard.innerHTML = `${assessmentCard}${hiraganaCard}`;
-}
-
-addProgressNavigation();
-renderProgressDashboard();
-
-function addGlobalPromotionDock() {
-  if (document.querySelector('.global-promo-dock')) return;
-
-  const portraitUrl = new URL('yuji-shimizu.jpg', scriptUrl).href;
-  const promoStyles = document.createElement('link');
-  promoStyles.rel = 'stylesheet';
-  promoStyles.href = new URL('promo.css', scriptUrl).href;
-  document.head.appendChild(promoStyles);
-  const dock = document.createElement('aside');
-  dock.className = 'global-promo-dock';
-  dock.setAttribute('aria-label', 'Follow Yuji on TikTok and download DraMap');
-  dock.innerHTML = `
-    <div class="promo-person">
-      <img src="${portraitUrl}" alt="Yuji Shimizu">
-      <span><strong>YUJI @ Japan</strong><small>Live Japan & learn Japanese</small></span>
-    </div>
-    <div class="promo-actions">
-      <a class="promo-tiktok" href="https://www.tiktok.com/@yuji.shimizu2?_r=1&_t=ZP-9AGyG1gwLnz" target="_blank" rel="noopener noreferrer"><span>TikTok</span><strong>Watch LIVE Japan ↗</strong></a>
-      <a class="promo-dramap" href="https://apps.apple.com/us/app/dramap/id6761260013" target="_blank" rel="noopener noreferrer"><span>DraMap for iOS</span><strong>Learn Japanese ↗</strong></a>
-    </div>`;
-  document.body.appendChild(dock);
-}
-
-addGlobalPromotionDock();
+function renderProgressDashboard(){const dashboard=document.querySelector('[data-progress-dashboard]');if(!dashboard)return;const state=loadState();if(!state.assessment){dashboard.innerHTML='<article class="plan-empty"><span>STEP 1</span><h2>Build your personal route</h2><p>Take the DraMap placement test and receive one clear starting course.</p><a class="button red" href="'+absolute('assessment/')+'">Start assessment</a></article>';return;}const route=recommendedRoute(state),score=Math.round((state.assessment.correct/state.assessment.total)*100),sessions=(state.sessions||[]).length;dashboard.innerHTML='<section class="plan-today"><div><span class="coach-step">TODAY · '+todayMinutes(state)+' MINUTES</span><h2>'+route.title+'</h2><p>'+route.reason+'</p></div><a class="button gold coach-primary" href="'+absolute(route.href)+'"><span>Start today\'s session</span><small>Continue your recommended route</small></a></section><section class="plan-overview"><article><span>STARTING LEVEL</span><strong>'+state.assessment.estimatedLevel+'</strong><p>'+score+'% placement score</p></article><article><span>SESSION CHAIN</span><strong>'+sessions+' complete</strong><p>Every short return counts</p></article><article><span>NEXT REVIEW</span><strong>'+(sessions>=3?'Ready now':(3-sessions)+' to go')+'</strong><p>Review after 3 sessions</p></article></section><section class="plan-roadmap"><div class="roadmap-item done"><b>1</b><span><strong>Placement complete</strong><small>Your starting point is saved</small></span></div><div class="roadmap-item current"><b>2</b><span><strong>'+route.title+'</strong><small>Current training focus</small></span></div><div class="roadmap-item"><b>3</b><span><strong>Review your result</strong><small>Choose repeat or next course</small></span></div><div class="roadmap-item app"><b>4</b><span><strong>Continue in DraMap</strong><small>Keep Japanese one tap away on iPhone</small></span><a href="'+DRAMAP_URL+'">Get the app</a></div></section>';}
+function enhanceCourseCatalog(){const main=document.querySelector('main');if(!main||!document.querySelector('.course-levels'))return;const state=loadState(),route=recommendedRoute(state),guide=document.createElement('section');guide.className='catalog-guide wrap';guide.innerHTML=state.assessment?'<div><span class="coach-step">YOUR RECOMMENDED START</span><h2>'+route.title+'</h2><p>'+route.reason+'</p></div><a class="button red coach-primary" href="'+absolute(route.href)+'"><span>Continue my plan</span><small>One clear next step</small></a>':'<div><span class="coach-step">NOT SURE WHERE TO START?</span><h2>Let DraMap choose your first course.</h2><p>A short placement test turns this full catalog into one personal route.</p></div><a class="button red coach-primary" href="'+absolute('assessment/')+'"><span>Find my level</span><small>About 3 minutes</small></a>';main.querySelector('.page-hero')?.insertAdjacentElement('afterend',guide);}
+function addGlobalPromotionDock(){if(document.querySelector('.global-promo-dock'))return;const promoStyles=document.createElement('link');promoStyles.rel='stylesheet';promoStyles.href=new URL('promo.css',scriptUrl).href;document.head.appendChild(promoStyles);const dock=document.createElement('aside');dock.className='global-promo-dock';dock.setAttribute('aria-label','Continue Japanese in DraMap');dock.innerHTML='<div class="promo-person"><span class="promo-app-icon">あ</span><span><strong>DraMap for iOS</strong><small>Your Japanese, one tap away</small></span></div><div class="promo-actions"><a class="promo-dramap" href="'+DRAMAP_URL+'" target="_blank" rel="noopener noreferrer"><span>CONTINUE IN THE APP</span><strong>Get DraMap ↗</strong></a></div>';document.body.appendChild(dock);}
+addProgressNavigation();renderCoachHome();renderAssessment();renderProgressDashboard();enhanceCourseCatalog();addGlobalPromotionDock();
