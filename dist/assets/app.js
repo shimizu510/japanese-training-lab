@@ -9,6 +9,7 @@ const TIKTOK_URL='https://www.tiktok.com/@yuji.shimizu2';
 const scriptUrl=document.currentScript?.src||new URL('assets/app.js',document.baseURI).href;
 const siteRoot=new URL('../',scriptUrl);
 if(!document.querySelector('link[href*="coach.css"]')){const coachStyles=document.createElement('link');coachStyles.rel='stylesheet';coachStyles.href=new URL('coach.css?v=2026102113',scriptUrl).href;document.head.appendChild(coachStyles);}
+if(!document.querySelector('script[src*="habit.js"]')){const habitStyles=document.createElement('link');habitStyles.rel='stylesheet';habitStyles.href=new URL('habit.css?v=2026102115',scriptUrl).href;document.head.appendChild(habitStyles);const habitScript=document.createElement('script');habitScript.src=new URL('habit.js?v=2026102115',scriptUrl).href;habitScript.defer=true;document.head.appendChild(habitScript);}
 const routes={
   Hiragana:{course:'hiragana',title:'Hiragana',href:'learn/hiragana/',reason:'Build instant sound-to-character recognition before adding vocabulary and grammar.'},
   Katakana:{course:'katakana',title:'Katakana',href:'learn/katakana/',reason:'Make loanword reading automatic, then move into foundational vocabulary.'},
