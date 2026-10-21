@@ -89,19 +89,11 @@
 
 @media (max-width: 700px) {
   body {
-    padding-bottom: 64px;
+    padding-bottom: 76px;
   }
 
   .global-promo-dock {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    border: 0;
-    border-top: 1px solid #c9c7be;
-    box-shadow: 0 -4px 18px rgba(16, 24, 32, .18);
-    display: grid;
-    grid-template-columns: 64px 1fr;
+    display: none;
   }
 
   .promo-person {
