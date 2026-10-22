@@ -1,5 +1,5 @@
-const CACHE='japanese-training-lab-shell-v10';
-const SHELL=['/japanese-training-lab/','/japanese-training-lab/assets/styles.css','/japanese-training-lab/assets/app.js?v=2026102215','/japanese-training-lab/assets/coach.css?v=2026102120','/japanese-training-lab/assets/habit.css?v=2026102218','/japanese-training-lab/assets/habit.js?v=2026102218'];
+const CACHE='japanese-training-lab-shell-v11';
+const SHELL=['/japanese-training-lab/','/japanese-training-lab/assets/styles.css','/japanese-training-lab/assets/app.js?v=2026102216','/japanese-training-lab/assets/coach.css?v=2026102120','/japanese-training-lab/assets/habit.css?v=2026102218','/japanese-training-lab/assets/habit.js?v=2026102218'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{
