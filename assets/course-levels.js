@@ -22,7 +22,8 @@
     if (href.indexOf("kanji") !== -1) return 2;
     if (href.indexOf("basic-words") !== -1 || href.indexOf("vocabulary") !== -1) return 3;
     if (href.indexOf("grammar-reading") !== -1) return 4;
-    return 5;
+    if (href.indexOf("manga") !== -1) return 5;
+    return 6;
   }
 
   document.querySelectorAll(".course-map").forEach(function (map, mapIndex) {
