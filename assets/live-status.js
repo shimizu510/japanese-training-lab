@@ -10,9 +10,9 @@
 
   function recordVisit() {
     if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return;
-    const payload = JSON.stringify({ site: 'japanese-learning' });
-    if (navigator.sendBeacon) navigator.sendBeacon(visitEndpoint, new Blob([payload], { type: 'application/json' }));
-    else fetch(visitEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload, keepalive: true }).catch(function () {});
+    fetch(visitEndpoint + '?site=japanese-learning', {
+      method: 'POST', mode: 'cors', credentials: 'omit', keepalive: true
+    }).catch(function () {});
   }
 
   function links() {
