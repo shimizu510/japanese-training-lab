@@ -11,7 +11,7 @@
     ['hiragana','Hiragana','learn/hiragana/'],['katakana','Katakana','learn/katakana/'],['basic_words','Basic Words','learn/basic-words/'],['foundation_grammar_reading','Foundation Grammar & Reading','learn/grammar-reading/'],
     ['n5_kanji','N5 Kanji','learn/n5/kanji/'],['n5_vocabulary','N5 Vocabulary','learn/n5/vocabulary/'],['n5_grammar_reading','N5 Grammar & Reading','learn/n5/grammar-reading/'],
     ['n4_kanji','N4 Kanji','learn/n4/kanji/'],['n4_vocabulary','N4 Vocabulary','learn/n4/vocabulary/'],['n4_grammar_reading','N4 Grammar & Reading','learn/n4/grammar-reading/'],
-    ['n3_kanji','N3 Kanji','learn/n3/kanji/'],['n3_vocabulary','N3 Vocabulary','learn/n3/vocabulary/'],['n3_grammar_reading','N3 Grammar & Reading','learn/n3/grammar-reading/'],
+    ['n3_kanji','N3 Kanji','learn/n3/kanji/'],['n3_vocabulary','N3 Vocabulary','learn/n3/vocabulary/'],['n3_grammar_reading','N3 Grammar & Reading','learn/n3/grammar-reading/'],['n3_manga','N3 Manga','learn/n3/manga/'],
     ['n2_kanji','N2 Kanji','learn/n2/kanji/'],['n2_vocabulary','N2 Vocabulary','learn/n2/vocabulary/'],['n2_grammar_reading','N2 Grammar & Reading','learn/n2/grammar-reading/'],
     ['n1_kanji','N1 Kanji','learn/n1/kanji/'],['n1_vocabulary','N1 Vocabulary','learn/n1/vocabulary/'],['n1_grammar_reading','N1 Grammar & Reading','learn/n1/grammar-reading/']
   ];
