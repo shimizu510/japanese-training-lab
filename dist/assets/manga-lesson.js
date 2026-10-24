@@ -6,6 +6,16 @@
   var copy=japanese?{
     lessonTitle:'時間を売るコンビニ',readerKicker:'漫画を読む',readerTitle:'まず日本語版を読んでみましょう。',readerHint:'日本の漫画と同じように、右上から左下へ読み進めます。',quizRail:'知っている言葉だけでなく、物語の中の手がかりを探しましょう。',completeTitle:'物語を理解できました。',completeCopy:'便利なサービスだけでなく、「時間を買う」という最後の意味まで読み取れました。',startQuestions:'問題に進む →',reread:'▣ 漫画を読み直す',readAgain:'もう一度読む',backToCourses:'教材一覧へ →'
   }:{lessonTitle:'The Convenience Store That Sells Time',readerKicker:'READ THE STORY',readerTitle:'Start with the Japanese edition.',readerHint:'Read from the upper right toward the lower left, just like a Japanese manga.',quizRail:'Look for evidence in the story—not just a familiar word.',completeTitle:'You understood the story.',completeCopy:'You followed both the practical details and the meaning behind “buying time.”',startQuestions:'Start the questions →',reread:'▣ Read the manga again',readAgain:'Read again',backToCourses:'Back to courses →'};
+  // Assessment guidance and completion feedback stay in English even when
+  // the surrounding reader controls follow the browser's Japanese locale.
+  Object.assign(copy,{
+    quizRail:'Look for evidence in the story—not just a familiar word.',
+    completeTitle:'You understood the story.',
+    completeCopy:'You followed both the practical details and the meaning behind “buying time.”',
+    reread:'▣ Read the manga again',
+    readAgain:'Read again',
+    backToCourses:'Back to courses →'
+  });
   // The manga itself is Japanese study material, but assessment and feedback
   // stay in English so learners can verify comprehension without extra decoding.
   var questions=[
