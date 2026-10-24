@@ -6,6 +6,14 @@
   const selector = 'a[href*="tiktok.com/@yuji.shimizu2"]';
   const pollMilliseconds = 45000;
   const maximumAgeMilliseconds = 4 * 60 * 60 * 1000;
+  const visitEndpoint = 'https://us-central1-poketquest-3a73d.cloudfunctions.net/trackPublicSiteVisit';
+
+  function recordVisit() {
+    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return;
+    const payload = JSON.stringify({ site: 'japanese-learning' });
+    if (navigator.sendBeacon) navigator.sendBeacon(visitEndpoint, new Blob([payload], { type: 'application/json' }));
+    else fetch(visitEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload, keepalive: true }).catch(function () {});
+  }
 
   function links() {
     return Array.from(document.querySelectorAll(selector));
@@ -54,6 +62,7 @@
     }
   }
 
+  recordVisit();
   refresh();
   window.setInterval(refresh, pollMilliseconds);
   document.addEventListener('visibilitychange', function () {
