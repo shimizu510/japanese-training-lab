@@ -35,7 +35,10 @@
 
   async function refresh() {
     try {
-      const response = await fetch(endpoint + '?cacheBust=' + Date.now(), { cache: 'no-store' });
+      // Firestore's get-document REST endpoint rejects unknown query
+      // parameters. Browser cache directives are sufficient here and keep the
+      // request valid.
+      const response = await fetch(endpoint, { cache: 'no-store' });
       if (!response.ok) throw new Error('Live status unavailable');
       const payload = await response.json();
       const fields = payload.fields || {};
