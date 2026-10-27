@@ -1,6 +1,6 @@
 (function(){
   var root=document.querySelector('[data-manga-app]');if(!root)return;
-  var path=location.pathname,course=path.indexOf('/foundation/')>=0?'foundation_manga':path.indexOf('/n5/')>=0?'n5_manga':path.indexOf('/n4/')>=0?'n4_manga':'n3_manga';
+  var path=location.pathname,course=path.indexOf('/foundation/')>=0?'foundation_manga':path.indexOf('/n5/')>=0?'n5_manga':path.indexOf('/n4/')>=0?'n4_manga':path.indexOf('/n1/')>=0?'n1_manga':'n3_manga';
   var key='japaneseLearning.manga.'+course+'.nextQuestion.v1',done=Math.max(0,Math.min(2,Number(localStorage.getItem(key))||0)),percent=Math.round(done*50);
   var panel=document.createElement('section');panel.className='manga-entry';panel.innerHTML='<div><span>YOUR PROGRESS</span><strong>'+percent+'% complete</strong></div><div class="manga-entry-actions"><button type="button" data-manga-resume>Resume</button><button type="button" data-manga-position>Start from '+percent+'%</button><button type="button" data-manga-reset>Start over</button></div>';
   root.insertBefore(panel,root.querySelector('.reader-panel'));
