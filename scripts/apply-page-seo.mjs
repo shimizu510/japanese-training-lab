@@ -61,8 +61,8 @@ const pages = {
     description: 'Practice 37 JLPT N5 grammar patterns online free with guided examples, sentence building and Japanese reading exercises.'
   },
   'dist/learn/n5/manga/index.html': {
-    title: 'Free N5 Japanese Reading – Mount Fuji Manga',
-    description: 'Practice beginner N5 Japanese reading free with an original Mount Fuji manga, optional English support and comprehension questions.'
+    title: 'Free N5 Japanese Reading – Kawaii Character Manga',
+    description: 'Practice beginner N5 Japanese reading free with an original manga about Japan’s kawaii character culture, optional English support and comprehension questions.'
   },
   'dist/learn/n4/vocabulary/index.html': {
     title: 'Free JLPT N4 Vocabulary Practice – 850 Words',
