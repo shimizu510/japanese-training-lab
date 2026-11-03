@@ -1,17 +1,17 @@
 (function(){
   var root=document.querySelector('[data-manga-app]');if(!root)return;
-  var base='https://firebasestorage.googleapis.com/v0/b/poketquest-3a73d.firebasestorage.app/o/japaneseLearning%2Fmanga%2Fn3%2Fconvenience-store%2Fv1%2F';
+  var base='https://firebasestorage.googleapis.com/v0/b/poketquest-3a73d.firebasestorage.app/o/japaneseLearning%2Fmanga%2Fn3%2Findependent-school-commute%2Fv1%2F';
   var images={ja:base+'ja.webp?alt=media',en:base+'en.webp?alt=media'};
   var japanese=/^ja(?:-|$)/i.test(navigator.language||'');
   var copy=japanese?{
-    lessonTitle:'時間を売るコンビニ',readerKicker:'漫画を読む',readerTitle:'まず日本語版を読んでみましょう。',readerHint:'日本の漫画と同じように、右上から左下へ読み進めます。',quizRail:'知っている言葉だけでなく、物語の中の手がかりを探しましょう。',completeTitle:'物語を理解できました。',completeCopy:'便利なサービスだけでなく、「時間を買う」という最後の意味まで読み取れました。',startQuestions:'問題に進む →',reread:'▣ 漫画を読み直す',readAgain:'もう一度読む',backToCourses:'教材一覧へ →'
-  }:{lessonTitle:'The Convenience Store That Sells Time',readerKicker:'READ THE STORY',readerTitle:'Start with the Japanese edition.',readerHint:'Read from the upper right toward the lower left, just like a Japanese manga.',quizRail:'Look for evidence in the story—not just a familiar word.',completeTitle:'You understood the story.',completeCopy:'You followed both the practical details and the meaning behind “buying time.”',startQuestions:'Start the questions →',reread:'▣ Read the manga again',readAgain:'Read again',backToCourses:'Back to courses →'};
+    lessonTitle:'一人で行く。でも、一人じゃない。',readerKicker:'漫画を読む',readerTitle:'まず日本語版を読んでみましょう。',readerHint:'日本の漫画と同じように、右上から左下へ読み進めます。',quizRail:'知っている言葉だけでなく、物語の中の手がかりを探しましょう。',completeTitle:'物語を理解できました。',completeCopy:'子どもの自立と、その道を支える地域の仕組みを読み取れました。',startQuestions:'問題に進む →',reread:'▣ 漫画を読み直す',readAgain:'もう一度読む',backToCourses:'教材一覧へ →'
+  }:{lessonTitle:'Going Alone, But Never Unsupported',readerKicker:'READ THE STORY',readerTitle:'Start with the Japanese edition.',readerHint:'Read from the upper right toward the lower left, just like a Japanese manga.',quizRail:'Look for evidence in the story—not just a familiar word.',completeTitle:'You understood the story.',completeCopy:'You recognized both the child’s independence and the community supporting the journey.',startQuestions:'Start the questions →',reread:'▣ Read the manga again',readAgain:'Read again',backToCourses:'Back to courses →'};
   // Assessment guidance and completion feedback stay in English even when
   // the surrounding reader controls follow the browser's Japanese locale.
   Object.assign(copy,{
     quizRail:'Look for evidence in the story—not just a familiar word.',
     completeTitle:'You understood the story.',
-    completeCopy:'You followed both the practical details and the meaning behind “buying time.”',
+    completeCopy:'You recognized both the child’s independence and the community supporting the journey.',
     reread:'▣ Read the manga again',
     readAgain:'Read again',
     backToCourses:'Back to courses →'
@@ -19,8 +19,8 @@
   // The manga itself is Japanese study material, but assessment and feedback
   // stay in English so learners can verify comprehension without extra decoding.
   var questions=[
-    {q:'Which of these did the main character do at the convenience store?',c:['Printed his exam admission ticket','Had his bicycle repaired','Bought a train ticket','Washed his clothes'],a:0,e:"He printed his N3 exam admission ticket using the convenience store's copy machine."},
-    {q:'What does “buying time” mean at the end of the manga?',c:['Buying a watch','Asking the store clerk for the time','Saving time by taking care of several errands in one place','Delaying the train'],a:2,e:'He saved time by getting food, printing, and sending a package all in one place.'}
+    {q:'What did the child do when the train stopped?',c:['Asked a station worker for help','Walked home alone','Called the school principal','Boarded another train without checking'],a:0,e:'The child followed the practiced plan and asked a station worker for help.'},
+    {q:"What is the manga's main message?",c:['Children travel without any support','Only families protect schoolchildren','A child can travel independently while the whole community supports the journey','Every elementary school child in Japan rides a train'],a:2,e:'The child walks and rides alone, but family, school, neighbors, crossing guards, and station staff all help make the journey possible.'}
   ];
   Object.keys(copy).forEach(function(key){var node=root.querySelector('[data-ui="'+key+'"]');if(node)node.textContent=copy[key];});
   var reader=root.querySelector('[data-reader]'),quiz=root.querySelector('[data-quiz]'),complete=root.querySelector('[data-complete]'),image=root.querySelector('[data-manga-image]'),frame=root.querySelector('.manga-frame'),status=root.querySelector('[data-image-status]'),progress=root.querySelector('[data-progress-bar]');
@@ -31,7 +31,7 @@
   function showReader(){reader.hidden=false;quiz.hidden=true;complete.hidden=true;progress.style.width=(index?50:33)+'%';reader.scrollIntoView({behavior:'smooth',block:'start'});}
   function showQuiz(){reader.hidden=true;quiz.hidden=false;complete.hidden=true;progress.style.width=index?'82%':'60%';renderQuestion();quiz.scrollIntoView({behavior:'smooth',block:'start'});}
   function renderQuestion(){locked=false;var item=questions[index];root.querySelector('[data-question-count]').textContent='Question '+(index+1)+' of '+questions.length;root.querySelector('[data-question-number]').textContent=String(index+1).padStart(2,'0');root.querySelector('[data-question]').textContent=item.q;var feedback=root.querySelector('[data-feedback]');feedback.textContent='';feedback.className='quiz-feedback';var choices=root.querySelector('[data-choices]');choices.innerHTML='';item.c.forEach(function(label,choiceIndex){var button=document.createElement('button');button.type='button';button.className='quiz-choice';button.textContent=label;button.addEventListener('click',function(){choose(choiceIndex);});choices.appendChild(button);});}
-  function choose(selected){if(locked)return;locked=true;var item=questions[index],buttons=root.querySelectorAll('.quiz-choice'),correct=selected===item.a;buttons.forEach(function(button,buttonIndex){button.disabled=true;if(buttonIndex===item.a)button.classList.add('correct');});var feedback=root.querySelector('[data-feedback]');feedback.textContent=(correct?'Correct! ':'Not quite. ')+item.e;feedback.classList.add(correct?'good':'try');window.setTimeout(function(){if(index+1<questions.length){index++;save(index);progress.style.width='82%';renderQuestion();return;}save(questions.length);quiz.hidden=true;complete.hidden=false;progress.style.width='100%';localStorage.setItem('japaneseLearning.n3Manga.convenienceStore.completed.v1','true');complete.scrollIntoView({behavior:'smooth',block:'start'});},1150);}
+  function choose(selected){if(locked)return;locked=true;var item=questions[index],buttons=root.querySelectorAll('.quiz-choice'),correct=selected===item.a;buttons.forEach(function(button,buttonIndex){button.disabled=true;if(buttonIndex===item.a)button.classList.add('correct');});var feedback=root.querySelector('[data-feedback]');feedback.textContent=(correct?'Correct! ':'Not quite. ')+item.e;feedback.classList.add(correct?'good':'try');window.setTimeout(function(){if(index+1<questions.length){index++;save(index);progress.style.width='82%';renderQuestion();return;}save(questions.length);quiz.hidden=true;complete.hidden=false;progress.style.width='100%';localStorage.setItem('japaneseLearning.n3Manga.independentSchoolCommute.completed.v1','true');complete.scrollIntoView({behavior:'smooth',block:'start'});},1150);}
   root.querySelectorAll('[data-manga-language]').forEach(function(button){button.addEventListener('click',function(){loadImage(button.dataset.mangaLanguage);});});
   root.querySelector('[data-start-questions]').addEventListener('click',showQuiz);root.querySelector('[data-reread]').addEventListener('click',showReader);root.querySelector('[data-read-again]').addEventListener('click',function(){index=0;save(0);showReader();});loadImage('ja');if(new URLSearchParams(location.search).get('resume')==='1'&&Number(localStorage.getItem(stateKey))>0)showQuiz();
 })();
