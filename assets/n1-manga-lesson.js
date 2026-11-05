@@ -1,10 +1,10 @@
 (function(){
   var root=document.querySelector('[data-manga-app]');if(!root)return;
-  var base='https://firebasestorage.googleapis.com/v0/b/poketquest-3a73d.firebasestorage.app/o/japaneseLearning%2Fmanga%2Fn1%2Ftatemae-honne%2Fv1%2F';
+  var base='https://firebasestorage.googleapis.com/v0/b/poketquest-3a73d.firebasestorage.app/o/japaneseLearning%2Fmanga%2Fn1%2Fkuchisake-onna%2Fv1%2F';
   var images={ja:base+'ja.jpg?alt=media',en:base+'en.jpg?alt=media'},stateKey='japaneseLearning.manga.n1_manga.nextQuestion.v1';
   var questions=[
-    {q:"Why could YUJI's friend not join the Sunday livestream?",c:['An urgent work shift came up','He disliked livestreaming','He could not find the place','He forgot the promise'],a:0,e:'The friend softened his refusal to protect the relationship, then later explained that an urgent work shift was the reason.'},
-    {q:'What does the manga ultimately say about tatemae and honne?',c:['Tatemae is always a lie','Only honne should be spoken','Both can be truths held within a relationship','They are a code used only by Japanese people'],a:2,e:'Tatemae can protect a relationship, while honne can be shared when it feels safe. They are two sides of the same human face.'}
+    {q:'According to the manga, when did the Kuchisake-onna rumor begin spreading across Japan?',c:['During the Edo period','In 1948','In early 1979','In 2026'],a:2,e:'The manga separates the documented rumor wave that began in early 1979 from claims of an ancient origin, for which no reliable record was found.'},
+    {q:'Why did Kuchisake-onna say that many more people knew her that night?',c:['YUJI streamed his experience and spread the story','An ancient newspaper was discovered','A single correct answer was established','She had left the town'],a:0,e:'After escaping, YUJI retold the encounter on his livestream. Every retelling can keep the urban legend alive and give it a new route.'}
   ];
   var reader=root.querySelector('[data-reader]'),quiz=root.querySelector('[data-quiz]'),complete=root.querySelector('[data-complete]'),image=root.querySelector('[data-manga-image]'),frame=root.querySelector('.manga-frame'),status=root.querySelector('[data-image-status]'),progress=root.querySelector('[data-progress-bar]'),index=Math.min(questions.length-1,Number(localStorage.getItem(stateKey))||0),locked=false;
   function save(value){localStorage.setItem(stateKey,String(value));window.dispatchEvent(new CustomEvent('manga-progress',{detail:{courseId:'n1_manga',completedSteps:value,totalSteps:questions.length,progressPercent:value*100/questions.length}}));}
