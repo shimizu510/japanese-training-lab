@@ -12,7 +12,7 @@
     ['n5_kanji','N5 Kanji','learn/n5/kanji/'],['n5_vocabulary','N5 Vocabulary','learn/n5/vocabulary/'],['n5_grammar_reading','N5 Grammar & Reading','learn/n5/grammar-reading/'],['n5_manga','N5 Manga','learn/n5/manga/'],
     ['n4_kanji','N4 Kanji','learn/n4/kanji/'],['n4_vocabulary','N4 Vocabulary','learn/n4/vocabulary/'],['n4_grammar_reading','N4 Grammar & Reading','learn/n4/grammar-reading/'],['n4_manga','N4 Manga','learn/n4/manga/'],
     ['n3_kanji','N3 Kanji','learn/n3/kanji/'],['n3_vocabulary','N3 Vocabulary','learn/n3/vocabulary/'],['n3_grammar_reading','N3 Grammar & Reading','learn/n3/grammar-reading/'],['n3_manga','N3 Manga','learn/n3/manga/'],
-    ['n2_kanji','N2 Kanji','learn/n2/kanji/'],['n2_vocabulary','N2 Vocabulary','learn/n2/vocabulary/'],['n2_grammar_reading','N2 Grammar & Reading','learn/n2/grammar-reading/'],
+    ['n2_kanji','N2 Kanji','learn/n2/kanji/'],['n2_vocabulary','N2 Vocabulary','learn/n2/vocabulary/'],['n2_grammar_reading','N2 Grammar & Reading','learn/n2/grammar-reading/'],['n2_manga','N2 Manga','learn/n2/manga/'],
     ['n1_kanji','N1 Kanji','learn/n1/kanji/'],['n1_vocabulary','N1 Vocabulary','learn/n1/vocabulary/'],['n1_grammar_reading','N1 Grammar & Reading','learn/n1/grammar-reading/']
   ];
   function nextCourse(){var id=courseId().replace(/-/g,'_'),index=COURSE_ORDER.findIndex(function(item){return item[0]===id;});return index>=0&&index<COURSE_ORDER.length-1?COURSE_ORDER[index+1]:null;}
