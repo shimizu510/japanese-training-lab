@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="stylesheet" href="assets/course-levels.css?v=2026102101">
 <link rel="stylesheet" href="assets/coach.css?v=2026112001">
-<link rel="stylesheet" href="assets/aspiration.css?v=2026112001">
+<link rel="stylesheet" href="assets/aspiration.css?v=2026112002">
 <link rel="stylesheet" href="/japanese-training-lab/assets/live-status.css?v=1"><script defer src="/japanese-training-lab/assets/live-status.js?v=3"></script></head>
 <body>
 <div class="topbar">
@@ -47,23 +47,32 @@
 <main>
 <section class="hero future-hero quick-launch-hero">
 <div class="wrap">
-<div class="quick-launch-heading">
-<div><div class="eyebrow">Free Japanese practice · No signup</div><h1>What do you want to learn?</h1><p>Choose a lesson and start now. Your progress stays on this device.</p></div>
-<a class="level-check" href="assessment/"><span>NOT SURE?</span><strong>Find my level</strong><small>About 3 minutes</small></a>
+<div class="learning-switcher" data-learning-switcher>
+<div class="learning-switcher-head"><span>START LEARNING</span><a href="assessment/">Find my level · 3 min</a></div>
+<section class="learning-axis">
+<div class="learning-axis-label"><strong>Choose a skill</strong><small>What do you want to practice?</small></div>
+<div class="learning-tabs skill-tabs" role="tablist" aria-label="Choose a Japanese skill">
+<button type="button" data-skill="characters" aria-expanded="false"><b>あ</b><span>Characters</span></button>
+<button type="button" data-skill="words" aria-expanded="false"><b>言</b><span>Words</span></button>
+<button type="button" data-skill="grammar" aria-expanded="false"><b>文</b><span>Grammar &amp; Reading</span></button>
+<button type="button" data-skill="manga" aria-expanded="false"><b>漫</b><span>Manga</span></button>
 </div>
-<div class="quick-launch-layout">
-<nav class="quick-course-grid" aria-label="Start a Japanese lesson">
-<a href="learn/hiragana/"><b>あ</b><span><strong>Hiragana</strong><small>Start with Japanese sounds</small></span></a>
-<a href="learn/katakana/"><b>ア</b><span><strong>Katakana</strong><small>Read names and loanwords</small></span></a>
-<a href="learn/basic-words/"><b>言</b><span><strong>Basic Words</strong><small>Learn useful vocabulary</small></span></a>
-<a href="learn/grammar-reading/"><b>文</b><span><strong>Grammar &amp; Reading</strong><small>Build complete sentences</small></span></a>
-</nav>
-<aside class="app-learning-card">
-<span class="app-card-kicker">PREFER LEARNING ON YOUR PHONE?</span>
-<div class="app-card-title"><b>あ</b><div><strong>Learn in the iPhone app</strong><small>These lessons are also in DraMap</small></div></div>
-<p>Keep Japanese one tap away and continue with courses, reviews and game adventures.</p>
-<a href="https://apps.apple.com/app/id6761260013">Start learning in the app</a>
-<small>Free download · iPhone &amp; iPad</small>
+<div class="learning-popout" data-skill-results aria-live="polite"></div>
+</section>
+<section class="learning-axis">
+<div class="learning-axis-label"><strong>Choose a level</strong><small>Foundation to JLPT N1</small></div>
+<div class="learning-tabs level-tabs" role="tablist" aria-label="Choose a Japanese level">
+<button type="button" data-level="foundation" aria-expanded="false"><span>Foundation</span></button>
+<button type="button" data-level="n5" aria-expanded="false"><span>N5</span></button>
+<button type="button" data-level="n4" aria-expanded="false"><span>N4</span></button>
+<button type="button" data-level="n3" aria-expanded="false"><span>N3</span></button>
+<button type="button" data-level="n2" aria-expanded="false"><span>N2</span></button>
+<button type="button" data-level="n1" aria-expanded="false"><span>N1</span></button>
+</div>
+<div class="learning-popout" data-level-results aria-live="polite"></div>
+</section>
+<aside class="app-learning-strip">
+<b>あ</b><span><strong>Learn in the iPhone app</strong><small>All courses in DraMap</small></span><a href="https://apps.apple.com/app/id6761260013">Start in App</a>
 </aside>
 </div>
 <div class="coach-home" data-coach-home></div>
@@ -387,7 +396,7 @@
 <p><a href="share/">Share free lessons</a> · <a href="https://shimizu510.github.io/japan-unfolded/">Japan Unfolded</a> · <a href="https://shimizu510.github.io/japan-daily-brief/">Japan Daily Brief</a> · Foundation through JLPT N1</p>
 </div>
 </footer>
-<script src="assets/app.js?v=2026112002">
+<script src="assets/app.js?v=2026112003">
 </script>
 <script src="assets/course-levels.js?v=2026102101"></script>
 </body>
