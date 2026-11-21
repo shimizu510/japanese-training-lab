@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="assets/course-levels.css?v=2026102101">
 <link rel="stylesheet" href="assets/coach.css?v=2026112101">
 <link rel="stylesheet" href="assets/aspiration.css?v=2026112105">
+<link rel="stylesheet" href="assets/latest-manga.css?v=2026112101">
 <link rel="stylesheet" href="/japanese-training-lab/assets/live-status.css?v=1"><script defer src="/japanese-training-lab/assets/live-status.js?v=3"></script></head>
 <body class="home-redesign">
 <div class="topbar">
@@ -75,10 +76,10 @@
 <b>あ</b><span><strong>Learn in the iPhone app</strong><small>All courses in DraMap</small></span><a href="https://apps.apple.com/app/id6761260013">Start in App</a>
 </aside>
 </div>
-<a class="latest-japan-manga" href="https://shimizu510.github.io/japan-unfolded/sushi-wasnt-always-like-this.html" target="_blank" rel="noopener noreferrer" aria-label="Read the newest Japan Unfolded manga about the history of sushi">
-<span class="latest-japan-manga-image"><img src="assets/cross-site/sushi-manga-preview.jpg" alt="Opening panels of the newest Japan Unfolded manga about sushi history"></span>
-<span class="latest-japan-manga-copy"><small>NEW MANGA · JAPAN UNFOLDED</small><strong>Was sushi always fresh?</strong><em>Read the opening here. Tap for the full story ↗</em></span>
-</a>
+<section class="latest-japan-manga" data-latest-manga aria-labelledby="latest-manga-title">
+<a class="latest-japan-manga-image" data-latest-manga-link href="learn/n1/manga/?story=hell-scroll#manga-reader" aria-label="Open the latest Japanese learning manga"><img data-latest-manga-image src="assets/manga/n1-hell-scroll/en.jpg" alt="English edition of How Ancient Japan Imagined Hell"></a>
+<span class="latest-japan-manga-copy"><small>NEW MANGA · JAPANESE READING</small><strong id="latest-manga-title" data-latest-manga-title>How Ancient Japan Imagined Hell</strong><em data-latest-manga-summary>YUJI is trapped inside a hell scroll. Can a white lotus lead him home?</em><span class="latest-manga-language" role="group" aria-label="Manga language"><button type="button" class="active" data-latest-manga-language="en">English</button><button type="button" data-latest-manga-language="ja">日本語 <b data-latest-manga-ja-level>· JLPT N1</b></button></span><a class="latest-manga-open" data-latest-manga-link href="learn/n1/manga/?story=hell-scroll#manga-reader">Read this manga →</a></span>
+</section>
 <div class="coach-home" data-coach-home></div>
 </div>
 </section>
@@ -438,5 +439,6 @@
 <script src="assets/app.js?v=2026112102">
 </script>
 <script src="assets/course-levels.js?v=2026102101"></script>
+<script src="assets/latest-manga.js?v=2026112101"></script>
 </body>
 </html>

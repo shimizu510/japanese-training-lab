@@ -1,0 +1,7 @@
+.latest-japan-manga-language{display:flex;gap:7px;margin-top:13px}
+.latest-japan-manga-language button{border:1px solid #fff;background:transparent;color:#fff;padding:7px 10px;font:inherit;font-size:.7rem;font-weight:900;cursor:pointer}
+.latest-japan-manga-language button.active{background:#fff;color:var(--ink)}
+.latest-japan-manga-language b{font:inherit;color:var(--gold)}
+.latest-manga-open{margin-top:10px;color:var(--gold);font-size:.74rem;font-weight:900;text-decoration:none}
+.latest-manga-open:hover,.latest-manga-open:focus-visible{text-decoration:underline}
+@media(max-width:650px){.latest-japan-manga-language{flex-wrap:wrap;margin-top:8px}.latest-japan-manga-language button{padding:5px 7px;font-size:.58rem}.latest-manga-open{margin-top:7px;font-size:.63rem}}
