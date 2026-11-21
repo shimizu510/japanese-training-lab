@@ -33,6 +33,7 @@
 /* Real image elements keep the four future-path cards visible even when
    embedded browsers handle isolated pseudo-element backgrounds differently. */
 .goal-rail a{align-items:flex-end}.goal-rail a>img{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s ease}.goal-rail a:after{z-index:1}.goal-rail a:hover>img{transform:scale(1.04)}.goal-rail .goal-copy{position:relative;z-index:2;display:block;color:#fff;font-size:initial;font-weight:initial;letter-spacing:normal}.goal-copy small,.goal-copy strong,.goal-copy em{display:block}.goal-copy small{color:var(--gold);font-size:.65rem;font-weight:950;letter-spacing:.14em}.goal-copy strong{color:#fff}.goal-copy em{margin-top:7px;color:rgba(255,255,255,.78);font-size:.72rem;font-style:normal}
+@media(min-width:821px){.goal-rail{display:flex;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:10px}.goal-rail a{min-width:235px;flex:1 0 235px;scroll-snap-align:start}.goal-rail .culture-path{outline:2px solid rgba(246,204,93,.45);outline-offset:-2px}}
 
 /* Latest Japan Unfolded manga: a compact return reason directly after Today's 3 minutes. */
 .latest-japan-manga{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr);min-height:178px;margin-top:15px;overflow:hidden;border:2px solid var(--ink);background:var(--ink);color:#fff;text-decoration:none;box-shadow:5px 5px 0 var(--gold)}
