@@ -16,15 +16,15 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23e33b2e'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='35' fill='white'%3Eあ%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="stylesheet" href="assets/course-levels.css?v=2026102101">
-<link rel="stylesheet" href="assets/coach.css?v=2026112101">
-<link rel="stylesheet" href="assets/aspiration.css?v=2026112105">
+<link rel="stylesheet" href="assets/coach.css?v=2026112301">
+<link rel="stylesheet" href="assets/aspiration.css?v=2026102403">
 <link rel="stylesheet" href="assets/latest-manga.css?v=2026112101">
 <link rel="stylesheet" href="/japanese-training-lab/assets/live-status.css?v=1"><script defer src="/japanese-training-lab/assets/live-status.js?v=3"></script></head>
-<body class="home-redesign">
+<body>
 <div class="topbar">
 <div class="wrap">
 <span>Japanese training designed in Japan</span>
-<div class="topbar-links"><a href="https://www.tiktok.com/@yuji.shimizu2" target="_blank" rel="noopener noreferrer">Watch Yuji on TikTok</a><a href="https://apps.apple.com/app/id6761260013">Learn in the iPhone app</a></div>
+<div class="topbar-links"><a href="https://www.tiktok.com/@yuji.shimizu2" target="_blank" rel="noopener noreferrer">Watch Yuji on TikTok</a><a href="https://apps.apple.com/us/app/dramap/id6761260013">DraMap for iOS</a></div>
 </div>
 </div>
 <header class="site-header">
@@ -40,82 +40,60 @@
 <a href="courses/">Courses</a>
 <a href="share/">Share</a>
 <a href="#method">Method</a>
-<a href="#dramap">Learn in App</a>
+<a href="#dramap">DraMap</a>
 </div>
 <a class="nav-cta" href="assessment/">Find my starting point</a>
 </nav>
 </header>
 <main>
-<section class="hero future-hero quick-launch-hero">
+<section class="latest-manga" data-latest-manga aria-labelledby="latest-manga-title">
+<div class="wrap latest-manga-grid">
+<div class="latest-manga-copy">
+<div class="eyebrow">LATEST MANGA · NEW</div>
+<h2 id="latest-manga-title" data-latest-manga-title>Loading the latest manga…</h2>
+<p data-latest-manga-summary>The newest Japanese reading adventure is ready.</p>
+<div class="latest-manga-actions">
+<a class="button red" data-latest-manga-link href="learn/n1/manga/?story=hell-scroll#manga-reader">Read this manga</a>
+<span class="latest-manga-level" data-latest-manga-level>JLPT N1</span>
+</div>
+</div>
+<div class="latest-manga-reader">
+<div class="latest-manga-toolbar" role="group" aria-label="Manga language">
+<button type="button" class="active" data-latest-manga-language="en">English</button>
+<button type="button" data-latest-manga-language="ja">日本語 <span data-latest-manga-ja-level>· JLPT N1</span></button>
+</div>
+<a data-latest-manga-link href="learn/n1/manga/?story=hell-scroll#manga-reader" aria-label="Open the latest manga lesson">
+<img data-latest-manga-image src="https://shimizu510.github.io/japan-unfolded/assets/how-ancient-japan-imagined-hell-manga-english.png" alt="The latest Japanese learning manga: How Ancient Japan Imagined Hell" fetchpriority="high">
+</a>
+</div>
+</div>
+</section>
+<section class="hero future-hero">
 <div class="wrap">
-<div class="learning-switcher" data-learning-switcher>
-<div class="learning-switcher-head"><span>START LEARNING</span><a href="assessment/">Find my level · 3 min</a></div>
-<section class="learning-axis">
-<div class="learning-axis-label"><strong>Choose a skill</strong><small>What do you want to practice?</small></div>
-<div class="learning-tabs skill-tabs" role="tablist" aria-label="Choose a Japanese skill">
-<button type="button" data-skill="characters" aria-expanded="false"><b>あ</b><span>Characters</span></button>
-<button type="button" data-skill="words" aria-expanded="false"><b>言</b><span>Words</span></button>
-<button type="button" data-skill="grammar" aria-expanded="false"><b>文</b><span>Grammar &amp; Reading</span></button>
-<button type="button" data-skill="manga" aria-expanded="false"><b>漫</b><span>Manga</span></button>
+<div class="hero-grid">
+<div>
+<div class="eyebrow">Learn Japanese for free · No signup · Foundation to JLPT N1</div>
+<h1>Learn Japanese for the life you want.</h1>
+<p class="lead">Understand the stories you love. Build friendships. Work confidently in Japan. Start free today with a complete route from your first character to JLPT N1.</p>
+<div class="free-start" aria-label="Free Japanese training available on this site">
+<strong>Learn Japanese for free</strong>
+<p>Hiragana · Katakana · Kanji · Vocabulary · Grammar · Reading</p>
+<div class="free-start-actions"><a class="button red" href="courses/">Start learning free</a><a class="button light" href="assessment/">Find my starting point</a></div>
+<small>No signup required · Choose any course · Beginner → JLPT N1</small>
 </div>
-<div class="learning-popout" data-skill-results aria-live="polite"></div>
-</section>
-<section class="learning-axis">
-<div class="learning-axis-label"><strong>Choose a level</strong><small>Foundation to JLPT N1</small></div>
-<div class="learning-tabs level-tabs" role="tablist" aria-label="Choose a Japanese level">
-<button type="button" data-level="foundation" aria-expanded="false"><span>Foundation</span></button>
-<button type="button" data-level="n5" aria-expanded="false"><span>N5</span></button>
-<button type="button" data-level="n4" aria-expanded="false"><span>N4</span></button>
-<button type="button" data-level="n3" aria-expanded="false"><span>N3</span></button>
-<button type="button" data-level="n2" aria-expanded="false"><span>N2</span></button>
-<button type="button" data-level="n1" aria-expanded="false"><span>N1</span></button>
+<div class="mobile-future-image"><img src="assets/outcomes/japanese-for-business.jpg" alt="An international professional speaking Japanese with colleagues in Tokyo"><strong>Speak with confidence in Japan.</strong></div>
 </div>
-<div class="learning-popout" data-level-results aria-live="polite"></div>
-</section>
-<aside class="app-learning-strip">
-<b>あ</b><span><strong>Learn in the iPhone app</strong><small>All courses in DraMap</small></span><a href="https://apps.apple.com/app/id6761260013">Start in App</a>
+<aside class="future-hero-image">
+<img src="assets/outcomes/japanese-for-business.jpg" alt="An international professional speaking Japanese with colleagues in Tokyo">
+<div class="future-caption"><span>YOUR FUTURE IN JAPANESE</span><strong>Speak with confidence in Japan.</strong></div>
 </aside>
 </div>
-<section class="latest-japan-manga" data-latest-manga aria-labelledby="latest-manga-title">
-<a class="latest-japan-manga-image" data-latest-manga-link href="learn/n1/manga/?story=hell-scroll#manga-reader" aria-label="Open the latest Japanese learning manga"><img data-latest-manga-image src="assets/manga/n1-hell-scroll/en.jpg" alt="English edition of How Ancient Japan Imagined Hell"></a>
-<span class="latest-japan-manga-copy"><small>NEW MANGA · JAPANESE READING</small><strong id="latest-manga-title" data-latest-manga-title>How Ancient Japan Imagined Hell</strong><em data-latest-manga-summary>YUJI is trapped inside a hell scroll. Can a white lotus lead him home?</em><span class="latest-manga-language" role="group" aria-label="Manga language"><button type="button" class="active" data-latest-manga-language="en">English</button><button type="button" data-latest-manga-language="ja">日本語 <b data-latest-manga-ja-level>· JLPT N1</b></button></span><a class="latest-manga-open" data-latest-manga-link href="learn/n1/manga/?story=hell-scroll#manga-reader">Read this manga →</a></span>
-</section>
 <div class="coach-home" data-coach-home></div>
+<div class="path-preview" aria-label="How your learning plan works">
+<article><b>01 · CHECK</b><strong>Find your level</strong><span>A short DraMap placement test finds your starting point.</span></article>
+<article><b>02 · TRAIN</b><strong>Do one session</strong><span>Your plan shows one course and a realistic amount of time.</span></article>
+<article><b>03 · CONTINUE</b><strong>Keep it one tap away</strong><span>Move into DraMap when you are ready to make practice a habit.</span></article>
 </div>
-</section>
-<section class="smart-lower" aria-label="Choose why and how to learn Japanese">
-<div class="wrap">
-<header class="smart-section-head"><span>CHOOSE YOUR JAPANESE</span><h2>Where do you want Japanese to take you?</h2></header>
-<div class="goal-rail">
-<a href="https://shimizu510.github.io/japan-unfolded/?category=manga#category-results"><img src="assets/outcomes/japanese-for-manga.jpg" alt="Japanese manga and anime stories" width="1200" height="800" loading="lazy"><span class="goal-copy"><small>STORIES</small><strong>Manga &amp; Anime</strong><em>Explore Japan through stories</em></span></a>
-<a href="https://shimizu510.github.io/japan-unfolded/?category=people#category-results"><img src="assets/outcomes/japanese-for-friends.jpg" alt="Friends talking together in Japan" width="1200" height="800" loading="lazy"><span class="goal-copy"><small>CONNECTION</small><strong>Friends in Japan</strong><em>Meet everyday Japan</em></span></a>
-<a href="https://shimizu510.github.io/japan-unfolded/?category=games#category-results"><img src="assets/outcomes/japanese-for-games.jpg" alt="Playing Japanese games" width="1200" height="800" loading="lazy"><span class="goal-copy"><small>PLAY</small><strong>Games in Japanese</strong><em>Enter Japan through play</em></span></a>
-<a href="https://shimizu510.github.io/japan-unfolded/?category=work#category-results"><img src="assets/outcomes/japanese-for-business.jpg" alt="People doing business in Japan" width="1200" height="800" loading="lazy"><span class="goal-copy"><small>WORK</small><strong>Business in Japan</strong><em>Understand work and society</em></span></a>
-<a class="culture-path" href="https://shimizu510.github.io/japan-unfolded/?category=folklore#category-results"><img src="assets/outcomes/japanese-culture-folklore.jpg" alt="A moonlit Japanese shrine well representing folklore and yokai" width="1400" height="933" loading="lazy"><span class="goal-copy"><small>CULTURE · MYSTERY</small><strong>Folklore &amp; Yokai</strong><em>Meet legends, ghosts and urban myths</em></span></a>
-<a class="culture-path" href="https://shimizu510.github.io/japan-unfolded/?category=food#category-results"><img src="assets/outcomes/japanese-culture-food.jpg" alt="Sushi, ramen, wagashi and tea representing Japanese food culture" width="1400" height="933" loading="lazy"><span class="goal-copy"><small>CULTURE · TASTE</small><strong>Food &amp; Traditions</strong><em>Discover the stories behind the table</em></span></a>
-<a class="culture-path" href="https://shimizu510.github.io/japan-unfolded/?category=travel#category-results"><img src="assets/outcomes/japanese-culture-travel.jpg" alt="Mount Fuji, a torii path and a bullet train representing travel in Japan" width="1400" height="933" loading="lazy"><span class="goal-copy"><small>CULTURE · PLACES</small><strong>Travel &amp; Japan</strong><em>Find the Japan you want to see</em></span></a>
-</div>
-<section class="compact-route" aria-labelledby="compact-route-title">
-<div><span>YOUR ROUTE</span><h2 id="compact-route-title">Foundation to fluent.</h2></div>
-<nav aria-label="Japanese learning levels">
-<a href="courses/#foundation"><b>F</b><small>Start</small></a><i></i>
-<a href="courses/#jlpt"><b>N5</b><small>Basic</small></a><i></i>
-<a href="courses/#jlpt"><b>N4</b><small>Everyday</small></a><i></i>
-<a href="courses/#jlpt"><b>N3</b><small>Independent</small></a><i></i>
-<a href="courses/#jlpt"><b>N2</b><small>Advanced</small></a><i></i>
-<a href="courses/#jlpt"><b>N1</b><small>Fluent</small></a>
-</nav>
-<a class="route-check" href="assessment/">Find my level · 3 min</a>
-</section>
-<section class="conversion-duo">
-<a class="yuji-conversion" href="https://www.tiktok.com/@yuji.shimizu2" target="_blank" rel="noopener noreferrer">
-<img src="assets/yuji-shimizu.jpg" alt="Yuji Shimizu in Japan">
-<span><small>SPEAK WITH A JAPANESE CREATOR</small><strong>Talk with Yuji</strong><em>Live Japanese on TikTok</em></span>
-</a>
-<a class="app-conversion" href="https://apps.apple.com/app/id6761260013">
-<b>あ</b><span><small>THE COMPLETE COURSE</small><strong>Learn in DraMap</strong><em>Free for iPhone &amp; iPad</em></span>
-</a>
-</section>
 </div>
 </section>
 <section class="outcomes" aria-labelledby="outcomes-title">
@@ -145,7 +123,7 @@
 <section class="yuji-feature" aria-labelledby="yuji-title">
 <div class="wrap yuji-grid">
 <div class="yuji-photo"><img src="assets/yuji-shimizu.jpg" alt="Yuji Shimizu, creator of Japanese Training Lab and DraMap"></div>
-<div class="yuji-copy"><span class="eyebrow">Learn with Yuji @ Japan</span><h2 id="yuji-title">Learn here. Then try it with Yuji.</h2><p>Yuji is a Japanese learning trainer in Japan and the creator of DraMap. Build words and confidence here, then join his TikTok conversations and try talking with Yuji using the Japanese you remember.</p><div class="creator-links"><a class="creator-link tiktok-link" href="https://www.tiktok.com/@yuji.shimizu2" target="_blank" rel="noopener noreferrer"><span>USE WHAT YOU LEARN</span><strong>Talk with Yuji on TikTok</strong><small>Join the chat from Japan</small></a><a class="creator-link dramap-link" href="https://apps.apple.com/app/id6761260013" target="_blank" rel="noopener noreferrer"><span>LEARN ON YOUR PHONE</span><strong>Start learning in the iPhone app</strong><small>Continue these courses in DraMap</small></a></div></div>
+<div class="yuji-copy"><span class="eyebrow">Learn with Yuji @ Japan</span><h2 id="yuji-title">Learn here. Then try it with Yuji.</h2><p>Yuji is a Japanese learning trainer in Japan and the creator of DraMap. Build words and confidence here, then join his TikTok conversations and try talking with Yuji using the Japanese you remember.</p><div class="creator-links"><a class="creator-link tiktok-link" href="https://www.tiktok.com/@yuji.shimizu2" target="_blank" rel="noopener noreferrer"><span>USE WHAT YOU LEARN</span><strong>Talk with Yuji on TikTok ↗</strong><small>Join the chat from Japan</small></a><a class="creator-link dramap-link" href="https://apps.apple.com/us/app/dramap/id6761260013" target="_blank" rel="noopener noreferrer"><span>KEEP LEARNING</span><strong>Get DraMap for iOS ↗</strong><small>One tap from your home screen</small></a></div></div>
 </div>
 </section>
 <section class="invite-friends" aria-labelledby="invite-title">
@@ -258,7 +236,7 @@
 <a class="course-card featured" href="learn/foundation/manga/?view=manga">
 <span class="level">FOUNDATION · NEW MANGA LESSON</span>
 <h3>Foundation Manga</h3>
-<p>Read a simple Japanese food manga, switch to English whenever needed, and check your understanding.</p>
+<p>Explore four unusual places to stay in pre-N5 Japanese, switch to English whenever needed, and check your understanding.</p>
 <span class="status">Read the manga</span>
 </a>
 <a class="course-card featured" href="learn/n5/vocabulary/">
@@ -306,7 +284,7 @@
 <a class="course-card featured" href="learn/n4/manga/">
 <span class="level">JLPT N4 · NEW MANGA LESSON</span>
 <h3>N4 Manga</h3>
-<p>Read four original N4 manga—including Aka Manto—switch to English when needed, and complete eight story questions.</p>
+<p>Read three original N4 manga—including Aka Manto—switch to English whenever needed, and answer two questions after each story.</p>
 <span class="status">Read the manga</span>
 </a>
 <a class="course-card featured" href="learn/n3/kanji/">
@@ -358,10 +336,10 @@
 <span class="status">Open course</span>
 </a>
 <a class="course-card featured" href="learn/n2/manga/">
-<span class="level">JLPT N2 · MANGA COLLECTION</span>
+<span class="level">JLPT N2 · NEW MANGA LESSON</span>
 <h3>N2 Manga</h3>
-<p>Read four N2 stories in order, switch to English at any time, and unlock each manga by answering correctly.</p>
-<span class="status">0% complete · Start</span>
+<p>Read a women-warriors story at N2 level, switch to English whenever needed, and answer two comprehension questions.</p>
+<span class="status">Read the manga</span>
 </a>
 <a class="course-card featured" href="learn/n1/vocabulary/">
 <span class="level">JLPT N1 · AVAILABLE</span>
@@ -422,7 +400,7 @@
 </div>
 <div class="dramap-box">
 <p>Use the website to understand your next priority, train it in Unity, then continue Japanese through quests and places in DraMap.</p>
-<a class="button gold" href="https://apps.apple.com/app/id6761260013">Start learning in the iPhone app</a>
+<a class="button gold" href="https://apps.apple.com/us/app/dramap/id6761260013">Get DraMap for iOS</a>
 </div>
 </div>
 </section>
@@ -436,7 +414,7 @@
 <p><a href="share/">Share free lessons</a> · <a href="https://shimizu510.github.io/japan-unfolded/">Japan Unfolded</a> · <a href="https://shimizu510.github.io/japan-daily-brief/">Japan Daily Brief</a> · Foundation through JLPT N1</p>
 </div>
 </footer>
-<script src="assets/app.js?v=2026112102">
+<script src="assets/app.js?v=2026112301">
 </script>
 <script src="assets/course-levels.js?v=2026102101"></script>
 <script src="assets/latest-manga.js?v=2026112101"></script>
