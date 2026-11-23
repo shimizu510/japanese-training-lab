@@ -1,14 +1,7 @@
-.latest-manga{padding:44px 0;background:#101820;color:#fff;border-bottom:8px solid var(--red)}
-.latest-manga-grid{display:grid;grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);gap:42px;align-items:center}
-.latest-manga-copy h2{font-family:var(--serif);font-size:clamp(2.4rem,5vw,4.8rem);line-height:.92;margin:15px 0 20px}
-.latest-manga-copy p{color:#d9dddb;font-size:1.08rem;max-width:520px}
-.latest-manga-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:25px}
-.latest-manga-level{font-weight:900;letter-spacing:.12em;color:var(--gold)}
-.latest-manga-reader{min-width:0}
-.latest-manga-toolbar{display:flex;justify-content:flex-end;gap:8px;margin-bottom:12px}
-.latest-manga-toolbar button{border:1px solid #fff;background:transparent;color:#fff;padding:10px 16px;font:inherit;font-weight:850;cursor:pointer}
-.latest-manga-toolbar button.active{background:#fff;color:var(--ink)}
-.latest-manga-reader>a{display:block;background:#fff;padding:8px}
-.latest-manga-reader img{width:100%;max-height:68vh;object-fit:contain;background:#fff}
-@media(max-width:850px){.latest-manga-grid{grid-template-columns:1fr}.latest-manga-reader{order:-1}.latest-manga-toolbar{justify-content:flex-start}.latest-manga-reader img{max-height:72vh}}
-@media(max-width:560px){.latest-manga{padding:24px 0 34px}.latest-manga-grid{gap:24px}.latest-manga-toolbar button{flex:1;padding:9px 8px}.latest-manga-actions .button{width:100%}}
+.latest-japan-manga-language{display:flex;gap:7px;margin-top:13px}
+.latest-japan-manga-language button{border:1px solid #fff;background:transparent;color:#fff;padding:7px 10px;font:inherit;font-size:.7rem;font-weight:900;cursor:pointer}
+.latest-japan-manga-language button.active{background:#fff;color:var(--ink)}
+.latest-japan-manga-language b{font:inherit;color:var(--gold)}
+.latest-manga-open{margin-top:10px;color:var(--gold);font-size:.74rem;font-weight:900;text-decoration:none}
+.latest-manga-open:hover,.latest-manga-open:focus-visible{text-decoration:underline}
+@media(max-width:650px){.latest-japan-manga-language{flex-wrap:wrap;margin-top:8px}.latest-japan-manga-language button{padding:5px 7px;font-size:.58rem}.latest-manga-open{margin-top:7px;font-size:.63rem}}
