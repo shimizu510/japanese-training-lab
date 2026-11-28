@@ -35,7 +35,7 @@ const assessmentLevelCourses={
   N1:['n1_kanji','n1_vocabulary','n1_grammar_reading','n1_manga']
 };
 function markAssessmentLevelsComplete(state,levels){state.learning=state.learning||defaultState().learning;state.learning.courses=state.learning.courses||{};levels.forEach(level=>(assessmentLevelCourses[level]||[]).forEach(id=>{const course=state.learning.courses[id]||(state.learning.courses[id]={attempts:0,correct:0,skills:{},lastAt:0});course.progressPercent=Math.max(100,Number(course.progressPercent)||0);course.completed=true;course.completedByAssessment=true;}));}
-function mangaProgressPercent(id){if(!id.endsWith('_manga'))return 0;const totals={foundation_manga:8,n5_manga:4,n4_manga:6,n3_manga:6,n2_manga:6,n1_manga:8},total=totals[id]||2,done=Math.max(0,Math.min(total,Number(localStorage.getItem('japaneseLearning.manga.'+id+'.nextQuestion.v1'))||0));return Math.round(done*100/total);}
+function mangaProgressPercent(id){if(!id.endsWith('_manga'))return 0;const totals={foundation_manga:8,n5_manga:6,n4_manga:6,n3_manga:6,n2_manga:6,n1_manga:8},total=totals[id]||2,done=Math.max(0,Math.min(total,Number(localStorage.getItem('japaneseLearning.manga.'+id+'.nextQuestion.v1'))||0));return Math.round(done*100/total);}
 function courseProgressPercent(state,id){if(id.endsWith('_manga'))return mangaProgressPercent(id);const stored=Math.max(0,Math.min(100,Number(state.learning?.courses?.[id]?.progressPercent)||0));return stored;}
 // Ported from DraMap's LearningHubController placement bank.
 const placementQuestions=[
