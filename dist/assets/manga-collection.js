@@ -10,7 +10,19 @@
   function load(lang){var item=story();frame.classList.remove('loaded');status.textContent='Loading manga…';image.dataset.fallback='0';image.alt=item.alt||item.title;image.onload=function(){frame.classList.add('loaded');};image.onerror=function(){if(item.fallback&&image.dataset.fallback==='0'){image.dataset.fallback='1';image.src=item.fallback[lang];return;}status.textContent='The manga could not be loaded. Please try again.';};image.src=item.images[lang];root.querySelectorAll('[data-manga-language]').forEach(function(button){var active=button.dataset.mangaLanguage===lang;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active?'true':'false');});}
   function update(){var item=story();text('[data-ui="lessonTitle"]',item.title);text('[data-ui="quizRail"]',item.rail||'Look for evidence in the story.');text('[data-ui="readerHint"]',item.hint||'Read from the upper right toward the lower left.');text('.lesson-number',config.level+' MANGA · 0'+(storyIndex()+1));}
   function showReader(){update();reader.hidden=false;quiz.hidden=true;complete.hidden=true;progress.style.width=Math.round(index*100/questions.length)+'%';load('ja');reader.scrollIntoView({behavior:'smooth',block:'start'});}
-  function showQuiz(){if(readerOverride!==null){index=saved<questions.length?Math.min(questions.length-1,saved):readerOverride*2;readerOverride=null;}reader.hidden=true;quiz.hidden=false;complete.hidden=true;render();quiz.scrollIntoView({behavior:'smooth',block:'start'});}
+  function showQuiz(){
+    if(readerOverride!==null){
+      var previewStory=readerOverride;
+      index=saved<questions.length?Math.min(questions.length-1,saved):previewStory*2;
+      readerOverride=null;
+      if(config.courseId==='n5_manga' && Math.floor(index/2)!==previewStory && index%2===0){
+        showReader();
+        return;
+      }
+    }
+    reader.hidden=true;quiz.hidden=false;complete.hidden=true;render();
+    quiz.scrollIntoView({behavior:'smooth',block:'start'});
+  }
   function render(){locked=false;var item=questions[index];text('[data-question-count]','Question '+(localIndex()+1)+' of 2');text('[data-question-number]',String(localIndex()+1).padStart(2,'0'));text('[data-question]',item.q);var feedback=root.querySelector('[data-feedback]');feedback.textContent='';feedback.className='quiz-feedback';var choices=root.querySelector('[data-choices]');choices.innerHTML='';item.c.forEach(function(label,i){var button=document.createElement('button');button.type='button';button.className='quiz-choice';button.textContent=label;button.onclick=function(){choose(i);};choices.appendChild(button);});}
   function choose(selected){if(locked)return;locked=true;var item=questions[index],correct=selected===item.a,buttons=root.querySelectorAll('.quiz-choice');buttons.forEach(function(button,i){button.disabled=true;if(i===item.a)button.classList.add('correct');});var feedback=root.querySelector('[data-feedback]');feedback.textContent=(correct?'Correct! ':'Not quite. ')+item.e;feedback.classList.add(correct?'good':'try');setTimeout(function(){if(!correct){render();return;}if(index+1<questions.length){index++;save(index);if(index%2===0)showReader();else render();return;}save(questions.length);quiz.hidden=true;complete.hidden=false;progress.style.width='100%';complete.scrollIntoView({behavior:'smooth',block:'start'});},1150);}
   root.querySelectorAll('[data-manga-language]').forEach(function(button){button.onclick=function(){load(button.dataset.mangaLanguage);};});root.querySelector('[data-start-questions]').onclick=showQuiz;root.querySelector('[data-reread]').onclick=function(){readerOverride=null;showReader();};root.querySelector('[data-read-again]').onclick=function(){index=0;readerOverride=null;showReader();};
